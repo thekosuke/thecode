@@ -1,0 +1,1530 @@
+@media all and (min-width: 1200px){	
+/**************************************************
+	HOME
+**************************************************/
+
+	.icon-scroll, .icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 32.5%;
+	}
+
+	#who h1 {
+		font-size: 2.75em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 4em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 45%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 15%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.89em;
+        line-height: 1.4em;
+        padding-top: 2em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 5%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.2em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 10%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 6em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.8em;
+		letter-spacing: 0.5px;
+		line-height: 1.75em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.5em;
+		padding-right: 2em;
+	}
+
+	#text {
+		padding: 5em;
+	}
+
+	#text h3 {
+		font-size: 3em;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1.2em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 4em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 1024px;
+		height: 576px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.6em;
+		line-height: 2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1.25em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 3.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 9.5em;
+		margin-bottom: 17em;
+		padding: 0;
+	}
+
+	.piece {
+		margin-top: 1em;
+		padding: 0;
+	}
+
+	.ui-cards {
+	  width: 75%;
+	}
+
+	.carousel__control {
+	  height: 25px;
+	  width: 25px;
+	  margin-top: -50px;
+	  top: 50%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 20px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1200px) {
+/**************************************************
+	HOME
+**************************************************/
+	
+	.icon-scroll.icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 35%;
+	}
+
+	#who h1 {
+		font-size: 2em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 3.5em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 40%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.9em;
+        line-height: 1.4em;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11.5em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 7%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.1em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 10%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 5.25em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.8em;
+		letter-spacing: 0.5px;
+		line-height: 1.75em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.5em;
+		padding-right: 2em;
+	}
+
+	#text {
+		padding: 5em;
+	}
+
+	#text h3 {
+		font-size: 3em;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1.2em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 3em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 768px;
+		height: 432px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.5em;
+		line-height: 2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1.25em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 3.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 9.5em;
+		margin-bottom: 17em;
+		padding: 0;
+	}
+
+	.piece {
+		margin-top: 1em;
+		padding: 0;
+	}
+
+	.ui-cards {
+		width: 75%;
+	}
+
+	.carousel__control {
+		height: 25px;
+		width: 25px;
+		margin-top: -50px;
+		top: 50%;
+	}
+
+	.carousel__control--forward {
+		left: 5%;
+	}
+
+	.carousel__control--backward {
+		right: 5%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 20px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 992px) {
+/**************************************************
+	HOME
+**************************************************/
+	
+	.icon-scroll.icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 35%;
+	}
+
+	#who h1 {
+		font-size: 2em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 3.5em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 40%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.9em;
+        line-height: 1.4em;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11.5em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 7%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.1em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 15%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 5.5em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.7em;
+		letter-spacing: 0.5px;
+		line-height: 1.85em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.5em;
+		padding-right: 2em;
+	}
+
+	#text {
+		padding: 5em;
+	}
+
+	#text h3 {
+		font-size: 3em;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1.2em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 3em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 768px;
+		height: 432px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.5em;
+		line-height: 2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1.25em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 3.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 9.5em;
+		margin-bottom: 17em;
+		padding: 0;
+	}
+
+	.piece {
+		margin-top: 1em;
+		padding: 0;
+	}
+
+	.ui-cards {
+	  width: 65%;
+	}
+
+	.carousel__control {
+	  height: 25px;
+	  width: 25px;
+	  /*margin-top: -50px;*/
+	  top: 45%;
+	}
+
+	.carousel__control--forward {
+		left: 15%;
+	}
+
+	.carousel__control--backward {
+		right: 15%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 15%;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+/**************************************************
+	HOME
+**************************************************/
+	
+	.icon-scroll.icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 35%;
+	}
+
+	#who h1 {
+		font-size: 2em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 3.5em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 40%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.9em;
+        line-height: 1.4em;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11.5em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 7%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.1em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 20%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 5em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.5em;
+		letter-spacing: 0.5px;
+		line-height: 2em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.5em;
+		padding-right: 2em;
+		padding-bottom: 1.5em;
+	}
+
+	#text {
+		width: 75%;
+		height: 75%;
+		padding: 4em;
+	}
+
+	#text h3 {
+		font-size: 2.5em;
+		line-height: 1.5em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1.2em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 2em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 512px;
+		height: 288px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.5em;
+		line-height: 2.2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1.25em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 3.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 3em;
+		margin-bottom: 5em;
+		padding: 0;
+	}
+
+	.piece {
+		top: 50%;
+		margin-bottom: 5em;
+	}
+
+	.ui-cards {
+	  width: 55%;
+	}
+
+	.carousel__control {
+	  height: 25px;
+	  width: 25px;
+	  /*margin-top: -100px;*/
+	  top: 40%;
+	}
+
+	.carousel__control--forward {
+		left: 22%;
+	}
+
+	.carousel__control--backward {
+		right: 22%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 25%;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 576px) {
+/**************************************************
+	HOME
+**************************************************/
+
+	.icon-scroll.icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 35%;
+	}
+
+	#who h1 {
+		font-size: 2em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 3.5em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 40%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.9em;
+        line-height: 1.4em;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11.5em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 7%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.1em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 25%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 3.25em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.3em;
+		letter-spacing: 0.5px;
+		line-height: 2.2em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.3em;
+		padding-right: 2em;
+		padding-bottom: 1.5em;
+		display: block;
+	}
+
+	#text {
+		width: 85%;
+		height: 65%;
+		padding: 3em;
+	}
+
+	#text h3 {
+		font-size: 2em;
+		line-height: 1.75em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 2em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 256px;
+		height: 144px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.3em;
+		line-height: 2.2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 2.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 3em;
+		margin-bottom: 5em;
+		padding: 0;
+	}
+
+	.piece {
+		top: 50%;
+		margin-bottom: 5em;
+	}
+
+	.ui-cards {
+	  width: 40%;
+	}
+
+	.carousel__control {
+	  height: 20px;
+	  width: 20px;
+	  top: 30%;
+	}
+
+	.carousel__control--forward {
+		left: 30%;
+	}
+
+	.carousel__control--backward {
+		right: 30%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 45%;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 375px) {
+/**************************************************
+	HOME
+**************************************************/
+	
+	.icon-scroll.icon-scroll:before {
+		display: block;
+	}
+
+	#who {
+		margin-top: 35%;
+	}
+
+	#who h1 {
+		font-size: 2em;
+		line-height: .5em;
+	}
+
+	#who h2 {
+		font-size: 3.5em;
+		line-height: 1.35em;
+	}
+
+	#section1 {
+		margin-top: 40%;
+	}
+
+	.project {
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+
+	#rectangle{
+	    height: 250px;
+	}
+
+	#what {
+		padding-left: 2em;
+	}
+
+	.intro h3 {
+		font-size: 1.65em;
+		top: 1em;
+	}
+
+	.intro h4 {
+		font-size: 1.25em;
+		text-align: right;
+		right: 2em;
+	}
+
+	.sentence {
+        font-size: 1.9em;
+        line-height: 1.4em;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+
+    .view {
+    	font-size: 1.25em;
+    	top: 11.5em;
+		right: 2em;
+    }
+
+    footer {
+		height: 5em;
+	}
+
+	.links {
+		display: inline;
+		font-size: 1.1em;
+		text-align: left;
+	}
+
+	#footer-links {
+		margin-top: 7%;
+	}
+
+	#bottom {
+		display: flex;
+	    justify-content: space-around;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+
+	#bottom a {
+		font-size: 1.1em;
+		letter-spacing: .6px;
+	}
+
+/**************************************************
+	PROJECTS
+**************************************************/
+
+	#project-section0 {
+		padding-top: 10%;
+	}
+
+	#project-title {
+		margin-bottom: 25em;
+	}
+
+	#project-title h1 {
+		font-size: 6em;
+		padding-bottom: .1em;
+	}
+
+	#project-section0 p {
+		font-size: 1.8em;
+		letter-spacing: 0.5px;
+		line-height: 1.75em;
+		padding-bottom: 1.5em;
+	}
+
+	.detail-links {
+		margin-bottom: 3em;
+	}
+
+	#project-title h2 {
+		font-size: 1.5em;
+		padding-right: 2em;
+	}
+
+	#text {
+		padding: 5em;
+	}
+
+	#text h3 {
+		font-size: 2em;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	#text h4 {
+		font-size: 1.2em;
+		letter-spacing: .2px;
+		padding-bottom: 2em;
+	}
+
+	#text h5 {
+		letter-spacing: .2px;
+		line-height: 2em;
+	}
+
+	#text li {
+		line-height: 1.9em;
+		letter-spacing: .2px;
+	}
+
+	.svg-container h6 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+		margin-top: 2em;
+		padding: 0;
+	} 
+
+	iframe {
+		width: 256px;
+		height: 144px;
+		margin-top: 10em;
+		margin-left: 50%;
+		margin-bottom: 15em;
+		transform: translate(-50%, 0);
+	}	
+
+	.proposal {
+		margin-top: 4em;
+		margin-bottom: 15em;
+	}
+
+	.proposal p {
+		font-size: 1.2em;
+		line-height: 2em;
+		letter-spacing: 0.2px;
+		margin-top: 1em;
+	}
+
+	.proposal h5 {
+		font-size: 1.25em;
+		letter-spacing: 0.5px;
+		margin-bottom: .5em;
+	}
+
+	.proposal h7 {
+		font-size: 3.5em;
+		letter-spacing: -.5px;
+	}
+
+	.png-slides {
+		width: 75%;
+		padding-top: 5em;
+	}
+
+	#img-small {
+		margin-bottom: 0;
+	}
+
+	.prototype {
+		width: 300px;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#more {
+		margin-top: 9.5em;
+		margin-bottom: 17em;
+		padding: 0;
+	}
+
+	.piece {
+		margin-top: 1em;
+		padding: 0;
+	}
+
+	.ui-cards {
+	  width: 50%;
+	}
+
+	.carousel__control {
+	  height: 25px;
+	  width: 25px;
+	  margin-top: -15px;
+	  top: 50%;
+	}
+
+	.carousel__indicators {
+	  position: absolute;
+	  bottom: 20px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	.carousel-container { 
+	  display: block;
+	  margin-bottom: 7em;
+	}
+}
