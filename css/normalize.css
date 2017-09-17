@@ -271,7 +271,7 @@
 	}
 
 	#section1 {
-		margin-top: 40%;
+		margin-top: 55%;
 	}
 
 	.project {
@@ -512,11 +512,11 @@
 **************************************************/
 	
 	.icon-scroll.icon-scroll:before {
-		display: block;
+		display: none;
 	}
 
 	#who {
-		margin-top: 35%;
+		margin-top: 25%;
 	}
 
 	#who h1 {
@@ -530,7 +530,7 @@
 	}
 
 	#section1 {
-		margin-top: 40%;
+		margin-top: 50%;
 	}
 
 	.project {
@@ -773,11 +773,11 @@
 **************************************************/
 	
 	.icon-scroll.icon-scroll:before {
-		display: block;
+		display: none;
 	}
 
 	#who {
-		margin-top: 35%;
+		margin-top: 25%;
 	}
 
 	#who h1 {
@@ -791,7 +791,7 @@
 	}
 
 	#section1 {
-		margin-top: 40%;
+		margin-top: 60%;
 	}
 
 	.project {
@@ -1035,7 +1035,7 @@
 **************************************************/
 
 	.icon-scroll.icon-scroll:before {
-		display: block;
+		display: none;
 	}
 
 	#who {
@@ -1053,7 +1053,7 @@
 	}
 
 	#section1 {
-		margin-top: 40%;
+		margin-top: 110%;
 	}
 
 	.project {
@@ -1094,7 +1094,7 @@
     }
 
     footer {
-		height: 5em;
+		height: 35em;
 	}
 
 	.links {
@@ -1108,15 +1108,14 @@
 	}
 
 	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
+		display: block;
 	}
 
 	#bottom a {
-		font-size: 1.1em;
+		display: block;
+		font-size: 2em;
 		letter-spacing: .6px;
+		line-height: 2em;
 	}
 
 /**************************************************
@@ -1156,7 +1155,7 @@
 
 	#text {
 		width: 85%;
-		height: 65%;
+		height: 70%;
 		padding: 3em;
 	}
 
@@ -1297,7 +1296,7 @@
 **************************************************/
 	
 	.icon-scroll.icon-scroll:before {
-		display: block;
+		display: none;
 	}
 
 	#who {
@@ -1305,17 +1304,17 @@
 	}
 
 	#who h1 {
-		font-size: 2em;
+		font-size: 1.75em;
 		line-height: .5em;
 	}
 
 	#who h2 {
-		font-size: 3.5em;
+		font-size: 2.8em;
 		line-height: 1.35em;
 	}
 
 	#section1 {
-		margin-top: 40%;
+		margin-top: 105%;
 	}
 
 	.project {
@@ -1324,11 +1323,11 @@
 	}
 
 	#rectangle{
-	    height: 250px;
+	    height: 275px;
 	}
 
 	#what {
-		padding-left: 2em;
+		padding-left: 1em;
 	}
 
 	.intro h3 {
@@ -1338,29 +1337,32 @@
 
 	.intro h4 {
 		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
+		text-align: left;
+		right: 0;
+		top: 1.75em;
+		display: block;
 	}
 
 	.sentence {
         font-size: 1.9em;
         line-height: 1.4em;
-        padding-top: 1.5em;
+        padding-top: 1.75em;
         width: 90%;
     }
 
     .view {
     	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
+    	top: 12.5em;
+    	right: 1em;
+    	margin-bottom: 1em;
     }
 
     footer {
-		height: 5em;
+		height: 35em;
 	}
 
 	.links {
-		display: inline;
+		display: block;
 		font-size: 1.1em;
 		text-align: left;
 	}
@@ -1370,15 +1372,14 @@
 	}
 
 	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
+		display: block;
 	}
 
 	#bottom a {
-		font-size: 1.1em;
+		display: block;
+		font-size: 2em;
 		letter-spacing: .6px;
+		line-height: 2em;
 	}
 
 /**************************************************
@@ -1386,20 +1387,20 @@
 **************************************************/
 
 	#project-section0 {
-		padding-top: 10%;
+		padding-top: 30%;
 	}
 
 	#project-title {
-		margin-bottom: 25em;
+		margin-bottom: 5em;
 	}
 
 	#project-title h1 {
-		font-size: 6em;
+		font-size: 3em;
 		padding-bottom: .1em;
 	}
 
 	#project-section0 p {
-		font-size: 1.8em;
+		font-size: 1.5em;
 		letter-spacing: 0.5px;
 		line-height: 1.75em;
 		padding-bottom: 1.5em;
@@ -1415,7 +1416,9 @@
 	}
 
 	#text {
-		padding: 5em;
+		width: 75%;
+		height: 70%;
+		padding: 3em;
 	}
 
 	#text h3 {
