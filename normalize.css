@@ -1155,7 +1155,7 @@
 
 	#text {
 		width: 85%;
-		height: 65%;
+		height: 7%;
 		padding: 3em;
 	}
 
@@ -1416,6 +1416,8 @@
 	}
 
 	#text {
+		width: 85%;
+		height: 70%;
 		padding: 5em;
 	}
 
