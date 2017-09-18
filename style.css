@@ -263,12 +263,6 @@ html body {
 	background: linear-gradient(302deg, #FFFFFF, #EEEEEE);
 
 	transition: ease-in .3s;
-
-	/*background: linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -webkit-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -o-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -moz-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: linear-gradient(302deg, #f0d8ee, #f0eed8);*/
 }
 
 .section {
@@ -409,13 +403,6 @@ footer {
 	color: #EEEEEE;
 }
 
-/*#bottom {
-	display: flex;
-    justify-content: space-around;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
-
 #bottom a:hover {
 	text-decoration: none;
 	opacity: .5;
@@ -433,12 +420,6 @@ footer {
 	PROJECTS - BANNER
 **************************************************/
 
-/*#project-section0 {
-	display: block;
-}
-*/
-
-/* At-rules */
  @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -556,17 +537,14 @@ footer {
 #text h3 {
 	font-family: 'AGaramondPro', serif;
 	font-weight: bold;
-	/*text-align: center;*/
 }
 
 #text h5 {
 	font-family: 'Graphik-Medium', sans-serif;
-	/*text-align: center;*/
 }
 
 #text h4, li {
 	font-family: 'Graphik-Light', sans-serif;
-	/*text-align: center;*/
 	list-style: none;
 }
 
