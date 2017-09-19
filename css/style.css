@@ -1,47 +1,47 @@
 @font-face {
   font-family: 'AGaramondPro-Regular';
-  src: url('fonts/AGaramondPro-Regular.eot');
-  src: url('fonts/AGaramondPro-Regular.woff2') format('woff2'),
-       url('fonts/AGaramondPro-Regular.woff') format('woff'),
-       url('fonts/AGaramondPro-Regular.ttf') format('truetype'),
-       url('fonts/AGaramondPro-Regular.svg#AGaramondPro-Regular') format('svg'),
-       url('fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/AGaramondPro-Regular.eot');
+  src: url('../fonts/AGaramondPro-Regular.woff2') format('woff2'),
+       url('../fonts/AGaramondPro-Regular.woff') format('woff'),
+       url('../fonts/AGaramondPro-Regular.ttf') format('truetype'),
+       url('../fonts/AGaramondPro-Regular.svg#AGaramondPro-Regular') format('svg'),
+       url('../fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AGaramondPro-Bold';
-  src: url('fonts/AGaramondPro-Bold.eot');
-  src: url('fonts/AGaramondPro-Bold.woff2') format('woff2'),
-       url('fonts/AGaramondPro-Bold.woff') format('woff'),
-       url('fonts/AGaramondPro-Bold.ttf') format('truetype'),
-       url('fonts/AGaramondPro-Bold.svg#AGaramondPro-Bold') format('svg'),
-       url('fonts/AGaramondPro-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/AGaramondPro-Bold.eot');
+  src: url('../fonts/AGaramondPro-Bold.woff2') format('woff2'),
+       url('../fonts/AGaramondPro-Bold.woff') format('woff'),
+       url('../fonts/AGaramondPro-Bold.ttf') format('truetype'),
+       url('../fonts/AGaramondPro-Bold.svg#AGaramondPro-Bold') format('svg'),
+       url('../fonts/AGaramondPro-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Graphik-Light';
-  src: url('fonts/Graphik-Light.eot');
-  src: url('fonts/Graphik-Light.woff2') format('woff2'),
-       url('fonts/Graphik-Light.woff') format('woff'),
-       url('fonts/Graphik-Light.ttf') format('truetype'),
-       url('fonts/Graphik-Light.svg#Graphik-Light') format('svg'),
-       url('fonts/Graphik-Light.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/Graphik-Light.eot');
+  src: url('../fonts/Graphik-Light.woff2') format('woff2'),
+       url('../fonts/Graphik-Light.woff') format('woff'),
+       url('../fonts/Graphik-Light.ttf') format('truetype'),
+       url('../fonts/Graphik-Light.svg#Graphik-Light') format('svg'),
+       url('../fonts/Graphik-Light.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Graphik-Medium';
-  src: url('fonts/Graphik-Medium.eot');
-  src: url('fonts/Graphik-Medium.woff2') format('woff2'),
-       url('fonts/Graphik-Medium.woff') format('woff'),
-       url('fonts/Graphik-Medium.ttf') format('truetype'),
-       url('fonts/Graphik-Medium.svg#Graphik-Medium') format('svg'),
-       url('fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/Graphik-Medium.eot');
+  src: url('../fonts/Graphik-Medium.woff2') format('woff2'),
+       url('../fonts/Graphik-Medium.woff') format('woff'),
+       url('../fonts/Graphik-Medium.ttf') format('truetype'),
+       url('../fonts/Graphik-Medium.svg#Graphik-Medium') format('svg'),
+       url('../fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -256,19 +256,17 @@ html body {
     padding:0;
 	overflow-x: hidden;
 
-	background-: linear-gradient(302deg, #FFFFFF, #EEEEEE);
+	background: linear-gradient(302deg, #FFFFFF, #EEEEEE);
 	background: -webkit-linear-gradient(302deg, #FFFFFF, #EEEEEE);
 	background: -o-linear-gradient(302deg, #FFFFFF, #EEEEEE);
 	background: -moz-linear-gradient(302deg, #FFFFFF, #EEEEEE);
 	background: linear-gradient(302deg, #FFFFFF, #EEEEEE);
 
-	transition: ease-in .3s;
-
-	/*background: linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -webkit-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -o-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: -moz-linear-gradient(302deg, #f0d8ee, #f0eed8);
-	background: linear-gradient(302deg, #f0d8ee, #f0eed8);*/
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .section {
@@ -299,7 +297,7 @@ html body {
 	display: block;
 	position: absolute;
 	padding: 0;
-	animation: fadeIn 2.25s;
+	animation: fadeIn 2.5s;
 }
 
 #what {
@@ -310,14 +308,12 @@ html body {
 .project {
 	display: block;
 
-	transition: -ms-transform .3s 
-	cubic-bezier(0.455, 0.030, 0.515, 0.955),
+	transition: -ms-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
 	-webkit-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
 	transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955), 
 	box-shadow .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
 
-	-webkit-transition: -webkit-transform .3s 
-	cubic-bezier(0.455, 0.030, 0.515, 0.955),
+	-webkit-transition: -webkit-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
 	transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955), 
 	box-shadow .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
@@ -359,7 +355,11 @@ html body {
 	text-align: left;
 	color: #575859;
 
-	transition: ease-in .3s;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .intro h4 {
@@ -368,7 +368,11 @@ html body {
 	letter-spacing: 0.2px;
 	color: #A2A4A6;
 
-	transition: ease-in .3s;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .sentence {
@@ -378,7 +382,11 @@ html body {
 	color: #7D7E80;
 	position: absolute;
 
-	transition: ease-in .3s;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .view {
@@ -389,7 +397,11 @@ html body {
 	color: #A2A4A6;
 	position: absolute;
 
-	transition: ease-in .3s;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 footer {
@@ -409,13 +421,6 @@ footer {
 	color: #EEEEEE;
 }
 
-/*#bottom {
-	display: flex;
-    justify-content: space-around;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
-
 #bottom a:hover {
 	text-decoration: none;
 	opacity: .5;
@@ -433,12 +438,6 @@ footer {
 	PROJECTS - BANNER
 **************************************************/
 
-/*#project-section0 {
-	display: block;
-}
-*/
-
-/* At-rules */
  @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -556,17 +555,14 @@ footer {
 #text h3 {
 	font-family: 'AGaramondPro', serif;
 	font-weight: bold;
-	/*text-align: center;*/
 }
 
 #text h5 {
 	font-family: 'Graphik-Medium', sans-serif;
-	/*text-align: center;*/
 }
 
 #text h4, li {
 	font-family: 'Graphik-Light', sans-serif;
-	/*text-align: center;*/
 	list-style: none;
 }
 
