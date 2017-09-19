@@ -14,11 +14,13 @@
 	#who h1 {
 		font-size: 2.75em;
 		line-height: .5em;
+		letter-spacing: 0.3px;
 	}
 
 	#who h2 {
 		font-size: 4em;
 		line-height: 1.35em;
+		letter-spacing: 0.3px;
 	}
 
 	#section1 {
