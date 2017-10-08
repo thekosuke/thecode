@@ -11,17 +11,6 @@ $(window).scroll(function() {
 });
 
 /**************************************************
-    SCROLL TO TOP AFTER REFRESH
-**************************************************/
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-
-
-
-
-
-/**************************************************
     TYPING ON LANDING SCREEN
 **************************************************/
 var TxtRotate = function(el, toRotate, period) {
