@@ -176,6 +176,31 @@ $(".piece-coc").mouseleave(function() {
 /**************************************************
     PROJECT HOVER ON HOME PAGE   4E86E6
 **************************************************/
+$("#p-black").hover(
+    function () {
+        $("body").css("background", "#F1F0E4");
+        $(".menu-link").css("color", "#EEEEEE");
+        $("h2").css("color", "#EEEEEE");
+        $("#p-blue h3").css("color", "#EEEEEE");
+        $("#p-blue h4").css("color", "#EEEEEE");
+        $("#p-blue .sentence").css("color", "#EEEEEE");
+        $("#p-blue .view").css("color", "#EEEEEE");
+        $("#p-red").css("opacity", "0");
+        $("#p-pink").css("opacity", "0");
+
+    }, function () {
+        $("body").css("background", "linear-gradient(302deg, #FFFFFF, #EEEEEE)");
+        $(".menu-link").css("color", "#575859");
+        $("h2").css("color", "#575859");
+        $("h3").css("color", "#575859");
+        $("h4").css("color", "#A2A4A6");
+        $(".sentence").css("color", "#7D7E80");
+        $(".view").css("color", "#A2A4A6");
+        $("#p-red").css("opacity", "1");
+        $("#p-pink").css("opacity", "1");
+    }
+);
+
 $("#p-blue").hover(
     function () {
         $("body").css("background", "#3D68B1");
