@@ -1,28 +1,16 @@
 .back-to-top {
   position: fixed;
-  right: 2em;
   bottom: 0;
-  height: 25px;
-  width: 35px;
-  font-size: .9em;
-  font-weight: bold;
-  letter-spacing: .5px;
-  color: #3E3F3F;
-  opacity: 0.25;
-  z-index: 10;
-  vertical-align: middle;
-  visibility: hidden;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  border: 3px solid #3E3F3F;
-}
+  right: 1.5em;
 
-.back-to-top:hover, .back-to-top:focus {
-  opacity: 1;
-  cursor: pointer;
-  text-decoration: none;
+  visibility: hidden;
+  width: 7em;
+  height: 1em;
+  opacity: 0;
+  z-index: 10;
+  text-align: right;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .back-to-top:focus {
@@ -40,7 +28,7 @@
 }
 
 .back-to-top::before {
-  bottom: -20px;
+  bottom: -1.5em;
   z-index: 10;
 }
 
@@ -49,18 +37,11 @@
   z-index: 10;
 }
 
-.back-to-top:hover,
-.back-to-top:focus {
-  height: 25px;
-  background: #3E3F3F;
-  color: #E4E4E8;
-  cursor: pointer;
-}
-
 .show-back-to-top {
   display: block;
-  bottom: 3%;
+  bottom: 1.5em;
   visibility: visible;
+  opacity: 1;
 }
 
 /* Basic styles below this line. */

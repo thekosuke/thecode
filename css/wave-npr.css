@@ -1,0 +1,130 @@
+/*//////////////////// ///////////////////////
+	WAVE WAVE WAVE WAVE WAVE WAVE WAVE WAVE
+//////////////////// ///////////////////////*/
+.waves a svg {
+	display: block;
+	height: 8em;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+  cursor: url(../img/pointer.png) 7 7, pointer;
+
+  animation: fadeIn 2.25s;
+
+	-webkit-transition: 1s ease;
+	-moz-transition: 1s ease;
+	-ms-transition: 1s ease;
+	-o-transition: 1s ease;
+	transition: 1s ease;
+}
+
+.waves svg .white {
+	fill: #F5F5F7;
+	transform: translate(0, -40%);  
+}
+
+.waves svg .cream {
+  animation: movewave-cream 5s infinite alternate ease-in-out; 
+  animation-delay: .7s; 
+  opacity: .65;  
+  transform: translate(-7%, 15%); 
+}
+
+.waves svg .red {
+  animation: movewave 5s infinite alternate ease-in-out;  
+  animation-delay: 1.2s;
+  opacity: .65;  
+}
+
+.waves svg .sky {
+  animation: movewave 5s infinite alternate ease-in-out;  
+  animation-delay: 2s;
+  opacity: .65;
+}
+
+.waves svg .pink {
+  animation: movewave 5s infinite alternate ease-in-out;  
+	animation-delay: 1s;
+  opacity: .65;
+}
+
+.waves svg .teal {
+  animation: movewave-teal 5s infinite alternate ease-in-out;  
+	animation-delay: .7s;
+  opacity: .65;
+  transform: translate(-10%, 0);
+}
+
+.waves svg .orange {
+  animation: movewave 5s infinite alternate ease-in-out; 
+  opacity: .65; 
+  transform: translate(20%, -20%);
+}
+
+.waves svg .navy {
+  animation: movewave-navy 5s infinite alternate ease-in-out;  
+  animation-delay: 1.5s;
+  opacity: .65;
+  transform: translate(10%, -20%);
+}
+
+@keyframes movewave {
+  0%{
+    transform: translate(0, 0);
+  }
+  50%{
+    transform: translate(0, 20%);
+  }
+  100%{
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes movewave-cream {
+  0%{
+    transform: translate(-7%, 15%);
+  }
+  50%{
+    transform: translate(-7%, 0);
+  }
+  100%{
+    transform: translate(-7%, 15%);
+  }
+}
+
+@keyframes movewave-teal {
+  0%{
+    transform: translate(-10%, 0);
+  }
+  50%{
+    transform: translate(-10%, 20%);
+  }
+  100%{
+    transform: translate(-10% 0);
+  }
+}
+
+@keyframes movewave-navy {
+  0%{
+    transform: translate(10%, -20%);
+  }
+  50%{
+    transform: translate(10%, 5%);
+  }
+  100%{
+    transform: translate(10%, -25%);
+  }
+}
+
+@keyframes movewave-orange {
+  0%{
+    transform: translate(20%, 0%);
+  }
+  50%{
+    transform: translate(20%, 20%);
+  }
+  100%{
+    transform: translate(20%, 0%);
+  }
+}

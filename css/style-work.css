@@ -1,0 +1,233 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #16161A; 
+	opacity: 1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #FFB700;
+}
+
+::selection {
+	background-color: #FFB700; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+	background: #FFB700; /* Gecko Browsers */
+}
+
+
+body {
+	background-color: #F5F5F7;
+	overflow-x: hidden;
+	/*position: relative;*/
+
+	-webkit-transition: .7s ease;
+	-moz-transition: .7s ease;
+	-ms-transition: .7s ease;
+	-o-transition: .7s ease;
+	transition: .7s ease;
+}
+
+/*//////////////////// ///////////////////////
+  TYPE SETTING
+  //////////////////// ///////////////////////*/
+  h1, h4, a, p {
+  	color: #3F3E40;
+  	text-decoration: none;
+
+  	-webkit-transition: .4s ease;
+  	-moz-transition: .4s ease;
+  	-ms-transition: .4s ease;
+  	-o-transition: .4s ease;
+  	transition: .4s ease;
+  }	
+
+  h1 {
+  	font-family: 'HaasGrotDispR-95Black';  
+  }
+
+  h2 {
+  	font-family: 'HaasGrotDispR-65Medium';
+  }
+
+  h3, a {
+  	font-family: 'HaasGrotDispR-55Roman';
+  }
+
+  h4 {
+  	font-family: 'HaasGrotDispR-65Medium';
+  }
+
+  h5 a {
+  	font-family: 'HaasGrotDispR-65Medium';
+  }
+
+  a {
+  	cursor: url(../img/pointer.png) 7 7, pointer;
+  }
+
+  p {
+  	font-family: 'HaasGrotTextR-55Roman';
+  }
+
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE - LANDING
+  //////////////////// ///////////////////////*/
+
+  @-webkit-keyframes fadeIn {
+  	0% {
+  		opacity: 0;
+  	}
+  	100% {
+  		opacity: 1;
+  	}
+  }
+  @-moz-keyframes fadeIn {
+  	0% {
+  		opacity: 0;
+  	}
+  	100% {
+  		opacity: 1;
+  	}
+  }
+
+  @-webkit-keyframes fadeInDown {
+  	0% {
+  		opacity: 0;
+  		-webkit-transform: translate(0, -7%);
+  		transform: translate(0, -7%);
+  	}
+  	100% {
+  		opacity: 1;
+  		-webkit-transform: translate(0, -12%);
+  		transform: translate(0, -12%);
+  	}
+  }
+
+  @-moz-keyframes fadeInDown {
+  	0% {
+  		opacity: 0;
+  		-webkit-transform: translate(0, -7%);
+  		transform: translate(0, -7%);
+  	}
+  	100% {
+  		opacity: 1;
+  		-webkit-transform: translate(0, -12%);
+  		transform: translate(0, -12%);
+  	}
+  }
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE - HEADER COLOR
+  //////////////////// ///////////////////////*/
+  .npr, #projectNPR, #projectNPR h2, #projectNPR h3, 
+  #projectNPR .project-description, #portalNPR, #nprLinks a:hover {
+  	color: #3D68B1;
+  }
+
+  .layers, #projectLAYERS, #projectLAYERS h2, #projectLAYERS h3, 
+  #projectLAYERS .project-description, #portalLAYERS, #layersLinks a:hover {
+  	color: #C41E20;
+  }
+
+  .changethegame, #projectGame, #projectGame h2, #projectGame h3, 
+  #projectGame .project-description, #portalGame, #gameLinks a:hover {
+  	color: #ED1941;
+  }
+
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE - LANDING
+//////////////////// ///////////////////////*/
+	.back-button {
+		position: fixed;
+		z-index: 999;
+
+		animation: fadeIn 2s;
+	}
+
+	.back-button a {
+		font-family: 'HaasGrotTextR-76BoldItalic';	
+	}
+
+	.back-button a:hover {
+		color: #FFB700;
+		opacity: 1;
+	}
+
+	.project-landing {
+		position: relative;  	
+
+		animation: fadeIn 2s;
+		animation: fadeInDown 2s;
+	}
+
+	.project-title {
+		text-align: center;
+	}
+
+	.portal {
+		position: absolute;
+		cursor: url(../img/pointer.png) 7 7, pointer;
+		opacity: 0;
+		z-index: 101;
+	}
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE - VIDEO
+//////////////////// ///////////////////////*/
+  .vimeo-container {
+  	position: relative;  	
+  	overflow: hidden;
+  }
+
+  .vimeo-container iframe,
+  .vimeo-container object,
+  .vimeo-container embed {
+  	position: absolute;  	
+  }
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE - CONTENT
+//////////////////// ///////////////////////*/
+  .project-image {
+  	position: relative;  	
+  }
+
+  .copy h3 {
+  	font-family: 'HaasGrotDispR-65Medium';
+  }
+
+  .copy p {
+  	font-family: 'HaasGrotDispR-45Light';
+  }
+
+  .carousel-container {
+  	display: block;
+  } 
+
+  .carousel__indicators {
+  	position: absolute;
+  	text-align: center;
+  }
+
+  .prototype {
+  	box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.2);
+  	display: block;
+  	margin: auto;
+  }

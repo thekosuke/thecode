@@ -85,12 +85,17 @@
   position: absolute;
   display: block;
   cursor: pointer;
-  border-width: 4px 4px 0 0;
   border-style: solid;
   border-color: #3F3F3F;
   opacity: 0.35;
   outline: 0;
   z-index: 3;
+
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -ms-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
 }
 
 .carousel__control:hover { 
