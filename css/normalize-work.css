@@ -503,11 +503,12 @@
 
 	.more-links p {
 		font-size: 14px;
+		letter-spacing: .3px
 		margin-top: 5em;
 	}
 
 	.more-links p strong {
-		letter-spacing: -.3px;
+		letter-spacing: .3px;
 	}	
 
 /*//////////////////// ///////////////////////
