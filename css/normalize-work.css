@@ -213,6 +213,20 @@
 		left: 0;
 		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);	
 	}
+
+/*//////////////////// ///////////////////////
+	MORE PROJECTS
+//////////////////// ///////////////////////*/	
+	.project-hover {
+		margin-bottom: 1.5em;
+	}
+
+	.project-hover p {
+		font-size: 14px;
+		letter-spacing: 4px;
+		line-height: 1.5em;
+		padding-left: .2em;
+	}	
 }
 
 @media all and (max-width: 1920px) {	
