@@ -289,7 +289,7 @@
 	.project-hover p {
 		font-size: 12px;
 		letter-spacing: 3px;
-		line-height: 2em;
+		line-height: 2.5em;
 		padding-left: .2em;
 	}
 }
@@ -348,21 +348,7 @@
 
 	.waves02 a svg {
 		height: 8em;
-	}	
-
-/*//////////////////// ///////////////////////
-	MORE PROJECTS
-//////////////////// ///////////////////////*/	
-	.project-hover {
-		margin-bottom: 1.5em;
-	}
-
-	.project-hover p {
-		font-size: 10px;
-		letter-spacing: 2.2px;
-		line-height: 2em;
-		padding-left: .2em;
-	}		
+	}			
 }
 
 @media all and (max-width: 1440px) {	
@@ -564,7 +550,7 @@
 	.project-hover p {
 		font-size: 10px;
 		letter-spacing: 2.2px;
-		line-height: 1.5em;
+		line-height: 2em;
 		padding-left: .2em;
 	}
 }
