@@ -45,8 +45,8 @@ body {
 /*//////////////////// ///////////////////////
   TYPE SETTING
   //////////////////// ///////////////////////*/
-  h1, h4, a, p {
-  	color: #3F3E40;
+  h1, h4, a, p, h6 {
+  	color: #16161A;
   	text-decoration: none;
 
   	-webkit-transition: .4s ease;
@@ -60,28 +60,15 @@ body {
   	font-family: 'HaasGrotDispR-95Black';  
   }
 
-  h2 {
+  h2, h4, h5 a {
   	font-family: 'HaasGrotDispR-65Medium';
   }
 
-  h3, a {
+  h3, a, p {
   	font-family: 'HaasGrotDispR-55Roman';
   }
-
-  h4 {
-  	font-family: 'HaasGrotDispR-65Medium';
-  }
-
-  h5 a {
-  	font-family: 'HaasGrotDispR-65Medium';
-  }
-
   a {
   	cursor: url(../img/pointer.png) 7 7, pointer;
-  }
-
-  p {
-  	font-family: 'HaasGrotTextR-55Roman';
   }
 
 
@@ -134,20 +121,31 @@ body {
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - HEADER COLOR
-  //////////////////// ///////////////////////*/
-  .npr, #projectNPR, #projectNPR h2, #projectNPR h3, 
-  #projectNPR .project-description, #portalNPR, #nprLinks a:hover {
-  	color: #3D68B1;
+//////////////////// ///////////////////////*/
+  #italiaHover h6:hover {
+    color: #F1F0E4;
+  }
+
+  #roomHover h6:hover {
+    color: #02A686;
+  }
+
+  .npr, #projectNPR, #projectNPR h2, #projectNPR h3,
+  #projectNPR .project-description, #portalNPR, 
+  #nprLinks a:hover, #nprHover h6:hover {
+    color: #3D68B1;
   }
 
   .layers, #projectLAYERS, #projectLAYERS h2, #projectLAYERS h3, 
-  #projectLAYERS .project-description, #portalLAYERS, #layersLinks a:hover {
-  	color: #C41E20;
+  #projectLAYERS .project-description, #portalLAYERS, 
+  #layersLinks a:hover, #layersHover h6:hover {
+    color: #C41E20;
   }
 
   .changethegame, #projectGame, #projectGame h2, #projectGame h3, 
-  #projectGame .project-description, #portalGame, #gameLinks a:hover {
-  	color: #ED1941;
+  #projectGame .project-description, #portalGame, 
+  #gameLinks a:hover, #gameHover h6:hover {
+    color: #ED1941;
   }
 
 
