@@ -1147,8 +1147,12 @@
 		font-size: 47px;
 	}
 
+	.peach-dot {
+		left: 74%;
+	}
+
 	.peach-dot img {
-		max-width: 90%;
+		max-width: 90%;		
 	}
 
 	#landing-copy {
