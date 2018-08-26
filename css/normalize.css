@@ -1204,12 +1204,9 @@
 	}
 }
 
-
 @media all and (max-width: 320px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 320px;
 	}
-
-
 }
