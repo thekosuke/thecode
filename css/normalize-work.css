@@ -921,12 +921,19 @@
 	.carousel__control--backward {
 		right: 3em;
 	}
+
+
 }
 
 @media all and (max-width: 414px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 414px;
+	}
+
+	h6 { 
+		font-size: 35px;
+		letter-spacing: -.7px;
 	}
 
 	.project-landing {
