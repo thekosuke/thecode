@@ -35,6 +35,12 @@
 		line-height: 1.5em;
 	}
 
+	h6 {
+		font-size: 50px;
+		letter-spacing: -1.2px;
+		line-height: 1em;
+	}
+
 	.grid-4 {
 		grid-template-columns: 2.5fr 7fr 2.5fr;
 	}
@@ -318,6 +324,20 @@
 
 	.waves02 a svg {
 		height: 8em;
+	}	
+
+/*//////////////////// ///////////////////////
+	MORE PROJECTS
+//////////////////// ///////////////////////*/	
+	.project-hover {
+		margin-bottom: 1.5em;
+	}
+
+	.project-hover p {
+		font-size: 10px;
+		letter-spacing: 2.2px;
+		line-height: 2em;
+		padding-left: .2em;
 	}		
 }
 
