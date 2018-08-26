@@ -282,6 +282,16 @@
 	.waves02 a svg {
 		height: 9em;
 	}	
+
+/*//////////////////// ///////////////////////
+	MORE PROJECTS
+//////////////////// ///////////////////////*/	
+	.project-hover p {
+		font-size: 12px;
+		letter-spacing: 3px;
+		line-height: 2em;
+		padding-left: .2em;
+	}
 }
 
 @media all and (max-width: 1680px) {	
