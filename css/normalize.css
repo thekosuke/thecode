@@ -210,7 +210,7 @@
 //////////////////// ///////////////////////*/
 	.color-frame {
 	  left: 50%;
-	  margin-top: 1em;
+	  margin-top: 1.5em;
 	  transform: translate(-50%, 0);
 	  width: 95%;
 	  height: 100%;
@@ -220,31 +220,31 @@
 	  width: 100%;
 	  height: 95%;
 
-	  stroke-width: 3;
+	  stroke-width: 10px;
 	}
 
 	rect.stroke-sky {
-	  stroke-dasharray: 2052, 342;
+	  stroke-dasharray: 2085.57142, 347.428571;
 	}
 
 	rect.stroke-cream {
-	  stroke-dasharray: 1710, 684;
+	  stroke-dasharray: 1737.14285, 694.857142;
 	}
 
 	rect.stroke-red {
-	  stroke-dasharray: 1368,1026;
+	  stroke-dasharray: 1389.71428, 1042.28571;
 	}
 
 	rect.stroke-pink {
-	  stroke-dasharray: 1026,1368;
+	  stroke-dasharray: 1042.28571, 1389.71428;
 	}
 
 	rect.stroke-orange {
-	  stroke-dasharray: 684,1710;
+	  stroke-dasharray: 694.857142, 1737.14285;
 	}
 
 	rect.stroke-teal {
-	  stroke-dasharray: 342,2052;
+	  stroke-dasharray: 347.428571, 2085.57142;
 	}
 
 /*//////////////////// ///////////////////////
@@ -319,6 +319,41 @@
 	}
 
 /*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1.2em;
+	}
+
+	rect {
+	  stroke-width: 7px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 1824, 304;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1520, 608;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1216, 912;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 912, 1216;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 608, 1520;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 304, 1824;
+	}
+
+/*//////////////////// ///////////////////////
   ABOUT PAGE
 //////////////////// ///////////////////////*/
   .back-button {
@@ -374,6 +409,41 @@
 	.bottom-link p, .project-hover p {
 		font-size: 11px;
 		letter-spacing: 3px;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1.1em;
+	}
+
+	rect {
+	  stroke-width: 5px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 1915.2, 319.2;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1596, 638.4;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1276.8, 957.6;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 957.6, 1276.8;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 638.4, 1596;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 319.2, 1915.2;
 	}
 
 /*//////////////////// ///////////////////////
@@ -475,6 +545,41 @@
     	top: 2em; 
     	transform: translate(-50%, 0);
     }
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1em;
+	}
+
+	rect {
+	  stroke-width: 3px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 2052, 342;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1710, 684;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1368, 1026;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 1026, 1368;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 684, 1710;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 342, 2052;
+	}
 
 /*//////////////////// ///////////////////////
 	PROJECT BOXES
@@ -702,6 +807,33 @@
 	}
 
 /*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1824, 304;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1520, 608;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1216, 912;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 912, 1216;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 608, 1520;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 304, 1824;
+	}
+
+/*//////////////////// ///////////////////////
 	PROJECT SECTION - PROJECT HOVER
 //////////////////// ///////////////////////*/
 	.preview-image img {
@@ -761,6 +893,33 @@
 	}
 
 /*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1459.2, 243.2;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1216, 486.4;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 972.8, 729.6;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 729.6, 972.8;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 486.4, 1216;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 243.2, 1459.2;
+	}
+
+/*//////////////////// ///////////////////////
 	ABOUT
 //////////////////// ///////////////////////*/
 	.back-button {
@@ -815,6 +974,33 @@
 	.landing-intro {
 		top: 32.4em;
 	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1368, 228;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1140, 456;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 912, 684;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 684, 912;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 456, 1140;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 228, 1368;
+	}	
 }
 
 @media all and (max-width: 800px) {
@@ -863,6 +1049,33 @@
 		font-size: 34px;
 		line-height: 38px;
 	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1094.4, 182.4;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 912, 364.8;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 729.6, 547.2;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 547.2, 729.6;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 364.8, 912;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 182.4, 1094.4;
+	}	
 }
 
 @media all and (max-width: 720px) {
@@ -1131,6 +1344,33 @@
 		font-size: 26px;
 		line-height: 30px;
 	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 589.95, 98.325;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 491.625, 196.65;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 393.3, 294.975;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 294.975, 393.3;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 196.65, 491.625;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 98.325, 589.95;
+	}	
 }
 
 @media all and (max-width: 375px) {
@@ -1202,6 +1442,33 @@
 	.social {
 		top: 2.5em;
 	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 534.375, 89.0625;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 445.3125, 178.125;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 356.25, 267.1875;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 267.1875, 356.25;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 178.125, 445.3125;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 89.0625, 534.375;
+	}	
 }
 
 @media all and (max-width: 320px) {
