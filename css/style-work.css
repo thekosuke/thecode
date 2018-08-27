@@ -45,7 +45,7 @@ body {
 /*//////////////////// ///////////////////////
   TYPE SETTING
   //////////////////// ///////////////////////*/
-  h1, h4, a, p, h6 {
+  h1, h4, a, p, h6, .copy a {
   	color: #16161A;
   	text-decoration: none;
 
@@ -67,7 +67,7 @@ body {
   h3, a, p {
   	font-family: 'HaasGrotDispR-55Roman';
   }
-  a {
+  a, h6 {
   	cursor: url(../img/pointer.png) 7 7, pointer;
   }
 
@@ -215,8 +215,16 @@ body {
   	font-family: 'HaasGrotDispR-65Medium';
   }
 
-  .copy p {
+  .copy p, .copy a {
   	font-family: 'HaasGrotDispR-45Light';
+  }
+
+  .copy a {
+    text-decoration: underline;
+  }
+
+  .copy a:hover {
+    color: #02A686;
   }
 
   .prompt, .prompt a {

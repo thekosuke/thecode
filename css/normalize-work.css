@@ -142,7 +142,7 @@
 		margin-bottom: .5em;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 36px;
 		letter-spacing: .7px;
 		line-height: 1.5em;
@@ -262,7 +262,7 @@
 		line-height: 1.5em;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 30px;
 		letter-spacing: 0px;
 		line-height: 1.5em;
@@ -333,7 +333,7 @@
 		letter-spacing: -0.1px;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 26px;
 		letter-spacing: 0.5px;
 		line-height: 1.5em;
@@ -446,6 +446,10 @@
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
+	#roomBrief {
+		margin-top: 10em;
+	}
+
 	.project-image {
 		max-width: 100%;
 		max-height: 100%;
@@ -470,7 +474,7 @@
 		margin-bottom: .5em;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 1.6em;
 		letter-spacing: .7px;
 		line-height: 1.5em;
@@ -610,7 +614,7 @@
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
-	.copy p {
+	.copy p, .copy a {
 		font-size: 1.5em;
 	}
 }
@@ -657,7 +661,7 @@
 		margin-top: 30%;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 1.2em;
 	}
 
@@ -754,7 +758,7 @@
 		letter-spacing: -.3px;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		letter-spacing: .3px;
 		line-height: 1.4em;
 	}
@@ -902,7 +906,7 @@
 		margin-top: 75%;
 	}
 
-	.copy p {
+	.copy p, .copy a {
 		font-size: 1em;
 	}
 
@@ -922,8 +926,6 @@
 	.carousel__control--backward {
 		right: 3em;
 	}
-
-
 }
 
 @media all and (max-width: 414px) {
