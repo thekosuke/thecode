@@ -1397,25 +1397,31 @@
 	}
 
 	.project-container {
-		left: 60%;
-		bottom: 2%;
+		left: 67%;
+		bottom: 5%;
+	}
+
+	.project-box {
+		width: 50px;
+		height: 50px;
 	}
 
 	.project-hover h2 {
-		top: 39%;
+		top: 35%;
 		letter-spacing: -1px;
 	}
 
 	.project-hover .role {
-		top: 5em;
+		top: 7em;
 	}
 
 	.project-hover .description {
 		width: 80%;
+		bottom: 50%;
 	}
 
 	.project-hover .date {
-		bottom: 16em;
+		bottom: 20em;
 	}
 
 	.preview-image {
@@ -1475,5 +1481,47 @@
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 320px;
+	}
+
+	h1 {
+		font-size: 225px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	.landing-intro {
+		top: 34em;
+		left: 4.2em;
+		font-size: 9px;
+		line-height: 1.9em;
+	}
+
+	.landing-intro a {
+		font-size: 9px;
+	}
+
+	.project-container {
+		left: 61%;
+		bottom: 3%;
+	}
+
+	.project-box {
+		width: 50px;
+		height: 50px;
+	}
+
+	#bottom-quote.grid-1 {
+		grid-template-columns: 1fr 10fr 1fr;
+	}
+
+	#about p, #about a {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.social-link {
+		margin-left: 2em;
 	}
 }

@@ -118,6 +118,10 @@
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
+	#roomBrief {
+		margin-top: 25em;
+	}
+
 	.project-image {
 		max-width: 100%;
 		max-height: 100%;
@@ -272,6 +276,10 @@
 		bottom: 3em; 
 	}
 
+	#roomBrief {
+		margin-top: 13em;
+	}
+
 /*//////////////////// ///////////////////////
 	WAVE
 //////////////////// ///////////////////////*/
@@ -315,6 +323,10 @@
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
+	#roomBrief {
+		margin-top: 15em;
+	}
+
 	.back-button a {
 		letter-spacing: 0;
 	}
@@ -447,7 +459,7 @@
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
 	#roomBrief {
-		margin-top: 10em;
+		margin-top: 12em;
 	}
 
 	.project-image {
@@ -614,6 +626,8 @@
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
+	
+
 	.copy p, .copy a {
 		font-size: 24px;
 	}
@@ -1010,4 +1024,6 @@
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 320px;
 	}
+
+	
 }
