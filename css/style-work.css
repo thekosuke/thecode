@@ -122,11 +122,15 @@ body {
 /*//////////////////// ///////////////////////
   PROJECT PAGE - HEADER COLOR
 //////////////////// ///////////////////////*/
-  #italiaHover h6:hover {
+  .italia, #projectItalia, #projectItalia h2, #projectItalia h3,
+  #projectItalia .project-description, #portatlItalia, 
+  #italiaLinks a:hover, #italiaHover h6:hover {
     color: #F1F0E4;
   }
 
-  #roomHover h6:hover {
+  .room, #projectRoom, #projectRoom h2, #projectRoom h3,
+  #projectRoom .project-description, #portalRoom, 
+  #roomLinks a:hover, #roomHover h6:hover {
     color: #02A686;
   }
 
@@ -213,6 +217,10 @@ body {
 
   .copy p {
   	font-family: 'HaasGrotDispR-45Light';
+  }
+
+  .prompt, .prompt a {
+    font-family: 'HaasGrotDispR-46LightItalic';
   }
 
   .carousel-container {
