@@ -231,7 +231,7 @@ body {
   }
 
   .prompt, .prompt a {
-    font-family: 'HaasGrotDispR-46LightItalic';
+    /*font-family: 'HaasGrotDispR-46LightItalic';*/
     font-style: italic;
   }
 
