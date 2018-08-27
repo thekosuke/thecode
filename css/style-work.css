@@ -44,7 +44,7 @@ body {
 
 /*//////////////////// ///////////////////////
   TYPE SETTING
-  //////////////////// ///////////////////////*/
+//////////////////// ///////////////////////*/
   h1, h4, a, p, h6, .copy a {
   	color: #16161A;
   	text-decoration: none;
@@ -74,7 +74,7 @@ body {
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - LANDING
-  //////////////////// ///////////////////////*/
+//////////////////// ///////////////////////*/
 
   @-webkit-keyframes fadeIn {
   	0% {
@@ -118,6 +118,7 @@ body {
   		transform: translate(0, -12%);
   	}
   }
+
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - HEADER COLOR
@@ -190,6 +191,7 @@ body {
 		z-index: 101;
 	}
 
+
 /*//////////////////// ///////////////////////
   PROJECT PAGE - VIDEO
 //////////////////// ///////////////////////*/
@@ -203,6 +205,7 @@ body {
   .vimeo-container embed {
   	position: absolute;  	
   }
+
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
@@ -229,6 +232,7 @@ body {
 
   .prompt, .prompt a {
     font-family: 'HaasGrotDispR-46LightItalic';
+    font-style: italic;
   }
 
   .carousel-container {
