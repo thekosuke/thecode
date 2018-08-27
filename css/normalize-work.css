@@ -368,8 +368,8 @@
 	}
 
 	h3, a {
-		font-size: 11px;
-		letter-spacing: 2px;
+		font-size: 10px;
+		letter-spacing: 2.2px;
 		line-height: 1em;
 	}
 
@@ -436,7 +436,7 @@
 
 	.portal {
 		font-size: 10px;
-		letter-spacing: 2px;
+		letter-spacing: 2.2px;
 		line-height: 1.7em;
 		left: 50%;
 		bottom: 2em; 
