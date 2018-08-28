@@ -188,12 +188,12 @@
   	margin-bottom: .7em;
   }
 
-  .social {
+  .connect {
   	top: 2em;
   	right: 3em;
   }
 
-  .social-link {
+  .connect-link {
   	margin-left: 3em;
   }
 
@@ -691,7 +691,7 @@
   	margin-bottom: .7em;
   }
 
-  .social {
+  .connect {
   	font-size: 10px;
   	letter-spacing: .5px;
   	margin-right: 3em;
@@ -701,7 +701,7 @@
   	right: 0;
   }
 
-  .social-link {
+  .connect-link {
   	margin-left: 4em;
   }
 
@@ -1242,7 +1242,7 @@
 		margin-bottom: 1em;
 	}
 
-	.social-link {
+	.connect-link {
 		margin-left: 3em;
 	}
 }
@@ -1445,7 +1445,7 @@
 		line-height: 28px;
 	}
 
-	.social {
+	.connect {
 		top: 2.5em;
 	}
 
@@ -1521,7 +1521,7 @@
 		line-height: 20px;
 	}
 
-	.social-link {
+	.connect-link {
 		margin-left: 2em;
 	}
 }

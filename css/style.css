@@ -355,7 +355,7 @@ body {
     text-decoration: underline;
   }
 
-  .social {
+  .connect {
     position: absolute;
     text-align: right;
     list-style: none;
@@ -363,7 +363,7 @@ body {
     animation: fadeIn 3s;
   }
 
-  .social-link {
+  .connect-link {
     display: inline;
   }
 
