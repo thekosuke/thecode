@@ -1,4 +1,4 @@
-@media all and (max-width: 2560px) {	
+@media all and (max-width: 2560px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 2560px;
@@ -49,9 +49,14 @@
 		grid-template-columns: 3.5fr 5fr 3.5fr;
 	}
 
+	.grid-8 {
+			grid-template-columns: 1.5fr 9fr 1.5fr;
+	}
+
+
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/	
+//////////////////// ///////////////////////*/
 	.back-button {
 		top: 1.5em;
 		left: 1.5em;
@@ -62,7 +67,7 @@
 		letter-spacing: .2px;
 	}
 
-	.project-title h3 {	
+	.project-title h3 {
 		line-height: 4em;
 	}
 
@@ -71,7 +76,7 @@
 	}
 
 	.project-landing {
-		position: relative;	
+		position: relative;
 		margin-top: 15%;
 		transform: translate(0, -12%);
 
@@ -90,8 +95,8 @@
 		letter-spacing: 4px;
 		line-height: 1.7em;
 		left: 50%;
-		bottom: 4em; 
-		transform: translate(-50%, 0);	
+		bottom: 4em;
+		transform: translate(-50%, 0);
 	}
 
 /*//////////////////// ///////////////////////
@@ -113,7 +118,7 @@
 		transform: translate(-50%, -50%);
 		width: 90%;
 		height: 90%;
-	}	
+	}
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
@@ -154,8 +159,8 @@
 	}
 
 	.carousel-container {
-		margin-bottom: 7em;		
-	} 
+		margin-bottom: 7em;
+	}
 
 	.ui-cards {
 		width: 75%;
@@ -195,7 +200,7 @@
 
 	.more-links p strong {
 		letter-spacing: -.3px;
-	}	
+	}
 
 /*//////////////////// ///////////////////////
 	WAVE
@@ -215,12 +220,12 @@
 		width: 110%;
 		top: 0;
 		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);	
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
 	}
 
 /*//////////////////// ///////////////////////
 	MORE PROJECTS
-//////////////////// ///////////////////////*/	
+//////////////////// ///////////////////////*/
 	.project-hover {
 		margin-bottom: 1.5em;
 	}
@@ -230,10 +235,57 @@
 		letter-spacing: 4px;
 		line-height: 1.5em;
 		padding-left: .2em;
-	}	
+	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+		#italiaCopy {
+			position: relative;
+			margin-top: 13%;
+			animation: fadeIn 2.25s;
+		}
+
+		#italiaList {
+			position: relative;
+			margin-top: 5%;
+			animation: fadeIn 2.25s;
+		}
+
+		#italiaList h3 {
+			margin-bottom: 1em;
+		}
+
+		#italiaList li {
+			font-size: 22px;
+			letter-spacing: 0.3px;
+			line-height: 1.7em;
+		}
+
+		.italia-header {
+			cursor: default;
+			line-height: 1.7em;
+		}
+
+		.italia-copy {
+			font-size: 22px;
+			letter-spacing: 0.3px;
+			line-height: 36px;
+		}
+
+		.italia-copy a {
+			font-size: 22px;
+			letter-spacing: 0.3px;
+			line-height: 36px;
+			text-decoration: underline;
+		}
+
+		.italia-copy a:hover {
+			color: #FFB700;
+		}
 }
 
-@media all and (max-width: 1920px) {	
+@media all and (max-width: 1920px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1920px;
@@ -273,7 +325,7 @@
 	}
 
 	.portal {
-		bottom: 3em; 
+		bottom: 3em;
 	}
 
 	#roomBrief {
@@ -289,20 +341,59 @@
 
 	.waves02 a svg {
 		height: 9em;
-	}	
+	}
 
 /*//////////////////// ///////////////////////
 	MORE PROJECTS
-//////////////////// ///////////////////////*/	
+//////////////////// ///////////////////////*/
 	.project-hover p {
 		font-size: 12px;
 		letter-spacing: 3px;
 		line-height: 2.5em;
 		padding-left: .2em;
 	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+		#italiaCopy {
+			margin-top: 10%;
+		}
+
+		#italiaList {
+			position: relative;
+			margin-top: 5%;
+		}
+
+		#italiaList h3 {
+			margin-bottom: 1em;
+		}
+
+		#italiaList li {
+			font-size: 20px;
+			letter-spacing: 0.4px;
+			line-height: 1.6em;
+		}
+
+		.italia-header {
+			cursor: default;
+			line-height: 1.8em;
+		}
+
+		.italia-copy {
+			font-size: 22px;
+			letter-spacing: 0.4px;
+			line-height: 36px;
+		}
+
+		.italia-copy a {
+			font-size: 22px;
+			letter-spacing: 0.4px;
+			line-height: 36px;
+		}
 }
 
-@media all and (max-width: 1680px) {	
+@media all and (max-width: 1680px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1680px;
@@ -360,10 +451,53 @@
 
 	.waves02 a svg {
 		height: 8em;
-	}			
+	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+		.grid-8 {
+				grid-template-columns: 2fr 8fr 2fr;
+		}
+
+		#italiaCopy {
+			margin-top: 10%;
+		}
+
+		#italiaList {
+			position: relative;
+			margin-top: 5%;
+		}
+
+		#italiaList h3 {
+			margin-bottom: 1em;
+		}
+
+		#italiaList li {
+			font-size: 18px;
+			letter-spacing: 0.4px;
+			line-height: 1.7em;
+		}
+
+		.italia-header {
+			cursor: default;
+			line-height: 1.8em;
+		}
+
+		.italia-copy {
+			font-size: 20px;
+			letter-spacing: 0.4px;
+			line-height: 33px;
+		}
+
+		.italia-copy a {
+			font-size: 20px;
+			letter-spacing: 0.4px;
+			line-height: 33px;
+		}
 }
 
-@media all and (max-width: 1440px) {	
+@media all and (max-width: 1440px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1440px;
@@ -402,7 +536,7 @@
 		line-height: 1em;
 	}
 
-	.grid-4 {		
+	.grid-4 {
 		grid-template-columns: 2fr 8fr 2fr;
 	}
 
@@ -412,7 +546,7 @@
 
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/	
+//////////////////// ///////////////////////*/
 	.back-button {
 		top: 1.5em;
 		left: 1.5em;
@@ -423,7 +557,7 @@
 		letter-spacing: -.2px;
 	}
 
-	.project-title h3 {	
+	.project-title h3 {
 		line-height: 4em;
 	}
 
@@ -432,7 +566,7 @@
 	}
 
 	.project-landing {
-		position: relative;	
+		position: relative;
 		margin-top: 15%;
 		transform: translate(0, -12%);
 
@@ -451,8 +585,8 @@
 		letter-spacing: 2.2px;
 		line-height: 1.7em;
 		left: 50%;
-		bottom: 2em; 
-		transform: translate(-50%, 0);	
+		bottom: 2em;
+		transform: translate(-50%, 0);
 	}
 
 /*//////////////////// ///////////////////////
@@ -493,9 +627,9 @@
 		margin-bottom: 1.2em;
 	}
 
-	.carousel-container {		
-		margin-bottom: 7em;		
-	} 
+	.carousel-container {
+		margin-bottom: 7em;
+	}
 
 	.ui-cards {
 		width: 75%;
@@ -503,7 +637,7 @@
 
 	.carousel__control {
 		width: 1em;
-		height: 1em;		
+		height: 1em;
 		top: 50%;
 		margin-top: -50px;
 		border-width: 4px 4px 0 0;
@@ -536,7 +670,7 @@
 
 	.more-links p strong {
 		letter-spacing: .3px;
-	}	
+	}
 
 /*//////////////////// ///////////////////////
 	WAVE
@@ -554,12 +688,12 @@
 		width: 110%;
 		top: 0;
 		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);	
-	}	
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
+	}
 
 /*//////////////////// ///////////////////////
 	MORE PROJECTS
-//////////////////// ///////////////////////*/	
+//////////////////// ///////////////////////*/
 	.project-hover {
 		margin-bottom: 1.5em;
 	}
@@ -570,9 +704,52 @@
 		line-height: 2em;
 		padding-left: .2em;
 	}
+
+/*//////////////////// ///////////////////////
+		italiaContent
+//////////////////// ///////////////////////*/
+	#italiaCopy {
+		position: relative;
+		margin-top: 10%;
+	}
+
+	#italiaList {
+		position: relative;
+		margin-top: 5%;
+	}
+
+	#italiaList h3 {
+		margin-bottom: 1em;
+	}
+
+	#italiaList li {
+		line-height: 1.5em;
+	}
+
+	.italia-header {
+		cursor: default;
+		line-height: 1.5em;
+	}
+
+	.italia-copy {
+		font-size: 18px;
+		letter-spacing: 0.3px;
+		line-height: 30px;
+	}
+
+	.italia-copy a {
+		font-size: 18px;
+		letter-spacing: 0.3px;
+		line-height: 30px;
+		text-decoration: underline;
+	}
+
+	.italia-copy a:hover {
+		color: #FFB700;
+	}
 }
 
-@media all and (max-width: 1366px) {	
+@media all and (max-width: 1366px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1366px;
@@ -584,7 +761,7 @@
 	}
 }
 
-@media all and (max-width: 1312px) { 
+@media all and (max-width: 1312px) {
 	h5 a {
 		font-size: 70px;
 	}
@@ -601,14 +778,14 @@
 	}
 
 	h4 {
-		font-size: 3.2em; 
+		font-size: 3.2em;
 	}
 
 	h5 a {
 		font-size: 65px;
 	}
 
-	.grid-4 {		
+	.grid-4 {
 		grid-template-columns: 2.5fr 7fr 2.5fr;
 	}
 
@@ -626,18 +803,51 @@
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
-	
-
 	.copy p, .copy a {
 		font-size: 24px;
 	}
+
+/*//////////////////// ///////////////////////
+		italiaContent
+//////////////////// ///////////////////////*/
+		.grid-8 {
+			grid-template-columns: 2.5fr 7fr 2.5fr;
+		}
+
+		#italiaList li {
+			font-size: 14px;
+			line-height: 1.7em;
+		}
+
+		.italia-header {
+			cursor: default;
+			line-height: 1.5em;
+		}
+
+		.italia-copy {
+			font-size: 16px;
+			letter-spacing: 0.3px;
+			line-height: 26px;
+		}
+
+		.italia-copy a {
+			font-size: 16px;
+			letter-spacing: 0.3px;
+			line-height: 26px;
+			text-decoration: underline;
+		}
+
+		.italia-copy a:hover {
+			color: #FFB700;
+		}
+
 }
 
 @media all and (max-width: 1024px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1024px;
-	}	
+	}
 
 	h2 {
 		font-size: 110px;
@@ -694,6 +904,41 @@
 	.waves02 a svg {
 		height: 7em;
 	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+			.grid-8 {
+				grid-template-columns: 2fr 8fr 2fr;
+			}
+
+			#italiaList li {
+				font-size: 13px;
+				letter-spacing: 0.1px;
+				line-height: 1.7em;
+			}
+
+			.italia-header {
+				cursor: default;
+				line-height: 1.5em;
+			}
+
+			.italia-copy {
+				font-size: 16px;
+				letter-spacing: 0.3px;
+				line-height: 26px;
+			}
+
+			.italia-copy a {
+				font-size: 16px;
+				letter-spacing: 0.3px;
+				line-height: 26px;
+				text-decoration: underline;
+			}
+
+			.italia-copy a:hover {
+				color: #FFB700;
+			}
 }
 
 @media all and (max-width: 960px) {
@@ -705,6 +950,11 @@
 	h5 a {
 		font-size: 50px;
 		letter-spacing: -.3px;
+	}
+
+	.italia-header {
+		font-size: 40px;
+		letter-spacing: -.7px;
 	}
 
 	.carousel__control--forward {
@@ -779,11 +1029,50 @@
 
 	.more-links h5 {
 		margin-bottom: 2em;
-	}	
-	
+	}
+
 	.more-links p {
 		font-size: 12px;
 	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+			.grid-8 {
+				grid-template-columns: 1.25fr 9.5fr 1.25fr;
+			}
+
+			#italiaCopy {
+				margin-top: 15%;
+			}
+
+			#italiaList li {
+				font-size: 13px;
+				letter-spacing: 0.1px;
+				line-height: 1.7em;
+			}
+
+			.italia-header {
+				cursor: default;
+				line-height: 1.5em;
+			}
+
+			.italia-copy {
+				font-size: 14px;
+				letter-spacing: 0.3px;
+				line-height: 26px;
+			}
+
+			.italia-copy a {
+				font-size: 14px;
+				letter-spacing: 0.3px;
+				line-height: 26px;
+				text-decoration: underline;
+			}
+
+			.italia-copy a:hover {
+				color: #FFB700;
+			}
 }
 
 @media all and (max-width: 768px) {
@@ -948,7 +1237,7 @@
 		max-width: 414px;
 	}
 
-	h6 { 
+	h6 {
 		font-size: 35px;
 		letter-spacing: -.7px;
 	}
@@ -981,6 +1270,54 @@
 	.carousel__indicators {
 		bottom: 5em;
 	}
+
+	/*//////////////////// ///////////////////////
+			italiaContent
+	//////////////////// ///////////////////////*/
+			.grid-8 {
+				grid-template-columns: .5fr 11fr .5fr;
+			}
+
+			.grid-9 {
+				grid-template-columns: 1fr;
+			}
+
+			#italiaCopy {
+				margin-top: 20%;
+			}
+
+			#italiaList {
+				margin-top: 10%;
+			}
+
+			#italiaList li {
+				font-size: 16px;
+				letter-spacing: 0.3px;
+				line-height: 1.7em;
+			}
+
+			.italia-list {
+				margin-bottom: 1.5em;
+			}
+
+			.italia-header {
+				font-size: 28px;
+				letter-spacing: -.3px;
+				line-height: 2em;
+			}
+
+			.italia-copy {
+				font-size: 16px;
+				letter-spacing: 0.3px;
+				line-height: 30px;
+			}
+
+			.italia-copy a {
+				font-size: 16px;
+				letter-spacing: 0.3px;
+				line-height: 30px;
+				text-decoration: underline;
+			}
 }
 
 @media all and (max-width: 375px) {
@@ -997,7 +1334,7 @@
 
 	.grid-5 {
 		grid-template-columns: 1.5fr 9fr 1.5fr;
-	} 
+	}
 
 	.grid-4, .grid-5 {
 		grid-template-columns: .5fr 11fr .5fr;
@@ -1025,5 +1362,11 @@
 		max-width: 320px;
 	}
 
-	
+	.italia-header {
+		font-size: 24px;
+	}
+
+	.italia-copy {
+		line-height: 27px;
+	}
 }

@@ -9,11 +9,11 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 
 ::-webkit-scrollbar-track {
-	background: #f1f1f1; 
+	background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #16161A; 
+	background: #16161A;
 	opacity: 1;
 }
 
@@ -54,23 +54,27 @@ body {
   	-ms-transition: .4s ease;
   	-o-transition: .4s ease;
   	transition: .4s ease;
-  }	
-
-  h1 {
-  	font-family: 'HaasGrotDispR-95Black';  
   }
 
-  h2, h4, h5 a, h6 {
+  h1 {
+  	font-family: 'HaasGrotDispR-95Black';
+  }
+
+  h2, h4, h5 a, h6, .italia-copy a {
   	font-family: 'HaasGrotDispR-65Medium';
   }
 
-  h3, a, p {
+  h3, a, p, li {
   	font-family: 'HaasGrotDispR-55Roman';
   }
+
   a, h6 {
   	cursor: url(../img/pointer.png) 7 7, pointer;
   }
 
+	li {
+		list-style: none;
+	}
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - LANDING
@@ -124,31 +128,31 @@ body {
   PROJECT PAGE - HEADER COLOR
 //////////////////// ///////////////////////*/
   .italia, #projectItalia, #projectItalia h2, #projectItalia h3,
-  #projectItalia .project-description, #portatlItalia, 
+  #projectItalia .project-description, #portatlItalia,
   #italiaLinks a:hover, #italiaHover h6:hover {
     color: #F1F0E4;
   }
 
   .room, #projectRoom, #projectRoom h2, #projectRoom h3,
-  #projectRoom .project-description, #portalRoom, 
+  #projectRoom .project-description, #portalRoom,
   #roomLinks a:hover, #roomHover h6:hover {
     color: #02A686;
   }
 
   .npr, #projectNPR, #projectNPR h2, #projectNPR h3,
-  #projectNPR .project-description, #portalNPR, 
+  #projectNPR .project-description, #portalNPR,
   #nprLinks a:hover, #nprHover h6:hover {
     color: #3D68B1;
   }
 
-  .layers, #projectLAYERS, #projectLAYERS h2, #projectLAYERS h3, 
-  #projectLAYERS .project-description, #portalLAYERS, 
+  .layers, #projectLAYERS, #projectLAYERS h2, #projectLAYERS h3,
+  #projectLAYERS .project-description, #portalLAYERS,
   #layersLinks a:hover, #layersHover h6:hover {
     color: #C41E20;
   }
 
-  .changethegame, #projectGame, #projectGame h2, #projectGame h3, 
-  #projectGame .project-description, #portalGame, 
+  .changethegame, #projectGame, #projectGame h2, #projectGame h3,
+  #projectGame .project-description, #portalGame,
   #gameLinks a:hover, #gameHover h6:hover {
     color: #ED1941;
   }
@@ -165,7 +169,7 @@ body {
 	}
 
 	.back-button a {
-		font-family: 'HaasGrotTextR-76BoldItalic';	
+		font-family: 'HaasGrotTextR-76BoldItalic';
 	}
 
 	.back-button a:hover {
@@ -174,7 +178,7 @@ body {
 	}
 
 	.project-landing {
-		position: relative;  	
+		position: relative;
 
 		animation: fadeIn 2s;
 		animation: fadeInDown 2s;
@@ -196,14 +200,14 @@ body {
   PROJECT PAGE - VIDEO
 //////////////////// ///////////////////////*/
   .vimeo-container {
-  	position: relative;  	
+  	position: relative;
   	overflow: hidden;
   }
 
   .vimeo-container iframe,
   .vimeo-container object,
   .vimeo-container embed {
-  	position: absolute;  	
+  	position: absolute;
   }
 
 
@@ -211,7 +215,7 @@ body {
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
   .project-image {
-  	position: relative;  	
+  	position: relative;
   }
 
   .copy h3 {
@@ -237,7 +241,7 @@ body {
 
   .carousel-container {
   	display: block;
-  } 
+  }
 
   .carousel__indicators {
   	position: absolute;
