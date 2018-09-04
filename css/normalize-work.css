@@ -708,6 +708,10 @@
 /*//////////////////// ///////////////////////
 		italiaContent
 //////////////////// ///////////////////////*/
+	.grid-8 {
+		grid-template-columns: 2.5fr 7fr 2.5fr;
+	}
+
 	#italiaCopy {
 		position: relative;
 		margin-top: 10%;
@@ -723,7 +727,7 @@
 	}
 
 	#italiaList li {
-		font: 14px;
+		font-size: 14px;
 		line-height: 1.5em;
 	}
 
