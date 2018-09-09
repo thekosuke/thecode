@@ -1,11 +1,13 @@
 /**************************************************
     SCROLL TO TOP AFTER REFRESH
 **************************************************/
-
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
 
+$(window).load(function() {
+  $('#loader').fadeOut();
+});
 
 /**************************************************
     DISABLE CONTEXT MENU ON LONG TAPS ON MOBILE
@@ -44,8 +46,8 @@ $(document).ready(function() {
 	});
 
 	$('.back-to-top').click(function() {
-	    $('html, body').animate( { 
-	    	scrollTop : 0 
+	    $('html, body').animate( {
+	    	scrollTop : 0
 	    }, 500);
 	    return false;
 	});
@@ -77,7 +79,7 @@ $(document).ready(function() {
 
 	$(".waves a").mouseleave(function() {
 	    $(".waves a svg").css("filter", "blur(0px)");
-	    $(".portal").css("opacity", "0");	  
+	    $(".portal").css("opacity", "0");
 	});
 
 	$(".waves02 a").mouseenter(function() {
@@ -87,7 +89,7 @@ $(document).ready(function() {
 
 	$(".waves02 a").mouseleave(function() {
 	    $(".waves02 a svg").css("filter", "blur(0px)");
-	    $(".portal02").css("opacity", "0");  
+	    $(".portal02").css("opacity", "0");
 	});
 
 	$('.waves a').bind('touchstart', function(e){
@@ -95,7 +97,7 @@ $(document).ready(function() {
 	    $(".portal").css("opacity", "1");
     }).bind('touchend', function(e){
        $(".waves a svg").css("filter", "blur(0px)");
-	    $(".portal").css("opacity", "0");	
+	    $(".portal").css("opacity", "0");
     });
 
     $('.waves02 a').bind('touchstart', function(e){
@@ -103,7 +105,7 @@ $(document).ready(function() {
 	    $(".portal").css("opacity", "1");
     }).bind('touchend', function(e){
        $(".waves02 a svg").css("filter", "blur(0px)");
-	    $(".portal").css("opacity", "0");	
+	    $(".portal").css("opacity", "0");
     });
 });
 
@@ -125,36 +127,36 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$(".project-box").mouseenter(function() {
 	    $(".project-box").not(this).css("opacity", ".1");
-	    $(".color-frame").not(this).css("opacity", "0");	
+	    $(".color-frame").not(this).css("opacity", "0");
 	    $(".bottom-link").css("opacity", "0");
-	    $(".waves02").css("opacity", "0");  
+	    $(".waves02").css("opacity", "0");
 	});
 
 	$(".project-box").mouseleave(function() {
 	    $(".project-box").css("opacity", "1");
 	    $(".color-frame").not(this).css("opacity", "1");
 	    $(".bottom-link").css("opacity", "1");
-	    $(".waves02").css("opacity", "1");  
+	    $(".waves02").css("opacity", "1");
 	});
 
 	$(".project-box").mouseup(function() {
 	    $(".project-box").css("opacity", "1");
 	    $(".color-frame").not(this).css("opacity", "1");
 	    $(".bottom-link").css("opacity", "1");
-	    $(".waves02").css("opacity", "1");  
+	    $(".waves02").css("opacity", "1");
 	});
 
 	$('.project-box').bind('touchstart', function(e){
         $(".project-box").not(this).css("opacity", ".1");
-	    $(".color-frame").not(this).css("opacity", "0");	
+	    $(".color-frame").not(this).css("opacity", "0");
 	    $(".bottom-link").css("opacity", "0");
 	    $(".waves02").css("opacity", "0");
     }).bind('touchend', function(e){
         $(".project-box").css("opacity", "1");
 	    $(".color-frame").not(this).css("opacity", "1");
 	    $(".bottom-link").css("opacity", "1");
-	    $(".waves02").css("opacity", "1");  
-    });	
+	    $(".waves02").css("opacity", "1");
+    });
 });
 
 /*//////////////////// ///////////////////////
@@ -162,182 +164,182 @@ $(document).ready(function() {
 //////////////////// ///////////////////////*/
 $(document).ready(function() {
 	$("#project-italia").mouseenter(function() {
-	    $("body").css("background-color", "#F1F0E4"); 
-	    $("#p01-copy").css("opacity", "1");  
-	    $("#italiaHover p").css("opacity", "1");	    
+	    $("body").css("background-color", "#F1F0E4");
+	    $("#p01-copy").css("opacity", "1");
+	    $("#italiaHover p").css("opacity", "1");
 	    $("#italiaHover h2").addClass("active");
 	    $("#italiaHover .preview-image").addClass("active");
-	});	
+	});
 	$("#project-room").mouseenter(function() {
-	    $("body").css("background-color", "#02A686"); 
+	    $("body").css("background-color", "#02A686");
 	    $("#p02-copy").css("opacity", "1");
 	    $("#roomHover p").css("opacity", "1");
 	    $("#roomHover h2").addClass("active");
 	    $("#roomHover .preview-image").addClass("active");
-	});	
+	});
 	$("#project-npr").mouseenter(function() {
-	    $("body").css("background-color", "#3D68B1"); 
+	    $("body").css("background-color", "#3D68B1");
 	    $("#p03-copy").css("opacity", "1");
 	    $("#nprHover p").css("opacity", "1");
 	    $("#nprHover h2").addClass("active");
 	    $("#nprHover .preview-image").addClass("active");
-	});	
+	});
 	$("#project-layers").mouseenter(function() {
-	    $("body").css("background-color", "#C41E20"); 
+	    $("body").css("background-color", "#C41E20");
 	    $("#p04-copy").css("opacity", "1");
-	    $("#layersHover p").css("opacity", "1");	    
+	    $("#layersHover p").css("opacity", "1");
 	    $("#layersHover h2").addClass("active");
 	    $("#layersHover .preview-image").addClass("active");
-	});	
+	});
 	$("#project-game").mouseenter(function() {
-	    $("body").css("background-color", "#ED1942"); 
+	    $("body").css("background-color", "#ED1942");
 	    $("#p05-copy").css("opacity", "1");
 	    $("#gameHover p").css("opacity", "1");
 	    $("#gameHover h2").addClass("active");
 	    $("#gameHover .preview-image").addClass("active");
-	});	
+	});
 
 
 
 	$("#project-italia").mouseleave(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p01-copy").css("opacity", "0");
 	    $("#italiaHover p").css("opacity", "0");
 	    $("#italiaHover h2").removeClass("active");
 	    $("#italiaHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-room").mouseleave(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p02-copy").css("opacity", "0");
 	    $("#roomHover p").css("opacity", "0");
 	    $("#roomHover h2").removeClass("active");
 	    $("#roomHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-npr").mouseleave(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p03-copy").css("opacity", "0");
 	    $("#nprHover p").css("opacity", "0");
 	    $("#nprHover h2").removeClass("active");
 	    $("#nprHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-layers").mouseleave(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p04-copy").css("opacity", "0");
 	    $("#layersHover p").css("opacity", "0");
 	    $("#layersHover h2").removeClass("active");
 	    $("#layersHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-game").mouseleave(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p05-copy").css("opacity", "0");
 	    $("#gameHover p").css("opacity", "0");
 	    $("#gameHover h2").removeClass("active");
 	    $("#gameHover .preview-image").removeClass("active");
-	});	
+	});
 
 
 
 	$("#project-italia").mouseup(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p01-copy").css("opacity", "0");
 	    $("#italiaHover p").css("opacity", "0");
 	    $("#italiaHover h2").removeClass("active");
 	    $("#italiaHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-room").mouseup(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p02-copy").css("opacity", "0");
 	    $("#roomHover p").css("opacity", "0");
 	    $("#roomHover h2").removeClass("active");
 	    $("#roomHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-npr").mouseup(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p03-copy").css("opacity", "0");
 	    $("#nprHover p").css("opacity", "0");
 	    $("#nprHover h2").removeClass("active");
 	    $("#nprHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-layers").mouseup(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p04-copy").css("opacity", "0");
 	    $("#layersHover p").css("opacity", "0");
 	    $("#layersHover h2").removeClass("active");
 	    $("#layersHover .preview-image").removeClass("active");
-	});	
+	});
 	$("#project-game").mouseup(function() {
-	    $("body").css("background-color", "#16161A"); 
+	    $("body").css("background-color", "#16161A");
 	    $("#p05-copy").css("opacity", "0");
 	    $("#gameHover p").css("opacity", "0");
 	    $("#gameHover h2").removeClass("active");
 	    $("#gameHover .preview-image").removeClass("active");
-	});	
+	});
 
 
 
 	$("#project-italia").bind('touchstart', function(e){
-	    $("body").css("background-color", "#F1F0E4"); 
-	    $("#p01-copy").css("opacity", "1");  
-	    $("#italiaHover p").css("opacity", "1");	    
+	    $("body").css("background-color", "#F1F0E4");
+	    $("#p01-copy").css("opacity", "1");
+	    $("#italiaHover p").css("opacity", "1");
 	    $("#italiaHover h2").addClass("active");
 	    $("#italiaHover .preview-image").addClass("active");
 	}).bind('touchend', function(e){
-        $("body").css("background-color", "#16161A"); 
+        $("body").css("background-color", "#16161A");
 	    $("#p01-copy").css("opacity", "0");
 	    $("#italiaHover p").css("opacity", "0");
 	    $("#italiaHover h2").removeClass("active");
 	    $("#italiaHover .preview-image").removeClass("active");
-    });	
+    });
 	$("#project-room").bind('touchstart', function(e){
-	    $("body").css("background-color", "#02A686"); 
+	    $("body").css("background-color", "#02A686");
 	    $("#p02-copy").css("opacity", "1");
 	    $("#roomHover p").css("opacity", "1");
 	    $("#roomHover h2").addClass("active");
 	    $("#roomHover .preview-image").addClass("active");
 	}).bind('touchend', function(e){
-        $("body").css("background-color", "#16161A"); 
+        $("body").css("background-color", "#16161A");
 	    $("#p02-copy").css("opacity", "0");
 	    $("#roomHover p").css("opacity", "0");
 	    $("#roomHover h2").removeClass("active");
 	    $("#roomHover .preview-image").removeClass("active");
-    });	
+    });
 	$("#project-npr").bind('touchstart', function(e){
-	    $("body").css("background-color", "#3D68B1"); 
+	    $("body").css("background-color", "#3D68B1");
 	    $("#p03-copy").css("opacity", "1");
 	    $("#nprHover p").css("opacity", "1");
 	    $("#nprHover h2").addClass("active");
 	    $("#nprHover .preview-image").addClass("active");
 	}).bind('touchend', function(e){
-        $("body").css("background-color", "#16161A"); 
+        $("body").css("background-color", "#16161A");
 	    $("#p03-copy").css("opacity", "0");
 	    $("#nprHover p").css("opacity", "0");
 	    $("#nprHover h2").removeClass("active");
 	    $("#nprHover .preview-image").removeClass("active");
-    });		
+    });
 	$("#project-layers").bind('touchstart', function(e){
-	    $("body").css("background-color", "#C41E20"); 
+	    $("body").css("background-color", "#C41E20");
 	    $("#p04-copy").css("opacity", "1");
-	    $("#layersHover p").css("opacity", "1");	    
+	    $("#layersHover p").css("opacity", "1");
 	    $("#layersHover h2").addClass("active");
 	    $("#layersHover .preview-image").addClass("active");
 	}).bind('touchend', function(e){
-        $("body").css("background-color", "#16161A"); 
+        $("body").css("background-color", "#16161A");
 	    $("#p04-copy").css("opacity", "0");
 	    $("#layersHover p").css("opacity", "0");
 	    $("#layersHover h2").removeClass("active");
 	    $("#layersHover .preview-image").removeClass("active");
-    });	
+    });
 	$("#project-game").bind('touchstart', function(e){
-	    $("body").css("background-color", "#ED1942"); 
+	    $("body").css("background-color", "#ED1942");
 	    $("#p05-copy").css("opacity", "1");
 	    $("#gameHover p").css("opacity", "1");
 	    $("#gameHover h2").addClass("active");
 	    $("#gameHover .preview-image").addClass("active");
 	}).bind('touchend', function(e){
-        $("body").css("background-color", "#16161A"); 
+        $("body").css("background-color", "#16161A");
 	    $("#p05-copy").css("opacity", "0");
 	    $("#gameHover p").css("opacity", "0");
 	    $("#gameHover h2").removeClass("active");
 	    $("#gameHover .preview-image").removeClass("active");
-    });	
+    });
 });
