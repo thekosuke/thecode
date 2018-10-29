@@ -151,7 +151,7 @@
 		margin-bottom: .5em;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, , .copy li {
 		font-size: 36px;
 		letter-spacing: .7px;
 		line-height: 1.5em;
@@ -318,7 +318,7 @@
 		line-height: 1.5em;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 30px;
 		letter-spacing: 0px;
 		line-height: 1.5em;
@@ -436,7 +436,7 @@
 		letter-spacing: -0.1px;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 26px;
 		letter-spacing: 0.5px;
 		line-height: 1.5em;
@@ -620,7 +620,7 @@
 		margin-bottom: .5em;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 25px;
 		letter-spacing: .7px;
 		line-height: 1.5em;
@@ -808,7 +808,7 @@
 /*//////////////////// ///////////////////////
 	PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 24px;
 	}
 
@@ -890,7 +890,7 @@
 		margin-top: 30%;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 1.2em;
 	}
 
@@ -1027,7 +1027,7 @@
 		letter-spacing: -.3px;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		letter-spacing: .3px;
 		line-height: 1.4em;
 	}
@@ -1214,7 +1214,7 @@
 		margin-top: 75%;
 	}
 
-	.copy p, .copy a {
+	.copy p, .copy a, .copy li {
 		font-size: 1em;
 	}
 
