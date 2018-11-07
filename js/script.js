@@ -6,7 +6,7 @@ window.onbeforeunload = function () {
 }
 
 $(window).load(function() {
-  $('#loader').fadeOut();
+  $('#loader').fadeOut("slow");
 });
 
 /**************************************************
