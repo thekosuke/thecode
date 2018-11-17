@@ -29,11 +29,9 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 	background: #FFB700; /* Gecko Browsers */
 }
 
-
 body {
 	background-color: #F5F5F7;
 	overflow-x: hidden;
-	/*position: relative;*/
 
 	-webkit-transition: .7s ease;
 	-moz-transition: .7s ease;
@@ -42,44 +40,48 @@ body {
 	transition: .7s ease;
 }
 
+div {
+	animation: fadeIn 2s;
+
+	-webkit-transition: .4s ease;
+	-moz-transition: .4s ease;
+	-ms-transition: .4s ease;
+	-o-transition: .4s ease;
+	transition: .4s ease;
+}
+
 /*//////////////////// ///////////////////////
   TYPE SETTING
 //////////////////// ///////////////////////*/
-  h1, h4, a, p, h6, .copy a {
+  h1, h2, h3, p, a {
   	color: #16161A;
-  	text-decoration: none;
-
-  	-webkit-transition: .4s ease;
-  	-moz-transition: .4s ease;
-  	-ms-transition: .4s ease;
-  	-o-transition: .4s ease;
-  	transition: .4s ease;
   }
 
-  h1 {
-  	font-family: 'HaasGrotDispR-95Black';
-  }
-
-  h2, h4, h5 a, h6, .italia-copy a {
+  h1, h3 {
   	font-family: 'HaasGrotDispR-65Medium';
   }
 
-  h3, a, p, li {
+  h2 , .more-work p{
   	font-family: 'HaasGrotDispR-55Roman';
   }
 
-  a, h6 {
-  	cursor: url(../img/pointer.png) 7 7, pointer;
-  }
-
-	li {
-		list-style: none;
+	p, a {
+		font-family: 'HaasGrotDispR-45Light';
 	}
 
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
+  a {
+  	cursor: url(../img/pointer.png) 7 7, pointer;
 
+		-webkit-transition: .4s ease;
+		-moz-transition: .4s ease;
+		-ms-transition: .4s ease;
+		-o-transition: .4s ease;
+		transition: .4s ease;
+  }
+
+/*//////////////////// ///////////////////////
+  FADE IN
+//////////////////// ///////////////////////*/
   @-webkit-keyframes fadeIn {
   	0% {
   		opacity: 0;
@@ -97,79 +99,43 @@ body {
   	}
   }
 
-  @-webkit-keyframes fadeInDown {
+	@-webkit-keyframes fadeInAnchor {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: .3;
+		}
+	}
+	@-moz-keyframes fadeInAnchor {
   	0% {
   		opacity: 0;
-  		-webkit-transform: translate(0, -7%);
-  		transform: translate(0, -7%);
   	}
   	100% {
-  		opacity: 1;
-  		-webkit-transform: translate(0, -12%);
-  		transform: translate(0, -12%);
+  		opacity: .3;
   	}
   }
-
-  @-moz-keyframes fadeInDown {
-  	0% {
-  		opacity: 0;
-  		-webkit-transform: translate(0, -7%);
-  		transform: translate(0, -7%);
-  	}
-  	100% {
-  		opacity: 1;
-  		-webkit-transform: translate(0, -12%);
-  		transform: translate(0, -12%);
-  	}
-  }
-
 
 /*//////////////////// ///////////////////////
-  PROJECT PAGE - HEADER COLOR
+  NAVIGATION BAR
 //////////////////// ///////////////////////*/
-  .italia, #projectItalia, #projectItalia h2, #projectItalia h3,
-  #projectItalia .project-description, #portatlItalia,
-  #italiaLinks a:hover, #italiaHover h6:hover {
-    color: #F1F0E4;
-  }
-
-  .room, #projectRoom, #projectRoom h2, #projectRoom h3,
-  #projectRoom .project-description, #portalRoom,
-  #roomLinks a:hover, #roomHover h6:hover {
-    color: #02A686;
-  }
-
-  .npr, #projectNPR, #projectNPR h2, #projectNPR h3,
-  #projectNPR .project-description, #portalNPR,
-  #nprLinks a:hover, #nprHover h6:hover {
-    color: #3D68B1;
-  }
-
-  .layers, #projectLAYERS, #projectLAYERS h2, #projectLAYERS h3,
-  #projectLAYERS .project-description, #portalLAYERS,
-  #layersLinks a:hover, #layersHover h6:hover {
-    color: #C41E20;
-  }
-
-  .changethegame, #projectGame, #projectGame h2, #projectGame h3,
-  #projectGame .project-description, #portalGame,
-  #gameLinks a:hover, #gameHover h6:hover {
-    color: #ED1941;
-  }
-
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
-	.back-button {
+	#navBar {
 		position: fixed;
-		z-index: 999;
+		max-width: 100%;
+		height: 3em;
+		top: 0;
+		background-color: #F5F5F7;
+		z-index: 2147483647;
+	}
 
-		animation: fadeIn 2s;
+	.nav-button a {
+		text-transform: uppercase;
+		text-decoration: none;
 	}
 
 	.back-button a {
 		font-family: 'HaasGrotTextR-76BoldItalic';
+		text-decoration: none;
 	}
 
 	.back-button a:hover {
@@ -177,53 +143,37 @@ body {
 		opacity: 1;
 	}
 
-	.project-landing {
-		position: relative;
-
-		animation: fadeIn 2s;
-		animation: fadeInDown 2s;
+	.nav-phase {
+		opacity: .3;
+		animation: fadeInAnchor 1s;
 	}
 
-	.project-title {
-		text-align: center;
+	.active, .anchor:hover {
+		opacity: 1;
 	}
-
-	.portal {
-		position: absolute;
-		cursor: url(../img/pointer.png) 7 7, pointer;
-		opacity: 0;
-		z-index: 101;
-	}
-
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - VIDEO
-//////////////////// ///////////////////////*/
-  .vimeo-container {
-  	position: relative;
-  	overflow: hidden;
-  }
-
-  .vimeo-container iframe,
-  .vimeo-container object,
-  .vimeo-container embed {
-  	position: absolute;
-  }
-
 
 /*//////////////////// ///////////////////////
   PROJECT PAGE - CONTENT
 //////////////////// ///////////////////////*/
-  .project-image {
+	.banner-color {
+		width: 100%;
+		height: 100%;
+	}
+
+	.phase-number p, .phase-name p  {
+		font-family: 'HaasGrotDispR-65Medium';
+	}
+
+	.details-list a {
+		text-decoration: underline;
+	}
+
+	.details-list a:hover {
+		color: #FFB700;
+	}
+
+	.project-image {
   	position: relative;
-  }
-
-  .copy h3 {
-  	font-family: 'HaasGrotDispR-65Medium';
-  }
-
-  .copy p, .copy a, .copy li {
-  	font-family: 'HaasGrotDispR-45Light';
   }
 
   .copy a {
@@ -231,12 +181,7 @@ body {
   }
 
   .copy a:hover {
-    color: #02A686;
-  }
-
-  .prompt, .prompt a {
-    /*font-family: 'HaasGrotDispR-46LightItalic';*/
-    font-style: italic;
+    color: #FFB700;
   }
 
   .carousel-container {
@@ -252,4 +197,80 @@ body {
   	box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.2);
   	display: block;
   	margin: auto;
+  }
+
+/*//////////////////// ///////////////////////
+  PROJECT BOXES
+//////////////////// ///////////////////////*/
+  .project-container {
+    position: relative;
+		letter-spacing: 0;
+  }
+
+	.project-container a {
+		font-size: 0;
+		letter-spacing: 0;
+  }
+
+  .project-box {
+    display: inline-block;
+    cursor: url(../img/pointer.png) 7 7, pointer;
+
+    transition: -ms-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
+    -webkit-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
+    transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
+    box-shadow .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+    -webkit-transition: -webkit-transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
+    transform .3s cubic-bezier(0.455, 0.030, 0.515, 0.955),
+    box-shadow .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -ms-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+  }
+
+  .project-box:hover {
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.2);
+
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+
+    transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+  }
+
+  #project-italia {
+    background: #0D0D0E;
+  }
+
+  #project-room, #roomerBox {
+    background: #02A686;
+  }
+
+  #project-npr, #nprplusBox {
+    background: #3D68B1;
+  }
+
+  #project-layers, #layersBox {
+    background: #C41E20;
+  }
+
+	.name-italia {
+    color: #0D0D0E;
+  }
+
+  .name-room {
+    color: #02A686;
+  }
+
+  .name-npr {
+    color: #3D68B1;
+  }
+
+  .name-layers {
+    color: #C41E20;
   }

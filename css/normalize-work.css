@@ -1,605 +1,163 @@
-@media all and (max-width: 2560px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
-		max-width: 2560px;
-	}
-
-	#notReady {
-		display: none;
-	}
-
-	h1 {
-		font-size: 500px;
-	}
-
-	h2 {
-		font-size: 275px;
-		letter-spacing: -5px;
-		line-height: 1em;
-	}
-
-	h3, a {
-		font-size: 14px;
-		letter-spacing: 4px;
-		line-height: 1em;
-	}
-
-	h4 {
-		font-size: 5em;
-		line-height: .8em;
-	}
-
-	h5 a {
-		font-size: 75px;
-		letter-spacing: -2px;
-		line-height: 1.5em;
-	}
-
-	h6 {
-		font-size: 50px;
-		letter-spacing: -1.2px;
-		line-height: 1em;
-	}
-
-	.grid-4 {
-		grid-template-columns: 2.5fr 7fr 2.5fr;
-	}
-
-	.grid-5 {
-		grid-template-columns: 3.5fr 5fr 3.5fr;
-	}
-
-	.grid-8 {
-			grid-template-columns: 1.5fr 9fr 1.5fr;
-	}
-
-
-/*//////////////////// ///////////////////////
-	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
-	.back-button {
-		top: 1.5em;
-		left: 1.5em;
-	}
-
-	.back-button a {
-		font-size: 24px;
-		letter-spacing: .2px;
-	}
-
-	.project-title h3 {
-		line-height: 4em;
-	}
-
-	#projectGame h2 {
-		margin-bottom: .2em;
-	}
-
-	.project-landing {
-		position: relative;
-		margin-top: 15%;
-		transform: translate(0, -12%);
-
-		animation: fadeIn 2.25s;
-		animation: fadeInDown 2.25s;
-	}
-
-	.project-description {
-		font-size: 36px;
-		letter-spacing: -.1px;
-		line-height: 1.5em;
-	}
-
-	.portal {
-		font-size: 14px;
-		letter-spacing: 4px;
-		line-height: 1.7em;
-		left: 50%;
-		bottom: 4em;
-		transform: translate(-50%, 0);
-	}
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - VIDEO
-//////////////////// ///////////////////////*/
-	.vimeo-container {
-		max-width: 100%;
-		height: 0;
-		margin-top: 25%;
-		padding-bottom: 56.25%;
-	}
-
-	.vimeo-container iframe,
-	.vimeo-container object,
-	.vimeo-container embed {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 90%;
-		height: 90%;
-	}
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - CONTENT
-//////////////////// ///////////////////////*/
-	#roomBrief {
-		margin-top: 25em;
-	}
-
-	.project-image {
-		max-width: 100%;
-		max-height: 100%;
-		margin-bottom: 5em;
-	}
-
-	.project-image img {
-		max-width: 100%;
-		max-height: 100%;
-	}
-
-	.section-container {
-		margin-top: 10em;
-	}
-
-	.copy h3 {
-		line-height: 5em;
-	}
-
-	.copy h4 {
-		letter-spacing: -.2px;
-		margin-bottom: .5em;
-	}
-
-	.copy p, .copy a, , .copy li {
-		font-size: 36px;
-		letter-spacing: .7px;
-		line-height: 1.5em;
-		margin-bottom: 1.2em;
-	}
-
-	.carousel-container {
-		margin-bottom: 7em;
-	}
-
-	.ui-cards {
-		width: 75%;
-	}
-
-	.carousel__control {
-		border-width: 6px 6px 0 0;
-		width: 1.5em;
-		height: 1.5em;
-		margin-top: -50px;
-		top: 50%;
-	}
-
-	.carousel__indicators {
-		width: 100%;
-		bottom: 2em;
-	}
-
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-
-	.prototype-container {
-		margin-bottom: 7em;
-	}
-
-	.more-links {
-		margin-bottom: 9em;
-	}
-
-	.more-links p {
-		font-size: 14px;
-		margin-top: 5em;
-	}
-
-	.more-links p strong {
-		letter-spacing: -.3px;
-	}
-
-/*//////////////////// ///////////////////////
-	WAVE
-//////////////////// ///////////////////////*/
-	.waves a svg {
-		position: absolute;
-		height: 12em;
-		width: 110%;
-		bottom: 0;
-		left: 0;
-		transform: translate(-5%, 0);
-	}
-
-	.waves02 a svg {
-		position: absolute;
-		height: 12em;
-		width: 110%;
-		top: 0;
-		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
-	}
-
-/*//////////////////// ///////////////////////
-	MORE PROJECTS
-//////////////////// ///////////////////////*/
-	.project-hover {
-		margin-bottom: 1.5em;
-	}
-
-	.project-hover p {
-		font-size: 14px;
-		letter-spacing: 4px;
-		line-height: 1.5em;
-		padding-left: .2em;
-	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-		#italiaCopy {
-			position: relative;
-			margin-top: 13%;
-			animation: fadeIn 2.25s;
-		}
-
-		#italiaList {
-			position: relative;
-			margin-top: 5%;
-			animation: fadeIn 2.25s;
-		}
-
-		#italiaList h3 {
-			margin-bottom: 1em;
-		}
-
-		#italiaList li {
-			font-size: 22px;
-			letter-spacing: 0.3px;
-			line-height: 1.7em;
-		}
-
-		.italia-header {
-			cursor: default;
-			line-height: 1.7em;
-		}
-
-		.italia-copy {
-			font-size: 22px;
-			letter-spacing: 0.3px;
-			line-height: 36px;
-		}
-
-		.italia-copy a {
-			font-size: 22px;
-			letter-spacing: 0.3px;
-			line-height: 36px;
-			text-decoration: underline;
-		}
-
-		.italia-copy a:hover {
-			color: #FFB700;
-		}
-}
-
-@media all and (max-width: 1920px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
-		max-width: 1920px;
-	}
-
-	h2 {
-		font-size: 200px;
-		letter-spacing: -3px;
-		line-height: 1em;
-	}
-
-	h4 {
-		font-size: 3.5em;
-	}
-
-	.grid-5 {
-		grid-template-columns: 3.75fr 5.5fr 3.75fr;
-	}
-
-/*//////////////////// ///////////////////////
-	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
-	.project-landing {
-		margin-top: 13%;
-	}
-
-	.project-description {
-		font-size: 30px;
-		letter-spacing: 0px;
-		line-height: 1.5em;
-	}
-
-	.copy p, .copy a, .copy li {
-		font-size: 30px;
-		letter-spacing: 0px;
-		line-height: 1.5em;
-	}
-
-	.portal {
-		bottom: 3em;
-	}
-
-	#roomBrief {
-		margin-top: 13em;
-	}
-
-/*//////////////////// ///////////////////////
-	WAVE
-//////////////////// ///////////////////////*/
-	.waves a svg {
-		height: 9em;
-	}
-
-	.waves02 a svg {
-		height: 9em;
-	}
-
-/*//////////////////// ///////////////////////
-	MORE PROJECTS
-//////////////////// ///////////////////////*/
-	.project-hover p {
-		font-size: 12px;
-		letter-spacing: 3px;
-		line-height: 2.5em;
-		padding-left: .2em;
-	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-		#italiaCopy {
-			margin-top: 10%;
-		}
-
-		#italiaList {
-			position: relative;
-			margin-top: 5%;
-		}
-
-		#italiaList h3 {
-			margin-bottom: 1em;
-		}
-
-		#italiaList li {
-			font-size: 20px;
-			letter-spacing: 0.4px;
-			line-height: 1.6em;
-		}
-
-		.italia-header {
-			cursor: default;
-			line-height: 1.8em;
-		}
-
-		.italia-copy {
-			font-size: 22px;
-			letter-spacing: 0.4px;
-			line-height: 36px;
-		}
-
-		.italia-copy a {
-			font-size: 22px;
-			letter-spacing: 0.4px;
-			line-height: 36px;
-		}
-}
-
-@media all and (max-width: 1680px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
-		max-width: 1680px;
-	}
-
-	h2 {
-		font-size: 200px;
-	}
-
-	h4 {
-		font-size: 3.2em;
-	}
-
-	.grid-5 {
-		grid-template-columns: 3fr 6fr 3fr;
-	}
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - CONTENT
-//////////////////// ///////////////////////*/
-	#roomBrief {
-		margin-top: 15em;
-	}
-
-	.back-button a {
-		letter-spacing: 0;
-	}
-
-	.project-description {
-		font-size: 26px;
-		letter-spacing: -.2px;
-		line-height: 1.5em;
-	}
-
-	.copy h3 {
-		line-height: 4em;
-	}
-
-	.copy h4 {
-		letter-spacing: -0.1px;
-	}
-
-	.copy p, .copy a, .copy li {
-		font-size: 26px;
-		letter-spacing: 0.5px;
-		line-height: 1.5em;
-	}
-
-/*//////////////////// ///////////////////////
-	WAVE
-//////////////////// ///////////////////////*/
-	.waves a svg {
-		height: 8em;
-	}
-
-	.waves02 a svg {
-		height: 8em;
-	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-		.grid-8 {
-				grid-template-columns: 2fr 8fr 2fr;
-		}
-
-		#italiaCopy {
-			margin-top: 10%;
-		}
-
-		#italiaList {
-			position: relative;
-			margin-top: 5%;
-		}
-
-		#italiaList h3 {
-			margin-bottom: 1em;
-		}
-
-		#italiaList li {
-			font-size: 18px;
-			letter-spacing: 0.4px;
-			line-height: 1.7em;
-		}
-
-		.italia-header {
-			cursor: default;
-			line-height: 1.8em;
-		}
-
-		.italia-copy {
-			font-size: 20px;
-			letter-spacing: 0.4px;
-			line-height: 33px;
-		}
-
-		.italia-copy a {
-			font-size: 20px;
-			letter-spacing: 0.4px;
-			line-height: 33px;
-		}
-}
-
 @media all and (max-width: 1440px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 1440px;
 	}
 
 	h1 {
-		font-size: 500px;
-	}
-
-	h2 {
-		font-size: 175px;
-		letter-spacing: -5px;
-		line-height: 1em;
-	}
-
-	h3, a {
-		font-size: 10px;
-		letter-spacing: 2.2px;
-		line-height: 1em;
-	}
-
-	h4 {
-		font-size: 3.5em;
-		line-height: 1em;
-	}
-
-	h5 a {
-		font-size: 75px;
-		letter-spacing: -2px;
-		line-height: 1.5em;
-	}
-
-	h6 {
 		font-size: 50px;
 		letter-spacing: -1.2px;
 		line-height: 1em;
 	}
 
-	.grid-4 {
-		grid-template-columns: 2fr 8fr 2fr;
+	h2 {
+		font-size: 10px;
+		letter-spacing: 2.2px;
+		line-height: 0;
 	}
 
-	.grid-5 {
-		grid-template-columns: 2.5fr 7fr 2.5fr;
+	h3 {
+		font-size: 18px;
+		letter-spacing: -.2px;
+		line-height: 2.5em;
 	}
 
-/*//////////////////// ///////////////////////
-	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
+	/*//////////////////// ///////////////////////
+	BACK BUTTON
+	//////////////////// ///////////////////////*/
+	#navBar div {
+		display: inline-block;
+	}
+
+	#navBar h2 {
+		line-height: 1em;
+	}
+
+	.nav-button {
+		margin: auto;
+	}
+
 	.back-button {
-		top: 1.5em;
-		left: 1.5em;
+		margin: auto;
+		margin-left: 1.5em;
 	}
 
 	.back-button a {
 		font-size: 16px;
 		letter-spacing: -.2px;
+		line-height: 2em;
 	}
 
-	.project-title h3 {
+	.anchor-wrapper {
+		margin-right: 1.5em;
+	}
+
+	.anchor {
+		margin-left: 1.5em;
+	}
+
+	/*//////////////////// ///////////////////////
+	OVERVIEW + DETAILS
+	//////////////////// ///////////////////////*/
+	#overview {
+		margin-top: 5em;
+	}
+
+	.project-name {
+		line-height: 2em;
+	}
+
+	#details-container {
+		margin-top: 4em;
+	}
+
+	.details-wrapper {
+		margin-top: 1em;
+	}
+
+	.details-list h2 {
 		line-height: 4em;
 	}
 
-	#projectGame h2 {
-		margin-bottom: .2em;
+	.details-list p, .details-list a {
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		line-height: 20px;
 	}
 
-	.project-landing {
+	.detail-line-bottom {
+		margin-top: 2.5em;
+	}
+
+	.bannerBox {
+		max-width: 100%;
+		height: 42vh;
+		overflow: hidden;
+	}
+
+	.bannerVideo {
+		width: 100vw;
 		position: relative;
-		margin-top: 15%;
-		transform: translate(0, -12%);
-
-		animation: fadeIn 2.25s;
-		animation: fadeInDown 2.25s;
+		top: -86%;
 	}
 
-	.project-description {
-		font-size: 24px;
+	.productVideo {
+		max-width: 100%;
+	}
+
+	/*//////////////////// ///////////////////////
+	PHASES
+	//////////////////// ///////////////////////*/
+	.phase {
+		margin-top: 5em;
+	}
+
+	.phase-number {
+		position: relative;
+		height: 11.5em;
+		overflow: hidden;
+		text-align: right;
+		margin-right: 2em;
+	}
+
+	.phase-number p {
+		font-size: 230px;
+		letter-spacing: 5px;
+	}
+
+	#phaseOne .chunk {
+		letter-spacing: 15px;
+	}
+
+	.phase-name {
+		margin-top: 5em;
+	}
+
+	.phase-name h2 {
+		line-height: 3em;
+	}
+
+	/*//////////////////// ///////////////////////
+	PROJECT CONTENT
+	//////////////////// ///////////////////////*/
+	.vimeo-container {
+		margin-top: 4em;
+	}
+
+	.copy {
+		font-size: 18px;
 		letter-spacing: .3px;
-		line-height: 1.4em;
+		line-height: 30px;
 	}
 
-	.portal {
-		font-size: 10px;
-		letter-spacing: 2.2px;
-		line-height: 1.7em;
-		left: 50%;
-		bottom: 2em;
-		transform: translate(-50%, 0);
-	}
-
-/*//////////////////// ///////////////////////
-  PROJECT PAGE - CONTENT
-//////////////////// ///////////////////////*/
-	#roomBrief {
-		margin-top: 12em;
+	.paragraph {
+		margin-top: 5em;
 	}
 
 	.project-image {
 		max-width: 100%;
 		max-height: 100%;
-		margin-bottom: 5em;
+		margin-bottom: 2em;
 	}
 
 	.project-image img {
@@ -607,24 +165,8 @@
 		max-height: 100%;
 	}
 
-	.section-container {
-		margin-top: 10em;
-	}
-
-	.copy h3 {
-		line-height: 4em;
-	}
-
-	.copy h4 {
-		letter-spacing: -.3px;
-		margin-bottom: .5em;
-	}
-
-	.copy p, .copy a, .copy li {
-		font-size: 25px;
-		letter-spacing: .7px;
-		line-height: 1.5em;
-		margin-bottom: 1.2em;
+	.image-space {
+		margin-top: 2.5em;
 	}
 
 	.carousel-container {
@@ -658,474 +200,296 @@
 		margin-bottom: 7em;
 	}
 
-	.more-links {
-		margin-bottom: 9em;
+	/*//////////////////// ///////////////////////
+		FOOTER - PROJECT BOXES
+	//////////////////// ///////////////////////*/
+	.end-border {
+		margin-top: 4em;
 	}
 
-	.more-links p {
-		font-size: 14px;
-		letter-spacing: .3px;
-		margin-top: 5em;
+	.footer {
+		margin-top: 8em;
+		margin-bottom: 10em;
 	}
 
-	.more-links p strong {
-		letter-spacing: .5px;
+	.project-container {
+		vertical-align: middle;
+		text-align: center;
 	}
 
-/*//////////////////// ///////////////////////
-	WAVE
-//////////////////// ///////////////////////*/
-	.waves a svg {
-		height: 8em;
-		width: 110%;
-		bottom: 0;
-		left: 0;
-		transform: translate(-5%, 0);
+	.project-container a {
+		margin-right: 1em;
 	}
 
-	.waves02 a svg {
-		height: 8em;
-		width: 110%;
-		top: 0;
-		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
+	.project-box {
+		display: inline-block;
+		width: 125px;
+		height: 125px;
 	}
 
-/*//////////////////// ///////////////////////
-	MORE PROJECTS
-//////////////////// ///////////////////////*/
-	.project-hover {
-		margin-bottom: 1.5em;
+	.project-label {
+		margin-top: .5em;
 	}
 
-	.project-hover p {
-		font-size: 10px;
-		letter-spacing: 2.2px;
-		line-height: 2em;
-		padding-left: .2em;
-	}
-
-/*//////////////////// ///////////////////////
-		italiaContent
-//////////////////// ///////////////////////*/
-	.grid-8 {
-		grid-template-columns: 2.5fr 7fr 2.5fr;
-	}
-
-	#italiaCopy {
-		position: relative;
-		margin-top: 10%;
-	}
-
-	#italiaList {
-		position: relative;
-		margin-top: 5%;
-	}
-
-	#italiaList h3 {
-		margin-bottom: 1em;
-	}
-
-	#italiaList li {
-		font-size: 14px;
-		line-height: 1.6em;
-	}
-
-	.italia-header {
-		cursor: default;
+	.project-label h3 {
 		line-height: 1.5em;
 	}
 
-	.italia-copy {
-		font-size: 18px;
-		letter-spacing: 0.3px;
-		line-height: 30px;
-	}
-
-	.italia-copy a {
-		font-size: 18px;
-		letter-spacing: 0.3px;
-		line-height: 30px;
-		text-decoration: underline;
-	}
-
-	.italia-copy a:hover {
-		color: #FFB700;
-	}
-}
-
-@media all and (max-width: 1366px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
-		max-width: 1366px;
-	}
-
-	.project-description {
-		font-size: 22px;
-		letter-spacing: 0;
-	}
-}
-
-@media all and (max-width: 1312px) {
-	h5 a {
-		font-size: 70px;
+	.project-label p {
+		font-size: 10px;
+		letter-spacing: 2.2px;
+		text-transform: uppercase;
 	}
 }
 
 @media all and (max-width: 1280px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 1280px;
 	}
 
-	h2 {
-		font-size: 150px;
-	}
-
-	h4 {
-		font-size: 3.2em;
-	}
-
-	h5 a {
-		font-size: 65px;
+	.grid-3 {
+		grid-template-columns: 3.25fr 5.5fr 3.25fr;
 	}
 
 	.grid-4 {
-		grid-template-columns: 2.5fr 7fr 2.5fr;
+		grid-template-columns: 4.125fr 3.75fr 4.125fr;
 	}
 
-/*//////////////////// ///////////////////////
-	PROJECT PAGE - LANDING
-//////////////////// ///////////////////////*/
-	.project-landing {
-		margin-top: 14%;
+	.grid-5 {
+		grid-template-columns: 2.25fr 7.5fr 2.25fr;
 	}
 
-	.project-description {
-		font-size: 20px;
+	h1 {
+		font-size: 45px;
+		letter-spacing: -1px;
 	}
 
-/*//////////////////// ///////////////////////
-	PROJECT PAGE - CONTENT
-//////////////////// ///////////////////////*/
-	.copy p, .copy a, .copy li {
-		font-size: 24px;
+	.bannerBox {
+		height: 40vh;
 	}
 
-/*//////////////////// ///////////////////////
-		italiaContent
-//////////////////// ///////////////////////*/
-		.grid-8 {
-			grid-template-columns: 2.5fr 7fr 2.5fr;
-		}
+	.bannerVideo {
+		top: -75%;
+	}
+}
 
-		#italiaList li {
-			font-size: 14px;
-			line-height: 1.7em;
-		}
+@media all and (max-width: 1160px) {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
+		max-width: 1160px;
+	}
 
-		.italia-header {
-			cursor: default;
-			line-height: 1.5em;
-		}
+	.grid-3 {
+		grid-template-columns: 3fr 6fr 3fr;
+	}
 
-		.italia-copy {
-			font-size: 16px;
-			letter-spacing: 0.3px;
-			line-height: 26px;
-		}
+	.grid-4 {
+		grid-template-columns: 3.875fr 4.25fr 3.875fr;
+	}
 
-		.italia-copy a {
-			font-size: 16px;
-			letter-spacing: 0.3px;
-			line-height: 26px;
-			text-decoration: underline;
-		}
+	.bannerBox {
+		height: 37vh;
+	}
 
-		.italia-copy a:hover {
-			color: #FFB700;
-		}
+	.bannerVideo {
+		top: -72%;
+	}
 
+	.phase-number {
+		height: 10.25em;
+	}
+
+	.phase-number p {
+		font-size: 200px;
+	}
 }
 
 @media all and (max-width: 1024px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 1024px;
 	}
 
-	h2 {
-		font-size: 110px;
-		letter-spacing: -2px;
+	.grid-3 {
+		grid-template-columns: 3.4fr 5.2fr 3.4fr;
 	}
 
-	h3, a {
-		font-size: 9px;
+	.bannerBox {
+		height: 35vh;
 	}
 
-	h4 {
-		font-size: 2.6em;
+	.bannerVideo {
+		top: -63%;
 	}
 
-	h5 a {
-		font-size: 55px;
-		letter-spacing: -.8px;
-	}
-
-	.project-landing {
-		margin-top: 11em;
-	}
-
-	.project-description {
-		font-size: 16px;
-		letter-spacing: .1px;
-		line-height: 1.5em;
-	}
-
-	.project-title h3 {
-		line-height: 3em;
-	}
-
-	.vimeo-container {
-		margin-top: 30%;
-	}
-
-	.copy p, .copy a, .copy li {
-		font-size: 1.2em;
-	}
-
-	.carousel__control--forward {
-		left: 7em;
-	}
-
-	.carousel__control--backward {
-		right: 7em;
-	}
-
-	.waves a svg {
-		height: 7em;
-	}
-
-	.waves02 a svg {
-		height: 7em;
-	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-			.grid-8 {
-				grid-template-columns: 2fr 8fr 2fr;
-			}
-
-			#italiaList li {
-				font-size: 13px;
-				letter-spacing: 0.1px;
-				line-height: 1.7em;
-			}
-
-			.italia-header {
-				cursor: default;
-				line-height: 1.5em;
-			}
-
-			.italia-copy {
-				font-size: 16px;
-				letter-spacing: 0.3px;
-				line-height: 26px;
-			}
-
-			.italia-copy a {
-				font-size: 16px;
-				letter-spacing: 0.3px;
-				line-height: 26px;
-				text-decoration: underline;
-			}
-
-			.italia-copy a:hover {
-				color: #FFB700;
-			}
-}
-
-@media all and (max-width: 960px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
-		max-width: 960px;
-	}
-
-	h5 a {
-		font-size: 50px;
-		letter-spacing: -.3px;
-	}
-
-	.italia-header {
+	h1 {
 		font-size: 40px;
 		letter-spacing: -.7px;
 	}
 
-	.carousel__control--forward {
-		left: 6em;
+	.copy {
+		font-size: 16px;
+		letter-spacing: .4px;
+		line-height: 26px;
 	}
 
-	.carousel__control--backward {
-		right: 6em;
+	.details-list p, .details-list a {
+		font-size: 13px;
+		letter-spacing: .4px;
+		line-height: 19px;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
+		max-width: 960px;
+	}
+
+	.grid-0 {
+		grid-template-columns: 4fr 4fr 4fr;
+	}
+
+	.grid-3 {
+		grid-template-columns: 3fr 6fr 3fr;
+	}
+
+	.grid-4 {
+		grid-template-columns: 3.75fr 4.5fr 3.75fr;
+	}
+
+	.bannerVideo {
+		top: -55%;
+	}
+
+	.phase-number {
+		height: 8.4em;
+		margin-right: 1em;
+	}
+
+	.phase-number p {
+		font-size: 165px;
+	}
+
+	.phase-name {
+		margin-top: 3.5em;
 	}
 }
 
 @media all and (max-width: 800px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 800px;
 	}
 
-	h2 {
-		font-size: 100px;
+	.grid-3 {
+		grid-template-columns: 2.5fr 7fr 2.5fr;
 	}
 
-	h4 {
-		font-size: 2.4em;
+	.bannerVideo {
+		top: -37%;
 	}
 
-	h5 a {
+	h1 {
+		font-size: 37px;
 		letter-spacing: -.5px;
-		line-height: .9em;
 	}
 
-	.project-description {
-		line-height: 1.4em;
+	h2 {
+		font-size: 9px;
 	}
 
-	.vimeo-container {
-		margin-top: 40%;
+	.phase-number {
+		height: 4.9em;
 	}
 
-	.carousel {
-		width: 800px;
+	.phase-number p {
+		font-size: 110px;;
+		line-height: 1em;
 	}
 
-	.carousel__control {
-		top: 42%;
+	.phase-name {
+		margin-top: 1em;
 	}
-
-	.carousel__control--forward {
-		left: 4em;
-	}
-
-	.carousel__control--backward {
-		right: 4em;
-	}
-
-	.carousel__indicators {
-		bottom: 6em;
-	}
-
-	.prototype {
-		width: 250px;
-	}
-
-	.copy h4 {
-		line-height: 1.05em;
-		letter-spacing: -.3px;
-	}
-
-	.copy p, .copy a, .copy li {
-		letter-spacing: .3px;
-		line-height: 1.4em;
-	}
-
-	.more-links h5 {
-		margin-bottom: 2em;
-	}
-
-	.more-links p {
-		font-size: 12px;
-	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-			.grid-8 {
-				grid-template-columns: 1.25fr 9.5fr 1.25fr;
-			}
-
-			#italiaCopy {
-				margin-top: 15%;
-			}
-
-			#italiaList li {
-				font-size: 13px;
-				letter-spacing: 0.1px;
-				line-height: 1.7em;
-			}
-
-			.italia-header {
-				cursor: default;
-				line-height: 1.5em;
-			}
-
-			.italia-copy {
-				font-size: 14px;
-				letter-spacing: 0.3px;
-				line-height: 26px;
-			}
-
-			.italia-copy a {
-				font-size: 14px;
-				letter-spacing: 0.3px;
-				line-height: 26px;
-				text-decoration: underline;
-			}
-
-			.italia-copy a:hover {
-				color: #FFB700;
-			}
 }
 
 @media all and (max-width: 768px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 768px;
 	}
 
 	.grid-4 {
-		grid-template-columns: 1.5fr 9fr 1.5fr;
+		grid-template-columns: 3fr 6fr 3fr;
 	}
 
-	.grid-5 {
-		grid-template-columns: 2fr 8fr 2fr;
+	.bannerVideo {
+		top: -34%;
 	}
+
+	.phase-number {
+		margin-right: .5em;
+	}
+
+	#navBar .anchor-wrapper {
+		display: none;
+	}
+
 }
 
 @media all and (max-width: 720px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 730px;
 	}
 
-	.carousel__control--forward {
-		left: 5em;
+	.grid-4 {
+		grid-template-columns: 3.5fr 5fr 3.5fr;
 	}
 
-	.carousel__control--backward {
-		right: 5em;
+	.grid-6 {
+		grid-template-columns: 1fr;
+	}
+
+	.bannerVideo {
+		top: -30%;
+	}
+
+	.copy {
+		line-height: 24px;
+	}
+
+	.footer {
+		margin-top: 7em;
+		margin-bottom: 5em;
+	}
+
+	.more-work {
+		margin-bottom: 2em;
 	}
 }
 
 @media all and (max-width: 600px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 600px;
 	}
 
-	h4 {
-		font-size: 2em;
+	.grid-0 {
+		grid-template-columns: 3.5fr 5fr 3.5fr;
+	}
+
+	.grid-3 {
+		grid-template-columns: 1.5fr 9fr 1.5fr;
 	}
 
 	.grid-4 {
-		grid-template-columns: 1.5fr 9fr 1.5fr;
+		grid-template-columns: 2.25fr 7.5fr 2.25fr;
 	}
 
-	.grid-5 {
-		grid-template-columns: 1.5fr 9fr 1.5fr;
+	.bannerVideo {
+		top: -13%;
 	}
 
 	.back-button {
@@ -1146,12 +510,8 @@
 		bottom: 1em;
 	}
 
-	.vimeo-container {
-		margin-top: 60%;
-	}
-
-	.section-container {
-		margin-top: 5em;
+	.phase-number {
+		visibility: hidden;
 	}
 
 	.carousel {
@@ -1184,38 +544,38 @@
 }
 
 @media all and (max-width: 480px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 480px;
 	}
 
-	h2 {
-		font-size: 60px;
-	}
-
-	h5 a {
-		font-size: 40px;
+	.grid-3 {
+		grid-template-columns: 1fr 10fr 1fr;
 	}
 
 	.grid-4 {
-		grid-template-columns: 1fr 10fr 1fr;
+		grid-template-columns: 2fr 8fr 2fr;
 	}
 
 	.grid-5 {
-		grid-template-columns: 1fr 10fr 1fr;
+		grid-template-columns: 0fr 1fr 0fr;
 	}
 
-	.project-description {
-		font-size: 15px;
-		line-height: 1.5em;
+	.bannerVideo {
+		top: 0;
 	}
 
-	.vimeo-container {
-		margin-top: 75%;
+	.back-to-top {
+		display: none;
 	}
 
-	.copy p, .copy a, .copy li {
-		font-size: 1em;
+	#navBar .nav-button {
+		display: none;
+	}
+
+	h1 {
+		font-size: 32px;
+		letter-spacing: -.3px;
 	}
 
 	.carousel {
@@ -1237,22 +597,34 @@
 }
 
 @media all and (max-width: 414px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 414px;
 	}
 
-	h6 {
-		font-size: 35px;
-		letter-spacing: -.7px;
+	.grid-4 {
+		grid-template-columns: 1fr 9fr 1fr;
 	}
 
-	.project-landing {
-		margin-top: 15em;
+	.bannerBox {
+		height: 25vh;
 	}
 
-	.vimeo-container {
-		margin-top: 125%;
+	h1 {
+		font-size: 30px;
+	}
+
+	#overview {
+		margin-top: 3.5em;
+	}
+
+	.copy {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.paragraph {
+		margin-top: 2em;
 	}
 
 	.carousel {
@@ -1275,103 +647,60 @@
 	.carousel__indicators {
 		bottom: 5em;
 	}
-
-	/*//////////////////// ///////////////////////
-			italiaContent
-	//////////////////// ///////////////////////*/
-			.grid-8 {
-				grid-template-columns: .5fr 11fr .5fr;
-			}
-
-			.grid-9 {
-				grid-template-columns: 1fr;
-			}
-
-			#italiaCopy {
-				margin-top: 20%;
-			}
-
-			#italiaList {
-				margin-top: 10%;
-			}
-
-			#italiaList li {
-				font-size: 16px;
-				letter-spacing: 0.3px;
-				line-height: 1.7em;
-			}
-
-			.italia-list {
-				margin-bottom: 1.5em;
-			}
-
-			.italia-header {
-				font-size: 28px;
-				letter-spacing: -.3px;
-				line-height: 2em;
-			}
-
-			.italia-copy {
-				font-size: 16px;
-				letter-spacing: 0.3px;
-				line-height: 30px;
-			}
-
-			.italia-copy a {
-				font-size: 16px;
-				letter-spacing: 0.3px;
-				line-height: 30px;
-				text-decoration: underline;
-			}
 }
 
 @media all and (max-width: 375px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 375px;
 	}
 
-	h2 {
-		font-size: 47px;
-		letter-spacing: -1px;
-		line-height: 1.2em
-	}
-
-	.grid-5 {
-		grid-template-columns: 1.5fr 9fr 1.5fr;
-	}
-
-	.grid-4, .grid-5 {
+	.grid-3 {
 		grid-template-columns: .5fr 11fr .5fr;
 	}
+}
 
-	.project-landing {
-		margin-top: 11em;
+@media all and (max-width: 360px) {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
+		max-width: 360px;
 	}
 
-	.project-description {
-		font-size: 14px;
-		line-height: 1.4em;
+	h1 {
+		font-size: 28px;
 	}
 
-	.waves a svg {
-		height: 8em;
-		width: 150%;
-		transform: translate(-15%, 0);
+	.copy {
+		line-height: 22px;
 	}
 }
 
 @media all and (max-width: 320px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7 {
+	.grid-1, .grid-2, .grid-3,
+	.grid-4, .grid-5, .grid-6 {
 		max-width: 320px;
 	}
 
-	.italia-header {
-		font-size: 24px;
+	h1 {
+		font-size: 25px;
 	}
 
-	.italia-copy {
-		line-height: 27px;
+	h2 {
+		font-size: 8px;
+	}
+
+	h3 {
+		font-size: 14px;
+	}
+
+	.copy {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.details-list p, .details-list a {
+		font-size: 10px;
+		letter-spacing: .3px;
+		line-height: 15px;
 	}
 }

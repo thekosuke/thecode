@@ -1,4 +1,4 @@
-@media all and (max-width: 2560px) {	
+@media all and (max-width: 2560px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 2560px;
@@ -21,7 +21,7 @@
 		letter-spacing: .8px;
 	}
 
-	.home-link {	 		
+	.home-link {
 		margin-top: 1.5em;
 	}
 
@@ -30,7 +30,7 @@
 	}
 
 	.peach-dot {
-		position: absolute;  
+		position: absolute;
 		top: 16%;
 		left: 76%;
 		max-width: 22%;
@@ -46,34 +46,34 @@
 		left: 1em;
 		font-size: 14px;
 		letter-spacing: 4px;
-		line-height: 1.8em;		
+		line-height: 1.8em;
 	}
 
 	.landing-intro a {
 		letter-spacing: 4px;
 	}
 
-    .portal {
-    	font-size: 14px;
-    	letter-spacing: 4px;
-    	line-height: 1.7em;
+  .portal {
+  	font-size: 14px;
+  	letter-spacing: 4px;
+  	line-height: 1.7em;
 
-    	position: absolute;
-    	left: 50%;
-    	bottom: 4em; 
-    	transform: translate(-50%, 0);		
-    }
+  	position: absolute;
+  	left: 50%;
+  	bottom: 4em;
+  	transform: translate(-50%, 0);
+  }
 
-    .portal02 {
-    	font-size: 14px;
-    	letter-spacing: 4px;
-    	line-height: 1.7em;
+  .portal02 {
+  	font-size: 14px;
+  	letter-spacing: 4px;
+  	line-height: 1.7em;
 
-    	position: absolute;
-    	left: 50%;
-    	top: 4em; 
-    	transform: translate(-50%, 0);
-    }
+  	position: absolute;
+  	left: 50%;
+  	top: 4em;
+  	transform: translate(-50%, 0);
+  }
 
 /*//////////////////// ///////////////////////
 	PROJECT BOXES
@@ -85,7 +85,7 @@
 	}
 
 	.project-box {
-		display: inline-block; 
+		display: inline-block;
 		width: 40px;
 		height: 40px;
 	}
@@ -123,7 +123,7 @@
 		width: 100%;
 		top: 32%;
 
-		letter-spacing: -5px;		
+		letter-spacing: -5px;
 	}
 
 	.project-hover h2.active {
@@ -149,7 +149,7 @@
 
 		left: 50%;
 		top: 40%;
-		transform: translate(-50%, -40%);		
+		transform: translate(-50%, -40%);
 	}
 
 	.preview-image img {
@@ -263,11 +263,11 @@
 		width: 110%;
 		top: 0;
 		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);	
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
 	}
 }
 
-@media all and (max-width: 1920px) {	
+@media all and (max-width: 1920px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1920px;
@@ -292,19 +292,19 @@
 
 	.landing-intro {
 		top: 43.6em;
-		font-size: 13px;		
+		font-size: 13px;
 	}
 
 	.landing-intro a {
 		font-size: 13px;
 	}
 
-	.portal {    	
-    	bottom: 3em; 
+	.portal {
+    	bottom: 3em;
     }
 
-    .portal02 {    	
-    	top: 3em; 
+    .portal02 {
+    	top: 3em;
     }
 
 /*//////////////////// ///////////////////////
@@ -383,7 +383,7 @@
 	}
 }
 
-@media all and (max-width: 1680px) {	
+@media all and (max-width: 1680px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1680px;
@@ -405,7 +405,7 @@
 		top: 48.6em;
 	}
 
-	.landing-intro, .landing-intro a, 
+	.landing-intro, .landing-intro a,
 	.bottom-link p, .project-hover p {
 		font-size: 11px;
 		letter-spacing: 3px;
@@ -450,10 +450,10 @@
 	PROJECT BOXES
 //////////////////// ///////////////////////*/
 	.project-box {
-		display: inline-block; 
+		display: inline-block;
 		width: 35px;
 		height: 35px;
-	}	
+	}
 
 /*//////////////////// ///////////////////////
   ABOUT PAGE
@@ -466,10 +466,10 @@
 		font-size: 77px;
 		letter-spacing: -.1px;
 		line-height: 81px;
-	}	
+	}
 }
 
-@media all and (max-width: 1440px) {	
+@media all and (max-width: 1440px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1440px;
@@ -491,7 +491,7 @@
 /*//////////////////// ///////////////////////
 	LANDING SCREEN - CONTENT
 //////////////////// ///////////////////////*/
-	.home-link {	 
+	.home-link {
 		margin-top: 1em;
 	}
 
@@ -500,7 +500,7 @@
 	}
 
 	.peach-dot {
-		position: absolute;  
+		position: absolute;
 		top: 16%;
 		left: 76%;
 		max-width: 22%;
@@ -531,8 +531,8 @@
 
     	position: absolute;
     	left: 50%;
-    	bottom: 2em; 
-    	transform: translate(-50%, 0);		
+    	bottom: 2em;
+    	transform: translate(-50%, 0);
     }
 
     .portal02 {
@@ -542,7 +542,7 @@
 
     	position: absolute;
     	left: 50%;
-    	top: 2em; 
+    	top: 2em;
     	transform: translate(-50%, 0);
     }
 
@@ -592,7 +592,7 @@
 	}
 
 	.project-box {
-		display: inline-block; 
+		display: inline-block;
 		width: 30px;
 		height: 30px;
 	}
@@ -630,7 +630,7 @@
 		width: 100%;
 		top: 32%;
 
-		letter-spacing: -5px;		
+		letter-spacing: -5px;
 	}
 
 	.role {
@@ -652,7 +652,7 @@
 
 		left: 50%;
 		top: 40%;
-		transform: translate(-50%, -40%);		
+		transform: translate(-50%, -40%);
 	}
 
 	.preview-image img {
@@ -729,11 +729,11 @@
 		width: 110%;
 		top: 0;
 		left: 0;
-		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);	
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
 	}
 }
 
-@media all and (max-width: 1366px) {	
+@media all and (max-width: 1366px) {
 	.grid-1, .grid-2, .grid-3, .grid-4,
 	.grid-5, .grid-6, .grid-7 {
 		max-width: 1366px;
@@ -798,7 +798,7 @@
 	}
 
 	.portal, .portal02 {
-		font-size: 9px;	
+		font-size: 9px;
 	}
 
 	.project-box {
@@ -944,7 +944,7 @@
 	}
 
 	.waves02 a svg {
-		height: 7em;		
+		height: 7em;
 	}
 }
 
@@ -1000,7 +1000,7 @@
 
 	rect.stroke-teal {
 	  stroke-dasharray: 228, 1368;
-	}	
+	}
 }
 
 @media all and (max-width: 800px) {
@@ -1075,7 +1075,7 @@
 
 	rect.stroke-teal {
 	  stroke-dasharray: 182.4, 1094.4;
-	}	
+	}
 }
 
 @media all and (max-width: 720px) {
@@ -1084,7 +1084,7 @@
 		max-width: 730px;
 	}
 
-	h1 { 
+	h1 {
 		font-size: 250px;
 	}
 
@@ -1182,8 +1182,8 @@
 	}
 
 	.waves02 a svg {
-		height: 6em;		
-	}	
+		height: 6em;
+	}
 }
 
 @media all and (max-width: 480px) {
@@ -1370,7 +1370,7 @@
 
 	rect.stroke-teal {
 	  stroke-dasharray: 98.325, 589.95;
-	}	
+	}
 }
 
 @media all and (max-width: 375px) {
@@ -1474,7 +1474,7 @@
 
 	rect.stroke-teal {
 	  stroke-dasharray: 89.0625, 534.375;
-	}	
+	}
 }
 
 @media all and (max-width: 320px) {
