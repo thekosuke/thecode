@@ -83,16 +83,16 @@ $(document).ready(function() {
 /**************************************************
 LEARN MORE
 **************************************************/
-$(document).ready(function() {
-  function scrollToAnchor(aid){
-    var aTag = $("iframe");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-  }
-
-  $(".waves a").click(function() {
-    scrollToAnchor('iframe');
-  });
-});
+// $(document).ready(function() {
+//   function scrollToAnchor(aid){
+//     var aTag = $("iframe");
+//     $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+//   }
+//
+//   $(".waves a").click(function() {
+//     scrollToAnchor('iframe');
+//   });
+// });
 
 /*//////////////////// ///////////////////////
 WAVE HOVER
