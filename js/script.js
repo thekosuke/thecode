@@ -15,7 +15,6 @@ $(window).load(function() {
 /**************************************************
 DISABLE CONTEXT MENU ON LONG TAPS ON MOBILE
 **************************************************/
-
 function absorbEvent_(event) {
   var e = event || window.event;
   e.preventDefault && e.preventDefault();
@@ -35,26 +34,6 @@ function preventLongPressMenu(node) {
 function init() {
   preventLongPressMenu(document.getElementById('main-page'));
 }
-
-/**************************************************
-BACK TO TOP
-**************************************************/
-$(document).ready(function() {
-  $(window).scroll( function() {
-    if ($(this).scrollTop() > 300) {
-      $('.back-to-top').addClass('show-back-to-top');
-    } else {
-      $('.back-to-top').removeClass('show-back-to-top');
-    }
-  });
-
-  $('.back-to-top').click(function() {
-    $('html, body').animate( {
-      scrollTop : 0
-    }, 500);
-    return false;
-  });
-});
 
 /*//////////////////// ///////////////////////
 WAVE HOVER
