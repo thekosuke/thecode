@@ -5,6 +5,9 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
+/**************************************************
+PRELOADER FADE OUT
+**************************************************/
 $(window).load(function() {
   $('#loader').fadeOut("slow");
 });
