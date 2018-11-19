@@ -32,16 +32,10 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 body {
 	background-color: #F5F5F7;
 	overflow-x: hidden;
-
-	-webkit-transition: .7s ease;
-	-moz-transition: .7s ease;
-	-ms-transition: .7s ease;
-	-o-transition: .7s ease;
-	transition: .7s ease;
 }
 
-div {
-	animation: fadeIn 2s;
+.container {
+	animation: fadeIn 5s;
 
 	-webkit-transition: .4s ease;
 	-moz-transition: .4s ease;
