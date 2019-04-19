@@ -250,10 +250,10 @@ body {
   }
 
   #project-tp, #tpBox {
-    background: linear-gradient(-225deg,
-    #CC0A21 33%,
-    #2B65D9 66%,
-    #FFF44F 99%
+    background: linear-gradient(135deg,
+    #CC0A21 10%,
+    #2B65D9 50%,
+    #FFF44F 97%
   );
   }
 
