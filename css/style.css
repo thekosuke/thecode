@@ -223,6 +223,17 @@ PROJECT BOXES
   background: #F1F0E4;
 }
 
+#project-tp {
+  background: #F2F2F2;
+/*
+  background: linear-gradient(-225deg,
+    #CC0A21 33%,
+    #2B65D9 66%,
+    #FFF44F 99%
+  );
+*/
+}
+
 #project-room {
   background: #02A686;
 }
@@ -319,12 +330,16 @@ PROJECT SECTION - BOTTOM LINK
   opacity: .25;
 }
 
-#italiaHover p {
+#italiaHover p, #tpHover p {
   color: #16161A;
 }
 
 #italiaHover h2 {
   color: #F1F0E4;
+}
+
+#tpHover h2 {
+  color: #F2F2F2;
 }
 
 #roomHover h2 {
