@@ -249,11 +249,11 @@ body {
     background: #3D68B1;
   }
 
-  #project-layers, #layersBox {
-    background: #C41E20;
+  #project-tp, #tpBox {
+    background: #F2F2F2;
   }
 
-	.name-italia {
+  .name-italia {
     color: #0D0D0E;
   }
 
@@ -265,6 +265,11 @@ body {
     color: #3D68B1;
   }
 
-  .name-layers {
-    color: #C41E20;
-  }
+  .name-tp {
+/*  background: #262626;*/
+  background: linear-gradient(-225deg,
+    #CC0A21 33%,
+    #2B65D9 66%,
+    #FFF44F 99%
+  );
+}
