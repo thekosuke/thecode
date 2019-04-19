@@ -351,6 +351,10 @@
 		position: relative;
 		top: -86%;
 	}
+    
+    .bannerVideo.tp {
+        top: -70%;
+    }
 
 	.productVideo {
 		max-width: 100%;
@@ -526,6 +530,10 @@
 	.bannerVideo {
 		top: -75%;
 	}
+    
+    .bannerVideo.tp {
+        top: -65%;
+    }
 }
 
 @media all and (max-width: 1160px) {
@@ -576,6 +584,10 @@
 	.bannerVideo {
 		top: -63%;
 	}
+    
+    .bannerVideo.tp {
+        top: -55%;
+    }
 
 	h1 {
 		font-size: 40px;
@@ -863,6 +875,10 @@
 	.bannerBox {
 		height: 25vh;
 	}
+    
+    .bannerVideo.tp {
+        top: 0;
+    }
 
 	h1 {
 		font-size: 30px;
@@ -957,4 +973,8 @@
 		letter-spacing: .3px;
 		line-height: 15px;
 	}
+    
+    .bannerVideo.tp {
+        top: 0;
+    }
 }
