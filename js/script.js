@@ -304,7 +304,7 @@ $(document).ready(function() {
     $("#nprHover .preview-image").removeClass("active");
   });
   $("#project-tp").bind('touchstart', function(e){
-    $("body").css("background-color", "#ED1942");
+    $("body").css("background-color", "#F2F2F2");
     $("#p05-copy").css("opacity", "1");
     $("#tpHover p").css("opacity", "1");
     $("#tpHover h2").addClass("active");
