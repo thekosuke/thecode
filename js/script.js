@@ -179,7 +179,7 @@ $(document).ready(function() {
     $("#tpHover .preview-image").addClass("active");
   });
   $("#project-kybrd").mouseenter(function() {
-    $("body").css("background-color", "#eb2902");
+    $("body").css("background-color", "#EB454A");
     $("#p06-copy").css("opacity", "1");
     $("#kybrdHover p").css("opacity", "1");
     $("#kybrdHover h2").addClass("active");
@@ -317,7 +317,7 @@ $(document).ready(function() {
     $("#tpHover .preview-image").removeClass("active");
   });
   $("#project-kybrd").bind('touchstart', function(e){
-    $("body").css("background-color", "#eb2902");
+    $("body").css("background-color", "#EB454A");
     $("#p06-copy").css("opacity", "1");
     $("#kybrdHover p").css("opacity", "1");
     $("#kybrdHover h2").addClass("active");
