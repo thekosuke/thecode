@@ -250,7 +250,13 @@ body {
   }
 
 	#project-kybrd {
-		background: #eb2902;
+		background-image: linear-gradient(0deg,
+			#0b89e6 25%, #67cde5 25%,
+			#67cde5 50%, #f2a50c 50%,
+			#f2a50c 75%, #eb2902 75%,
+			#eb2902 100%, #0b89e6 100%);
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	#kybrdBox {
@@ -270,29 +276,6 @@ body {
     #FFF44F 97%);
   }
 
-  .name-italia {
-    color: #0D0D0E;
+  .project-label {
+    color: #16161A;
   }
-
-  .name-room {
-    color: #02A686;
-  }
-
-  .name-npr {
-    color: #3D68B1;
-  }
-
-	.name-kybrd {
-    color: #eb2902;
-  }
-
-  .name-tp {
-    color: #262626;
-/*
-  background: linear-gradient(-225deg,
-    #CC0A21 33%,
-    #2B65D9 66%,
-    #FFF44F 99%
-  );
-*/
-}
