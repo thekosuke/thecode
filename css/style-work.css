@@ -249,12 +249,25 @@ body {
     background: #3D68B1;
   }
 
+	#project-kybrd {
+		background: #eb2902;
+	}
+
+	#kybrdBox {
+		background-image: linear-gradient(0deg,
+			#0b89e6 20%, #67cde5 20%,
+			#67cde5 42%, #f2a50c 42%,
+			#f2a50c 64%, #eb2902 64%,
+			#eb2902 86%, #0b89e6 86%);
+		background-size: cover;
+		background-repeat: no-repeat;
+  }
+
   #project-tp, #tpBox {
     background: linear-gradient(135deg,
     #CC0A21 10%,
     #2B65D9 50%,
-    #FFF44F 97%
-  );
+    #FFF44F 97%);
   }
 
   .name-italia {
@@ -267,6 +280,10 @@ body {
 
   .name-npr {
     color: #3D68B1;
+  }
+
+	.name-kybrd {
+    color: #eb2902;
   }
 
   .name-tp {
