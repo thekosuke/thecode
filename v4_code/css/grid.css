@@ -1,0 +1,10 @@
+/*//////////////////// ///////////////////////
+	HOME PAGE
+//////////////////// ///////////////////////*/
+.grid-1, .grid-2, .grid-3 {
+	display: grid;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	grid-gap: 10px;
+}

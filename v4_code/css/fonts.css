@@ -1,0 +1,110 @@
+/*//////////////////// ///////////////////////
+	Favorit
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'Favorit-Light';
+	src: url('../fonts/Favorit/FavoritTrial-Light.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-Regular';
+	src: url('../fonts/Favorit/FavoritTrial-Regular.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-Medium';
+	src: url('../fonts/Favorit/FavoritTrial-Medium.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-Bold';
+	src: url('../fonts/Favorit/FavoritTrial-Bold.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+
+/*//////////////////// ///////////////////////
+	FAVORIT EXTENDED
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'Favorit-LightXt';
+	src: url('../fonts/Favorit-Extended/FavoritTrial-LightXt.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-RegularXt';
+	src: url('../fonts/Favorit-Extended/FavoritTrial-RegularXt.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-MediumXt';
+	src: url('../fonts/Favorit-Extended/FavoritTrial-MediumXt.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-BoldXt';
+	src: url('../fonts/Favorit-Extended/FavoritTrial-BoldXt.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+
+/*//////////////////// ///////////////////////
+	FAVORIT LINING
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'Favorit-Lining-Regular';
+	src: url('../fonts/Favorit-Lining/FavoritLiningTrial-Regular.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+
+@font-face {
+	font-family: 'Favorit-Lining-Medium';
+	src: url('../fonts/Favorit-Lining/FavoritLiningTrial-Medium.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Favorit-Lining-Bold';
+	src: url('../fonts/Favorit-Lining/FavoritLiningTrial-Bold.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
