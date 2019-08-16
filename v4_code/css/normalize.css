@@ -1,8 +1,5 @@
 @media all and (min-width: 320px) {
-	.grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7, .grid-8, .grid-9,
-	.grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
-	.grid-16 {
+	.grid-1, .grid-2, .grid-3 {
 			max-width: 320px;
 			margin-left: 0;
 			margin-right: 0;
@@ -28,12 +25,12 @@
 
 	h1, h2 {
 			font-size: .7em;
-			letter-spacing: -.3px;
+			letter-spacing: -.2px;
 		}
 
 		h3, h4 {
 			font-size: .9em;
-			letter-spacing: -1px;
+			letter-spacing: -.5px;
 			margin-bottom: .3em;
 		}
 
@@ -48,9 +45,15 @@
 			margin-bottom: 1em;
 		}
 
-	#moreTrigger, #overlay {
+	#moreTrigger {
 			left: 1em;
 			bottom: 1em;
+		}
+
+		#overlay {
+			top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
 		}
 
 		.dot {
@@ -321,10 +324,7 @@
 }
 
 @media all and (min-width: 360px) {
-	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7, .grid-7-1, .grid-8, .grid-9,
-	.grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
-	.grid-16  {
+	.grid-1, .grid-2, .grid-3 {
 		max-width: 360px;
 	}
 }

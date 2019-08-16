@@ -28,6 +28,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 h1, h2, h3, h4, p, a {
     /* color: #FAFAFC; */
     color: #16161A;
+    font-weight: normal;
     text-decoration: none;
   }
 
@@ -46,6 +47,7 @@ h1, h2, h3, h4, p, a {
 
   h5 {
     font-family: "Favorit-RegularXt";
+    font-weight: normal;
     text-transform: uppercase;
     /* color: #A5A5A6; */
     color: #7D7D80;
@@ -184,9 +186,9 @@ h1, h2, h3, h4, p, a {
   }
 
   #overlay.active {
-    width: 89vw;
-    height: 93.5vh;
-    opacity: .9;
+    width: 90%;
+    height: 95%;
+    opacity: 1;
     /* border-color: #FAFAFC; */
     border-color: #16161A;
     border-style: solid;
