@@ -33,20 +33,20 @@ h1, h2, h3, h4, p, a {
   }
 
   h1, h2 {
-    font-family: "Favorit-MediumXt";
+    font-family: "Favorit-BoldXt";
     text-transform: lowercase;
   }
 
   h3, .link {
-    font-family: "Favorit-Lining-Regular";
+    font-family: "Favorit-Lining-Medium";
   }
 
   h4 {
-    font-family: "Favorit-Regular";
+    font-family: "Favorit-Medium";
   }
 
   h5 {
-    font-family: "Favorit-RegularXt";
+    font-family: "Favorit-MediumXt";
     font-weight: normal;
     text-transform: uppercase;
     /* color: #A5A5A6; */
@@ -62,7 +62,7 @@ h1, h2, h3, h4, p, a {
   }
 
   .quote {
-    font-family: "Favorit-Light";
+    font-family: "Favorit-Regular";
   }
 
 /*//////////////////////////////////////
