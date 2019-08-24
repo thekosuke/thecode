@@ -497,6 +497,18 @@
 		h3, h4 {
 			font-size: 1.05em;
 		}
+
+	.copy {
+			top: 16em;
+		}
+
+		.oneLiner {
+			font-size: 18px;
+		}
+
+		.quote {
+			font-size: 14px;
+		}
 }
 
 @media all and (min-width: 411px) {
