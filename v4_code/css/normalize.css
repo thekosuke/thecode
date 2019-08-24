@@ -19,7 +19,7 @@
 			grid-template-columns: 3.25fr 8.75fr;
 		}
 
-		.pe-wrapper {
+		.tb-wrapper, .pe-wrapper {
 			margin-bottom: 1.5em;
 		}
 
@@ -336,6 +336,10 @@
 
 		.grid-3 {
 			grid-template-columns: 3.8fr 8.2fr;
+		}
+
+		.pe-wrapper {
+			margin-bottom: 2em;
 		}
 
 	h1, h2 {
