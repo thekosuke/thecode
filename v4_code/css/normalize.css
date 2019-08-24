@@ -57,8 +57,8 @@
 		}
 
 		.dot {
-			height: 4px;
-		  width: 4px;
+			height: 5px;
+		  width: 5px;
 		  border-radius: 50%;
 
 			-webkit-transition: .5s ease;
@@ -68,19 +68,19 @@
 		}
 
 		.dot1 {
-				left: -.5em;
+				left: -.6em;
 			}
 
 			.dot2 {
-				left: .5em;
+				left: .6em;
 			}
 
 			.dot3 {
-				top: -.5em;
+				top: -.6em;
 			}
 
 			.dot4 {
-				top: .5em;
+				top: .6em;
 			}
 
 		@keyframes dot1 {
@@ -88,7 +88,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(.5em, 0);
+          transform: translate(.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -99,7 +99,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(.5em, 0);
+          transform: translate(.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -110,7 +110,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(.5em, 0);
+          transform: translate(.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -121,7 +121,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(.5em, 0);
+          transform: translate(.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -132,7 +132,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(.5em, 0);
+          transform: translate(.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -143,7 +143,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(-.5em, 0);
+          transform: translate(-.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -154,7 +154,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(-.5em, 0);
+          transform: translate(-.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -165,7 +165,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(-.5em, 0);
+          transform: translate(-.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -176,7 +176,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(-.5em, 0);
+          transform: translate(-.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -187,7 +187,7 @@
           transform: translate(0, 0);
       	}
         50% {
-          transform: translate(-.5em, 0);
+          transform: translate(-.6em, 0);
       	}
       	100% {
           transform: translate(0, 0);
@@ -198,7 +198,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, .5em);
+          transform: translate(0, .6em);
         }
         100% {
           transform: translate(0, 0);
@@ -209,7 +209,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, .5em);
+          transform: translate(0, .6em);
         }
         100% {
           transform: translate(0, 0);
@@ -220,7 +220,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, .5em);
+          transform: translate(0, .6em);
         }
         100% {
           transform: translate(0, 0);
@@ -231,7 +231,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, .5em);
+          transform: translate(0, .6em);
         }
         100% {
           transform: translate(0, 0);
@@ -242,7 +242,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, .5em);
+          transform: translate(0, .6em);
         }
         100% {
           transform: translate(0, 0);
@@ -253,7 +253,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, -.5em);
+          transform: translate(0, -.6em);
         }
         100% {
           transform: translate(0, 0);
@@ -264,7 +264,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, -.5em);
+          transform: translate(0, -.6em);
         }
         100% {
           transform: translate(0, 0);
@@ -275,7 +275,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, -.5em);
+          transform: translate(0, -.6em);
         }
         100% {
           transform: translate(0, 0);
@@ -286,7 +286,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, -.5em);
+          transform: translate(0, -.6em);
         }
         100% {
           transform: translate(0, 0);
@@ -297,7 +297,7 @@
           transform: translate(0, 0);
         }
         50% {
-          transform: translate(0, -.5em);
+          transform: translate(0, -.6em);
         }
         100% {
           transform: translate(0, 0);
@@ -311,12 +311,12 @@
 
 		.copy {
 			position: relative;
-			top: 17em;
+			top: 13em;
 		}
 
 		.oneLiner {
-			font-size: 14px;
-			margin-bottom: 1em;
+			font-size: 16px;
+			margin-bottom: 1.5em;
 		}
 		.quote {
 			font-size: 12px;
