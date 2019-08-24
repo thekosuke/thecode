@@ -56,6 +56,11 @@
   		transform: translate(-50%, -50%);
 		}
 
+		#overlay.active {
+	    width: 90%;
+	    height: 95%;
+		}
+
 		.dot {
 			height: 5px;
 		  width: 5px;
@@ -337,8 +342,9 @@
 			font-size: .85em;
 		}
 
-		h3 {
+		h3, h4 {
 			font-size: 1em;
+			letter-spacing: -.6px;
 		}
 
 		h5 {
@@ -347,8 +353,12 @@
 		}
 
 	#moreTrigger {
-			left: 1.5em;
-			bottom: 1.5em;
+			left: 1.25em;
+			bottom: 1.25em;
+		}
+
+		#overlay.active {
+	    width: 92.5%;
 		}
 
 		.copy {
