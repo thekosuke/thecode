@@ -163,7 +163,7 @@ h1, h2, h3, h4, p, a {
 
   #backDrop.active {
       visibility: visible;
-      opacity: .8;
+      opacity: 1;
   }
 
 #overlay {
@@ -185,8 +185,7 @@ h1, h2, h3, h4, p, a {
   	transition: .5s ease;
   }
 
-  #overlay.active {
-    opacity: .9;
+  #overlay.active {    
     /* border-color: #FAFAFC; */
     border-color: #16161A;
     border-style: solid;
