@@ -25,12 +25,12 @@
 
 	h1, h2 {
 			font-size: .7em;
-			letter-spacing: -.2px;
+			letter-spacing: -.1px;
 		}
 
 		h3, h4 {
 			font-size: .9em;
-			letter-spacing: -.5px;
+			letter-spacing: -.4px;
 			margin-bottom: .3em;
 		}
 
@@ -46,8 +46,8 @@
 		}
 
 	#moreTrigger {
-			left: 1em;
-			bottom: 1em;
+			left: 1.2em;
+			bottom: 1.2em;
 		}
 
 		#overlay {
@@ -306,7 +306,7 @@
 
 	.more .link {
 			font-size: 12px;
-			margin-top: 1em;
+			margin-top: 1.5em;
 		}
 
 		.copy {
@@ -316,6 +316,7 @@
 
 		.oneLiner {
 			font-size: 16px;
+			letter-spacing: -.1px;
 			margin-bottom: 1.5em;
 		}
 		.quote {
@@ -325,8 +326,145 @@
 
 @media all and (min-width: 360px) {
 	.grid-1, .grid-2, .grid-3 {
-		max-width: 360px;
-	}
+			max-width: 360px;
+		}
+
+		.grid-3 {
+			grid-template-columns: 3.8fr 8.2fr;
+		}
+
+	h1, h2 {
+			font-size: .85em;
+		}
+
+		h3 {
+			font-size: 1em;
+		}
+
+		h5 {
+			font-size: 8.5px;
+			letter-spacing: .23em;
+		}
+
+	#moreTrigger {
+			left: 1.5em;
+			bottom: 1.5em;
+		}
+
+		.copy {
+			top: 16.5em;
+		}
+
+		.dot {
+			height: 6px;
+			width: 6px;
+		}
+
+		.dot1 { left: -.75em; }
+		.dot2 { left: .75em; }
+		.dot3 { top: -.75em; }
+		.dot4 { top: .75em; }
+
+		@keyframes dot1 {
+      	0% { transform: translate(0, 0); }
+        50% { transform: translate(.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-webkit-keyframes dot1 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-moz-keyframes dot1 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-ms-keyframes dot1 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-o-keyframes dot1 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+    @keyframes dot2 {
+        0% { transform: translate(0, 0); }
+        50% { transform: translate(-.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-webkit-keyframes dot2 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(-.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-moz-keyframes dot2 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(-.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-ms-keyframes dot2 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(-.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+      @-o-keyframes dot2 {
+				0% { transform: translate(0, 0); }
+        50% { transform: translate(-.75em, 0); }
+      	100% { transform: translate(0, 0); }
+      }
+    @keyframes dot3 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, .75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-webkit-keyframes dot3 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, .75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-moz-keyframes dot3 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, .75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-ms-keyframes dot3 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, .75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-o-keyframes dot3 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, .75em); }
+				100% { transform: translate(0, 0); }
+      }
+    @keyframes dot4 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, -.75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-webkit-keyframes dot4 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, -.75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-moz-keyframes dot4 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, -.75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-ms-keyframes dot4 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, -.75em); }
+				100% { transform: translate(0, 0); }
+      }
+      @-o-keyframes dot4 {
+				0% { transform: translate(0, 0); }
+				50% { transform: translate(0, -.75em); }
+				100% { transform: translate(0, 0); }
+      }
 }
 
 @media all and (min-width: 375px) {
