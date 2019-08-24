@@ -499,11 +499,13 @@
 		}
 
 	.copy {
-			top: 16em;
+			top: 15em;
 		}
 
 		.oneLiner {
 			font-size: 18px;
+			letter-spacing: -.3px;
+			line-height: 1.3em;
 		}
 
 		.quote {
