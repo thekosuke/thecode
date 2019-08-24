@@ -482,12 +482,21 @@
 }
 
 @media all and (min-width: 375px) {
-	.grid-0, .grid-1, .grid-2, .grid-3, .grid-4,
-	.grid-5, .grid-6, .grid-7, .grid-7-1, .grid-8, .grid-9,
-	.grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15,
-	.grid-16  {
+	.grid-1, .grid-2, .grid-3 {
 		max-width: 375px;
 	}
+
+		.grid-3 {
+			grid-template-columns: 4fr 8fr;
+		}
+
+	h1, h2 {
+			font-size: .9em;
+		}
+
+		h3, h4 {
+			font-size: 1.05em;
+		}
 }
 
 @media all and (min-width: 411px) {
