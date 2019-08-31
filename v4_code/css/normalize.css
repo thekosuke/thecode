@@ -38,7 +38,8 @@
 			font-size: 1em;
 			letter-spacing: -.3px;
 		 }
-		.email a { font-size: .7em; }
+
+		.connect a { font-size: .7em; }
 
   .dot {
   			height: 5px;
@@ -305,7 +306,7 @@
 		}
 
 		.fullname { margin-bottom: .5em; }
-		.email { margin-top: 2em; }
+		.connect { margin-top: 3em; }
 }
 
 @media all and (min-width: 375px) {
@@ -313,7 +314,7 @@
 			max-width: 375px;
 		}
 
-		.grid-1 { grid-template-columns: 1fr 10fr 1fr; }
+		.grid-1 { grid-template-columns: 1fr 10.5fr .5fr; }
 		.grid-2 { grid-template-columns: 4.25fr 7.5fr .25fr; }
 
 		.wrapper {
@@ -325,7 +326,7 @@
 		}
 
 		h2, h3 {
-			font-size: .95em;
+			font-size: 1em;
 			letter-spacing: -.6px;
 		}
 
@@ -339,7 +340,7 @@
 			line-height: 1.2em;
 		}
 
-		.email a { font-size: .8em; }
+		.connect a { font-size: .8em; }
 
 	.fullname { margin-bottom: 1em; }
 }
@@ -361,7 +362,7 @@
 			font-size: 1.1em;
 		}
 
-		.email a, .one-liner p {
+		.connect a, .one-liner p {
 			font-size: 1em;
 		}
 }
@@ -388,7 +389,7 @@
 			font-size: 8px;
 		}
 
-		.email a, .one-liner p {
+		.connect a, .one-liner p {
 			font-size: 1em;
 		}
 }

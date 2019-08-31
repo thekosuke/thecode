@@ -39,7 +39,7 @@ h1, h2, h3, h4, p, a {
   h4 span { text-transform: lowercase; }
   .fullname h4 { font-family: "Favorit-BoldXt"; }
 
-  .fullname h4, .one-liner p, .email a { color: #F5F5F7; }
+  .fullname h4, .one-liner p, .connect a { color: #F5F5F7; }
 
 /*//////////////////////////////////////
   MORE OVERLAY
