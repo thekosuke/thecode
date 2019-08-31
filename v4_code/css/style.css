@@ -5,11 +5,11 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   }
 
   ::-webkit-scrollbar { display: none; }
-  ::selection { background-color: #FFB700; }
-  ::-moz-selection { background: #FFB700; }
+  ::selection { background-color: #F2314E; }
+  ::-moz-selection { background: #F2314E; }
 
   body {
-    background: radial-gradient(#F0F0F2, #FAFAFC);
+    background: radial-gradient(#292C34, #16161A);
     overflow-x: hidden;
   }
 
@@ -17,7 +17,8 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
 	TYPESETTING
 //////////////////// ///////////////////////*/
 h1, h2, h3, h4, p, a {
-    color: #16161A;
+    /* color: #16161A; */
+    color: #FAFAFC;
     font-weight: normal;
     text-decoration: none;
   }
@@ -28,18 +29,29 @@ h1, h2, h3, h4, p, a {
   }
 
   h2, a { font-family: "Favorit-Lining-Medium"; }
+
+  h2:hover, a:hover {
+    color: #F2314E;
+    transition: .3s ease-out;
+    cursor: url(../img/pointer.png) 7 7, pointer;
+  }
+
   h3, .one-liner p { font-family: "Favorit-Medium"; }
 
   h4 {
     font-family: "Favorit-MediumXt";
     text-transform: uppercase;
-    color: #7E7E80;
+    color: #A4A4A6;
   }
 
   h4 span { text-transform: lowercase; }
-  .fullname h4 { font-family: "Favorit-BoldXt"; }
 
-  .fullname h4, .one-liner p, .connect a { color: #F5F5F7; }
+  .one-liner p, .connect a { color: #FAFAFC; }
+
+  .connect a:hover {
+    background-color: #FAFAFC;
+    color: #16161A;
+  }
 
 /*//////////////////////////////////////
   MORE OVERLAY
@@ -70,8 +82,8 @@ h1, h2, h3, h4, p, a {
 //////////////////////////////////////*/
   #moreBar {
       position: fixed;
-      background: #FAFAFC;
-      border-top: 1px solid #16161A;
+      background: transparent;
+      border-top: 1px solid #FAFAFC;
     	text-align: center;
     	z-index: 100;
       cursor: pointer;
@@ -90,6 +102,16 @@ h1, h2, h3, h4, p, a {
       -moz-transition: .2s ease;
       -o-transition: .2s ease;
       transition: .2s ease;
+    }
+
+    #moreBar:hover {
+      cursor: url(../img/pointer.png) 7 7, pointer;
+      border-top: transparent;
+
+      -webkit-transition: .5s ease;
+      -moz-transition: .5s ease;
+      -o-transition: .5s ease;
+      transition: .5s ease;
     }
 
   #moreBar .button {
@@ -112,8 +134,8 @@ h1, h2, h3, h4, p, a {
     }
 
   .dot {
-        /* background: #FAFAFC; */
-        background: #16161A;
+        background: #FAFAFC;
+        /* background: #16161A; */
       }
 
       .dot1, .dot2, .dot3, .dot4 {
@@ -170,6 +192,7 @@ h1, h2, h3, h4, p, a {
 			height: 100%;
       text-align: left;
       background-image: url(../img/panton.svg);
+      background-position: center;
       background-size: cover;
     	z-index: 99;
     	outline: none;
