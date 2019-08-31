@@ -9,18 +9,31 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   ::-moz-selection { background: #F2314E; }
 
   body {
-    background: radial-gradient(#292C34, #16161A);
+    /* background-image: radial-gradient(#292C34, #16161A); */
+    background-image: radial-gradient(#F0F0F2, #FAFAFC);
     overflow-x: hidden;
+  }
+
+  .coke, .tp, .italia {
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
   }
 
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
 h1, h2, h3, h4, p, a {
-    /* color: #16161A; */
-    color: #FAFAFC;
+    color: #16161A;
+    /* color: #FAFAFC; */
     font-weight: normal;
     text-decoration: none;
+
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
   }
 
   h1 {
@@ -30,18 +43,13 @@ h1, h2, h3, h4, p, a {
 
   h2, a { font-family: "Favorit-Lining-Medium"; }
 
-  h2:hover, a:hover {
-    color: #F2314E;
-    transition: .3s ease-out;
-    cursor: url(../img/pointer.png) 7 7, pointer;
-  }
-
   h3, .one-liner p { font-family: "Favorit-Medium"; }
 
   h4 {
     font-family: "Favorit-MediumXt";
     text-transform: uppercase;
-    color: #A4A4A6;
+    /* color: #A4A4A6; */
+    color: #7E7E80;
   }
 
   h4 span { text-transform: lowercase; }
@@ -51,6 +59,11 @@ h1, h2, h3, h4, p, a {
   .connect a:hover {
     background-color: #FAFAFC;
     color: #16161A;
+  }
+
+  h2:hover, a:hover {
+    transition: .3s ease-out;
+    cursor: url(../img/pointer.png) 7 7, pointer;
   }
 
 /*//////////////////////////////////////
@@ -83,7 +96,7 @@ h1, h2, h3, h4, p, a {
   #moreBar {
       position: fixed;
       background: transparent;
-      border-top: 1px solid #FAFAFC;
+      border-top: 1px solid #16161A;
     	text-align: center;
     	z-index: 100;
       cursor: pointer;
@@ -96,7 +109,7 @@ h1, h2, h3, h4, p, a {
 
     #moreBar.active {
       background: transparent;
-      border-top: 0px solid #FAFAFC;
+      border-top: transparent;
 
       -webkit-transition: .2s ease;
       -moz-transition: .2s ease;
@@ -134,8 +147,8 @@ h1, h2, h3, h4, p, a {
     }
 
   .dot {
-        background: #FAFAFC;
-        /* background: #16161A; */
+        /* background: #FAFAFC; */
+        background: #16161A;
       }
 
       .dot1, .dot2, .dot3, .dot4 {
