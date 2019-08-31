@@ -6,7 +6,7 @@
 		}
 
 		.grid-0 { grid-template-columns: 1fr; }
-		.grid-1 { grid-template-columns: .25fr 11.5fr .25fr; }
+		.grid-1 { grid-template-columns: .75fr 11fr .25fr; }
 		.grid-2 { grid-template-columns: 3.5fr 8.25fr .25fr; }
 
 		#container { margin-top: 1.5em; }
@@ -34,7 +34,10 @@
 			padding-top: .35em;
 		}
 
-		.one-liner p { font-size: 1em; }
+		.one-liner p {
+			font-size: 1em;
+			letter-spacing: -.3px;
+		 }
 		.email a { font-size: .7em; }
 
   .dot {
@@ -291,7 +294,7 @@
 			height: 3.5em;
 		}
 
-		#moreContent.active { height: 100%; }
+		#moreContent.active { bottom: 0; }
 
 		.moreText {
 			position: relative;
@@ -310,6 +313,7 @@
 			max-width: 375px;
 		}
 
+		.grid-1 { grid-template-columns: 1fr 10fr 1fr; }
 		.grid-2 { grid-template-columns: 4.25fr 7.5fr .25fr; }
 
 		.wrapper {
@@ -331,6 +335,7 @@
 
 		.one-liner p {
 			font-size: 1.3em;
+			letter-spacing: -.5px;
 			line-height: 1.2em;
 		}
 
@@ -343,8 +348,6 @@
 	.grid-0, .grid-1, .grid-2 {
 			max-width: 400px;
 		}
-
-		.grid-1 { grid-template-columns: .5fr 11fr .5fr; }
 
 		#name, #footer, #projects, #experience, .wrapper {
 			margin-bottom: 2em;
