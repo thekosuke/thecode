@@ -34,9 +34,8 @@
 			padding-top: .35em;
 		}
 
-		.email a, .one-liner p {
-			font-size: .8em;
-		}
+		.one-liner p { font-size: 1em; }
+		.email a { font-size: .7em; }
 
   .dot {
   			height: 5px;
@@ -292,21 +291,18 @@
 			height: 3.5em;
 		}
 
-		#moreContent.active {
-			height: 85%;
-		}
+		#moreContent.active { height: 100%; }
 
-		.email {
-			margin-top: 1.25em;
-		}
-
-		.one-liner {
+		.moreText {
 			position: relative;
-			top: 40%;
+			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			width: 85%;
 		}
+
+		.fullname { margin-bottom: .5em; }
+		.email { margin-top: 2em; }
 }
 
 @media all and (min-width: 375px) {
@@ -333,9 +329,14 @@
 			padding-top: .7em;
 		}
 
-		.email a, .one-liner p {
-			font-size: .9em;
+		.one-liner p {
+			font-size: 1.3em;
+			line-height: 1.2em;
 		}
+
+		.email a { font-size: .8em; }
+
+	.fullname { margin-bottom: 1em; }
 }
 
 @media all and (min-width: 400px) {

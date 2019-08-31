@@ -28,7 +28,7 @@ h1, h2, h3, h4, p, a {
   }
 
   h2, a { font-family: "Favorit-Lining-Medium"; }
-  h3 { font-family: "Favorit-Medium"; }
+  h3, .one-liner p { font-family: "Favorit-Medium"; }
 
   h4 {
     font-family: "Favorit-MediumXt";
@@ -38,12 +38,7 @@ h1, h2, h3, h4, p, a {
 
   h4 span { text-transform: lowercase; }
 
-  .one-liner p {
-    font-family: "Favorit-Bold";
-    color: #F5F5F7;
-  }
-
-  .email a { color: #F5F5F7; }
+  .fullname h4, .one-liner p, .email a { color: #F5F5F7; }
 
 /*//////////////////////////////////////
   MORE OVERLAY
@@ -172,7 +167,7 @@ h1, h2, h3, h4, p, a {
       bottom: 0;
 			width: 100%;
 			height: 0;
-      text-align: center;
+      text-align: left;
       background: #F82D1F;
     	z-index: 99;
     	outline: none;
