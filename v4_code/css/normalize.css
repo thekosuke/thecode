@@ -325,13 +325,8 @@
 		}
 
 		h2, h3 {
-			font-size: 1.05em;
+			font-size: .95em;
 			letter-spacing: -.6px;
-		}
-
-		h4 {
-			font-size: 8.5px;
-			letter-spacing: .23em;
 		}
 
 		.top h4 {
