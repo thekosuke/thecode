@@ -1,0 +1,184 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,a,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+  }
+
+  ::-webkit-scrollbar { display: none; }
+  ::selection { background-color: #FFB700; }
+  ::-moz-selection { background: #FFB700; }
+
+  body {
+    background: radial-gradient(#F0F0F2, #FAFAFC);
+    overflow-x: hidden;
+  }
+
+/*//////////////////// ///////////////////////
+	TYPESETTING
+//////////////////// ///////////////////////*/
+h1, h2, h3, h4, p, a {
+    color: #16161A;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: "Favorit-BoldXt";
+    text-transform: lowercase;
+  }
+
+  h2, a { font-family: "Favorit-Lining-Medium"; }
+  h3 { font-family: "Favorit-Medium"; }
+
+  h4 {
+    font-family: "Favorit-MediumXt";
+    text-transform: uppercase;
+    color: #7E7E80;
+  }
+
+  h4 span { text-transform: lowercase; }
+
+  .one-liner p {
+    font-family: "Favorit-BoldXt";
+    color: #F5F5F7;
+  }
+
+  .email a { color: #F5F5F7; }
+
+/*//////////////////////////////////////
+  MORE OVERLAY
+//////////////////////////////////////*/
+#overlay {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background: #FAFAFC;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .7s ease;
+  }
+
+  #overlay.active {
+    visibility: visible;
+    opacity: 0;    
+  }
+
+/*//////////////////////////////////////
+  MORE BAR
+//////////////////////////////////////*/
+  #moreBar {
+      position: fixed;
+      background: #FAFAFC;
+      border-top: 1px solid #16161A;
+    	text-align: center;
+    	z-index: 100;
+      cursor: pointer;
+
+      -webkit-transition: .7s ease;
+    	-moz-transition: .7s ease;
+    	-o-transition: .7s ease;
+    	transition: .7s ease;
+    }
+
+    #moreBar.active {
+      background: transparent;
+      border-top: 0px solid #FAFAFC;
+
+      -webkit-transition: .2s ease;
+      -moz-transition: .2s ease;
+      -o-transition: .2s ease;
+      transition: .2s ease;
+    }
+
+  #moreBar .button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform-origin: center center;
+
+      -webkit-transition: .5s ease;
+      -moz-transition: .5s ease;
+      -o-transition: .5s ease;
+      transition: .5s ease;
+    }
+
+    #moreBar .button.active {
+      transform: translate(-50%, -50%) rotate(-225deg);
+      -webkit-transform: translate(-50%, -50%) rotate(-225deg);
+      -ms-transform: translate(-50%, -50%) rotate(-225deg);
+    }
+
+  .dot {
+        /* background: #FAFAFC; */
+        background: #16161A;
+      }
+
+      .dot1, .dot2, .dot3, .dot4 {
+          position: absolute;
+      }
+
+      .dot1.active {
+        background: #FAFAFC;
+          -webkit-animation: dot1 1s ease;
+             -moz-animation: dot1 1s ease;
+              -ms-animation: dot1 1s ease;
+               -o-animation: dot1 1s ease;
+                  animation: dot1 1s ease;
+        }
+
+        .dot2.active {
+          background: #FAFAFC;
+          -webkit-animation: dot2 1s ease;
+             -moz-animation: dot2 1s ease;
+              -ms-animation: dot2 1s ease;
+               -o-animation: dot2 1s ease;
+                  animation: dot2 1s ease;
+        }
+
+        .dot3.active {
+          background: #FAFAFC;
+          -webkit-animation: dot3 1s ease;
+             -moz-animation: dot3 1s ease;
+              -ms-animation: dot3 1s ease;
+               -o-animation: dot3 1s ease;
+                  animation: dot3 1s ease;
+        }
+
+        .dot4.active {
+          background: #FAFAFC;
+          -webkit-animation: dot4 1s ease;
+             -moz-animation: dot4 1s ease;
+              -ms-animation: dot4 1s ease;
+               -o-animation: dot4 1s ease;
+                  animation: dot4 1s ease;
+        }
+
+        .dot5.active {
+          background: #FAFAFC;
+        }
+
+/*//////////////////////////////////////
+  MORE CONTENT
+//////////////////////////////////////*/
+  #moreContent {
+      position: fixed;
+      bottom: 0;
+			width: 100%;
+			height: 0;
+      text-align: center;
+      background: #F82D1F;
+    	z-index: 99;
+    	outline: none;
+
+    	-webkit-transition: 1s ease;
+    	-moz-transition: 1s ease;
+    	-o-transition: 1s ease;
+    	transition: 1s ease;
+    }
