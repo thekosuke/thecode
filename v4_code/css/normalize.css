@@ -9,7 +9,7 @@
 		.grid-1 { grid-template-columns: .25fr 11.5fr .25fr; }
 		.grid-2 { grid-template-columns: 3.5fr 8.25fr .25fr; }
 
-		#container { margin-top: 2em; }
+		#container { margin-top: 1.5em; }
 		#name, #footer, #projects, #experience, .wrapper {
 			margin-bottom: 1.5em;
 		}
