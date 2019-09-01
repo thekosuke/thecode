@@ -44,6 +44,10 @@
 			letter-spacing: -.5px;
 		}
 
+		.connect div {
+			margin-bottom: .7em;
+		}
+
   .dot {
   			height: 5px;
   		  width: 5px;
