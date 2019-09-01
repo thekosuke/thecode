@@ -19,7 +19,7 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     z-index: 1;
 
     animation: land 2s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 
     -webkit-transition: 1s ease-out;
     -moz-transition: 1s ease-out;
@@ -311,7 +311,8 @@ h1, h2, h3, h4, p, a {
   }
 
   .loading {
-      animation: fall 5s infinite;
+    position: relative;
+    animation: fall 4s infinite;
   }
 
   /* .loading {

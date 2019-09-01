@@ -313,6 +313,11 @@
 		}
 
 		.connect { margin-top: 3em; }
+
+	.loading {
+			width: 300%;
+			margin-left: -100%;
+		}
 }
 
 @media all and (min-width: 375px) {
@@ -428,6 +433,11 @@
 		.grid-2 { grid-template-columns: 4fr 7fr 1fr; }
 
 	.moreText { width: 80%; }
+
+	.loading {
+			width: 175%;
+			margin-left: -40%;
+		}
 }
 
 @media all and (min-width: 960px) {
@@ -446,7 +456,6 @@
 			max-width: 1024px;
 		}
 
-
 	.moreText { width: 80%; }
 
 		.fullname h4 { font-size: .9em; }
@@ -454,6 +463,11 @@
 		.one-liner p {
 			font-size: 2.5em;
 			letter-spacing: -1.7px;
+		}
+
+	.loading {
+			width: 100%;
+			margin-left: 0;
 		}
 }
 
