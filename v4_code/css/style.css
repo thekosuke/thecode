@@ -14,13 +14,6 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     overflow-x: hidden;
   }
 
-  .coke, .tp, .italia {
-    -webkit-transition: .5s ease;
-    -moz-transition: .5s ease;
-    -o-transition: .5s ease;
-    transition: .5s ease;
-  }
-
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
@@ -55,16 +48,6 @@ h1, h2, h3, h4, p, a {
   h4 span { text-transform: lowercase; }
 
   .one-liner p, .connect a { color: #FAFAFC; }
-
-  .connect a:hover {
-    background-color: #FAFAFC;
-    color: #16161A;
-  }
-
-  h2:hover, a:hover {
-    transition: .3s ease-out;
-    cursor: url(../img/pointer.png) 7 7, pointer;
-  }
 
 /*//////////////////////////////////////
   MORE OVERLAY
@@ -111,20 +94,10 @@ h1, h2, h3, h4, p, a {
       background: transparent;
       border-top: transparent;
 
-      -webkit-transition: .2s ease;
-      -moz-transition: .2s ease;
-      -o-transition: .2s ease;
-      transition: .2s ease;
-    }
-
-    #moreBar:hover {
-      cursor: url(../img/pointer.png) 7 7, pointer;
-      border-top: transparent;
-
-      -webkit-transition: .5s ease;
-      -moz-transition: .5s ease;
-      -o-transition: .5s ease;
-      transition: .5s ease;
+      -webkit-transition: .3s ease;
+      -moz-transition: .3s ease;
+      -o-transition: .3s ease;
+      transition: .3s ease;
     }
 
   #moreBar .button {

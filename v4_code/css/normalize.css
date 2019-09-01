@@ -396,6 +396,25 @@
 
 		.top h4 { padding-top: .5em; }
 
+	.connect a:hover {
+	    background-color: #FAFAFC;
+	    color: #16161A;
+	  }
+
+	  h2:hover, a:hover {
+	    transition: .3s ease-out;
+	    cursor: url(../img/pointer.png) 7 7, pointer;
+	  }
+
+		#moreBar:hover {
+      cursor: url(../img/pointer.png) 7 7, pointer;
+      border-top: transparent;
+
+      -webkit-transition: .5s ease;
+      -moz-transition: .5s ease;
+      -o-transition: .5s ease;
+      transition: .5s ease;
+    }
 }
 
 @media all and (min-width: 768px) {

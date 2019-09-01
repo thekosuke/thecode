@@ -7,9 +7,9 @@
 	max-width: 1440px;
 	margin: 0 auto;
 	grid-gap: 10px;
-	
-	-webkit-transition: .5s ease;
-	-moz-transition: .5s ease;
-	-o-transition: .5s ease;
-	transition: .5s ease;
+
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
 }
