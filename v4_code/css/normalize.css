@@ -44,11 +44,6 @@
 			letter-spacing: -.5px;
 		}
 
-		/* .fullname {
-			font-size: .7em;
-			margin-bottom: 1.5em;
-		} */
-
   .dot {
   			height: 5px;
   		  width: 5px;
@@ -342,15 +337,12 @@
 		}
 
 		.one-liner p {
-			font-size: 1.3em;
-			letter-spacing: -.7px;
+			font-size: 1.5em;
+			letter-spacing: -1px;
 			line-height: 1.2em;
 		}
 
-		.connect a {
-			font-size: .9em;
-			letter-spacing: -.7px;
-		}
+		.connect a { font-size: .9em; }
 
 }
 
@@ -459,14 +451,6 @@
 			font-size: 2.5em;
 			letter-spacing: -1.7px;
 		}
-
-	#moreContent {
-		-webkit-transform: rotate(30deg);
-	     -moz-transform: rotate(30deg);
-	      -ms-transform: rotate(30deg);
-	       -o-transform: rotate(30deg);
-	          transform: rotate(30deg);
-		}
 }
 
 @media all and (min-width: 1280px) {
@@ -492,6 +476,8 @@
 		}
 
 		#container { margin-top: 5.5em; }
+
+		.top h4 { padding-top: .55em; }
 
 	.moreText { width: 65%; }
 }
