@@ -311,7 +311,7 @@ h1, h2, h3, h4, p, a {
   }
 
   .loading {
-      animation: fall 4s infinite;
+      animation: fall 5s infinite;
   }
 
   /* .loading {
