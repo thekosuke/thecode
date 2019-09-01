@@ -5,13 +5,18 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   }
 
   ::-webkit-scrollbar { display: none; }
-  ::selection { background-color: #F2314E; }
-  ::-moz-selection { background: #F2314E; }
+  ::selection { color: #F2314E; }
+  ::-moz-selection { color: #F2314E; }
 
   body {
     /* background-image: radial-gradient(#292C34, #16161A); */
     background-image: radial-gradient(#F0F0F2, #FAFAFC);
     overflow-x: hidden;
+  }
+
+  #container {
+    position: relative;
+    z-index: 1;
   }
 
 /*//////////////////// ///////////////////////
@@ -48,6 +53,65 @@ h1, h2, h3, h4, p, a {
   h4 span { text-transform: lowercase; }
 
   .one-liner p, .connect a { color: #FAFAFC; }
+
+
+/*//////////////////// ///////////////////////
+	PROJECT BACKGROUNDS
+//////////////////// ///////////////////////*/
+  .coke-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background: radial-gradient(#F21919, #FF6868);
+    z-index: 0;
+    opacity: 0;
+
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+
+  .tp-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
+    z-index: 0;
+    opacity: 0;
+
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+
+  .italia-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background: radial-gradient(#0D0D0D, #404040);
+    z-index: 0;
+    opacity: 0;
+
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+    transition: .3s ease-out;
+  }
+
 
 /*//////////////////////////////////////
   MORE OVERLAY
