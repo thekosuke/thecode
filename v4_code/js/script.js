@@ -2,7 +2,7 @@
     PRELOADER: FADE OUT
 **************************************************/
 $(window).load(function() {
-  $('#loader').delay(3000).slideUp("slow");
+  $('#loader').delay(3000).fadeOut("slow");
 });
 
 

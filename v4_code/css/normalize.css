@@ -314,10 +314,6 @@
 
 		.connect { margin-top: 3em; }
 
-	.loading {
-			width: 300%;
-			margin-left: -100%;
-		}
 }
 
 @media all and (min-width: 375px) {
@@ -434,10 +430,6 @@
 
 	.moreText { width: 80%; }
 
-	.loading {
-			width: 175%;
-			margin-left: -40%;
-		}
 }
 
 @media all and (min-width: 960px) {
@@ -463,11 +455,6 @@
 		.one-liner p {
 			font-size: 2.5em;
 			letter-spacing: -1.7px;
-		}
-
-	.loading {
-			width: 100%;
-			margin-left: 0;
 		}
 }
 
