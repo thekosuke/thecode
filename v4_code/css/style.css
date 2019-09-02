@@ -4,7 +4,11 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     margin: 0;
   }
 
-  ::-webkit-scrollbar { display: none; }
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track {	background: #FAFAFC; }
+  ::-webkit-scrollbar-thumb { background: #16161A; }
+  ::-webkit-scrollbar-thumb:hover { background: #D62D7D; }
+
   ::selection { color: #D62D7D; }
   ::-moz-selection { color: #D62D7D; }
 
@@ -31,7 +35,7 @@ body {
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, h5, h6, p, a {
     color: #16161A;
     /* color: #FAFAFC; */
     font-weight: normal;
@@ -43,14 +47,13 @@ h1, h2, h3, h4, p, a {
     transition: .3s ease;
   }
 
-  h1 {
-    font-family: "Favorit-Medium";
-    text-transform: lowercase;
-  }
-
+  h1 { font-family: "Favorit-Medium"; text-transform: lowercase; }
   h2, a { font-family: "Favorit-Lining-Medium"; }
-
-  h3, .one-liner p { font-family: "Favorit-Medium"; }
+  h3, h6, .one-liner p { font-family: "Favorit-Medium"; }
+  .one-liner p, .connect a { color: #FAFAFC; }
+  h5 { text-align: center; text-transform: uppercase; }
+  h5 a { font-family: "Favorit-MediumXt"; text-decoration: none; }
+  p { font-family: "Favorit-Regular"; }
 
   h4 {
     font-family: "Favorit-MediumXt";
@@ -60,8 +63,7 @@ h1, h2, h3, h4, p, a {
   }
 
   h4 span { text-transform: lowercase; }
-
-  .one-liner p, .connect a { color: #FAFAFC; }
+  .back-button a { font-family: "Favorit-Medium"; text-decoration: none; }
 
 /*//////////////////// ///////////////////////
 	PROJECT BACKGROUNDS
@@ -84,41 +86,41 @@ h1, h2, h3, h4, p, a {
     transition: .3s ease-out;
   }
 
-  .tp-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
-    z-index: 0;
-    opacity: 0;
+.tp-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
+  z-index: 0;
+  opacity: 0;
 
-    -webkit-transition: .3s ease-out;
-    -moz-transition: .3s ease-out;
-    -o-transition: .3s ease-out;
-    transition: .3s ease-out;
-  }
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
 
-  .italia-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    background: radial-gradient(#0D0D0D, #404040);
-    z-index: 0;
-    opacity: 0;
+.italia-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  background: radial-gradient(#0D0D0D, #404040);
+  z-index: 0;
+  opacity: 0;
 
-    -webkit-transition: .3s ease-out;
-    -moz-transition: .3s ease-out;
-    -o-transition: .3s ease-out;
-    transition: .3s ease-out;
-  }
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
 
 /*//////////////////////////////////////
   MORE OVERLAY
@@ -257,6 +259,72 @@ h1, h2, h3, h4, p, a {
       .dot5.active {
         background: #FAFAFC;
       }
+
+/*//////////////////// ///////////////////////
+  PROJECT - NAV BAR
+//////////////////// ///////////////////////*/
+#navBar {
+  	position: fixed;
+  	width: 100%;
+    background: radial-gradient(#F0F0F2, #FAFAFC);
+    border-top: 1px solid #16161A;
+  	z-index: 2147483647;
+
+    animation: rise 2s;
+    animation-delay: 2.5s;
+
+    -webkit-transition: .7s ease-outs;
+    -moz-transition: .7s ease-outs;
+    -o-transition: .7s ease-outs;
+    transition: .7s ease-outs;
+  }
+
+  .arrow, .project-name h5 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* .arrow {
+    width: 0;
+    height: 0;
+    margin-top: 25%;
+    margin-left: -15%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid #16161A;
+  } */
+
+#project-banner {
+  	position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  #cokeBanner { background-image: radial-gradient(#F21919, #FF6868); }
+  #tpBanner { background-image: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
+  #italiaBanner { background-image: radial-gradient(#0D0D0D, #404040); }
+
+
+
+
+/*//////////////////// ///////////////////////
+  PROJECT - CONTENT
+//////////////////// ///////////////////////*/
+.project-image img {
+  position: relative;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+/*//////////////////// ///////////////////////
+  PROJECT - FOOTER
+//////////////////// ///////////////////////*/
+
 
 /*//////////////////////////////////////
   PRELOAD ELEMENTS
@@ -638,4 +706,25 @@ h1, h2, h3, h4, p, a {
     0% { -o-transform: translate(0, 0); }
     50% { -o-transform: translate(0, -.6em); }
     100% { -o-transform: translate(0, 0); }
+  }
+
+@keyframes entrance {
+  	0% { transform: translateY(100%); opacity: 0;  }
+  	100% { transform: translateY(0); opacity: 1; }
+  }
+  @-webkit-keyframes entrance {
+    0% { -webkit-transform: translateY(100%); opacity: 0;  }
+  	100% { -webkit-transform: translateY(0); opacity: 1; }
+  }
+  @-moz-keyframes entrance {
+    0% { -moz-transform: translateY(100%); opacity: 0;  }
+  	100% { -moz-transform: translateY(0); opacity: 1; }
+  }
+  @-ms-keyframes entrance {
+    0% { -ms-transform: translateY(100%); opacity: 0;  }
+  	100% { -ms-transform: translateY(0); opacity: 1; }
+  }
+  @-o-keyframes entrance {
+    0% { -o-transform: translateY(100%); opacity: 0;  }
+  	100% { -o-transform: translateY(0); opacity: 1; }
   }

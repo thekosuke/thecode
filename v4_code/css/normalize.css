@@ -1,13 +1,16 @@
 @media all and (min-width: 320px) {
-	.grid-0, .grid-1, .grid-2 {
+	.grid-0, .grid-1, .grid-2,
+	.grid-3, .grid-4, .grid-5 {
 			max-width: 320px;
 			margin-left: 0;
 			margin-right: 0;
 		}
 
-		.grid-0 { grid-template-columns: 1fr; }
+		.grid-0, { grid-template-columns: 1fr; }
 		.grid-1 { grid-template-columns: .75fr 11fr .25fr; }
 		.grid-2 { grid-template-columns: 3.5fr 8.25fr .25fr; }
+		.grid-3 { grid-template-columns: 3fr 6fr 3fr; }
+		.grid-4 { grid-template-columns: .5fr 11fr .5fr; }
 
 		#container { margin-top: 1.5em; }
 		#name, #footer, #projects, #experience, .wrapper {
@@ -92,6 +95,35 @@
 		}
 
 		.connect { margin-top: 3em; }
+
+/*//////////////////// ///////////////////////
+  PROJECT PAGE
+//////////////////// ///////////////////////*/
+	#project-banner {
+		height: 15em;
+	}
+
+	#navBar { bottom: 0; height: 3.5em; }
+	.arrow { width: 20%; margin-left: -10%; }
+
+	h5 a {
+			font-size: .7em;
+			letter-spacing: .2em;
+		}
+
+		h6 {
+			font-size: 2em;
+			letter-spacing: -.5px;
+			line-height: 2em;
+		}
+
+		.body-copy {
+			font-size: .9em;
+			letter-spacing: -.2px;
+			line-height: 1.7em;
+		}
+
+	.project-description { margin-bottom: 3em; }
 
 }
 
@@ -197,6 +229,9 @@
       -o-transition: .5s ease;
       transition: .5s ease;
     }
+
+		.back-button a:hover { color: #FFB700; }
+
 }
 
 @media all and (min-width: 768px) {
