@@ -5,7 +5,6 @@ $(window).load(function() {
   $('#loader').delay(3000).fadeOut("slow");
 });
 
-
 /**************************************************
     MORE: TOGGLE
 **************************************************/
@@ -37,16 +36,14 @@ $(document).ready(function () {
     });
 });
 
-
 /**************************************************
     PROJECT: HOVER
 **************************************************/
 $(document).ready(function() {
-  $(".coke h2").mouseenter(function() {
-    // $("body").css("background-image", "radial-gradient(#F21919, #FF6868)");
+  $(".coke h2 a").mouseenter(function() {
     $(".coke-bg").css("opacity", "1");
 
-    $(".coke h2").css("color", "#FAFAFC");
+    $(".coke h2 a").css("color", "#FAFAFC");
     $(".coke h4").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
@@ -56,11 +53,10 @@ $(document).ready(function() {
     $("#experience").css("opacity", ".1");
     $("#moreBar").css("opacity", ".1");
   });
-  $(".coke h2").mouseleave(function() {
-    // $("body").css("background-image", "radial-gradient(#F0F0F2, #FAFAFC)");
+  $(".coke h2 a").mouseleave(function() {
     $(".coke-bg").css("opacity", "0");
 
-    $(".coke h2").css("color", "#16161A");
+    $(".coke h2 a").css("color", "#16161A");
     $(".coke h4").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
@@ -71,11 +67,10 @@ $(document).ready(function() {
     $("#moreBar").css("opacity", "1");
   });
 
-  $(".tp h2").mouseenter(function() {
-    // $("body").css("background", "radial-gradient(#2B65D9, #5FDFE9)");
+  $(".tp h2 a").mouseenter(function() {
     $(".tp-bg").css("opacity", "1");
 
-    $(".tp h2").css("color", "#FAFAFC");
+    $(".tp h2 a").css("color", "#FAFAFC");
     $(".tp h4").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
@@ -85,11 +80,10 @@ $(document).ready(function() {
     $("#experience").css("opacity", ".1");
     $("#moreBar").css("opacity", ".1");
   });
-  $(".tp h2").mouseleave(function() {
-    // $("body").css("background", "radial-gradient(#F0F0F2, #FAFAFC)");
+  $(".tp h2 a").mouseleave(function() {
     $(".tp-bg").css("opacity", "0");
 
-    $(".tp h2").css("color", "#16161A");
+    $(".tp h2 a").css("color", "#16161A");
     $(".tp h4").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
@@ -100,11 +94,10 @@ $(document).ready(function() {
     $("#moreBar").css("opacity", "1");
   });
 
-  $(".italia h2").mouseenter(function() {
-    // $("body").css("background", "radial-gradient(#0D0D0D, #404040)");
+  $(".italia h2 a").mouseenter(function() {
     $(".italia-bg").css("opacity", "1");
 
-    $(".italia h2").css("color", "#FAFAFC");
+    $(".italia h2 a").css("color", "#FAFAFC");
     $(".italia h4").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
@@ -114,11 +107,10 @@ $(document).ready(function() {
     $("#experience").css("opacity", ".1");
     $("#moreBar").css("opacity", ".1");
   });
-  $(".italia h2").mouseleave(function() {
-    // $("body").css("background", "radial-gradient(#F0F0F2, #FAFAFC)");
+  $(".italia h2 a").mouseleave(function() {
     $(".italia-bg").css("opacity", "0");
 
-    $(".italia h2").css("color", "#16161A");
+    $(".italia h2 a").css("color", "#16161A");
     $(".italia h4").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
