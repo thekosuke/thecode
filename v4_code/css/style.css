@@ -49,11 +49,12 @@ h1, h2, h3, h4, h5, h6, p, a {
 
   h1 { font-family: "Favorit-Medium"; text-transform: lowercase; }
   h2, a { font-family: "Favorit-Lining-Medium"; }
-  h3, h6, .one-liner p { font-family: "Favorit-Medium"; }
+  h3, .one-liner p { font-family: "Favorit-Medium"; }
   .one-liner p, .connect a { color: #FAFAFC; }
   h5 { text-align: center; text-transform: uppercase; }
   h5 a { font-family: "Favorit-MediumXt"; text-decoration: none; }
-  p { font-family: "Favorit-Regular"; }
+  h6, p { font-family: "Messina-Sans-Regular"; }
+  .body-copy a { font-family: "Messina-Sans-Regular"; text-decoration: underline; }
 
   h4 {
     font-family: "Favorit-MediumXt";

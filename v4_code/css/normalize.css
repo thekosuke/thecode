@@ -112,20 +112,27 @@
 		}
 
 		h6 {
-			font-size: 2em;
+			font-size: 1.8em;
 			letter-spacing: -.7px;
-			line-height: 1.75em;
+			line-height: 1.65em;
 		}
 
 		.body-copy {
 			font-size: .95em;
-			letter-spacing: -.2px;
+			letter-spacing: 0px;
 			line-height: 1.6em;
 		}
 
 	.project-description {
-		margin-top: 2.5em;
-		margin-bottom: 1em;
+			margin-top: 3em;
+			margin-bottom: 2em;
+		}
+
+
+
+	#footer {
+		margin-top: 3em;
+		margin-bottom: 7em;
 	}
 
 }
@@ -170,8 +177,14 @@
 //////////////////// ///////////////////////*/
 		h5 a { font-size: .8em; }
 
+		h6 {
+			font-size: 2em;
+			letter-spacing: -.7px;
+			line-height: 1.75em;
+		}
+
 		.body-copy {
-			font-size: 1em;
+			font-size: 1.1em;
 		}
 }
 

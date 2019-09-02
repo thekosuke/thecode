@@ -1,5 +1,5 @@
 /*//////////////////// ///////////////////////
-	Favorit
+	FAVORIT
 //////////////////// ///////////////////////*/
 @font-face {
 	font-family: 'Favorit-Light';
@@ -103,6 +103,19 @@
 @font-face {
 	font-family: 'Favorit-Lining-Bold';
 	src: url('../fonts/Favorit-Lining/FavoritLiningTrial-Bold.woff');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+
+/*//////////////////// ///////////////////////
+	MESSINA SANS
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'Messina-Sans-Regular';
+	src: url('../fonts/Messina-Sans/Messina-Sans-Regular.otf');
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
