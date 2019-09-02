@@ -128,7 +128,8 @@
 }
 
 @media all and (min-width: 375px) {
-	.grid-0, .grid-1, .grid-2 {
+	.grid-0, .grid-1, .grid-2,
+	.grid-3, .grid-4, .grid-5 {
 			max-width: 375px;
 		}
 
@@ -163,7 +164,8 @@
 }
 
 @media all and (min-width: 400px) {
-	.grid-0, .grid-1, .grid-2 {
+	.grid-0, .grid-1, .grid-2,
+	.grid-3, .grid-4, .grid-5 {
 			max-width: 400px;
 		}
 
@@ -190,7 +192,8 @@
 }
 
 @media all and (min-width: 480px) {
-	.grid-0, .grid-1, .grid-2 {
+	.grid-0, .grid-1, .grid-2,
+	.grid-3, .grid-4, .grid-5 {
 			max-width: 480px;
 		}
 
