@@ -47,7 +47,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: .3s ease;
   }
 
-  h1, h2, h2 a, .one-liner p, .connect a {
+  h1, h2, h2 a, .one-liner p, .connect a,
+  .project-quote p, .footer-header {
     font-family: "Messina-Sans-Bold";
   }
 
@@ -71,6 +72,8 @@ h1, h2, h3, h4, h5, h6, p, a {
     text-align: center;
     text-transform: uppercase;
   }
+
+  .project-quote p { color: #4C4C4C; }
 
 /*//////////////////// ///////////////////////
 	PROJECT BACKGROUNDS

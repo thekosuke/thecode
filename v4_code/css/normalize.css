@@ -108,7 +108,7 @@
 	.arrow { width: 20%; margin-left: -10%; }
 
 	.project-name h3 {
-			font-size: .8em;
+			font-size: .7em;
 			letter-spacing: .2em;
 		}
 
@@ -130,9 +130,38 @@
 		}
 
 	#footer {
-		margin-top: 3em;
-		margin-bottom: 7em;
-	}
+			margin-top: 3em;
+			margin-bottom: 7em;
+		}
+
+		.website {
+			margin-top: 5em;
+			margin-bottom: 3em;
+		}
+
+		.site-link {
+			font-size: 1.5em;
+		}
+
+		.footer-header {
+			font-size: .9em;
+			letter-spacing: -.3px;
+			line-height: 3em;
+		}
+
+		.info {
+			margin-bottom: 2em;
+		}
+
+		hr {
+			margin-top: 0;
+			margin-bottom: 1em;
+		}
+
+		li p {
+			font-size: .9em;
+			line-height: 1.7em;
+		}
 
 }
 
