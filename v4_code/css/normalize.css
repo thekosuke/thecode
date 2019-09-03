@@ -246,6 +246,20 @@
 
 		.connect a { font-size: 1em; }
 
+	.body-copy, .project-quote p {
+		font-size: 1.1em;
+		line-height: 1.7em;
+	}
+
+	.footer-header {
+			font-size: 1em;
+		}
+
+		li p {
+			font-size: 1em;
+		}
+
+		.more-projects { margin-bottom: 7em; }
 }
 
 @media all and (min-width: 480px) {

@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 //////////////////// ///////////////////////*/
 #navBar {
   	position: fixed;
-  	width: 100%;
+  	max-width: 100%;
     background: radial-gradient(#F0F0F2, #FAFAFC);
     border-top: 1px solid #16161A;
   	z-index: 2147483647;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 #project-banner {
   	position: relative;
     top: 0;
-    width: 100%;
+    max-width: 100%;
   }
 
   #cokeBanner { background-image: radial-gradient(#F21919, #FF6868); }
@@ -322,9 +322,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT
 //////////////////// ///////////////////////*/
+.project-image { max-width: 100%; }
+
 .project-image img {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 li {
