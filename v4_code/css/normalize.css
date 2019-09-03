@@ -118,40 +118,37 @@
 			line-height: 1.65em;
 		}
 
+		.project-description {
+			margin-top: 3em;
+			margin-bottom: 2em;
+		}
+
 		.body-copy {
 			font-size: .95em;
 			letter-spacing: 0px;
 			line-height: 1.6em;
 		}
 
-	.project-description {
-			margin-top: 3em;
-			margin-bottom: 2em;
-		}
-
 	#footer {
-			margin-top: 3em;
+			margin-top: 7em;
 			margin-bottom: 7em;
 		}
 
-		.website {
-			margin-top: 5em;
-			margin-bottom: 3em;
+		.footer-wrapper {
+			margin-bottom: 5em;
 		}
 
 		.site-link {
-			font-size: 1.5em;
+			font-size: 1.4em;
 		}
 
 		.footer-header {
 			font-size: .9em;
 			letter-spacing: -.3px;
-			line-height: 3em;
+			line-height: 2em;
 		}
 
-		.info {
-			margin-bottom: 2em;
-		}
+		.info { margin-bottom: 1.5em; }
 
 		hr {
 			margin-top: 0;
@@ -162,6 +159,8 @@
 			font-size: .9em;
 			line-height: 1.7em;
 		}
+
+		.website p, .more-projects h4, .project-link { margin-bottom: 1em;}
 
 }
 
