@@ -146,7 +146,7 @@
 		.grid-2 { grid-template-columns: 4fr 8fr 0fr; }
 
 		.wrapper {
-			margin-bottom: 2em;
+			margin-bottom: 1.75em;
 		}
 
 	h1 { font-size: .8em; }
