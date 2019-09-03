@@ -47,24 +47,29 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: .3s ease;
   }
 
-  h1 { font-family: "Favorit-Medium"; text-transform: lowercase; }
-  h2, a { font-family: "Favorit-Lining-Medium"; }
-  h3, .one-liner p { font-family: "Favorit-Medium"; }
-  .one-liner p, .connect a { color: #FAFAFC; }
-  h5 { text-align: center; text-transform: uppercase; }
-  h5 a { font-family: "Favorit-MediumXt"; text-decoration: none; }
-  h6, p { font-family: "Messina-Sans-Regular"; }
-  .body-copy a { font-family: "Messina-Sans-Regular"; text-decoration: underline; }
-
-  h4 {
-    font-family: "Favorit-MediumXt";
-    text-transform: uppercase;
-    /* color: #A4A4A6; */
-    color: #7E7E80;
+  h1, h2, h2 a, .one-liner p, .connect a {
+    font-family: "Messina-Sans-Bold";
   }
 
-  h4 span { text-transform: lowercase; }
-  .back-button a { font-family: "Favorit-Medium"; text-decoration: none; }
+  h1 { text-transform: lowercase; }
+  h2 a, a { text-decoration: underline; }
+  .one-liner p, .connect a { color: #FAFAFC; }
+
+  h3 {
+    font-family: "Favorit-Medium";
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #7E7E80; /* color: #A4A4A6; */
+  }
+
+  h3 span { text-transform: lowercase; }
+
+  h4, p, a { font-family: "Messina-Sans-Regular"; }
+
+  .project-name h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
 
 /*//////////////////// ///////////////////////
 	PROJECT BACKGROUNDS
@@ -280,7 +285,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: .7s ease-outs;
   }
 
-  .arrow, .project-name h5 {
+  .arrow, .project-name h3 {
     position: relative;
     top: 50%;
     left: 50%;

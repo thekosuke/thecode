@@ -22,29 +22,30 @@
 			letter-spacing: -.1px;
 		}
 
-		h2, h3 {
+		h2 {
 			font-size: .9em;
-			letter-spacing: -.4px;
+			letter-spacing: -.3px;
 			margin-bottom: .3em;
 		}
 
-		h4 {
+		h3 {
 			font-size: 8px;
 			letter-spacing: .2em;
 		}
 
-		.top h4 {
+		.top h3 {
 			padding-top: .35em;
 		}
 
 		.one-liner p {
-			font-size: 1em;
-			letter-spacing: -.3px;
+			font-size: 1.2em;
+			letter-spacing: -.2px;
+			line-height: 1.3em;
 		 }
 
 		.connect a {
-			font-size: .7em;
-			letter-spacing: -.5px;
+			font-size: .8em;
+			letter-spacing: 0px;
 		}
 
 		.connect div {
@@ -106,12 +107,12 @@
 	#navBar { bottom: 0; height: 3.5em; }
 	.arrow { width: 20%; margin-left: -10%; }
 
-	h5 a {
+	.project-name h3 {
 			font-size: .8em;
 			letter-spacing: .2em;
 		}
 
-		h6 {
+		h4 {
 			font-size: 1.8em;
 			letter-spacing: -.7px;
 			line-height: 1.65em;
@@ -128,8 +129,6 @@
 			margin-bottom: 2em;
 		}
 
-
-
 	#footer {
 		margin-top: 3em;
 		margin-bottom: 7em;
@@ -144,7 +143,7 @@
 		}
 
 		.grid-1 { grid-template-columns: 1fr 10.5fr .5fr; }
-		.grid-2 { grid-template-columns: 4.25fr 7.5fr .25fr; }
+		.grid-2 { grid-template-columns: 4fr 8fr 0fr; }
 
 		.wrapper {
 			margin-bottom: 2em;
@@ -154,19 +153,19 @@
 			font-size: .8em;
 		}
 
-		h2, h3 {
+		h2 {
 			font-size: 1em;
-			letter-spacing: -.8px;
+			letter-spacing: -.3px;
 		}
 
-		.top h4 {
+		.top  {
 			padding-top: .7em;
 		}
 
 		.one-liner p {
-			font-size: 1.5em;
-			letter-spacing: -1px;
-			line-height: 1.1em;
+			font-size: 1.4em;
+			letter-spacing: -.5px;
+			line-height: 1.3em;
 		}
 
 		.connect a { font-size: .9em; }
@@ -175,9 +174,9 @@
 /*//////////////////// ///////////////////////
   PROJECT PAGE
 //////////////////// ///////////////////////*/
-		h5 a { font-size: .8em; }
+		.project-name h3 { font-size: .8em; }
 
-		h6 {
+		h4 {
 			font-size: 2em;
 			letter-spacing: -.7px;
 			line-height: 1.75em;
@@ -203,7 +202,7 @@
 			font-size: .9em;
 		}
 
-		h2, h3 {
+		h2,  {
 			font-size: 1.1em;
 		}
 
@@ -229,14 +228,14 @@
 
 	h1 { font-size: .8em; }
 
-		h2, h3 {
+		h2,  {
 			font-size: 1em;
 			letter-spacing: -.5px;
 		}
 
-		h4 { font-size: 8px; }
+		h3 { font-size: 8px; }
 
-		.top h4 { padding-top: .5em; }
+		.top h3 { padding-top: .5em; }
 
 	.connect a:hover {
 	    background-color: #FAFAFC;
@@ -292,7 +291,7 @@
 
 	.moreText { width: 80%; }
 
-		.fullname h4 { font-size: .9em; }
+		.fullname h3 { font-size: .9em; }
 
 		.one-liner p {
 			font-size: 2.5em;
@@ -328,7 +327,7 @@
 
 		#container { margin-top: 5.5em; }
 
-		.top h4 { padding-top: .55em; }
+		.top h3 { padding-top: .55em; }
 
 	.moreText { width: 65%; }
 }
