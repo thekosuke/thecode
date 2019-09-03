@@ -44,20 +44,20 @@ $(document).ready(function() {
     $(".coke-bg").css("opacity", "1");
 
     $(".coke h2 a").css("color", "#FAFAFC");
-    $(".coke h4").css("color", "#FAFAFC");
+    $(".coke h3").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
-    $(".top").css("opacity", ".1");
-    $(".tp").css("opacity", ".1");
-    $(".italia").css("opacity", ".1");
-    $("#experience").css("opacity", ".1");
-    $("#moreBar").css("opacity", ".1");
+    $(".top").css("opacity", "0");
+    $(".tp").css("opacity", "0");
+    $(".italia").css("opacity", "0");
+    $("#experience").css("opacity", "0");
+    $("#moreBar").css("opacity", "0");
   });
   $(".coke h2 a").mouseleave(function() {
     $(".coke-bg").css("opacity", "0");
 
     $(".coke h2 a").css("color", "#16161A");
-    $(".coke h4").css("color", "#7E7E80");
+    $(".coke h3").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
     $(".top").css("opacity", "1");
@@ -71,20 +71,20 @@ $(document).ready(function() {
     $(".tp-bg").css("opacity", "1");
 
     $(".tp h2 a").css("color", "#FAFAFC");
-    $(".tp h4").css("color", "#FAFAFC");
+    $(".tp h3").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
-    $(".top").css("opacity", ".1");
-    $(".coke").css("opacity", ".1");
-    $(".italia").css("opacity", ".1");
-    $("#experience").css("opacity", ".1");
-    $("#moreBar").css("opacity", ".1");
+    $(".top").css("opacity", "0");
+    $(".coke").css("opacity", "0");
+    $(".italia").css("opacity", "0");
+    $("#experience").css("opacity", "0");
+    $("#moreBar").css("opacity", "0");
   });
   $(".tp h2 a").mouseleave(function() {
     $(".tp-bg").css("opacity", "0");
 
     $(".tp h2 a").css("color", "#16161A");
-    $(".tp h4").css("color", "#7E7E80");
+    $(".tp h3").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
     $(".top").css("opacity", "1");
@@ -98,20 +98,20 @@ $(document).ready(function() {
     $(".italia-bg").css("opacity", "1");
 
     $(".italia h2 a").css("color", "#FAFAFC");
-    $(".italia h4").css("color", "#FAFAFC");
+    $(".italia h3").css("color", "#FAFAFC");
     $("#projects h1").css("color", "#FAFAFC");
 
-    $(".top").css("opacity", ".1");
-    $(".coke").css("opacity", ".1");
-    $(".tp").css("opacity", ".1");
-    $("#experience").css("opacity", ".1");
-    $("#moreBar").css("opacity", ".1");
+    $(".top").css("opacity", "0");
+    $(".coke").css("opacity", "0");
+    $(".tp").css("opacity", "0");
+    $("#experience").css("opacity", "0");
+    $("#moreBar").css("opacity", "0");
   });
   $(".italia h2 a").mouseleave(function() {
     $(".italia-bg").css("opacity", "0");
 
     $(".italia h2 a").css("color", "#16161A");
-    $(".italia h4").css("color", "#7E7E80");
+    $(".italia h3").css("color", "#7E7E80");
     $("#projects h1").css("color", "#16161A");
 
     $(".top").css("opacity", "1");
