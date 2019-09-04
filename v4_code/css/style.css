@@ -4,11 +4,16 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     margin: 0;
   }
 
-  ::selection {
-    /* color: #D62D7D;  */
-    color: #F96417;
-  }
-  ::-moz-selection { color: #D62D7D; }
+  ::-webkit-scrollbar { display: none; }
+     ::-moz-scrollbar { display: none; }
+      ::-ms-scrollbar { display: none; }
+       ::-o-scrollbar { display: none; }
+
+  ::-webkit-selection { color: #F96417; }
+     ::-moz-selection { color: #F96417; }
+      ::-ms-selection { color: #F96417; }
+       ::-o-selection { color: #F96417; }
+          ::selection { color: #F96417; }
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
@@ -33,7 +38,7 @@ body {
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
-h1, h2, h3, p, a {
+h1, h2, h2 a, h3, p, a {
     /* color: #16161A; */
     color: #FAFAFC;
     font-weight: normal;
@@ -52,7 +57,6 @@ h1, h2, h3, p, a {
   h1 { text-transform: lowercase; }
   h2 a, a { text-decoration: underline; }
   .one-liner p, .connect a { color: #FAFAFC; }
-  a:hover { color: #D62D7D; }
 
   h3 {
     font-family: "Favorit-Medium";

@@ -63,9 +63,9 @@ $(document).ready(function() {
   $(".coke h2 a").mouseleave(function() {
     $(".coke-bg").css("opacity", "0");
 
-    $(".coke h2 a").css("color", "#16161A");
+    $(".coke h2 a").css("color", "#FAFAFC");
     $(".coke h3").css("color", "#7E7E80");
-    $("#projects h1").css("color", "#16161A");
+    $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");
     $(".tp").css("opacity", "1");
@@ -90,9 +90,9 @@ $(document).ready(function() {
   $(".tp h2 a").mouseleave(function() {
     $(".tp-bg").css("opacity", "0");
 
-    $(".tp h2 a").css("color", "#16161A");
+    $(".tp h2 a").css("color", "#FAFAFC");
     $(".tp h3").css("color", "#7E7E80");
-    $("#projects h1").css("color", "#16161A");
+    $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");
     $(".coke").css("opacity", "1");
@@ -117,9 +117,9 @@ $(document).ready(function() {
   $(".italia h2 a").mouseleave(function() {
     $(".italia-bg").css("opacity", "0");
 
-    $(".italia h2 a").css("color", "#16161A");
+    $(".italia h2 a").css("color", "#FAFAFC");
     $(".italia h3").css("color", "#7E7E80");
-    $("#projects h1").css("color", "#16161A");
+    $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");
     $(".coke").css("opacity", "1");

@@ -9,11 +9,11 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   ::-webkit-scrollbar-thumb { background: #FAFAFC; }
   ::-webkit-scrollbar-thumb:hover { background: #D62D7D; }
 
-  ::selection {
-    /* color: #D62D7D;  */
-    color: #F96417;
-  }
-  ::-moz-selection { color: #D62D7D; }
+  ::-webkit-selection { color: #F96417; }
+     ::-moz-selection { color: #F96417; }
+      ::-ms-selection { color: #F96417; }
+       ::-o-selection { color: #F96417; }
+          ::selection { color: #F96417; }
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
@@ -41,7 +41,7 @@ h3, h4, h5, h6, p, a {
   }
 
   a { text-decoration: underline; }
-  a:hover { color: #D62D7D; }
+  a:hover { color: #F96417; }
 
   h3 {
     font-family: "Favorit-Medium";
