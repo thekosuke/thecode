@@ -17,7 +17,6 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
-    /* background-image: radial-gradient(#F0F0F2, #FAFAFC); */
     overflow-x: hidden;
   }
 
@@ -25,7 +24,6 @@ body {
 	TYPESETTING
 //////////////////// ///////////////////////*/
 h3, h4, h5, h6, p, a {
-    /* color: #16161A; */
     color: #FAFAFC;
     font-weight: normal;
     text-decoration: none;
@@ -47,7 +45,6 @@ h3, h4, h5, h6, p, a {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
     text-decoration: none;
-    /* color: #7E7E80;  */
     color: #A4A4A6;
   }
 
@@ -57,17 +54,13 @@ h3, h4, h5, h6, p, a {
 
   .project-name h3 {
     color: #FAFAFC;
-    /* color: #16161A; */
     text-align: center;
     text-transform: uppercase;
   }
 
   .project-quote p {
-    /* color: #4C4C4C;  */
     color: #FAFAFC;
   }
-
-  .scapegoat { visibility: hidden; }
 
 
 /*//////////////////// ///////////////////////
@@ -94,7 +87,7 @@ h3, h4, h5, h6, p, a {
   }
 
   .arrow:hover {
-    width: 3%;
+    opacity: .5;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
@@ -122,7 +115,6 @@ h3, h4, h5, h6, p, a {
   #cokeBanner { background-image: radial-gradient(#F21919, #FF6868); }
   #tpBanner { background-image: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
   #italiaBanner { background-image: radial-gradient(#0D0D0D, #404040); }
-
 
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT

@@ -39,7 +39,6 @@ body {
 	TYPESETTING
 //////////////////// ///////////////////////*/
 h1, h2, h2 a, h3, p, a {
-    /* color: #16161A; */
     color: #FAFAFC;
     font-weight: normal;
     text-decoration: none;
@@ -62,7 +61,6 @@ h1, h2, h2 a, h3, p, a {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
     text-decoration: none;
-    /* color: #7E7E80;  */
     color: #A4A4A6;
   }
 
@@ -70,7 +68,6 @@ h1, h2, h2 a, h3, p, a {
 
   .project-name h3 {
     color: #FAFAFC;
-    /* color: #16161A; */
     text-align: center;
     text-transform: uppercase;
   }
@@ -182,10 +179,8 @@ h1, h2, h2 a, h3, p, a {
 //////////////////////////////////////*/
 #moreBar {
     position: fixed;
-    /* background: radial-gradient(#F0F0F2, #FAFAFC);
-    border-top: 1px solid #16161A; */
     background-image: radial-gradient(#292C34, #16161A);
-    border-top: 1px solid #FAFAFC;
+    border-top: .5px solid #FAFAFC;
   	text-align: center;
   	z-index: 100;
     cursor: pointer;
