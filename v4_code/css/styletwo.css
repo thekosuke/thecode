@@ -139,9 +139,11 @@ h3, h4, h5, h6, p, a {
     max-width: 100%;
   }
 
-li {
-  list-style: none;
-}
+hr { border-width: .5px; }
+
+  li {
+    list-style: none;
+  }
 
 /*//////////////////////////////////////
   PRELOAD ELEMENTS
