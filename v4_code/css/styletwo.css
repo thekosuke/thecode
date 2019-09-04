@@ -134,6 +134,11 @@ h3, h4, h5, h6, p, a {
     max-width: 100%;
   }
 
+  .project-image video {
+    position: relative;
+    max-width: 100%;
+  }
+
 li {
   list-style: none;
 }
