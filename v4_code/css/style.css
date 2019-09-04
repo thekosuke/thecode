@@ -4,17 +4,15 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     margin: 0;
   }
 
-  ::-webkit-scrollbar { width: 10px; }
-  ::-webkit-scrollbar-track {	background: #FAFAFC; }
-  ::-webkit-scrollbar-thumb { background: #16161A; }
-  ::-webkit-scrollbar-thumb:hover { background: #D62D7D; }
-
-  ::selection { color: #D62D7D; }
+  ::selection {
+    /* color: #D62D7D;  */
+    color: #F96417;
+  }
   ::-moz-selection { color: #D62D7D; }
 
 body {
-    /* background-image: radial-gradient(#292C34, #16161A); */
-    background-image: radial-gradient(#F0F0F2, #FAFAFC);
+    background-image: radial-gradient(#292C34, #16161A);
+    /* background-image: radial-gradient(#F0F0F2, #FAFAFC); */
     overflow-x: hidden;
   }
 
@@ -35,9 +33,9 @@ body {
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
-h1, h2, h3, h4, h5, h6, p, a {
-    color: #16161A;
-    /* color: #FAFAFC; */
+h1, h2, h3, p, a {
+    /* color: #16161A; */
+    color: #FAFAFC;
     font-weight: normal;
     text-decoration: none;
 
@@ -47,33 +45,31 @@ h1, h2, h3, h4, h5, h6, p, a {
     transition: .3s ease;
   }
 
-  h1, h2, h2 a, .one-liner p, .connect a,
-  .project-quote p, .footer-header {
+  h1, h2, h2 a, .one-liner p, .connect a {
     font-family: "Messina-Sans-Bold";
   }
 
   h1 { text-transform: lowercase; }
   h2 a, a { text-decoration: underline; }
   .one-liner p, .connect a { color: #FAFAFC; }
+  a:hover { color: #D62D7D; }
 
   h3 {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
     text-decoration: none;
-    color: #7E7E80; /* color: #A4A4A6; */
+    /* color: #7E7E80;  */
+    color: #A4A4A6;
   }
 
   h3 span { text-transform: lowercase; }
 
-  h4, p, a { font-family: "Messina-Sans-Regular"; }
-
   .project-name h3 {
-    color: #16161A;
+    color: #FAFAFC;
+    /* color: #16161A; */
     text-align: center;
     text-transform: uppercase;
   }
-
-  .project-quote p { color: #4C4C4C; }
 
 /*//////////////////// ///////////////////////
 	PROJECT BACKGROUNDS
@@ -182,8 +178,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 //////////////////////////////////////*/
 #moreBar {
     position: fixed;
-    background: radial-gradient(#F0F0F2, #FAFAFC);
-    border-top: 1px solid #16161A;
+    /* background: radial-gradient(#F0F0F2, #FAFAFC);
+    border-top: 1px solid #16161A; */
+    background-image: radial-gradient(#292C34, #16161A);
+    border-top: 1px solid #FAFAFC;
   	text-align: center;
   	z-index: 100;
     cursor: pointer;
@@ -222,8 +220,8 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 
 .dot {
-      /* background: #FAFAFC; */
-      background: #16161A;
+      background: #FAFAFC;
+      /* background: #16161A; */
     }
 
     .dot1, .dot2, .dot3, .dot4 {
@@ -269,76 +267,6 @@ h1, h2, h3, h4, h5, h6, p, a {
       .dot5.active {
         background: #FAFAFC;
       }
-
-/*//////////////////// ///////////////////////
-  PROJECT - NAV BAR
-//////////////////// ///////////////////////*/
-#navBar {
-  	position: fixed;
-  	max-width: 100%;
-    background: radial-gradient(#F0F0F2, #FAFAFC);
-    border-top: 1px solid #16161A;
-  	z-index: 2147483647;
-
-    animation: rise 2s;
-    animation-delay: 2.5s;
-
-    -webkit-transition: .7s ease-outs;
-    -moz-transition: .7s ease-outs;
-    -o-transition: .7s ease-outs;
-    transition: .7s ease-outs;
-  }
-
-  .arrow, .project-name h3 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  /* .arrow {
-    width: 0;
-    height: 0;
-    margin-top: 25%;
-    margin-left: -15%;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right:10px solid #16161A;
-  } */
-
-#project-banner {
-  	position: relative;
-    top: 0;
-    max-width: 100%;
-  }
-
-  #project-banner .banner-color { height: 100%; } 
-
-  #cokeBanner { background-image: radial-gradient(#F21919, #FF6868); }
-  #tpBanner { background-image: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
-  #italiaBanner { background-image: radial-gradient(#0D0D0D, #404040); }
-
-
-
-
-/*//////////////////// ///////////////////////
-  PROJECT - CONTENT
-//////////////////// ///////////////////////*/
-.project-image { max-width: 100%; }
-
-.project-image img {
-  position: relative;
-  max-width: 100%;
-}
-
-li {
-  list-style: none;
-}
-
-/*//////////////////// ///////////////////////
-  PROJECT - FOOTER
-//////////////////// ///////////////////////*/
-
 
 /*//////////////////////////////////////
   PRELOAD ELEMENTS
@@ -490,7 +418,7 @@ li {
     100% { -o-transform: rotate(360deg) translate(30px); }
   }
 
-/* @keyframes beat {
+@keyframes beat {
     0% {
       transform: translate(-50%, -50%);
       transform: scale(1);
@@ -619,7 +547,7 @@ li {
       0% { -o-transform: translateY(100%); }
       75% { -o-transform: translateY(100%); }
       100% { -o-transform: translateY(0); }
-    } */
+    }
 
 @keyframes dot1 {
     0% { transform: translate(0, 0); }
@@ -720,25 +648,4 @@ li {
     0% { -o-transform: translate(0, 0); }
     50% { -o-transform: translate(0, -.6em); }
     100% { -o-transform: translate(0, 0); }
-  }
-
-@keyframes entrance {
-  	0% { transform: translateY(100%); opacity: 0;  }
-  	100% { transform: translateY(0); opacity: 1; }
-  }
-  @-webkit-keyframes entrance {
-    0% { -webkit-transform: translateY(100%); opacity: 0;  }
-  	100% { -webkit-transform: translateY(0); opacity: 1; }
-  }
-  @-moz-keyframes entrance {
-    0% { -moz-transform: translateY(100%); opacity: 0;  }
-  	100% { -moz-transform: translateY(0); opacity: 1; }
-  }
-  @-ms-keyframes entrance {
-    0% { -ms-transform: translateY(100%); opacity: 0;  }
-  	100% { -ms-transform: translateY(0); opacity: 1; }
-  }
-  @-o-keyframes entrance {
-    0% { -o-transform: translateY(100%); opacity: 0;  }
-  	100% { -o-transform: translateY(0); opacity: 1; }
   }
