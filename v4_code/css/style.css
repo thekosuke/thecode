@@ -25,7 +25,7 @@ body {
     z-index: 1;
 
     animation: land 3s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 
     -webkit-transition: 1s ease-out;
     -moz-transition: 1s ease-out;
@@ -182,7 +182,7 @@ h1, h2, h3, p, a {
   	z-index: 100;
 
     animation: rise 3s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 
     -webkit-transition: .3s ease;
   	-moz-transition: .3s ease;
