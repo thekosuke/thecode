@@ -33,7 +33,6 @@ $(document).ready(function () {
       $(".dot4").toggleClass("active");
       $(".dot5").toggleClass("active");
     });
-
     $('#overlay').click(function(){
       $("#moreBar").toggleClass("active");
       $("#moreContent").toggleClass("active");

@@ -17,7 +17,6 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
-    /* background-image: radial-gradient(#F0F0F2, #FAFAFC); */
     overflow-x: hidden;
   }
 
@@ -53,10 +52,6 @@ h1, h2, h3, p, a {
     font-family: "Messina-Sans-Bold";
   }
 
-  h1 { text-transform: lowercase; }
-  h2 a, a { text-decoration: underline; }
-  .one-liner p, .connect a { color: #FAFAFC; }
-
   h3 {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
@@ -64,6 +59,9 @@ h1, h2, h3, p, a {
     color: #A4A4A6;
   }
 
+  h1 { text-transform: lowercase; }
+  h2 a, a { text-decoration: underline; }
+  .one-liner p, .connect a { color: #FAFAFC; }
   h3 span { text-transform: lowercase; }
 
   .coke, .tp, .italia {
@@ -93,7 +91,6 @@ h1, h2, h3, p, a {
     -o-transition: .3s ease-out;
     transition: .3s ease-out;
   }
-
 .tp-bg {
   position: absolute;
   top: 50%;
@@ -111,7 +108,6 @@ h1, h2, h3, p, a {
   -o-transition: .3s ease-out;
   transition: .3s ease-out;
 }
-
 .italia-bg {
   position: absolute;
   top: 50%;
@@ -220,7 +216,6 @@ h1, h2, h3, p, a {
 
 .dot {
       background: #FAFAFC;
-      /* background: #16161A; */
     }
 
     .dot1, .dot2, .dot3, .dot4 {
