@@ -11,18 +11,6 @@
 }
 
 /*//////////////////// ///////////////////////
-	FAVORIT EXTENDED
-//////////////////// ///////////////////////*/
-@font-face {
-	font-family: 'Favorit-MediumXt';
-	src: url('../fonts/Favorit-Extended/FavoritTrial-MediumXt.woff');
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
-}
-
-/*//////////////////// ///////////////////////
 	MESSINA SANS
 //////////////////// ///////////////////////*/
 @font-face {

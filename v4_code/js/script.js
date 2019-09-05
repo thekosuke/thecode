@@ -68,7 +68,7 @@ $(document).ready(function() {
     $(".coke-bg").css("opacity", "0");
 
     $(".coke h2 a").css("color", "#FAFAFC");
-    $(".coke h3").css("color", "#7E7E80");
+    $(".coke h3").css("color", "#A4A4A6");
     $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");
@@ -95,7 +95,7 @@ $(document).ready(function() {
     $(".tp-bg").css("opacity", "0");
 
     $(".tp h2 a").css("color", "#FAFAFC");
-    $(".tp h3").css("color", "#7E7E80");
+    $(".tp h3").css("color", "#A4A4A6");
     $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");
@@ -122,7 +122,7 @@ $(document).ready(function() {
     $(".italia-bg").css("opacity", "0");
 
     $(".italia h2 a").css("color", "#FAFAFC");
-    $(".italia h3").css("color", "#7E7E80");
+    $(".italia h3").css("color", "#A4A4A6");
     $("#projects h1").css("color", "#FAFAFC");
 
     $(".top").css("opacity", "1");

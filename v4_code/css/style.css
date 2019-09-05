@@ -66,12 +66,6 @@ h1, h2, h3, p, a {
 
   h3 span { text-transform: lowercase; }
 
-  .project-name h3 {
-    color: #FAFAFC;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
   .coke, .tp, .italia {
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
