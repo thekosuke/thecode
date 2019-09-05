@@ -61,7 +61,7 @@ h1, h2, h3, p, a {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
     text-decoration: none;
-    color: #A4A4A6;
+    color: #preload;
   }
 
   h3 span { text-transform: lowercase; }
@@ -278,7 +278,7 @@ h1, h2, h3, p, a {
   background-image: radial-gradient(#292C34, #16161A);
 }
 
-.loading {
+.preload {
   position: absolute;
   top: 50%;
   left: 50%;
