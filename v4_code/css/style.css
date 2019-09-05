@@ -190,7 +190,6 @@ h1, h2, h3, p, a {
     border-top: .5px solid #FAFAFC;
   	text-align: center;
   	z-index: 100;
-    cursor: pointer;
 
     animation: rise 3s;
     animation-delay: 2s;
