@@ -7,13 +7,13 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   ::-webkit-scrollbar { width: 7px; }
   ::-webkit-scrollbar-track {	background: #16161A; }
   ::-webkit-scrollbar-thumb { background: #FAFAFC; }
-  ::-webkit-scrollbar-thumb:hover { background: #D62D7D; }
+  ::-webkit-scrollbar-thumb:hover { background: #FFB700; }
 
-  ::-webkit-selection { color: #F96417; }
-     ::-moz-selection { color: #F96417; }
-      ::-ms-selection { color: #F96417; }
-       ::-o-selection { color: #F96417; }
-          ::selection { color: #F96417; }
+  ::-webkit-selection { color: #FFB700; }
+     ::-moz-selection { color: #FFB700; }
+      ::-ms-selection { color: #FFB700; }
+       ::-o-selection { color: #FFB700; }
+          ::selection { color: #FFB700; }
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
@@ -39,7 +39,7 @@ h3, h4, h5, h6, p, a {
   }
 
   a { text-decoration: underline; }
-  a:hover { color: #F96417; }
+  a:hover { color: #FFB700; }
 
   h3 {
     font-family: "Favorit-Medium";
@@ -84,10 +84,15 @@ h3, h4, h5, h6, p, a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
   }
 
   .arrow:hover {
     opacity: .5;
+    cursor: pointer;
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -o-transition: .3s ease;

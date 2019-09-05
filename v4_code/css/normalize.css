@@ -311,10 +311,10 @@
       cursor: url(../img/pointer.png) 7 7, pointer;
       border-top: transparent;
 
-      -webkit-transition: .5s ease;
-      -moz-transition: .5s ease;
-      -o-transition: .5s ease;
-      transition: .5s ease;
+      -webkit-transition: .3s ease;
+      -moz-transition: .3s ease;
+      -o-transition: .3s ease;
+      transition: .3s ease;
     }
 
 	/*//////////////////// ///////////////////////
@@ -322,9 +322,6 @@
 	//////////////////// ///////////////////////*/
 	#navBar {
 			top: 0;
-			border-top: none;
-			/* border-bottom: 1px solid #16161A; */
-			/* border-bottom: 1px solid #FAFAFC; */
 		}
 
 		.arrow {

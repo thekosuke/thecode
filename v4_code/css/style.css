@@ -9,11 +9,11 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
       ::-ms-scrollbar { display: none; }
        ::-o-scrollbar { display: none; }
 
-  ::-webkit-selection { color: #F96417; }
-     ::-moz-selection { color: #F96417; }
-      ::-ms-selection { color: #F96417; }
-       ::-o-selection { color: #F96417; }
-          ::selection { color: #F96417; }
+  ::-webkit-selection { color: #FFB700; }
+     ::-moz-selection { color: #FFB700; }
+      ::-ms-selection { color: #FFB700; }
+       ::-o-selection { color: #FFB700; }
+          ::selection { color: #FFB700; }
 
 body {
     background-image: radial-gradient(#292C34, #16161A);
@@ -38,7 +38,7 @@ body {
 /*//////////////////// ///////////////////////
 	TYPESETTING
 //////////////////// ///////////////////////*/
-h1, h2, h2 a, h3, p, a {
+h1, h2, h3, p, a {
     color: #FAFAFC;
     font-weight: normal;
     text-decoration: none;
@@ -70,6 +70,13 @@ h1, h2, h2 a, h3, p, a {
     color: #FAFAFC;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .coke, .tp, .italia {
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
   }
 
 /*//////////////////// ///////////////////////
@@ -188,10 +195,10 @@ h1, h2, h2 a, h3, p, a {
     animation: rise 2s;
     animation-delay: 2.5s;
 
-    -webkit-transition: .3s ease-out;
-  	-moz-transition: .3s ease-out;
-  	-o-transition: .3s ease-out;
-  	transition: .3s ease-out;
+    -webkit-transition: .3s ease;
+  	-moz-transition: .3s ease;
+  	-o-transition: .3s ease;
+  	transition: .3s ease;
   }
 
   #moreBar.active {
