@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
   }
 
-  #project-container {
+  #project-banner, #project-container {
     animation: entrance 2.5s;
     animation-delay: 1s;
 
