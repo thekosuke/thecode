@@ -61,7 +61,7 @@ h1, h2, h3, p, a {
     font-family: "Favorit-Medium";
     text-transform: uppercase;
     text-decoration: none;
-    color: #preload;
+    color: #A4A4A6;
   }
 
   h3 span { text-transform: lowercase; }
