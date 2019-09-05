@@ -1,5 +1,5 @@
 body {
-    background: #F2304D;
+    background: #16161A;
 }
 
 div {
@@ -10,6 +10,10 @@ div {
 }
 
 p, a {
-    color: white;    
+    color: #404040;
     text-align: center;
+    line-height: 2em;
+    margin: 0;
 }
+
+p:hover, a:hover { color: white; }
