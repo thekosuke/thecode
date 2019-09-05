@@ -25,8 +25,8 @@ body {
     position: relative;
     z-index: 1;
 
-    animation: land 2s;
-    animation-delay: 2.5s;
+    animation: land 3s;
+    animation-delay: 2s;
 
     -webkit-transition: 1s ease-out;
     -moz-transition: 1s ease-out;
@@ -192,8 +192,8 @@ h1, h2, h3, p, a {
   	z-index: 100;
     cursor: pointer;
 
-    animation: rise 2s;
-    animation-delay: 2.5s;
+    animation: rise 3s;
+    animation-delay: 2s;
 
     -webkit-transition: .3s ease;
   	-moz-transition: .3s ease;
@@ -478,11 +478,13 @@ h1, h2, h3, p, a {
     0% { opacity: 0; }
     75% {
       opacity: 0;
-      transform: scale(3);
+      transform: scale(.3);
+      transform: translateY(3em);
     }
     100% {
       opacity: 1;
       transform: scale(1);
+      transform: translateY(0);
     }
   }
   @-webkit-keyframes land {

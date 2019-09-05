@@ -105,11 +105,9 @@
 			height: 3.5em;
 		}
 
-		.arrow { width: 20%; margin-left: -10%; }
+		.arrow { width: 1em; left: 1.5em; }
 
-		#project-banner {
-			height: 15em;
-		}
+		#project-banner { height: 17em; }
 
 	.project-name h3 {
 			font-size: .7em;
@@ -117,9 +115,9 @@
 		}
 
 		h4 {
-			font-size: 1.8em;
+			font-size: 1.7em;
 			letter-spacing: -.8px;
-			line-height: 1.65em;
+			line-height: 2em;
 		}
 
 		.project-description {
@@ -213,11 +211,11 @@
 	  PROJECT PAGE
 	//////////////////// ///////////////////////*/
 		.project-name h3 { font-size: .8em; }
+		#project-banner { height: 20em; }
 
 		h4 {
-			font-size: 2em;
+			font-size: 1.9em;
 			letter-spacing: -.7px;
-			line-height: 1.75em;
 		}
 
 		.body-copy, .project-quote p {
@@ -290,10 +288,7 @@
 
 	h1 { font-size: .8em; }
 
-		h2,  {
-			font-size: 1em;
-			letter-spacing: -.5px;
-		}
+		h2  { letter-spacing: -.3px; }
 
 		.top h3 { padding-top: .5em; }
 
@@ -325,8 +320,8 @@
 		}
 
 		.arrow {
-			width: 15%;
-			margin-left: -15%;
+			width: 12%;
+			margin-left: -20%;
 		}
 
 		.project-name h3 {
@@ -355,7 +350,7 @@
 
 	.moreText { width: 80%; }
 
-	.arrow { width: 8%; left: 25%; margin-left: 0; }
+	.arrow { width: 8%; left: 15%; margin-left: 0; }
 
 }
 
@@ -419,7 +414,7 @@
 		.grid-2 { grid-template-columns: 2.5fr 8.5fr 1fr; }
 		.grid-6 { grid-template-columns: 3.5fr 3.5fr 5fr; }
 
-		.arrow { width: 4%; left: 20%; }
+		.arrow { width: 4%; left: 10%; }
 }
 
 @media all and (min-width: 1366px) {
