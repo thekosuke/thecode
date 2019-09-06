@@ -67,9 +67,7 @@ h3, h4, h5, h6, p, a {
     text-transform: uppercase;
   }
 
-  .project-quote p {
-    color: #FAFAFC;
-  }
+  .project-quote p { color: #FAFAFC; }
 
 /*//////////////////// ///////////////////////
   PROJECT - NAV BAR
