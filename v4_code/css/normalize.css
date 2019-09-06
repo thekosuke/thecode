@@ -110,7 +110,7 @@
 		#project-banner { height: 17em; }
 
 	.project-name h3 {
-			font-size: .7em;
+			font-size: .8em;
 			letter-spacing: .2em;
 		}
 
@@ -399,6 +399,10 @@
 			margin-bottom: 3em;
 		}
 
+		.body-copy {
+			font-size: 1.05em;
+		}
+
 	#footer { margin-bottom: 10em; }
 		.site-link { font-size: 2.2em; letter-spacing: -1.5px; }
 
@@ -426,7 +430,7 @@
 		}
 
 		.grid-1 { grid-template-columns: 4.75fr 5.25fr 2fr; }
-		.grid-4 { grid-template-columns: .5fr 7fr 4.5fr; }
+		.grid-4 { grid-template-columns: .5fr 6.5fr 5fr; }
 
 	.moreText { width: 68%; }
 }
