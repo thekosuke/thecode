@@ -56,18 +56,18 @@ h3, h4, h5, h6, p, a {
     color: #A4A4A6;
   }
 
-  a { text-decoration: underline; }
-  a:hover { color: #FFB700; }
-  h3 span { text-transform: lowercase; }
-  h4, p, a { font-family: "Messina-Sans-Regular"; }
-
   .project-name h3 {
     color: #FAFAFC;
     text-align: center;
     text-transform: uppercase;
   }
 
+  a { text-decoration: underline; }
+  a:hover { color: #FFB700; }
+  h3 span { text-transform: lowercase; }
+  h4, p, a { font-family: "Messina-Sans-Regular"; }
   .project-quote p { color: #FAFAFC; }
+  .back-to-top { text-decoration: none; }
 
 /*//////////////////// ///////////////////////
   PROJECT - NAV BAR
@@ -98,8 +98,8 @@ h3, h4, h5, h6, p, a {
     transition: .3s ease;
   }
 
-  .arrow:hover {
-    opacity: .5;
+  .arrow:hover g g  {
+    stroke: #FFB700;
 
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;

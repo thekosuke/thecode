@@ -304,7 +304,7 @@
 
 		#moreBar:hover {
       cursor: url(../img/pointer.png) 7 7, pointer;
-			border-top: transparent;
+			border-top: .5px solid transparent;
 
       -webkit-transition: .3s ease;
       -moz-transition: .3s ease;

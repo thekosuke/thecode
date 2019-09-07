@@ -192,7 +192,7 @@ h1, h2, h3, p, a {
 
   #moreBar.active {
     background: transparent;
-    border-top: transparent;
+    border-top: .5px solid transparent;
   }
 
 #moreBar .button {
@@ -215,52 +215,52 @@ h1, h2, h3, p, a {
   }
 
 .dot {
-      background: #FAFAFC;
+    background: #FAFAFC;
+  }
+
+  .dot1, .dot2, .dot3, .dot4 {
+      position: absolute;
+  }
+
+  .dot1.active {
+    background: #FAFAFC;
+      -webkit-animation: dot1 1s ease;
+         -moz-animation: dot1 1s ease;
+          -ms-animation: dot1 1s ease;
+           -o-animation: dot1 1s ease;
+              animation: dot1 1s ease;
     }
 
-    .dot1, .dot2, .dot3, .dot4 {
-        position: absolute;
+    .dot2.active {
+      background: #FAFAFC;
+      -webkit-animation: dot2 1s ease;
+         -moz-animation: dot2 1s ease;
+          -ms-animation: dot2 1s ease;
+           -o-animation: dot2 1s ease;
+              animation: dot2 1s ease;
     }
 
-    .dot1.active {
+    .dot3.active {
       background: #FAFAFC;
-        -webkit-animation: dot1 1s ease;
-           -moz-animation: dot1 1s ease;
-            -ms-animation: dot1 1s ease;
-             -o-animation: dot1 1s ease;
-                animation: dot1 1s ease;
-      }
+      -webkit-animation: dot3 1s ease;
+         -moz-animation: dot3 1s ease;
+          -ms-animation: dot3 1s ease;
+           -o-animation: dot3 1s ease;
+              animation: dot3 1s ease;
+    }
 
-      .dot2.active {
-        background: #FAFAFC;
-        -webkit-animation: dot2 1s ease;
-           -moz-animation: dot2 1s ease;
-            -ms-animation: dot2 1s ease;
-             -o-animation: dot2 1s ease;
-                animation: dot2 1s ease;
-      }
+    .dot4.active {
+      background: #FAFAFC;
+      -webkit-animation: dot4 1s ease;
+         -moz-animation: dot4 1s ease;
+          -ms-animation: dot4 1s ease;
+           -o-animation: dot4 1s ease;
+              animation: dot4 1s ease;
+    }
 
-      .dot3.active {
-        background: #FAFAFC;
-        -webkit-animation: dot3 1s ease;
-           -moz-animation: dot3 1s ease;
-            -ms-animation: dot3 1s ease;
-             -o-animation: dot3 1s ease;
-                animation: dot3 1s ease;
-      }
-
-      .dot4.active {
-        background: #FAFAFC;
-        -webkit-animation: dot4 1s ease;
-           -moz-animation: dot4 1s ease;
-            -ms-animation: dot4 1s ease;
-             -o-animation: dot4 1s ease;
-                animation: dot4 1s ease;
-      }
-
-      .dot5.active {
-        background: #FAFAFC;
-      }
+    .dot5.active {
+      background: #FAFAFC;
+    }
 
 /*//////////////////////////////////////
   PRELOAD ELEMENTS

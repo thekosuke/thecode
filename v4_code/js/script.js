@@ -132,3 +132,15 @@ $(document).ready(function() {
     $("#moreBar").css("opacity", "1");
   });
 });
+
+/**************************************************
+BACK TO TOP
+**************************************************/
+$(document).ready(function() {
+  $('.back-to-top').click(function() {
+    $('html, body').animate( {
+      scrollTop : 0
+    }, 500);
+    return false;
+  });
+});
