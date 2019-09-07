@@ -4,10 +4,12 @@
 @font-face {
 	font-family: 'Favorit-Medium';
 	src: url('../fonts/Favorit/FavoritTrial-Medium.woff');
+
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+		  -ms-font-smoothing: antialiased;
+	     -o-font-smoothing: antialiased;
 }
 
 /*//////////////////// ///////////////////////
@@ -16,17 +18,21 @@
 @font-face {
 	font-family: 'Messina-Sans-Regular';
 	src: url('../fonts/Messina-Sans/Messina-Sans-Regular.otf');
+
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
 }
 
 @font-face {
 	font-family: 'Messina-Sans-Bold';
 	src: url('../fonts/Messina-Sans/Messina-Sans-Bold.otf');
+
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+		  -ms-font-smoothing: antialiased;
+	     -o-font-smoothing: antialiased;
 }
