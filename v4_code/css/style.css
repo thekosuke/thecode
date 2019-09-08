@@ -72,34 +72,12 @@ h1, h2, h3, p, a {
   }
 
 /*//////////////////// ///////////////////////
-	PROJECT BACKGROUNDS
+	BACKGROUNDS
 //////////////////// ///////////////////////*/
-.coke-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    transform-origin: center;
-    background: radial-gradient(#FF4D4D, #D10924);
-    z-index: 0;
-    opacity: 0;
-
-    -webkit-transition: .3s ease-out;
-    -moz-transition: .3s ease-out;
-    -o-transition: .3s ease-out;
-    transition: .3s ease-out;
-  }
-.tp-bg {
+.bg {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  transform-origin: center;
-  background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
   z-index: 0;
   opacity: 0;
 
@@ -108,23 +86,18 @@ h1, h2, h3, p, a {
   -o-transition: .3s ease-out;
   transition: .3s ease-out;
 }
-.italia-bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  transform-origin: center;
-  background: radial-gradient(#333333, #0D0D0D);
-  z-index: 0;
-  opacity: 0;
 
-  -webkit-transition: .3s ease-out;
-  -moz-transition: .3s ease-out;
-  -o-transition: .3s ease-out;
-  transition: .3s ease-out;
+#mainBG {
+  opacity: 1;
+
+  background-image: -webkit-radial-gradient(transparent, #16161A);
+  background-image:    -moz-radial-gradient(transparent, #16161A);
+  background-image:      -o-radial-gradient(transparent, #16161A);
+  background-image:         radial-gradient(transparent, #16161A);
 }
+#cokeBG { background: radial-gradient(#FF4D4D, #D10924); }
+#tpBG { background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
+#italiaBG { background: radial-gradient(#333333, #0D0D0D); }
 
 /*//////////////////////////////////////
   MORE OVERLAY
@@ -176,7 +149,8 @@ h1, h2, h3, p, a {
 //////////////////////////////////////*/
 #moreBar {
     position: fixed;
-    background-image: radial-gradient(#292C34, #16161A);
+    /* background-image: radial-gradient(#292C34, #16161A); */
+    background: transparent;
     border-top: .5px solid #FAFAFC;
   	text-align: center;
   	z-index: 100;

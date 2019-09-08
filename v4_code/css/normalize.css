@@ -350,7 +350,7 @@
 		.grid-1 { grid-template-columns: 3fr 7fr 2fr; }
 		.grid-2 { grid-template-columns: 4fr 7fr 1fr; }
 
-	.moreText { width: 80%; }
+	.moreText { width: 70%; }
 
 	.arrow { width: .95em; }
 
@@ -385,7 +385,7 @@
 
 		.grid-4 { grid-template-columns: .5fr 9fr 2.5fr; }
 
-	.moreText { width: 80%; }
+	.moreText { width: 85%; }
 
 		h3 { font-size: 9px; }
 
@@ -419,6 +419,7 @@
 		.grid-2 { grid-template-columns: 2.5fr 8.5fr 1fr; }
 		.grid-6 { grid-template-columns: 3.5fr 3.5fr 5fr; }
 
+		.moreText { width: 67%; }
 		.arrow { left: 2.5em; }
 }
 
@@ -432,7 +433,7 @@
 		.grid-1 { grid-template-columns: 4.75fr 5.25fr 2fr; }
 		.grid-4 { grid-template-columns: .5fr 6.5fr 5fr; }
 
-	.moreText { width: 68%; }
+	.moreText { width: 63%; }
 }
 
 @media all and (min-width: 1440px) {
@@ -448,7 +449,7 @@
 
 		.top h3 { padding-top: .55em; }
 
-	.moreText { width: 67%; }
+	.moreText { width: 60%; }
 
 	#project-banner { height: 22em; }
 }
@@ -462,7 +463,7 @@
 
 		#container { margin-top: 7em; }
 
-	.moreText { width: 56%; }
+	.moreText { width: 51%; }
 }
 
 @media all and (min-width: 1920px) {
@@ -471,6 +472,8 @@
 	.grid-6 {
 		max-width: 1920px;
 	}
+
+	.moreText { width: 45%; }
 }
 
 @media all and (min-width: 2560px) {
@@ -479,4 +482,6 @@
 	.grid-6 {
 		max-width: 2560px;
 	}
+
+	.moreText { width: 34%; }
 }
