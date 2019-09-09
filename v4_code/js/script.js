@@ -51,33 +51,6 @@ $(document).ready(function () {
     PROJECT: HOVER
 **************************************************/
 $(document).ready(function() {
-  $(".rga h2 a").mouseenter(function() {
-    $("#rgaBG").css("opacity", "1");
-
-    $(".rga h2 a").css("color", "#FAFAFC");
-    $(".rga h3").css("color", "#FAFAFC");
-    $("#experience h1").css("color", "#FAFAFC");
-
-    $(".top").css("opacity", "0");
-    $(".iamota").css("opacity", "0");
-    $(".instaread").css("opacity", "0");
-    $("#projects").css("opacity", "0");
-    $("#moreBar").css("opacity", "0");
-  });
-  $(".rga h2 a").mouseleave(function() {
-    $("#rgaBG").css("opacity", "0");
-
-    $(".rga h2 a").css("color", "#FAFAFC");
-    $(".rga h3").css("color", "#A4A4A6");
-    $("#experience h1").css("color", "#FAFAFC");
-
-    $(".top").css("opacity", "1");
-    $(".iamota").css("opacity", "1");
-    $(".instaread").css("opacity", "1");
-    $("#projects").css("opacity", "1");
-    $("#moreBar").css("opacity", "1");
-  });
-
   $(".tp h2 a").mouseenter(function() {
     $("#tpBG").css("opacity", "1");
 
@@ -129,6 +102,60 @@ $(document).ready(function() {
     $(".coke").css("opacity", "1");
     $(".tp").css("opacity", "1");
     $("#experience").css("opacity", "1");
+    $("#moreBar").css("opacity", "1");
+  });
+
+  $(".rga h2 a").mouseenter(function() {
+    $("#rgaBG").css("opacity", "1");
+
+    $(".rga h2 a").css("color", "#FAFAFC");
+    $(".rga h3").css("color", "#FAFAFC");
+    $("#experience h1").css("color", "#FAFAFC");
+
+    $(".top").css("opacity", "0");
+    $(".iamota").css("opacity", "0");
+    $(".instaread").css("opacity", "0");
+    $("#projects").css("opacity", "0");
+    $("#moreBar").css("opacity", "0");
+  });
+  $(".rga h2 a").mouseleave(function() {
+    $("#rgaBG").css("opacity", "0");
+
+    $(".rga h2 a").css("color", "#FAFAFC");
+    $(".rga h3").css("color", "#A4A4A6");
+    $("#experience h1").css("color", "#FAFAFC");
+
+    $(".top").css("opacity", "1");
+    $(".iamota").css("opacity", "1");
+    $(".instaread").css("opacity", "1");
+    $("#projects").css("opacity", "1");
+    $("#moreBar").css("opacity", "1");
+  });
+
+  $(".instaread h2 a").mouseenter(function() {
+    $("#instaBG").css("opacity", "1");
+
+    $(".instaread h2 a").css("color", "#FAFAFC");
+    $(".instaread h3").css("color", "#FAFAFC");
+    $("#experience h1").css("color", "#FAFAFC");
+
+    $(".top").css("opacity", "0");
+    $(".iamota").css("opacity", "0");
+    $(".rga").css("opacity", "0");
+    $("#projects").css("opacity", "0");
+    $("#moreBar").css("opacity", "0");
+  });
+  $(".instaread h2 a").mouseleave(function() {
+    $("#instaBG").css("opacity", "0");
+
+    $(".instaread h2 a").css("color", "#FAFAFC");
+    $(".instaread h3").css("color", "#A4A4A6");
+    $("#experience h1").css("color", "#FAFAFC");
+
+    $(".top").css("opacity", "1");
+    $(".iamota").css("opacity", "1");
+    $(".rga").css("opacity", "1");
+    $("#projects").css("opacity", "1");
     $("#moreBar").css("opacity", "1");
   });
 });

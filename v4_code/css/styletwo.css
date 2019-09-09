@@ -118,6 +118,7 @@ h3, h4, h5, h6, p, a {
   #cokeBanner { background-image: radial-gradient(#FF4D4D, #D10924); }
   #tpBanner { background-image: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
   #italiaBanner { background-image: radial-gradient(#333333, #0D0D0D); }
+  #instaBanner { background-image: radial-gradient(#76C2EB, #0085E6); }
 
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT
@@ -161,18 +162,12 @@ hr { border-width: .5px; }
     transition: 1s ease-out;
   }
 
-#loadCoke, #loadtp, #loaditalia {
+#loadtp, #loaditalia, #loadRGA, #loadIR {
     position: absolute;
     width: 100vw;
     height: 100vh;
   }
 
-  #loadCoke {
-      background-image: -webkit-radial-gradient(#FF4D4D, #D10924);
-      background-image:    -moz-radial-gradient(#FF4D4D, #D10924);
-      background-image:      -o-radial-gradient(#FF4D4D, #D10924);
-      background-image:         radial-gradient(#FF4D4D, #D10924);
-    }
   #loadtp {
       background-image: -webkit-radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
       background-image:    -moz-radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F);
@@ -185,6 +180,19 @@ hr { border-width: .5px; }
       background-image:      -o-radial-gradient(#333333, #0D0D0D);
       background-image:         radial-gradient(#333333, #0D0D0D);
     }
+  #loadRGA {
+      background-image: -webkit-radial-gradient(#FF4D4D, #D10924);
+      background-image:    -moz-radial-gradient(#FF4D4D, #D10924);
+      background-image:      -o-radial-gradient(#FF4D4D, #D10924);
+      background-image:         radial-gradient(#FF4D4D, #D10924);
+    }
+  #loadIR {
+      background-image: -webkit-radial-gradient(#76C2EB, #0085E6);
+      background-image:    -moz-radial-gradient(#76C2EB, #0085E6);
+      background-image:      -o-radial-gradient(#76C2EB, #0085E6);
+      background-image:         radial-gradient(#76C2EB, #0085E6);
+    }
+
 
 /*//////////////////////////////////////
   ANIMATION

@@ -90,6 +90,7 @@ h1, h2, h3, p, a {
 #rgaBG { background: radial-gradient(#FF4D4D, #D10924); }
 #tpBG { background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
 #italiaBG { background: radial-gradient(#333333, #0D0D0D); }
+#instaBG { background: radial-gradient(#76C2EB, #0085E6); }
 
 /*//////////////////////////////////////
   MORE OVERLAY
