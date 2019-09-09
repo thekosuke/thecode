@@ -64,7 +64,7 @@ h1, h2, h3, p, a {
   .one-liner p, .connect a { color: #FAFAFC; }
   h3 span { text-transform: lowercase; }
 
-  .coke, .tp, .italia {
+  .coke, .tp, .italia, .iamota, .rga, .instaread {
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
