@@ -4,10 +4,10 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     margin: 0;
   }
 
-  ::-webkit-scrollbar { width: 7px; }
-  ::-webkit-scrollbar-track {	background: #16161A; }
+  ::-webkit-scrollbar { display: none;}
+  /* ::-webkit-scrollbar-track {	background: #16161A; }
   ::-webkit-scrollbar-thumb { background: #FAFAFC; }
-  ::-webkit-scrollbar-thumb:hover { background: #FFB700; }
+  ::-webkit-scrollbar-thumb:hover { background: #FFB700; } */
 
   ::-webkit-selection { color: #FFB700; }
      ::-moz-selection { color: #FFB700; }
@@ -105,6 +105,21 @@ h3, h4, h5, h6, p, a {
     -moz-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
+  }
+
+  .progress-container {
+    position: absolute;
+    top: 3.5em;
+    width: 100%;
+    height: 3px;
+    background: #16161A;
+  }
+
+  .progress-bar {
+    width: 0%;
+    height: 3px;
+    background: #FFB700;
+
   }
 
 #project-banner {
