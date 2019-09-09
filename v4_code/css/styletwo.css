@@ -5,9 +5,6 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   }
 
   ::-webkit-scrollbar { display: none;}
-  /* ::-webkit-scrollbar-track {	background: #16161A; }
-  ::-webkit-scrollbar-thumb { background: #FAFAFC; }
-  ::-webkit-scrollbar-thumb:hover { background: #FFB700; } */
 
   ::-webkit-selection { color: #FFB700; }
      ::-moz-selection { color: #FFB700; }
