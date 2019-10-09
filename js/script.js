@@ -89,7 +89,7 @@ $(document).ready(function() {
     $("#experience").css("opacity", "1");
     $("#moreBar").css("opacity", "1");
   });
-    
+
   $(".tp h2 a").mouseenter(function() {
     $("#tpBG").css("opacity", "1");
 
@@ -208,5 +208,11 @@ $(document).ready(function() {
       scrollTop : 0
     }, 750);
     return false;
+  });
+});
+
+$(document).ready(function() {
+  $(function() {
+      $('.lazy').Lazy();
   });
 });
