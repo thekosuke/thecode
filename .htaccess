@@ -3,7 +3,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 <Files cocacola.html>
-AuthUserFile /.htpasswd
+AuthUserFile /GitHub/thecode/.htpasswd
 AuthName "Authentication Required"
 AuthType Basic
 require valid-user
