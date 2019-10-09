@@ -24,7 +24,7 @@ $(window).load(function() {
   $('#loader').delay(3000).fadeOut("slow");
 });
 
-$(window).load(function() {
+$(document).ready(function() {
   $('#project-loader').delay(1000).slideUp(1000);
   $('.loading').delay(1000).fadeOut(1000);
 });
@@ -209,18 +209,4 @@ $(document).ready(function() {
     }, 750);
     return false;
   });
-});
-
-/**************************************************
-LAZY LOAD
-**************************************************/
-$(document).ready(function() {
-  $(function() {
-        $('#lazy-container .lazy').lazy({
-            appendScroll: $('#lazy-container'),
-            effect: "fadeIn",
-            effectTime: 1000,
-            threshold: 0
-        });
-    });
 });
