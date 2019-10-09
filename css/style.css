@@ -87,6 +87,7 @@ h1, h2, h3, p, a {
   transition: .3s ease-out;
 }
 
+#cokeBG { background: radial-gradient(#FF4058, #F40000); }
 #rgaBG { background: radial-gradient(#FF4D4D, #D10924); }
 #tpBG { background: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
 #italiaBG { background: radial-gradient(#333333, #0D0D0D); }
