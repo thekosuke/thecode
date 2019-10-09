@@ -138,7 +138,7 @@ h3, h4, h5, h6, p, a {
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT
 //////////////////// ///////////////////////*/
-.project-image, .lazy-container { max-width: 100%; }
+.project-image, #lazy-container { max-width: 100%; }
 
   .project-image img.lazy {
     position: relative;
