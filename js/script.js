@@ -211,6 +211,9 @@ $(document).ready(function() {
   });
 });
 
+/**************************************************
+LAZY LOAD
+**************************************************/
 $(document).ready(function() {
   $(function() {
         $('#lazy-container .lazy').lazy({
