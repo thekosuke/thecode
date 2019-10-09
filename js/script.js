@@ -213,6 +213,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(function() {
-      $('.lazy').Lazy();
-  });
+        $('#lazy-container .lazy').lazy({
+            appendScroll: $('#lazy-container'),
+            effect: "fadeIn",
+            effectTime: 1000,
+            threshold: 0
+        });
+    });
 });

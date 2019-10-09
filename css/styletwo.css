@@ -138,14 +138,15 @@ h3, h4, h5, h6, p, a {
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT
 //////////////////// ///////////////////////*/
-.project-image { max-width: 100%; }
+.project-image, .lazy-container { max-width: 100%; }
 
-  .project-image img {
+  .project-image img.lazy {
     position: relative;
     max-width: 100%;
+    display: block;
   }
 
-  .project-image video {
+  .project-image video.lazy {
     position: relative;
     max-width: 100%;
   }
