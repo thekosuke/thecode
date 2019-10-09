@@ -36,12 +36,12 @@
             margin: 0;
             width: 100%;
             height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
         }
+
         #dialogText {
-            padding: 10px 30px;
-            color: white;
-            background-color: #333333;
+            padding: 20px 25px;
+            color: #FAFAFC;
+            background: #16161A;
         }
 
         #dialogWrap {
@@ -63,27 +63,30 @@
         #mainDialog {
             max-width: 400px;
             margin: 5px;
-            border: solid #AAAAAA 1px;
-            border-radius: 10px;
-            box-shadow: 3px 3px 5px 3px #AAAAAA;
+            border-radius: 5px;
+            box-shadow: 0px 10px 25px 0px rgba(22,22,26,.3);
             margin-left: auto;
             margin-right: auto;
-            background-color: #FFFFFF;
+            background-color: #16161A;
             overflow: hidden;
             text-align: left;
         }
+
         #passArea {
-            padding: 20px 30px;
-            background-color: white;
+            padding: 10px 25px;
+            background-color: #16161A;
         }
-        #passArea > * {
-            margin: 5px auto;
-        }
+        #passArea > * { margin: 5px auto; }
+        #passwordPrompt { color: #FAFAFC; }
+
         #pass {
             width: 100%;
-            height: 40px;
-            font-size: 30px;
+            height: 2em;
+            font-size: 1em;
         }
+
+        #pass:focus { outline: none;}
+        #bottomContainer { margin-top: 1em; }
 
         #messageWrapper {
             float: left;
@@ -91,25 +94,21 @@
             line-height: 30px;
         }
 
-        .notifyText {
-            display: none;
-        }
-
-        #invalidPass {
-            color: red;
-        }
-
-        #success {
-            color: green;
-        }
+        .notifyText { display: none; }
+        #invalidPass { color: #FFB700; }
+        #success { color: #FFB700; }
 
         #submitPass {
-            font-size: 20px;
-            border-radius: 5px;
-            background-color: #E7E7E7;
-            border: solid gray 1px;
+            font-size: 1em;
+            padding-top: 3px;
+            border-radius: 3px;
+            background-color: #16161A;
+            border: solid #FAFAFC 1px;
             float: right;
         }
+
+        #submitPass:focus { outline: none; }
+
         #contentFrame {
             position: absolute;
             top: 0;
@@ -124,17 +123,17 @@
     <div id="dialogWrap">
         <div id="dialogWrapCell">
             <div id="mainDialog">
-                <div id="dialogText">Authentication Required</div>
+                <div id="dialogText"><h3>Authentication Required</h3></div>
                 <div id="passArea">
                     <p id="passwordPrompt">Password</p>
                     <input id="pass" type="password" name="pass">
-                    <div>
+                    <div id="bottomContainer">
                         <span id="messageWrapper">
-                            <span id="invalidPass" class="notifyText">Sorry, please try again.</span>
-                            <span id="success" class="notifyText">Access Granted</span>
+                            <p id="invalidPass" class="notifyText">Sorry, please try again.</p>
+                            <p id="success" class="notifyText">Access Granted</p>
                             &nbsp;
                         </span>
-                        <button id="submitPass" type="button">Submit</button>
+                        <button id="submitPass" type="button"><p>Enter</p></button>
                         <div style="clear: both;"></div>
                     </div>
                 </div>
@@ -174,12 +173,7 @@ b.keySize,b.ivSize);l.iv=d.iv;b=a.encrypt.call(this,b,c,d.key,l);b.mixIn(d);retu
 d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j[h>>>8&255]^l[k&255]^c[p++],g=q,h=s,k=t;q=(f[g>>>24]<<24|f[h>>>16&255]<<16|f[k>>>8&255]<<8|f[n&255])^c[p++];s=(f[h>>>24]<<24|f[k>>>16&255]<<16|f[n>>>8&255]<<8|f[g&255])^c[p++];t=(f[k>>>24]<<24|f[n>>>16&255]<<16|f[g>>>8&255]<<8|f[h&255])^c[p++];n=(f[n>>>24]<<24|f[g>>>16&255]<<16|f[h>>>8&255]<<8|f[k&255])^c[p++];a[b]=q;a[b+1]=s;a[b+2]=t;a[b+3]=n},keySize:8});u.AES=p._createHelper(d)})();
     </script>
     <script>
-/*
-CryptoJS v3.1.2
-code.google.com/p/crypto-js
-(c) 2009-2013 by Jeff Mott. All rights reserved.
-code.google.com/p/crypto-js/wiki/License
-*/
+
 var CryptoJS=CryptoJS||function(g,j){var e={},d=e.lib={},m=function(){},n=d.Base={extend:function(a){m.prototype=this;var c=new m;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
 q=d.WordArray=n.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=j?c:4*a.length},toString:function(a){return(a||l).stringify(this)},concat:function(a){var c=this.words,p=a.words,f=this.sigBytes;a=a.sigBytes;this.clamp();if(f%4)for(var b=0;b<a;b++)c[f+b>>>2]|=(p[b>>>2]>>>24-8*(b%4)&255)<<24-8*((f+b)%4);else if(65535<p.length)for(b=0;b<a;b+=4)c[f+b>>>2]=p[b>>>2];else c.push.apply(c,p);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
 32-8*(c%4);a.length=g.ceil(c/4)},clone:function(){var a=n.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],b=0;b<a;b+=4)c.push(4294967296*g.random()|0);return new q.init(c,a)}}),b=e.enc={},l=b.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var b=[],f=0;f<a;f++){var d=c[f>>>2]>>>24-8*(f%4)&255;b.push((d>>>4).toString(16));b.push((d&15).toString(16))}return b.join("")},parse:function(a){for(var c=a.length,b=[],f=0;f<c;f+=2)b[f>>>3]|=parseInt(a.substr(f,
@@ -195,9 +189,7 @@ this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().conc
 a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).compute(d,b)}})();
     </script>
     <script>
-        /*! srcdoc-polyfill - v0.1.1 - 2013-03-01
-        * http://github.com/jugglinmike/srcdoc-polyfill/
-        * Copyright (c) 2013 Mike Pennisi; Licensed MIT */
+
         (function( window, document, undefined ) {
 
 	        var idx, iframes;
@@ -225,17 +217,11 @@ a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).co
 			        }
 
 			        if (content) {
-				        // The value returned by a script-targeted URL will be used as
-				        // the iFrame's content. Create such a URL which returns the
-				        // iFrame element's `srcdoc` attribute.
+
 				        jsUrl = "javascript: window.frameElement.getAttribute('srcdoc');";
 
 				        iframe.setAttribute("src", jsUrl);
 
-				        // Explicitly set the iFrame's window.location for
-				        // compatability with IE9, which does not react to changes in
-				        // the `src` attribute when it is a `javascript:` URL, for
-				        // some reason
 				        if (iframe.contentWindow) {
 					        iframe.contentWindow.location = jsUrl;
 				        }
@@ -243,7 +229,6 @@ a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).co
 		        }
 	        };
 	        var srcDoc = window.srcDoc = {
-		        // Assume the best
 		        set: implementations.compliant,
 		        noConflict: function() {
 			        window.srcDoc = _srcDoc;
@@ -251,14 +236,12 @@ a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).co
 		        }
 	        };
 
-	        // If the browser supports srcdoc, no shimming is necessary
 	        if (isCompliant) {
 		        return;
 	        }
 
 	        srcDoc.set = implementations.legacy;
 
-	        // Automatically shim any iframes already present in the document
 	        iframes = document.getElementsByTagName("iframe");
 	        idx = iframes.length;
 
@@ -288,7 +271,6 @@ a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).co
                 var decrypted = decryptFile(CryptoJS.enc.Base64.parse(pl.data), passEl.value, CryptoJS.enc.Base64.parse(pl.salt), CryptoJS.enc.Base64.parse(pl.iv));
                 if (decrypted === "") throw "No data returned";
 
-                // Set default iframe link targets to _top so all links break out of the iframe
                 decrypted = decrypted.replace("<head>", "<head><base href=\".\" target=\"_top\">");
 
                 srcDoc.set(contentFrame, decrypted);
@@ -311,7 +293,6 @@ a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).co
             var keyCode = e.keyCode || e.which;
             invalidPassEl.style.display = "none";
             if (keyCode == '13'){
-              // Enter pressed
               doSubmit();
               return false;
             }
