@@ -2,7 +2,9 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-AuthUserFile /path/to/htpasswd/file/.htpasswd
-AuthName "kosuke · Coca-Cola"
+<Files cocacola.html>
+AuthUserFile /.htpasswd
+AuthName "Authentication Required"
 AuthType Basic
 require valid-user
+</Files>
