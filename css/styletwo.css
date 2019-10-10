@@ -286,9 +286,9 @@ hr { border-width: .5px; }
   #mainDialog {
       max-width: 400px;
       margin: 5px;
-      border: 1px solid #A4A4A6;
+      /* border: 1px solid #A4A4A6; */
       border-radius: 5px;
-      box-shadow: 0px 10px 25px 0px rgba(22,22,26,.5);
+      /* box-shadow: 0px 10px 25px 0px rgba(22,22,26,.5); */
       margin-left: auto;
       margin-right: auto;
       overflow: hidden;
@@ -308,7 +308,7 @@ hr { border-width: .5px; }
       border-radius: 3px;
   }
 
-  select, textarea{ padding-left: 5px; color: #FAFAFC;}
+  input { padding-left: 5px; color: #FAFAFC;}
 
   #pass:focus { outline: none;}
   #bottomContainer { margin-top: 1em; margin-bottom: .5em; }
@@ -319,17 +319,16 @@ hr { border-width: .5px; }
   }
 
   .notifyText { display: none; }
-  #invalidPass { color: #FFB700; }
-  #success { color: #FFB700; }
+  #invalidPass, #success  { color: #FFB700; }
 
   #submitPass {
       font-size: .8em;
-      padding: 4px 12px;
+      padding: 5px 12px;
       background: transparent;
       border-radius: 3px;
       border: 1px solid #FAFAFC;
       float: right;
-      margin-right: -.2em;
+      margin-right: -.55em;
   }
 
   #submitPass:focus { outline: none; }
