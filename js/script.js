@@ -13,7 +13,7 @@ $(window).load(function() {
   $('#loader').delay(3000).fadeOut("slow");
 });
 
-$(document).ready(function() {
+$(window).ready(function() {
   $('#project-loader').delay(1000).slideUp(1000);
   $('.loading').delay(1000).fadeOut(1000);
 });
