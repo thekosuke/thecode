@@ -1,101 +1,74 @@
 @media all and (min-width: 320px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 320px;
 			margin-left: 0;
 			margin-right: 0;
 		}
 
-		.grid-0, { grid-template-columns: 1fr; }
-		.grid-1 { grid-template-columns: .75fr 11fr .25fr; }
-		.grid-2 { grid-template-columns: 3.5fr 8.25fr .25fr; }
-		.grid-3 { grid-template-columns: 3fr 6fr 3fr; }
-		.grid-4, .grid-5 { grid-template-columns: .5fr 11fr .5fr; }
+		.grid-1 {
+	    -webkit-column-count: 1;
+				 -moz-column-count: 1;
+	    				column-count: 1;
+    }
 
-		#container { margin-top: 1.5em; }
-		#name, #footer, #projects, #experience, .wrapper {
-			margin-bottom: 1.5em;
+		.grid-2 { grid-template-columns: 3fr 6fr 3fr; }
+		.grid-3, .grid-4 { grid-template-columns: .5fr 11fr .5fr; }
+
+	#colorIndex {
+	    width: 100%;
+	    height: 1em;
+	  }
+
+	  .bar {
+	    width: 12.5%;
+	    height: 100%;
+	  }
+
+	#container {
+			max-width: 100%;
+			margin-top: 10%;
+			padding: 0 1em 0 1em;
 		}
 
-	h1 {
-			font-size: .7em;
-			letter-spacing: -.1px;
+		#work { margin-top: 7em; }
+		#annex { margin-top: 1em; margin-bottom: 10em; }
+
+		p, a {
+			font-size: .9em;
+			letter-spacing: 0px;
+			line-height: 1.4em;
+		}
+
+		#hello { margin: 18em 0 0 -.5em; }
+
+		#hello p {
+			font-size: 8.5em;
+			letter-spacing: -10px;
+			line-height: .5em;
+	  }
+
+		li { line-height: 1.5em; }
+
+		h1 {
+			font-size: 1.1em;
+			letter-spacing: -.2px;
+			line-height: .8em;
 		}
 
 		h2 {
-			font-size: .9em;
-			letter-spacing: -.3px;
-			margin-bottom: .3em;
-		}
-
-		h3 {
 			font-size: 8px;
-			letter-spacing: .2em;
+			letter-spacing: .25em;
 		}
 
-		.top h3 {
-			padding-top: .35em;
+		.project-name {
+			bottom: 1.2em;
+	    left: 1em;
 		}
 
-		.one-liner p {
-			font-size: 1.2em;
-			letter-spacing: -.2px;
-			line-height: 1.3em;
-		 }
-
-		.connect a {
-			font-size: .8em;
-			letter-spacing: 0px;
+		.annex-bar {
+			height: 2px;
+			margin-top: 7em;
 		}
-
-		.connect div {
-			margin-bottom: .7em;
-		}
-
-  .dot {
-  			height: 5px;
-  		  width: 5px;
-  		  border-radius: 50%;
-
-  			-webkit-transition: .5s ease;
-  	    -moz-transition: .5s ease;
-  	    -o-transition: .5s ease;
-  	    transition: .5s ease;
-  		}
-
-  		.dot1 {
-  				left: -.6em;
-  			}
-
-  			.dot2 {
-  				left: .6em;
-  			}
-
-  			.dot3 {
-  				top: -.6em;
-  			}
-
-  			.dot4 {
-  				top: .6em;
-  			}
-
-	#moreBar {
-			bottom: 0;
-			width: 100%;
-			height: 3.5em;
-		}
-
-		#moreContent.active { bottom: 0; }
-
-		.moreText {
-			position: relative;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			width: 85%;
-		}
-
-		.connect { margin-top: 3em; }
 
 	/*//////////////////// ///////////////////////
 	  PROJECT PAGE
@@ -113,6 +86,13 @@
 			font-size: .8em;
 			letter-spacing: .2em;
 		}
+
+		h3 {
+			font-size: 8px;
+			letter-spacing: .2em;
+		}
+
+		h3 a { letter-spacing: .2em; }
 
 		h4 {
 			font-size: 1.7em;
@@ -169,49 +149,28 @@
 }
 
 @media all and (min-width: 375px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 375px;
 		}
 
-		.grid-1 { grid-template-columns: 1fr 10.5fr .5fr; }
-		.grid-2 { grid-template-columns: 4fr 8fr 0fr; }
+		#container { margin-top: 7%; }
 
-		.wrapper {
-			margin-bottom: 1.75em;
-		}
-
-	h1 { font-size: .8em; }
-
-		h2 {
-			font-size: 1em;
-			letter-spacing: -.2px;
-			margin-bottom: .25em;
-		}
-
-		h3 {
-			font-size: 9px;
-			letter-spacing: .25em;
-		}
-
-		.top h3 {
-			padding-top: .5em;
-		}
-
-		.one-liner p {
-			font-size: 1.4em;
-			letter-spacing: -.5px;
-			line-height: 1.2em;
-		}
-
-		.connect a { font-size: .9em; }
-
+		#hello { margin-top: 23em; }
+		#hello p {
+			font-size: 9.5em;
+			letter-spacing: -12px;
+	  }
 
 	/*//////////////////// ///////////////////////
 	  PROJECT PAGE
 	//////////////////// ///////////////////////*/
 		.project-name h3 { font-size: .8em; }
 		#project-banner { height: 20em; }
+
+		h3 {
+			font-size: 9px;
+			letter-spacing: .25em;
+		}
 
 		h4 {
 			font-size: 1.9em;
@@ -224,31 +183,14 @@
 }
 
 @media all and (min-width: 400px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 400px;
 		}
 
-		#container { margin-top: 2em; }
-		#name, #footer, #projects, #experience, .wrapper {
-			margin-bottom: 2em;
-		}
-
-	h1 {
-			font-size: .9em;
-		}
-
-		h2,  {
-			font-size: 1.3em;
-			letter-spacing: -.1px;
-		}
-
-		.one-liner p {
-			font-size: 1.5em;
-			line-height: 1.3em;
-		}
-
-		.connect a { font-size: 1em; }
+		#hello p {
+			font-size: 11em;
+			letter-spacing: -15px;
+	  }
 
 	/*//////////////////// ///////////////////////
 	  PROJECT PAGE
@@ -262,7 +204,11 @@
 			line-height: 1.7em;
 		}
 
-	.footer-header {
+	#footer {
+			margin-bottom: 2em;
+		}
+
+		.footer-header {
 			font-size: 1em;
 		}
 
@@ -276,41 +222,33 @@
 }
 
 @media all and (min-width: 480px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 480px;
 		}
 
-		.grid-1 { grid-template-columns: 2fr 9fr 1fr; }
-		.grid-2 { grid-template-columns: 4fr 7fr 1fr; }
-
-		#container { margin-top: 5em; }
-
-	h1 { font-size: .8em; letter-spacing: .3px; }
-
-		h2  { letter-spacing: -.1px; }
-
-		.top h3 { padding-top: .5em; }
-
-	.connect a:hover {
-	    background-color: #FAFAFC;
-	    color: #16161A;
-	  }
-
-	  h2 a:hover, a:hover {
-	    transition: .3s ease-out;
-	    cursor: url(../img/pointer.png) 7 7, pointer;
-	  }
-
-		#moreBar:hover {
-      cursor: url(../img/pointer.png) 7 7, pointer;
-			border-top: .5px solid transparent;
-
-      -webkit-transition: .3s ease;
-      -moz-transition: .3s ease;
-      -o-transition: .3s ease;
-      transition: .3s ease;
+		.grid-1 {
+			-webkit-column-count: 2;
+				 -moz-column-count: 2;
+							column-count: 2;
     }
+
+		#colorIndex { height: .7em; }
+
+		#hello p {
+			font-size: 13em;
+			letter-spacing: -20px;
+	  }
+
+		h1 {
+			font-size: 1.25em;
+			letter-spacing: -.25px;
+			line-height: .9em;
+		}
+
+		h2 {
+			font-size: 9px;
+			letter-spacing: .25em;
+		}
 
 	/*//////////////////// ///////////////////////
 	  PROJECT PAGE
@@ -342,34 +280,67 @@
 }
 
 @media all and (min-width: 768px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 768px;
 		}
 
-		.grid-1 { grid-template-columns: 3fr 7fr 2fr; }
-		.grid-2 { grid-template-columns: 4fr 7fr 1fr; }
+	#container {
+			margin-top: 3%;
+			padding: 0 1.5em 0 1.5em;
+		}
 
-	.moreText { width: 70%; }
+		#hello { margin: 30em 0 0 -1.4em; }
+
+		#hello p {
+			font-size: 17em;
+			letter-spacing: -25px;
+			line-height: .25em;
+	  }
+
+		h1 {
+			font-size: 1.5em;
+			letter-spacing: -.3px;
+			line-height: 1em;
+		}
+
+		.project-name {
+			bottom: 1.4em;
+	    left: 1.2em;
+		}
 
 	.arrow { width: .95em; }
 
 }
 
 @media all and (min-width: 960px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 960px;
 		}
 
-		.grid-1 { grid-template-columns: 4fr 6fr 2fr; }
-		.grid-2 { grid-template-columns: 3.5fr 7.5fr 1fr; }
-		.grid-4 { grid-template-columns: .5fr 10fr 1.5fr; }
-		.grid-5 { grid-template-columns: .5fr 11fr .5fr; }
-		.grid-6 { grid-template-columns: 4fr 4fr 4fr; grid-gap: 40px; }
+		.grid-1 {
+			-webkit-column-count: 3;
+				 -moz-column-count: 3;
+							column-count: 3;
+    }
 
-	.moreText { width: 60%; }
+		.grid-3 { grid-template-columns: .5fr 10fr 1.5fr; }
+		.grid-4 { grid-template-columns: .5fr 11fr .5fr; }
+		.grid-5 { grid-template-columns: 4fr 4fr 4fr; grid-gap: 40px; }
+
+	#colorIndex { height: .8em; }
+
+	#container {
+			margin-top: 2%;
+			padding: 0 1em 0 1em;
+		}
+
+		#hello { margin: 30em 0 0 -1.5em; }
+
+		#hello p {
+			font-size: 20em;
+			letter-spacing: -30px;
+			line-height: .5em;
+		}
 
 	#project-banner { height: 20em; }
 	.footer-header, li p { font-size: .9em; letter-spacing: 0px; }
@@ -377,22 +348,11 @@
 }
 
 @media all and (min-width: 1024px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1024px;
 		}
 
-		.grid-4 { grid-template-columns: .5fr 9fr 2.5fr; }
-
-	.moreText { width: 85%; }
-
-		h3 { font-size: 9px; }
-
-		.one-liner p {
-			font-size: 2.5em;
-			letter-spacing: -1.7px;
-		}
+		.grid-3 { grid-template-columns: .5fr 9fr 2.5fr; }
 
 	.project-description {
 			margin-top: 5em;
@@ -409,79 +369,59 @@
 }
 
 @media all and (min-width: 1280px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1280px;
 		}
 
-		.grid-1 { grid-template-columns: 4.5fr 5.5fr 2fr; }
-		.grid-2 { grid-template-columns: 2.5fr 8.5fr 1fr; }
-		.grid-6 { grid-template-columns: 3.5fr 3.5fr 5fr; }
+		.grid-5 { grid-template-columns: 3.5fr 3.5fr 5fr; }
 
-		.moreText { width: 67%; }
+
+		#hello { margin: 34em 0 0 -1.7em; }
+
+		#hello p {
+			font-size: 25em;
+			letter-spacing: -30px;
+			line-height: 0;
+		}
+
+		#work { margin-top: 12em; }
+
 		.arrow { left: 2.5em; }
 }
 
 @media all and (min-width: 1366px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1366px;
 		}
 
-		.grid-1 { grid-template-columns: 4.75fr 5.25fr 2fr; }
-		.grid-4 { grid-template-columns: .5fr 6.5fr 5fr; }
-
-	.moreText { width: 63%; }
+		.grid-3 { grid-template-columns: .5fr 6.5fr 5fr; }
 }
 
 @media all and (min-width: 1440px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1440px;
 		}
 
-		.grid-1 { grid-template-columns: 4.6fr 5.4fr 2fr; }
-
-		#container { margin-top: 5.5em; }
-
-		.top h3 { padding-top: .55em; }
-
-	.moreText { width: 60%; }
+	#container { margin-top: 1em; }
+	#work { margin-top: 15em; }
 
 	#project-banner { height: 22em; }
 }
 
 @media all and (min-width: 1680px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1680px;
 		}
-
-		#container { margin-top: 7em; }
-
-	.moreText { width: 51%; }
 }
 
 @media all and (min-width: 1920px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 		max-width: 1920px;
 	}
-
-	.moreText { width: 45%; }
 }
 
 @media all and (min-width: 2560px) {
-	.grid-0, .grid-1, .grid-2,
-	.grid-3, .grid-4, .grid-5,
-	.grid-6 {
+	.grid-2, .grid-3, .grid-4, .grid-5 {
 		max-width: 2560px;
 	}
-
-	.moreText { width: 34%; }
 }
