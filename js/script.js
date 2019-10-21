@@ -9,7 +9,7 @@ $(window).scroll(function(){
 /**************************************************
     PRELOADER: FADE OUT
 **************************************************/
-$(window).load(function() {
+$(document).ready(function() {
   $('#loader').delay(3000).fadeOut("slow");
 });
 
