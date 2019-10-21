@@ -1,0 +1,148 @@
+/*//////////////////// ///////////////////////
+	FONT-FACE
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'HaasGrotDispR-45Light';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-45 Light.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-46LightItalic';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-45 Light Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-55Roman';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-55 Roman.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-56Italic';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-56 Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-65Medium';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-65 Medium.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-66MediumItalic';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-66 Medium Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-75Bold';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-75 Bold.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-76BoldItalic';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-76 Bold Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-95Black';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-95 Black.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-96BlackItalic';
+	src: url('../fonts/v3/Display/Haas Grot Disp R-96 Black Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+
+
+@font-face {
+	font-family: 'HaasGrotTextR-55Roman';
+	src: url('../fonts/v3/Text/Haas Grot Text R-55 Roman.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-56Italic';
+	src: url('../fonts/v3/Text/Haas Grot Text R-56 Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-65Medium';
+	src: url('../fonts/v3/Text/Haas Grot Text R-65 Medium.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-66MediumItalic';
+	src: url('../fonts/v3/Text/Haas Grot Text R-66 Medium Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-75Bold';
+	src: url('../fonts/v3/Text/Haas Grot Text R-75 Bold.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-76BoldItalic';
+	src: url('../fonts/v3/Text/Haas Grot Text R-76 Bold Italic.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}

@@ -1,0 +1,56 @@
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 1.5em;
+
+  visibility: hidden;
+  width: 7em;
+  height: 1em;
+  opacity: 0;
+  z-index: 10;
+  text-align: right;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.back-to-top:focus {
+  outline: thin dotted;
+}
+
+.back-to-top::before,
+.back-to-top::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 0;
+}
+
+.back-to-top::before {
+  bottom: -1.5em;
+  z-index: 10;
+}
+
+.back-to-top::after {
+  bottom: 0;
+  z-index: 10;
+}
+
+.show-back-to-top {
+  display: block;
+  bottom: 1.5em;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Basic styles below this line. */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

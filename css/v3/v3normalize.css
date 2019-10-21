@@ -1,0 +1,1527 @@
+@media all and (max-width: 2560px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 2560px;
+	}
+
+	#notReady {
+		display: none;
+	}
+
+	h1 {
+		font-size: 900px;
+	}
+
+	h2 {
+		font-size: 275px;
+	}
+
+	a {
+		font-size: 14px;
+		letter-spacing: .8px;
+	}
+
+	.home-link {
+		margin-top: 1.5em;
+	}
+
+	#landing-copy {
+		margin-top: 3em;
+	}
+
+	.peach-dot {
+		position: absolute;
+		top: 16%;
+		left: 76%;
+		max-width: 22%;
+	}
+
+	.peach-dot img {
+		max-width: 100%;
+	}
+
+	.landing-intro {
+		position: relative;
+		top: 53.5em;
+		left: 1em;
+		font-size: 14px;
+		letter-spacing: 4px;
+		line-height: 1.8em;
+	}
+
+	.landing-intro a {
+		letter-spacing: 4px;
+	}
+
+  .portal {
+  	font-size: 14px;
+  	letter-spacing: 4px;
+  	line-height: 1.7em;
+
+  	position: absolute;
+  	left: 50%;
+  	bottom: 4em;
+  	transform: translate(-50%, 0);
+  }
+
+  .portal02 {
+  	font-size: 14px;
+  	letter-spacing: 4px;
+  	line-height: 1.7em;
+
+  	position: absolute;
+  	left: 50%;
+  	top: 4em;
+  	transform: translate(-50%, 0);
+  }
+
+/*//////////////////// ///////////////////////
+	PROJECT BOXES
+//////////////////// ///////////////////////*/
+	.project-container {
+		left: 50%;
+		bottom: 7%;
+		transform: translate(-50%, -50%);
+	}
+
+	.project-box {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - BOTTOM LINK
+//////////////////// ///////////////////////*/
+	#bottom-quote {
+		position: absolute;
+		bottom: 50%;
+	}
+
+	.bottom-link a {
+		letter-spacing: .7px;
+		line-height: 1em;
+	}
+
+	.bottom-link p {
+		font-size: 14px;
+		letter-spacing: 4px;
+		line-height: 2.5em;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - PROJECT HOVER
+//////////////////// ///////////////////////*/
+	.project-hover p {
+		font-size: 14px;
+		letter-spacing: 4px;
+
+		bottom: 53%;
+	}
+
+	.project-hover h2 {
+		width: 100%;
+		top: 32%;
+
+		letter-spacing: -5px;
+	}
+
+	.project-hover h2.active {
+		text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+	}
+
+	.role {
+		left: 25px;
+	}
+
+	.description {
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.date {
+		right: 25px;
+	}
+
+	.preview-image {
+		max-width: 100%;
+		max-height: 100%;
+
+		left: 50%;
+		top: 40%;
+		transform: translate(-50%, -40%);
+	}
+
+	.preview-image img {
+		max-height: 50em;
+	}
+
+/*//////////////////// ///////////////////////
+  ABOUT PAGE
+//////////////////// ///////////////////////*/
+  .back-button {
+  	top: 2.7em;
+  	left: 2.7em;
+  }
+
+  .back-button a {
+  	font-size: 24px;
+  	letter-spacing: 0.2px;
+  }
+
+  #about {
+  	width: 97%;
+  	max-height: 100%;
+
+  	top: 53%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
+
+  #about p, #about a {
+  	font-size: 120px;
+  	letter-spacing: -.5px;
+  	line-height: 124px;
+  }
+
+  .cluster01, .cluster02 {
+  	margin-bottom: .7em;
+  }
+
+  .connect {
+  	top: 2em;
+  	right: 3em;
+  }
+
+  .connect-link {
+  	margin-left: 3em;
+  }
+
+  .concept {
+  	font-size: 8px;
+  	letter-spacing: 2px;
+  	opacity: .1;
+  	bottom: 3em;
+  	right: 3em;
+  }
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  left: 50%;
+	  margin-top: 1.5em;
+	  transform: translate(-50%, 0);
+	  width: 95%;
+	  height: 100%;
+	}
+
+	rect {
+	  width: 100%;
+	  height: 95%;
+
+	  stroke-width: 10px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 2085.57142, 347.428571;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1737.14285, 694.857142;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1389.71428, 1042.28571;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 1042.28571, 1389.71428;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 694.857142, 1737.14285;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 347.428571, 2085.57142;
+	}
+
+/*//////////////////// ///////////////////////
+	WAVE
+//////////////////// ///////////////////////*/
+	.waves a svg {
+		height: 12em;
+		width: 110%;
+		bottom: 0;
+		left: 0;
+		transform: translate(-5%, 0);
+	}
+
+	.waves02 a svg {
+		height: 12em;
+		width: 110%;
+		top: 0;
+		left: 0;
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
+	}
+}
+
+@media all and (max-width: 1920px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1920px;
+	}
+
+	h1 {
+		font-size: 700px;
+	}
+
+	h2 {
+		font-size: 200px;
+	}
+
+	a {
+		font-size: 13px;
+		letter-spacing: .5px;
+	}
+
+	#landing-copy {
+		margin-top: -1em;
+	}
+
+	.landing-intro {
+		top: 43.6em;
+		font-size: 13px;
+	}
+
+	.landing-intro a {
+		font-size: 13px;
+	}
+
+	.portal {
+    	bottom: 3em;
+    }
+
+    .portal02 {
+    	top: 3em;
+    }
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - PROJECT HOVER
+//////////////////// ///////////////////////*/
+	.project-container {
+		bottom: 6%;
+	}
+
+	.preview-image img {
+		max-height: 35em;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1.2em;
+	}
+
+	rect {
+	  stroke-width: 7px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 1824, 304;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1520, 608;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1216, 912;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 912, 1216;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 608, 1520;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 304, 1824;
+	}
+
+/*//////////////////// ///////////////////////
+  ABOUT PAGE
+//////////////////// ///////////////////////*/
+  .back-button {
+  	top: 2em;
+  	left: 2.5em;
+  }
+
+  #about {
+  	left: 50.5%;
+  }
+
+  #about p, #about a {
+  	font-size: 88px;
+  	letter-spacing: -.3px;
+  	line-height: 92px;
+  }
+
+/*//////////////////// ///////////////////////
+	WAVE
+//////////////////// ///////////////////////*/
+	.waves a svg {
+		height: 9em;
+	}
+
+	.waves02 a svg {
+		height: 9em;
+	}
+}
+
+@media all and (max-width: 1680px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1680px;
+	}
+
+	h1 {
+		font-size: 650px;
+	}
+
+	h2 {
+		font-size: 200px;
+	}
+
+	#landing-copy {
+		margin-top: 0em;
+	}
+
+	.landing-intro {
+		top: 48.6em;
+	}
+
+	.landing-intro, .landing-intro a,
+	.bottom-link p, .project-hover p {
+		font-size: 11px;
+		letter-spacing: 3px;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1.1em;
+	}
+
+	rect {
+	  stroke-width: 5px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 1915.2, 319.2;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1596, 638.4;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1276.8, 957.6;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 957.6, 1276.8;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 638.4, 1596;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 319.2, 1915.2;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT BOXES
+//////////////////// ///////////////////////*/
+	.project-box {
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+	}
+
+/*//////////////////// ///////////////////////
+  ABOUT PAGE
+//////////////////// ///////////////////////*/
+	.back-button {
+		left: 2.2em;
+	}
+
+	#about p, #about a {
+		font-size: 77px;
+		letter-spacing: -.1px;
+		line-height: 81px;
+	}
+}
+
+@media all and (max-width: 1440px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1440px;
+	}
+
+	h1 {
+		font-size: 525px;
+	}
+
+	h2 {
+		font-size: 175px;
+	}
+
+	a {
+		font-size: 10px;
+		letter-spacing: .5px;
+	}
+
+/*//////////////////// ///////////////////////
+	LANDING SCREEN - CONTENT
+//////////////////// ///////////////////////*/
+	.home-link {
+		margin-top: 1em;
+	}
+
+	#landing-copy {
+		margin-top: 2em;
+	}
+
+	.peach-dot {
+		position: absolute;
+		top: 16%;
+		left: 76%;
+		max-width: 22%;
+	}
+
+	.peach-dot img {
+		max-width: 100%;
+	}
+
+	.landing-intro {
+		position: relative;
+		top: 42.4em;
+		left: 1em;
+		font-size: 10px;
+		letter-spacing: 2.2px;
+		line-height: 1.8em;
+	}
+
+	.landing-intro a {
+		font-size: 10px;
+    	letter-spacing: 2px;
+    }
+
+    .portal {
+    	font-size: 10px;
+    	letter-spacing: 2px;
+    	line-height: 1.7em;
+
+    	position: absolute;
+    	left: 50%;
+    	bottom: 2em;
+    	transform: translate(-50%, 0);
+    }
+
+    .portal02 {
+    	font-size: 10px;
+    	letter-spacing: 2px;
+    	line-height: 1.7em;
+
+    	position: absolute;
+    	left: 50%;
+    	top: 2em;
+    	transform: translate(-50%, 0);
+    }
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	.color-frame {
+	  margin-top: 1em;
+	}
+
+	rect {
+	  stroke-width: 3px;
+	}
+
+	rect.stroke-sky {
+	  stroke-dasharray: 2052, 342;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1710, 684;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1368, 1026;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 1026, 1368;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 684, 1710;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 342, 2052;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT BOXES
+//////////////////// ///////////////////////*/
+	.project-container {
+		left: 50%;
+		bottom: 6%;
+		transform: translate(-50%, -50%);
+		font-size: 0;
+	}
+
+	.project-box {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - BOTTOM LINK
+//////////////////// ///////////////////////*/
+	#bottom-quote {
+		position: absolute;
+		bottom: 50%;
+	}
+
+	.bottom-link a {
+		letter-spacing: .7px;
+		line-height: 1em;
+	}
+
+	.bottom-link p {
+		font-size: 9px;
+		letter-spacing: 2px;
+		line-height: 2em;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - PROJECT HOVER
+//////////////////// ///////////////////////*/
+	.project-hover p {
+		font-size: 10px;
+		letter-spacing: 2px;
+
+		bottom: 53%;
+	}
+
+	.project-hover h2 {
+		width: 100%;
+		top: 32%;
+
+		letter-spacing: -5px;
+	}
+
+	.role {
+		left: 25px;
+	}
+
+	.description {
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+
+	.date {
+		right: 25px;
+	}
+
+	.preview-image {
+		max-width: 100%;
+		max-height: 100%;
+
+		left: 50%;
+		top: 40%;
+		transform: translate(-50%, -40%);
+	}
+
+	.preview-image img {
+		max-height: 30em;
+	}
+
+/*//////////////////// ///////////////////////
+	ABOUT PAGE
+//////////////////// ///////////////////////*/
+  .back-button {
+  	top: 1.5em;
+  	left: 1.5em;
+  }
+
+  .back-button a {
+  	font-size: 16px;
+  	letter-spacing: 0.2px;
+  }
+
+  #about {
+  	width: 97%;
+  	max-height: 100%;
+
+  	top: 53%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
+
+  #about p, #about a {
+  	font-size: 68px;
+  	letter-spacing: -.5px;
+  	line-height: 72px;
+  }
+
+  .cluster01, .cluster02 {
+  	margin-bottom: .7em;
+  }
+
+  .connect {
+  	font-size: 10px;
+  	letter-spacing: .5px;
+  	margin-right: 3em;
+  	line-height: 2em;
+
+  	top: 2em;
+  	right: 0;
+  }
+
+  .connect-link {
+  	margin-left: 4em;
+  }
+
+  .concept {
+  	font-size: 8px;
+  	letter-spacing: 2px;
+  	opacity: .1;
+  	bottom: 3em;
+  	right: 3em;
+  }
+
+/*//////////////////// ///////////////////////
+	WAVE
+//////////////////// ///////////////////////*/
+	.waves a svg {
+		height: 8em;
+		width: 110%;
+		bottom: 0;
+		left: 0;
+		transform: translate(-5%, 0);
+	}
+
+	.waves02 a svg {
+		height: 8em;
+		width: 110%;
+		top: 0;
+		left: 0;
+		transform: translate(-5%, 0) rotate(180deg) scaleX(-1);
+	}
+}
+
+@media all and (max-width: 1366px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1366px;
+	}
+
+/*//////////////////// ///////////////////////
+	ABOUT PAGE
+//////////////////// ///////////////////////*/
+	#about p, #about a {
+		font-size: 63px;
+		letter-spacing: -.1px;
+		line-height: 67px;
+	}
+}
+
+@media all and (max-width: 1280px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1280px;
+	}
+
+	h1 {
+		font-size: 450px;
+	}
+
+	h2 {
+		font-size: 150px;
+	}
+
+	a {
+		font-size: 9px;
+		letter-spacing: .4px;
+	}
+
+/*//////////////////// ///////////////////////
+	LANDING SCREEN - CONTENT
+//////////////////// ///////////////////////*/
+	.landing-intro {
+		top: 40.4em;
+	}
+
+	.home-link {
+		margin-top: .7em;
+	}
+
+	.color-frame {
+		margin-top: .7em;
+	}
+
+	#landing-copy {
+		margin-top: 1em;
+	}
+
+	.landing-intro {
+		font-size: 9px;
+		line-height: 1.9em;
+		top: 39.6em;
+	}
+
+	.landing-intro a {
+		font-size: 9px;
+	}
+
+	.portal, .portal02 {
+		font-size: 9px;
+	}
+
+	.project-box {
+		width: 25px;
+		height: 25px;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1824, 304;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1520, 608;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 1216, 912;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 912, 1216;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 608, 1520;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 304, 1824;
+	}
+
+/*//////////////////// ///////////////////////
+	PROJECT SECTION - PROJECT HOVER
+//////////////////// ///////////////////////*/
+	.preview-image img {
+		max-height: 25em;
+	}
+
+	.project-hover p {
+		font-size: 9px;
+	}
+
+/*//////////////////// ///////////////////////
+	ABOUT PAGE
+//////////////////// ///////////////////////*/
+	.back-button {
+		left: 1.3em;
+	}
+
+	#about p, #about a {
+		font-size: 58px;
+		letter-spacing: -.2px;
+		line-height: 62px;
+	}
+
+	.cluster01, .cluster02 {
+		margin-bottom: .6em;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 1024px;
+	}
+
+	h1 {
+		font-size: 400px;
+	}
+
+	h2 {
+		font-size: 125px;
+	}
+
+	.landing-intro {
+		top: 34.5em;
+	}
+
+	#landing-copy {
+		margin-top: 2em;
+	}
+
+	.project-hover h2 {
+		top: 33%;
+	}
+
+	.preview-image img {
+		max-height: 22em;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1459.2, 243.2;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1216, 486.4;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 972.8, 729.6;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 729.6, 972.8;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 486.4, 1216;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 243.2, 1459.2;
+	}
+
+/*//////////////////// ///////////////////////
+	ABOUT
+//////////////////// ///////////////////////*/
+	.back-button {
+		left: 1em;
+	}
+
+	#about p, #about a {
+		font-size: 47px;
+		letter-spacing: -.1px;
+		line-height: 51px;
+	}
+
+	.cluster01, .cluster02 {
+		margin-bottom: .7em;
+	}
+
+/*//////////////////// ///////////////////////
+	WAVE
+//////////////////// ///////////////////////*/
+	.waves a svg {
+		height: 7em;
+	}
+
+	.waves02 a svg {
+		height: 7em;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 960px;
+	}
+
+	h1 {
+		font-size: 380px;
+	}
+
+	#about {
+		left: 51%;
+	}
+
+	#about p, #about a {
+		font-size: 44px;
+		line-height: 48px;
+	}
+
+	#landing-copy {
+		margin-top: 3em;
+	}
+
+	.landing-intro {
+		top: 32.4em;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1368, 228;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 1140, 456;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 912, 684;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 684, 912;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 456, 1140;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 228, 1368;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 800px;
+	}
+
+	h1 {
+		font-size: 300px;
+	}
+
+	h2 {
+		font-size: 100px;
+	}
+
+	.project-hover h2 {
+		top: 38%;
+	}
+
+	.landing-intro {
+		top: 24.1em;
+	}
+
+	.project-hover p {
+		font-size: 8px;
+		width: 40%;
+		line-height: 2em;
+		bottom: 50%;
+	}
+
+	#about p, #about a {
+		font-size: 36px;
+		letter-spacing: .2px;
+		line-height: 39px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 768px;
+	}
+
+	#about p, #about a {
+		font-size: 34px;
+		line-height: 38px;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 1094.4, 182.4;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 912, 364.8;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 729.6, 547.2;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 547.2, 729.6;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 364.8, 912;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 182.4, 1094.4;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 730px;
+	}
+
+	h1 {
+		font-size: 250px;
+	}
+
+	h2 {
+		font-size: 90px;
+	}
+
+	.landing-intro {
+		top: 19em;
+	}
+
+	#about p, #about a {
+		font-size: 32px;
+		line-height: 36px;
+	}
+
+	.cluster01, .cluster02 {
+		margin-bottom: .8em;
+	}
+
+	#about {
+		top: 50%;
+		left: 52%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 600px;
+	}
+
+	h1 {
+		font-size: 400px;
+	}
+
+	h2 {
+		font-size: 75px;
+	}
+
+	#landing-copy {
+		margin-top: -1em;
+	}
+
+	.landing-intro {
+		position: absolute;
+		top: 46em;
+		left: 7.9em;
+	}
+
+	.project-container {
+		bottom: 5%;
+	}
+
+	.project-hover h2 {
+		top: 41%;
+		letter-spacing: -2px;
+	}
+
+	.project-hover p {
+		width: 100%;
+		text-align: center;
+	}
+
+	.project-hover .role {
+		left: 50%;
+		top: 5em;
+		transform: translate(-50%, 0);
+	}
+
+	.project-hover .date {
+		left: 50%;
+		bottom: 12em;
+		transform: translate(-50%, 0);
+	}
+
+	#bottom-quote {
+		bottom: 46%;
+	}
+
+	#bottom-quote.grid-1 {
+		grid-template-columns: 12fr;
+	}
+
+	#about p, #about a {
+		font-size: 26px;
+		line-height: 31px;
+	}
+
+/*//////////////////// ///////////////////////
+	WAVE
+//////////////////// ///////////////////////*/
+	.waves a svg {
+		height: 6em;
+	}
+
+	.waves02 a svg {
+		height: 6em;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 480px;
+	}
+
+	h1 {
+		font-size: 350px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+
+	#landing-copy {
+		margin-top: 1em;
+	}
+
+	.landing-intro {
+		left: 5.8em;
+	}
+
+	.bottom-link p {
+		font-size: 8px;
+	}
+
+	.project-hover h2 {
+		top: 43%
+	}
+
+	.project-hover .role {
+		top: 12em;
+	}
+
+	.project-hover .date {
+		bottom: 15em;
+	}
+
+	.preview-image {
+		top: 44%;
+	}
+
+	.preview-image img {
+		max-height: 15em;
+	}
+
+	#about p, #about a {
+		font-size: 21px;
+		letter-spacing: .5px;
+		line-height: 25px;
+	}
+
+	.cluster01, .cluster02 {
+		margin-bottom: 1em;
+	}
+
+	.connect-link {
+		margin-left: 3em;
+	}
+}
+
+@media all and (max-width: 414px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 414px;
+	}
+
+	h1 {
+		font-size: 350px;
+	}
+
+	h2 {
+		font-size: 55px;
+	}
+
+	a {
+		font-size: 10px;
+	}
+
+	#landing-copy {
+		margin-top: 3em;
+	}
+
+	.landing-intro {
+		top: 45em;
+		left: 3.2em;
+		font-size: 10px;
+		line-height: 2em;
+	}
+
+	.landing-intro a {
+		font-size: 10px;
+	}
+
+	#bottom-quote.grid-1 {
+		grid-template-columns: 2fr 8fr 2fr;
+	}
+
+	#bottom-quote {
+		bottom: 50%;
+	}
+
+	.bottom-link p {
+		font-size: 9px;
+	}
+
+	.project-container {
+		width: 100%;
+		left: 64%;
+	}
+
+	.project-box {
+		width: 60px;
+		height: 60px;
+	}
+
+	.project-hover h2 {
+		top: 38%;
+	}
+
+	.project-hover p {
+		font-size: 9px;
+	}
+
+	.project-hover h2.active {
+		text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+	}
+
+	.project-hover .role {
+		top: 13em;
+	}
+
+	.project-hover .date {
+		bottom: 24em;
+	}
+
+	.project-hover .description {
+		width: 60%;
+		bottom: 48%;
+	}
+
+	.preview-image {
+		top: 40%;
+	}
+
+	.back-button {
+		left: 1.3em;
+	}
+
+	#about {
+		left: 50%;
+		width: 90%;
+	}
+
+	#about p, #about a {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 589.95, 98.325;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 491.625, 196.65;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 393.3, 294.975;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 294.975, 393.3;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 196.65, 491.625;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 98.325, 589.95;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 375px;
+	}
+
+	h1 {
+		font-size: 275px;
+	}
+
+	h2 {
+		font-size: 47px;
+	}
+
+	#landing-copy {
+		margin-top: 2em;
+	}
+
+	.landing-intro {
+		top: 36em;
+		left: 3.4em;
+	}
+
+	.project-container {
+		left: 67%;
+		bottom: 5%;
+	}
+
+	.project-box {
+		width: 50px;
+		height: 50px;
+	}
+
+	.project-hover h2 {
+		top: 35%;
+		letter-spacing: -1px;
+	}
+
+	.project-hover .role {
+		top: 7em;
+	}
+
+	.project-hover .description {
+		width: 80%;
+		bottom: 50%;
+	}
+
+	.project-hover .date {
+		bottom: 20em;
+	}
+
+	.preview-image {
+		top: 37%;
+	}
+
+	.waves a svg {
+		height: 8em;
+		width: 150%;
+		transform: translate(-15%, 0);
+	}
+
+	.waves02 a svg {
+		height: 8em;
+		width: 150%;
+		transform: translate(-15%, 0) rotate(180deg) scaleX(-1);
+	}
+
+	#about p, #about a {
+		font-size: 25px;
+		line-height: 28px;
+	}
+
+	.connect {
+		top: 2.5em;
+	}
+
+/*//////////////////// ///////////////////////
+	COLOR FRAME
+//////////////////// ///////////////////////*/
+	rect.stroke-sky {
+	  stroke-dasharray: 534.375, 89.0625;
+	}
+
+	rect.stroke-cream {
+	  stroke-dasharray: 445.3125, 178.125;
+	}
+
+	rect.stroke-red {
+	  stroke-dasharray: 356.25, 267.1875;
+	}
+
+	rect.stroke-pink {
+	  stroke-dasharray: 267.1875, 356.25;
+	}
+
+	rect.stroke-orange {
+	  stroke-dasharray: 178.125, 445.3125;
+	}
+
+	rect.stroke-teal {
+	  stroke-dasharray: 89.0625, 534.375;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.grid-1, .grid-2, .grid-3, .grid-4,
+	.grid-5, .grid-6, .grid-7 {
+		max-width: 320px;
+	}
+
+	h1 {
+		font-size: 225px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	.landing-intro {
+		top: 34em;
+		left: 4.2em;
+		font-size: 9px;
+		line-height: 1.9em;
+	}
+
+	.landing-intro a {
+		font-size: 9px;
+	}
+
+	.project-container {
+		left: 61%;
+		bottom: 3%;
+	}
+
+	.project-box {
+		width: 50px;
+		height: 50px;
+	}
+
+	#bottom-quote.grid-1 {
+		grid-template-columns: 1fr 10fr 1fr;
+	}
+
+	#about p, #about a {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.connect-link {
+		margin-left: 2em;
+	}
+}
