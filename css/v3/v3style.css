@@ -146,7 +146,7 @@ LANDING SCREEN
 }
 
 .portal, .portal02 {
-  cursor: url(../img/pointer.png) 7 7, pointer;
+  cursor: url(../img/v3/pointer.png) 7 7, pointer;
   opacity: 0;
   z-index: 101;
 }
@@ -258,7 +258,7 @@ PROJECT SECTION - BOTTOM LINK
 
 .bottom-link a {
   font-family: 'HaasGrotDispR-56Italic';
-  cursor: url(../img/pointer.png) 7 7, pointer;
+  cursor: url(../img/v3/pointer.png) 7 7, pointer;
 }
 
 .bottom-link a:hover {
