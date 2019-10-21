@@ -42,8 +42,8 @@
 		#hello { margin: 18em 0 0 -.5em; }
 
 		#hello p {
-			font-size: 8.5em;
-			letter-spacing: -10px;
+			font-size: 6.3em;
+			letter-spacing: -8px;
 			line-height: .5em;
 	  }
 
@@ -157,8 +157,8 @@
 
 		#hello { margin-top: 23em; }
 		#hello p {
-			font-size: 9.5em;
-			letter-spacing: -12px;
+			font-size: 7.25em;
+			letter-spacing: -7px;
 	  }
 
 	/*//////////////////// ///////////////////////
@@ -188,8 +188,8 @@
 		}
 
 		#hello p {
-			font-size: 11em;
-			letter-spacing: -15px;
+			font-size: 8.25em;
+			letter-spacing: -9px;
 	  }
 
 	/*//////////////////// ///////////////////////
@@ -235,8 +235,8 @@
 		#colorIndex { height: .7em; }
 
 		#hello p {
-			font-size: 13em;
-			letter-spacing: -20px;
+			font-size: 9.5em;
+			letter-spacing: -11px;
 	  }
 
 		h1 {
