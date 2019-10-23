@@ -6,6 +6,10 @@
 	-webkit-column-gap: 20px;
 		 -moz-column-gap: 20px;
 		 			column-gap: 20px;
+
+	-webkit-column-fill: balance;
+		 -moz-column-fill: balance;
+		 			column-fill: balance;
 }
 
 .item {
