@@ -175,7 +175,7 @@ p, a {
   top: 50%;
   left: 50%;
 
-  animation: beat 1s 3;
+  animation: beat 1s 2.5;
 
   -webkit-transition: 1s ease-out;
   -moz-transition: 1s ease-out;
