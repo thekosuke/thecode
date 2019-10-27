@@ -10,7 +10,7 @@ $(window).scroll(function(){
     PRELOADER: FADE OUT
 **************************************************/
 $(window).load(function() {
-  $('#loader').delay(3000).fadeOut("slow");
+  $('#loader').delay(2000).fadeOut("slow");
 });
 
 $(document).ready(function() {
