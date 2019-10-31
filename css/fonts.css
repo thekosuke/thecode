@@ -47,3 +47,33 @@
 		  -ms-font-smoothing: antialiased;
 	     -o-font-smoothing: antialiased;
 }
+
+/*//////////////////// ///////////////////////
+	FONT-FACE
+//////////////////// ///////////////////////*/
+@font-face {
+	font-family: 'HaasGrotDispR-65Medium';
+	src: url('../fonts/Display/Haas Grot Disp R-65 Medium.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotDispR-95Black';
+	src: url('../fonts/Display/Haas Grot Disp R-95 Black.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'HaasGrotTextR-55Roman';
+	src: url('../fonts/Text/Haas Grot Text R-55 Roman.otf');
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}

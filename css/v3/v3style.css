@@ -31,11 +31,6 @@ body {
   transition: .4s ease;
 }
 
-#notReady p {
-  font-family: "HaasGrotDispR-55Roman";
-  color: #F5F5F7;
-}
-
 @keyframes fadeIn{
   0% {
     opacity: 0;
@@ -225,13 +220,6 @@ PROJECT BOXES
 
 #project-tp {
   background: #F2F2F2;
-/*
-  background: linear-gradient(-225deg,
-    #CC0A21 33%,
-    #2B65D9 66%,
-    #FFF44F 99%
-  );
-*/
 }
 
 #project-room {
@@ -257,7 +245,6 @@ PROJECT SECTION - BOTTOM LINK
 }
 
 .bottom-link a {
-  font-family: 'HaasGrotDispR-56Italic';
   cursor: url(../img/v3/pointer.png) 7 7, pointer;
 }
 
@@ -356,52 +343,4 @@ PROJECT SECTION - BOTTOM LINK
 
 #gameHover h2 {
   color: #ED1942;
-}
-
-
-/*//////////////////// ///////////////////////
-ABOUT PAGE
-//////////////////// ///////////////////////*/
-.back-button {
-  position: fixed;
-  z-index: 999;
-
-  animation: fadeIn 3s;
-}
-
-.back-button a {
-  font-family: 'HaasGrotTextR-76BoldItalic';
-}
-
-.back-button a:hover {
-  color: #FFB700;
-  opacity: 1;
-}
-
-#about {
-  position: fixed;
-  overflow: hidden;
-  z-index: 10;
-
-  animation: fadeIn 3s;
-}
-
-#about p, #about a {
-  font-family: 'HaasGrotDispR-55Roman';
-}
-
-#about a {
-  text-decoration: underline;
-}
-
-.connect {
-  position: absolute;
-  text-align: right;
-  list-style: none;
-
-  animation: fadeIn 3s;
-}
-
-.connect-link {
-  display: inline;
 }
