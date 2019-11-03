@@ -24,8 +24,8 @@ body {
     position: relative;
     z-index: 1;
 
-    animation: land 2.75s;
-    animation-delay: .75s;
+    animation: land 3s;
+    animation-delay: .5s;
 
     -webkit-transition: 2s ease-out;
     -moz-transition: 2s ease-out;
