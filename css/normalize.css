@@ -1,5 +1,5 @@
 @media all and (min-width: 320px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 320px;
 			margin-left: 0;
 			margin-right: 0;
@@ -11,6 +11,7 @@
 	    				column-count: 1;
     }
 
+		.grid-0 { grid-template-columns: 1fr; }
 		.grid-2 { grid-template-columns: 3fr 6fr 3fr; }
 		.grid-3, .grid-4 { grid-template-columns: .5fr 11fr .5fr; }
 
@@ -149,7 +150,7 @@
 }
 
 @media all and (min-width: 375px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 375px;
 		}
 
@@ -183,7 +184,7 @@
 }
 
 @media all and (min-width: 400px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 400px;
 		}
 
@@ -222,7 +223,7 @@
 }
 
 @media all and (min-width: 480px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 480px;
 		}
 
@@ -280,7 +281,7 @@
 }
 
 @media all and (min-width: 768px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 768px;
 		}
 
@@ -313,7 +314,7 @@
 }
 
 @media all and (min-width: 960px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 960px;
 		}
 
@@ -323,6 +324,7 @@
 							column-count: 3;
     }
 
+		.grid-0 { grid-template-columns: 3.3fr 3.3fr 3.3fr; }
 		.grid-3 { grid-template-columns: .5fr 10fr 1.5fr; }
 		.grid-4 { grid-template-columns: .5fr 11fr .5fr; }
 		.grid-5 { grid-template-columns: 4fr 4fr 4fr; grid-gap: 40px; }
@@ -348,7 +350,7 @@
 }
 
 @media all and (min-width: 1024px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1024px;
 		}
 
@@ -369,7 +371,7 @@
 }
 
 @media all and (min-width: 1280px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1280px;
 		}
 
@@ -390,7 +392,7 @@
 }
 
 @media all and (min-width: 1366px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1366px;
 		}
 
@@ -398,7 +400,7 @@
 }
 
 @media all and (min-width: 1440px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1440px;
 		}
 
@@ -409,19 +411,19 @@
 }
 
 @media all and (min-width: 1680px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 			max-width: 1680px;
 		}
 }
 
 @media all and (min-width: 1920px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 		max-width: 1920px;
 	}
 }
 
 @media all and (min-width: 2560px) {
-	.grid-2, .grid-3, .grid-4, .grid-5 {
+	.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 		max-width: 2560px;
 	}
 }

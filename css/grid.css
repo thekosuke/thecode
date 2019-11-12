@@ -28,7 +28,20 @@
 	-webkit-box-sizing: border-box;
 }
 
-.grid-2, .grid-3, .grid-4, .grid-5 {
+.grid-0 {
+	display: grid;
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	grid-gap: 20px;
+
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.grid-0, .grid-2, .grid-3, .grid-4, .grid-5 {
 	display: grid;
 	width: 100%;
 	max-width: 1440px;
