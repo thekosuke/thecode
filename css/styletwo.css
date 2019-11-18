@@ -134,6 +134,7 @@ h3, h4, h5, h6, p, a {
   #tpBanner { background-image: radial-gradient(circle at 0% 0%, #CC0A21, #2B65D9, #FFF44F); }
   #italiaBanner { background-image: radial-gradient(#333333, #0D0D0D); }
   #instaBanner { background-image: radial-gradient(#76C2EB, #0085E6); }
+  #roomerBanner { background-image: radial-gradient(#06A687, #09F2C5); }
   #generalBanner { background-image: radial-gradient(#292C34, #16161A); }
 
 /*//////////////////// ///////////////////////
@@ -178,7 +179,7 @@ hr { border-width: .5px; }
     transition: 1s ease-out;
   }
 
-#loadCoke, #loadtp, #loaditalia, #loadRGA, #loadIR {
+#loadCoke, #loadtp, #loaditalia, #loadRGA, #loadIR, #loadRoomer, #loadGeneral {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -213,6 +214,12 @@ hr { border-width: .5px; }
       background-image:    -moz-radial-gradient(#76C2EB, #0085E6);
       background-image:      -o-radial-gradient(#76C2EB, #0085E6);
       background-image:         radial-gradient(#76C2EB, #0085E6);
+    }
+  #loadRoomer {
+      background-image: -webkit-radial-gradient(#06A687, #09F2C5);
+      background-image:    -moz-radial-gradient(#06A687, #09F2C5);
+      background-image:      -o-radial-gradient(#06A687, #09F2C5);
+      background-image:         radial-gradient(#06A687, #09F2C5);
     }
   #loadGeneral {
       background-image: -webkit-radial-gradient(#292C34, #16161A);
