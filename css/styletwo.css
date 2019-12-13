@@ -136,6 +136,7 @@ h3, h4, h5, h6, p, a {
   #instaBanner { background-image: radial-gradient(#76C2EB, #0085E6); }
   #roomerBanner { background-image: radial-gradient(#06A687, #09F2C5); }
   #generalBanner { background-image: radial-gradient(#292C34, #16161A); }
+  #googleBanner { background: #FFFFFF; }
 
 /*//////////////////// ///////////////////////
   PROJECT - CONTENT
@@ -179,7 +180,8 @@ hr { border-width: .5px; }
     transition: 1s ease-out;
   }
 
-#loadCoke, #loadtp, #loaditalia, #loadRGA, #loadIR, #loadRoomer, #loadGeneral {
+#loadCoke, #loadtp, #loaditalia, #loadRGA,
+#loadIR, #loadRoomer, #loadGeneral, #loadGoogle {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -227,6 +229,7 @@ hr { border-width: .5px; }
       background-image:      -o-radial-gradient(#292C34, #16161A);
       background-image:         radial-gradient(#292C34, #16161A);
     }
+  #loadGoogle { background: #FFFFFF; }
 
 
 /*//////////////////////////////////////

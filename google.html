@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>kosuke · Google</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styletwo.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/script.js"></script>
+
+    </head>
+    <body>
+      <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
+      <div id="dialogWrap">
+          <div id="dialogWrapCell">
+              <div id="mainDialog">
+                  <div id="dialogText"><h3>Authentication Required</h3></div>
+                  <div id="passArea">
+                      <p id="passwordPrompt">Password</p>
+                      <input id="pass" type="password" name="pass">
+                      <div id="bottomContainer">
+                          <span id="messageWrapper">
+                              <p id="invalidPass" class="notifyText">Sorry, please try again.</p>
+                              <p id="success" class="notifyText">Access Granted</p>
+                          </span>
+                          <button id="submitPass" type="button"><p>Enter</p></button>
+                          <div style="clear: both;"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <script>
+/*
+CryptoJS v3.1.2
+code.google.com/p/crypto-js
+(c) 2009-2013 by Jeff Mott. All rights reserved.
+code.google.com/p/crypto-js/wiki/License
+*/
+var CryptoJS=CryptoJS||function(u,p){var d={},l=d.lib={},s=function(){},t=l.Base={extend:function(a){s.prototype=this;var c=new s;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
+r=l.WordArray=t.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=p?c:4*a.length},toString:function(a){return(a||v).stringify(this)},concat:function(a){var c=this.words,e=a.words,j=this.sigBytes;a=a.sigBytes;this.clamp();if(j%4)for(var k=0;k<a;k++)c[j+k>>>2]|=(e[k>>>2]>>>24-8*(k%4)&255)<<24-8*((j+k)%4);else if(65535<e.length)for(k=0;k<a;k+=4)c[j+k>>>2]=e[k>>>2];else c.push.apply(c,e);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
+32-8*(c%4);a.length=u.ceil(c/4)},clone:function(){var a=t.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],e=0;e<a;e+=4)c.push(4294967296*u.random()|0);return new r.init(c,a)}}),w=d.enc={},v=w.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var e=[],j=0;j<a;j++){var k=c[j>>>2]>>>24-8*(j%4)&255;e.push((k>>>4).toString(16));e.push((k&15).toString(16))}return e.join("")},parse:function(a){for(var c=a.length,e=[],j=0;j<c;j+=2)e[j>>>3]|=parseInt(a.substr(j,
+2),16)<<24-4*(j%8);return new r.init(e,c/2)}},b=w.Latin1={stringify:function(a){var c=a.words;a=a.sigBytes;for(var e=[],j=0;j<a;j++)e.push(String.fromCharCode(c[j>>>2]>>>24-8*(j%4)&255));return e.join("")},parse:function(a){for(var c=a.length,e=[],j=0;j<c;j++)e[j>>>2]|=(a.charCodeAt(j)&255)<<24-8*(j%4);return new r.init(e,c)}},x=w.Utf8={stringify:function(a){try{return decodeURIComponent(escape(b.stringify(a)))}catch(c){throw Error("Malformed UTF-8 data");}},parse:function(a){return b.parse(unescape(encodeURIComponent(a)))}},
+q=l.BufferedBlockAlgorithm=t.extend({reset:function(){this._data=new r.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=x.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(a){var c=this._data,e=c.words,j=c.sigBytes,k=this.blockSize,b=j/(4*k),b=a?u.ceil(b):u.max((b|0)-this._minBufferSize,0);a=b*k;j=u.min(4*a,j);if(a){for(var q=0;q<a;q+=k)this._doProcessBlock(e,q);q=e.splice(0,a);c.sigBytes-=j}return new r.init(q,j)},clone:function(){var a=t.clone.call(this);
+a._data=this._data.clone();return a},_minBufferSize:0});l.Hasher=q.extend({cfg:t.extend(),init:function(a){this.cfg=this.cfg.extend(a);this.reset()},reset:function(){q.reset.call(this);this._doReset()},update:function(a){this._append(a);this._process();return this},finalize:function(a){a&&this._append(a);return this._doFinalize()},blockSize:16,_createHelper:function(a){return function(b,e){return(new a.init(e)).finalize(b)}},_createHmacHelper:function(a){return function(b,e){return(new n.HMAC.init(a,
+e)).finalize(b)}}});var n=d.algo={};return d}(Math);
+(function(){var u=CryptoJS,p=u.lib.WordArray;u.enc.Base64={stringify:function(d){var l=d.words,p=d.sigBytes,t=this._map;d.clamp();d=[];for(var r=0;r<p;r+=3)for(var w=(l[r>>>2]>>>24-8*(r%4)&255)<<16|(l[r+1>>>2]>>>24-8*((r+1)%4)&255)<<8|l[r+2>>>2]>>>24-8*((r+2)%4)&255,v=0;4>v&&r+0.75*v<p;v++)d.push(t.charAt(w>>>6*(3-v)&63));if(l=t.charAt(64))for(;d.length%4;)d.push(l);return d.join("")},parse:function(d){var l=d.length,s=this._map,t=s.charAt(64);t&&(t=d.indexOf(t),-1!=t&&(l=t));for(var t=[],r=0,w=0;w<
+l;w++)if(w%4){var v=s.indexOf(d.charAt(w-1))<<2*(w%4),b=s.indexOf(d.charAt(w))>>>6-2*(w%4);t[r>>>2]|=(v|b)<<24-8*(r%4);r++}return p.create(t,r)},_map:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="}})();
+(function(u){function p(b,n,a,c,e,j,k){b=b+(n&a|~n&c)+e+k;return(b<<j|b>>>32-j)+n}function d(b,n,a,c,e,j,k){b=b+(n&c|a&~c)+e+k;return(b<<j|b>>>32-j)+n}function l(b,n,a,c,e,j,k){b=b+(n^a^c)+e+k;return(b<<j|b>>>32-j)+n}function s(b,n,a,c,e,j,k){b=b+(a^(n|~c))+e+k;return(b<<j|b>>>32-j)+n}for(var t=CryptoJS,r=t.lib,w=r.WordArray,v=r.Hasher,r=t.algo,b=[],x=0;64>x;x++)b[x]=4294967296*u.abs(u.sin(x+1))|0;r=r.MD5=v.extend({_doReset:function(){this._hash=new w.init([1732584193,4023233417,2562383102,271733878])},
+_doProcessBlock:function(q,n){for(var a=0;16>a;a++){var c=n+a,e=q[c];q[c]=(e<<8|e>>>24)&16711935|(e<<24|e>>>8)&4278255360}var a=this._hash.words,c=q[n+0],e=q[n+1],j=q[n+2],k=q[n+3],z=q[n+4],r=q[n+5],t=q[n+6],w=q[n+7],v=q[n+8],A=q[n+9],B=q[n+10],C=q[n+11],u=q[n+12],D=q[n+13],E=q[n+14],x=q[n+15],f=a[0],m=a[1],g=a[2],h=a[3],f=p(f,m,g,h,c,7,b[0]),h=p(h,f,m,g,e,12,b[1]),g=p(g,h,f,m,j,17,b[2]),m=p(m,g,h,f,k,22,b[3]),f=p(f,m,g,h,z,7,b[4]),h=p(h,f,m,g,r,12,b[5]),g=p(g,h,f,m,t,17,b[6]),m=p(m,g,h,f,w,22,b[7]),
+f=p(f,m,g,h,v,7,b[8]),h=p(h,f,m,g,A,12,b[9]),g=p(g,h,f,m,B,17,b[10]),m=p(m,g,h,f,C,22,b[11]),f=p(f,m,g,h,u,7,b[12]),h=p(h,f,m,g,D,12,b[13]),g=p(g,h,f,m,E,17,b[14]),m=p(m,g,h,f,x,22,b[15]),f=d(f,m,g,h,e,5,b[16]),h=d(h,f,m,g,t,9,b[17]),g=d(g,h,f,m,C,14,b[18]),m=d(m,g,h,f,c,20,b[19]),f=d(f,m,g,h,r,5,b[20]),h=d(h,f,m,g,B,9,b[21]),g=d(g,h,f,m,x,14,b[22]),m=d(m,g,h,f,z,20,b[23]),f=d(f,m,g,h,A,5,b[24]),h=d(h,f,m,g,E,9,b[25]),g=d(g,h,f,m,k,14,b[26]),m=d(m,g,h,f,v,20,b[27]),f=d(f,m,g,h,D,5,b[28]),h=d(h,f,
+m,g,j,9,b[29]),g=d(g,h,f,m,w,14,b[30]),m=d(m,g,h,f,u,20,b[31]),f=l(f,m,g,h,r,4,b[32]),h=l(h,f,m,g,v,11,b[33]),g=l(g,h,f,m,C,16,b[34]),m=l(m,g,h,f,E,23,b[35]),f=l(f,m,g,h,e,4,b[36]),h=l(h,f,m,g,z,11,b[37]),g=l(g,h,f,m,w,16,b[38]),m=l(m,g,h,f,B,23,b[39]),f=l(f,m,g,h,D,4,b[40]),h=l(h,f,m,g,c,11,b[41]),g=l(g,h,f,m,k,16,b[42]),m=l(m,g,h,f,t,23,b[43]),f=l(f,m,g,h,A,4,b[44]),h=l(h,f,m,g,u,11,b[45]),g=l(g,h,f,m,x,16,b[46]),m=l(m,g,h,f,j,23,b[47]),f=s(f,m,g,h,c,6,b[48]),h=s(h,f,m,g,w,10,b[49]),g=s(g,h,f,m,
+E,15,b[50]),m=s(m,g,h,f,r,21,b[51]),f=s(f,m,g,h,u,6,b[52]),h=s(h,f,m,g,k,10,b[53]),g=s(g,h,f,m,B,15,b[54]),m=s(m,g,h,f,e,21,b[55]),f=s(f,m,g,h,v,6,b[56]),h=s(h,f,m,g,x,10,b[57]),g=s(g,h,f,m,t,15,b[58]),m=s(m,g,h,f,D,21,b[59]),f=s(f,m,g,h,z,6,b[60]),h=s(h,f,m,g,C,10,b[61]),g=s(g,h,f,m,j,15,b[62]),m=s(m,g,h,f,A,21,b[63]);a[0]=a[0]+f|0;a[1]=a[1]+m|0;a[2]=a[2]+g|0;a[3]=a[3]+h|0},_doFinalize:function(){var b=this._data,n=b.words,a=8*this._nDataBytes,c=8*b.sigBytes;n[c>>>5]|=128<<24-c%32;var e=u.floor(a/
+4294967296);n[(c+64>>>9<<4)+15]=(e<<8|e>>>24)&16711935|(e<<24|e>>>8)&4278255360;n[(c+64>>>9<<4)+14]=(a<<8|a>>>24)&16711935|(a<<24|a>>>8)&4278255360;b.sigBytes=4*(n.length+1);this._process();b=this._hash;n=b.words;for(a=0;4>a;a++)c=n[a],n[a]=(c<<8|c>>>24)&16711935|(c<<24|c>>>8)&4278255360;return b},clone:function(){var b=v.clone.call(this);b._hash=this._hash.clone();return b}});t.MD5=v._createHelper(r);t.HmacMD5=v._createHmacHelper(r)})(Math);
+(function(){var u=CryptoJS,p=u.lib,d=p.Base,l=p.WordArray,p=u.algo,s=p.EvpKDF=d.extend({cfg:d.extend({keySize:4,hasher:p.MD5,iterations:1}),init:function(d){this.cfg=this.cfg.extend(d)},compute:function(d,r){for(var p=this.cfg,s=p.hasher.create(),b=l.create(),u=b.words,q=p.keySize,p=p.iterations;u.length<q;){n&&s.update(n);var n=s.update(d).finalize(r);s.reset();for(var a=1;a<p;a++)n=s.finalize(n),s.reset();b.concat(n)}b.sigBytes=4*q;return b}});u.EvpKDF=function(d,l,p){return s.create(p).compute(d,
+l)}})();
+CryptoJS.lib.Cipher||function(u){var p=CryptoJS,d=p.lib,l=d.Base,s=d.WordArray,t=d.BufferedBlockAlgorithm,r=p.enc.Base64,w=p.algo.EvpKDF,v=d.Cipher=t.extend({cfg:l.extend(),createEncryptor:function(e,a){return this.create(this._ENC_XFORM_MODE,e,a)},createDecryptor:function(e,a){return this.create(this._DEC_XFORM_MODE,e,a)},init:function(e,a,b){this.cfg=this.cfg.extend(b);this._xformMode=e;this._key=a;this.reset()},reset:function(){t.reset.call(this);this._doReset()},process:function(e){this._append(e);return this._process()},
+finalize:function(e){e&&this._append(e);return this._doFinalize()},keySize:4,ivSize:4,_ENC_XFORM_MODE:1,_DEC_XFORM_MODE:2,_createHelper:function(e){return{encrypt:function(b,k,d){return("string"==typeof k?c:a).encrypt(e,b,k,d)},decrypt:function(b,k,d){return("string"==typeof k?c:a).decrypt(e,b,k,d)}}}});d.StreamCipher=v.extend({_doFinalize:function(){return this._process(!0)},blockSize:1});var b=p.mode={},x=function(e,a,b){var c=this._iv;c?this._iv=u:c=this._prevBlock;for(var d=0;d<b;d++)e[a+d]^=
+c[d]},q=(d.BlockCipherMode=l.extend({createEncryptor:function(e,a){return this.Encryptor.create(e,a)},createDecryptor:function(e,a){return this.Decryptor.create(e,a)},init:function(e,a){this._cipher=e;this._iv=a}})).extend();q.Encryptor=q.extend({processBlock:function(e,a){var b=this._cipher,c=b.blockSize;x.call(this,e,a,c);b.encryptBlock(e,a);this._prevBlock=e.slice(a,a+c)}});q.Decryptor=q.extend({processBlock:function(e,a){var b=this._cipher,c=b.blockSize,d=e.slice(a,a+c);b.decryptBlock(e,a);x.call(this,
+e,a,c);this._prevBlock=d}});b=b.CBC=q;q=(p.pad={}).Pkcs7={pad:function(a,b){for(var c=4*b,c=c-a.sigBytes%c,d=c<<24|c<<16|c<<8|c,l=[],n=0;n<c;n+=4)l.push(d);c=s.create(l,c);a.concat(c)},unpad:function(a){a.sigBytes-=a.words[a.sigBytes-1>>>2]&255}};d.BlockCipher=v.extend({cfg:v.cfg.extend({mode:b,padding:q}),reset:function(){v.reset.call(this);var a=this.cfg,b=a.iv,a=a.mode;if(this._xformMode==this._ENC_XFORM_MODE)var c=a.createEncryptor;else c=a.createDecryptor,this._minBufferSize=1;this._mode=c.call(a,
+this,b&&b.words)},_doProcessBlock:function(a,b){this._mode.processBlock(a,b)},_doFinalize:function(){var a=this.cfg.padding;if(this._xformMode==this._ENC_XFORM_MODE){a.pad(this._data,this.blockSize);var b=this._process(!0)}else b=this._process(!0),a.unpad(b);return b},blockSize:4});var n=d.CipherParams=l.extend({init:function(a){this.mixIn(a)},toString:function(a){return(a||this.formatter).stringify(this)}}),b=(p.format={}).OpenSSL={stringify:function(a){var b=a.ciphertext;a=a.salt;return(a?s.create([1398893684,
+1701076831]).concat(a).concat(b):b).toString(r)},parse:function(a){a=r.parse(a);var b=a.words;if(1398893684==b[0]&&1701076831==b[1]){var c=s.create(b.slice(2,4));b.splice(0,4);a.sigBytes-=16}return n.create({ciphertext:a,salt:c})}},a=d.SerializableCipher=l.extend({cfg:l.extend({format:b}),encrypt:function(a,b,c,d){d=this.cfg.extend(d);var l=a.createEncryptor(c,d);b=l.finalize(b);l=l.cfg;return n.create({ciphertext:b,key:c,iv:l.iv,algorithm:a,mode:l.mode,padding:l.padding,blockSize:a.blockSize,formatter:d.format})},
+decrypt:function(a,b,c,d){d=this.cfg.extend(d);b=this._parse(b,d.format);return a.createDecryptor(c,d).finalize(b.ciphertext)},_parse:function(a,b){return"string"==typeof a?b.parse(a,this):a}}),p=(p.kdf={}).OpenSSL={execute:function(a,b,c,d){d||(d=s.random(8));a=w.create({keySize:b+c}).compute(a,d);c=s.create(a.words.slice(b),4*c);a.sigBytes=4*b;return n.create({key:a,iv:c,salt:d})}},c=d.PasswordBasedCipher=a.extend({cfg:a.cfg.extend({kdf:p}),encrypt:function(b,c,d,l){l=this.cfg.extend(l);d=l.kdf.execute(d,
+b.keySize,b.ivSize);l.iv=d.iv;b=a.encrypt.call(this,b,c,d.key,l);b.mixIn(d);return b},decrypt:function(b,c,d,l){l=this.cfg.extend(l);c=this._parse(c,l.format);d=l.kdf.execute(d,b.keySize,b.ivSize,c.salt);l.iv=d.iv;return a.decrypt.call(this,b,c,d.key,l)}})}();
+(function(){for(var u=CryptoJS,p=u.lib.BlockCipher,d=u.algo,l=[],s=[],t=[],r=[],w=[],v=[],b=[],x=[],q=[],n=[],a=[],c=0;256>c;c++)a[c]=128>c?c<<1:c<<1^283;for(var e=0,j=0,c=0;256>c;c++){var k=j^j<<1^j<<2^j<<3^j<<4,k=k>>>8^k&255^99;l[e]=k;s[k]=e;var z=a[e],F=a[z],G=a[F],y=257*a[k]^16843008*k;t[e]=y<<24|y>>>8;r[e]=y<<16|y>>>16;w[e]=y<<8|y>>>24;v[e]=y;y=16843009*G^65537*F^257*z^16843008*e;b[k]=y<<24|y>>>8;x[k]=y<<16|y>>>16;q[k]=y<<8|y>>>24;n[k]=y;e?(e=z^a[a[a[G^z]]],j^=a[a[j]]):e=j=1}var H=[0,1,2,4,8,
+16,32,64,128,27,54],d=d.AES=p.extend({_doReset:function(){for(var a=this._key,c=a.words,d=a.sigBytes/4,a=4*((this._nRounds=d+6)+1),e=this._keySchedule=[],j=0;j<a;j++)if(j<d)e[j]=c[j];else{var k=e[j-1];j%d?6<d&&4==j%d&&(k=l[k>>>24]<<24|l[k>>>16&255]<<16|l[k>>>8&255]<<8|l[k&255]):(k=k<<8|k>>>24,k=l[k>>>24]<<24|l[k>>>16&255]<<16|l[k>>>8&255]<<8|l[k&255],k^=H[j/d|0]<<24);e[j]=e[j-d]^k}c=this._invKeySchedule=[];for(d=0;d<a;d++)j=a-d,k=d%4?e[j]:e[j-4],c[d]=4>d||4>=j?k:b[l[k>>>24]]^x[l[k>>>16&255]]^q[l[k>>>
+8&255]]^n[l[k&255]]},encryptBlock:function(a,b){this._doCryptBlock(a,b,this._keySchedule,t,r,w,v,l)},decryptBlock:function(a,c){var d=a[c+1];a[c+1]=a[c+3];a[c+3]=d;this._doCryptBlock(a,c,this._invKeySchedule,b,x,q,n,s);d=a[c+1];a[c+1]=a[c+3];a[c+3]=d},_doCryptBlock:function(a,b,c,d,e,j,l,f){for(var m=this._nRounds,g=a[b]^c[0],h=a[b+1]^c[1],k=a[b+2]^c[2],n=a[b+3]^c[3],p=4,r=1;r<m;r++)var q=d[g>>>24]^e[h>>>16&255]^j[k>>>8&255]^l[n&255]^c[p++],s=d[h>>>24]^e[k>>>16&255]^j[n>>>8&255]^l[g&255]^c[p++],t=
+d[k>>>24]^e[n>>>16&255]^j[g>>>8&255]^l[h&255]^c[p++],n=d[n>>>24]^e[g>>>16&255]^j[h>>>8&255]^l[k&255]^c[p++],g=q,h=s,k=t;q=(f[g>>>24]<<24|f[h>>>16&255]<<16|f[k>>>8&255]<<8|f[n&255])^c[p++];s=(f[h>>>24]<<24|f[k>>>16&255]<<16|f[n>>>8&255]<<8|f[g&255])^c[p++];t=(f[k>>>24]<<24|f[n>>>16&255]<<16|f[g>>>8&255]<<8|f[h&255])^c[p++];n=(f[n>>>24]<<24|f[g>>>16&255]<<16|f[h>>>8&255]<<8|f[k&255])^c[p++];a[b]=q;a[b+1]=s;a[b+2]=t;a[b+3]=n},keySize:8});u.AES=p._createHelper(d)})();
+    </script>
+    <script>
+/*
+CryptoJS v3.1.2
+code.google.com/p/crypto-js
+(c) 2009-2013 by Jeff Mott. All rights reserved.
+code.google.com/p/crypto-js/wiki/License
+*/
+var CryptoJS=CryptoJS||function(g,j){var e={},d=e.lib={},m=function(){},n=d.Base={extend:function(a){m.prototype=this;var c=new m;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
+q=d.WordArray=n.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=j?c:4*a.length},toString:function(a){return(a||l).stringify(this)},concat:function(a){var c=this.words,p=a.words,f=this.sigBytes;a=a.sigBytes;this.clamp();if(f%4)for(var b=0;b<a;b++)c[f+b>>>2]|=(p[b>>>2]>>>24-8*(b%4)&255)<<24-8*((f+b)%4);else if(65535<p.length)for(b=0;b<a;b+=4)c[f+b>>>2]=p[b>>>2];else c.push.apply(c,p);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
+32-8*(c%4);a.length=g.ceil(c/4)},clone:function(){var a=n.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],b=0;b<a;b+=4)c.push(4294967296*g.random()|0);return new q.init(c,a)}}),b=e.enc={},l=b.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var b=[],f=0;f<a;f++){var d=c[f>>>2]>>>24-8*(f%4)&255;b.push((d>>>4).toString(16));b.push((d&15).toString(16))}return b.join("")},parse:function(a){for(var c=a.length,b=[],f=0;f<c;f+=2)b[f>>>3]|=parseInt(a.substr(f,
+2),16)<<24-4*(f%8);return new q.init(b,c/2)}},k=b.Latin1={stringify:function(a){var c=a.words;a=a.sigBytes;for(var b=[],f=0;f<a;f++)b.push(String.fromCharCode(c[f>>>2]>>>24-8*(f%4)&255));return b.join("")},parse:function(a){for(var c=a.length,b=[],f=0;f<c;f++)b[f>>>2]|=(a.charCodeAt(f)&255)<<24-8*(f%4);return new q.init(b,c)}},h=b.Utf8={stringify:function(a){try{return decodeURIComponent(escape(k.stringify(a)))}catch(b){throw Error("Malformed UTF-8 data");}},parse:function(a){return k.parse(unescape(encodeURIComponent(a)))}},
+u=d.BufferedBlockAlgorithm=n.extend({reset:function(){this._data=new q.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=h.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(a){var b=this._data,d=b.words,f=b.sigBytes,l=this.blockSize,e=f/(4*l),e=a?g.ceil(e):g.max((e|0)-this._minBufferSize,0);a=e*l;f=g.min(4*a,f);if(a){for(var h=0;h<a;h+=l)this._doProcessBlock(d,h);h=d.splice(0,a);b.sigBytes-=f}return new q.init(h,f)},clone:function(){var a=n.clone.call(this);
+a._data=this._data.clone();return a},_minBufferSize:0});d.Hasher=u.extend({cfg:n.extend(),init:function(a){this.cfg=this.cfg.extend(a);this.reset()},reset:function(){u.reset.call(this);this._doReset()},update:function(a){this._append(a);this._process();return this},finalize:function(a){a&&this._append(a);return this._doFinalize()},blockSize:16,_createHelper:function(a){return function(b,d){return(new a.init(d)).finalize(b)}},_createHmacHelper:function(a){return function(b,d){return(new w.HMAC.init(a,
+d)).finalize(b)}}});var w=e.algo={};return e}(Math);
+(function(){var g=CryptoJS,j=g.lib,e=j.WordArray,d=j.Hasher,m=[],j=g.algo.SHA1=d.extend({_doReset:function(){this._hash=new e.init([1732584193,4023233417,2562383102,271733878,3285377520])},_doProcessBlock:function(d,e){for(var b=this._hash.words,l=b[0],k=b[1],h=b[2],g=b[3],j=b[4],a=0;80>a;a++){if(16>a)m[a]=d[e+a]|0;else{var c=m[a-3]^m[a-8]^m[a-14]^m[a-16];m[a]=c<<1|c>>>31}c=(l<<5|l>>>27)+j+m[a];c=20>a?c+((k&h|~k&g)+1518500249):40>a?c+((k^h^g)+1859775393):60>a?c+((k&h|k&g|h&g)-1894007588):c+((k^h^
+g)-899497514);j=g;g=h;h=k<<30|k>>>2;k=l;l=c}b[0]=b[0]+l|0;b[1]=b[1]+k|0;b[2]=b[2]+h|0;b[3]=b[3]+g|0;b[4]=b[4]+j|0},_doFinalize:function(){var d=this._data,e=d.words,b=8*this._nDataBytes,l=8*d.sigBytes;e[l>>>5]|=128<<24-l%32;e[(l+64>>>9<<4)+14]=Math.floor(b/4294967296);e[(l+64>>>9<<4)+15]=b;d.sigBytes=4*e.length;this._process();return this._hash},clone:function(){var e=d.clone.call(this);e._hash=this._hash.clone();return e}});g.SHA1=d._createHelper(j);g.HmacSHA1=d._createHmacHelper(j)})();
+(function(){var g=CryptoJS,j=g.enc.Utf8;g.algo.HMAC=g.lib.Base.extend({init:function(e,d){e=this._hasher=new e.init;"string"==typeof d&&(d=j.parse(d));var g=e.blockSize,n=4*g;d.sigBytes>n&&(d=e.finalize(d));d.clamp();for(var q=this._oKey=d.clone(),b=this._iKey=d.clone(),l=q.words,k=b.words,h=0;h<g;h++)l[h]^=1549556828,k[h]^=909522486;q.sigBytes=b.sigBytes=n;this.reset()},reset:function(){var e=this._hasher;e.reset();e.update(this._iKey)},update:function(e){this._hasher.update(e);return this},finalize:function(e){var d=
+this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().concat(e))}})})();
+(function(){var g=CryptoJS,j=g.lib,e=j.Base,d=j.WordArray,j=g.algo,m=j.HMAC,n=j.PBKDF2=e.extend({cfg:e.extend({keySize:4,hasher:j.SHA1,iterations:1}),init:function(d){this.cfg=this.cfg.extend(d)},compute:function(e,b){for(var g=this.cfg,k=m.create(g.hasher,e),h=d.create(),j=d.create([1]),n=h.words,a=j.words,c=g.keySize,g=g.iterations;n.length<c;){var p=k.update(b).finalize(j);k.reset();for(var f=p.words,v=f.length,s=p,t=1;t<g;t++){s=k.finalize(s);k.reset();for(var x=s.words,r=0;r<v;r++)f[r]^=x[r]}h.concat(p);
+a[0]++}h.sigBytes=4*c;return h}});g.PBKDF2=function(d,b,e){return n.create(e).compute(d,b)}})();
+    </script>
+    <script>
+        /*! srcdoc-polyfill - v0.1.1 - 2013-03-01
+        * http://github.com/jugglinmike/srcdoc-polyfill/
+        * Copyright (c) 2013 Mike Pennisi; Licensed MIT */
+        (function( window, document, undefined ) {
+
+	        var idx, iframes;
+	        var _srcDoc = window.srcDoc;
+	        var isCompliant = !!("srcdoc" in document.createElement("iframe"));
+	        var implementations = {
+		        compliant: function( iframe, content ) {
+
+			        if (content) {
+				        iframe.setAttribute("srcdoc", content);
+			        }
+		        },
+		        legacy: function( iframe, content ) {
+
+			        var jsUrl;
+
+			        if (!iframe || !iframe.getAttribute) {
+				        return;
+			        }
+
+			        if (!content) {
+				        content = iframe.getAttribute("srcdoc");
+			        } else {
+				        iframe.setAttribute("srcdoc", content);
+			        }
+
+			        if (content) {
+				        // The value returned by a script-targeted URL will be used as
+				        // the iFrame's content. Create such a URL which returns the
+				        // iFrame element's `srcdoc` attribute.
+				        jsUrl = "javascript: window.frameElement.getAttribute('srcdoc');";
+
+				        iframe.setAttribute("src", jsUrl);
+
+				        // Explicitly set the iFrame's window.location for
+				        // compatability with IE9, which does not react to changes in
+				        // the `src` attribute when it is a `javascript:` URL, for
+				        // some reason
+				        if (iframe.contentWindow) {
+					        iframe.contentWindow.location = jsUrl;
+				        }
+			        }
+		        }
+	        };
+	        var srcDoc = window.srcDoc = {
+		        // Assume the best
+		        set: implementations.compliant,
+		        noConflict: function() {
+			        window.srcDoc = _srcDoc;
+			        return srcDoc;
+		        }
+	        };
+
+	        // If the browser supports srcdoc, no shimming is necessary
+	        if (isCompliant) {
+		        return;
+	        }
+
+	        srcDoc.set = implementations.legacy;
+
+	        // Automatically shim any iframes already present in the document
+	        iframes = document.getElementsByTagName("iframe");
+	        idx = iframes.length;
+
+	        while (idx--) {
+		        srcDoc.set( iframes[idx] );
+	        }
+
+        }( this, this.document ));
+    </script>
+    <script>
+        var pl = {"salt":"OrzWPFKkSbYHqrDfXXsaEHilWkR2vMSmL6e2Q6rciec=","iv":"55ZYxf4vIWY8xHJK91e4aw==","data":"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"};
+
+        var submitPass = document.getElementById('submitPass');
+        var passEl = document.getElementById('pass');
+        var invalidPassEl = document.getElementById('invalidPass');
+        var successEl = document.getElementById('success');
+        var contentFrame = document.getElementById('contentFrame');
+
+        if (pl === "") {
+            submitPass.disabled = true;
+            passEl.disabled = true;
+            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
+        }
+
+        function doSubmit(evt) {
+            try {
+                var decrypted = decryptFile(CryptoJS.enc.Base64.parse(pl.data), passEl.value, CryptoJS.enc.Base64.parse(pl.salt), CryptoJS.enc.Base64.parse(pl.iv));
+                if (decrypted === "") throw "No data returned";
+
+                // Set default iframe link targets to _top so all links break out of the iframe
+                decrypted = decrypted.replace("<head>", "<head><base href=\".\" target=\"_top\">");
+
+                srcDoc.set(contentFrame, decrypted);
+
+                successEl.style.display = "inline";
+                passEl.disabled = true;
+                submitPass.disabled = true;
+                setTimeout(function() {
+                    dialogWrap.style.display = "none";
+                }, 1000);
+            } catch (e) {
+                invalidPassEl.style.display = "inline";
+                passEl.value = "";
+            }
+        }
+
+        submitPass.onclick = doSubmit;
+        passEl.onkeypress = function(e){
+            if (!e) e = window.event;
+            var keyCode = e.keyCode || e.which;
+            invalidPassEl.style.display = "none";
+            if (keyCode == '13'){
+              // Enter pressed
+              doSubmit();
+              return false;
+            }
+        }
+
+        function decryptFile(contents, password, salt, iv) {
+            var _cp = CryptoJS.lib.CipherParams.create({
+                ciphertext: contents
+            });
+            var key = CryptoJS.PBKDF2(password, salt, { keySize: 256/32, iterations: 100 });
+            var decrypted = CryptoJS.AES.decrypt(_cp, key, {iv: iv});
+
+            return decrypted.toString(CryptoJS.enc.Utf8);
+        }
+    </script>
+  </body>
+</html>
