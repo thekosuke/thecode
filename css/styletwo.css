@@ -4,10 +4,10 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
     margin: 0;
   }
 
-  ::-webkit-scrollbar { display: none; }
+  /* ::-webkit-scrollbar { display: none; }
      ::-moz-scrollbar { display: none; }
       ::-ms-scrollbar { display: none; }
-       ::-o-scrollbar { display: none; }
+       ::-o-scrollbar { display: none; } */
 
   ::-webkit-selection { color: #FFB700; }
      ::-moz-selection { color: #FFB700; }
