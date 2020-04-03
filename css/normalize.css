@@ -1,0 +1,296 @@
+@media all and (min-width: 320px) {
+	body::before {
+		border: 15px solid;
+		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
+	}
+
+	.grid-1 {
+		grid-template-columns: 1fr;
+		padding: 12em 2em 5em 2em;
+		grid-gap: 2em;
+	}
+
+  .grid-2 {
+		grid-template-columns: 1fr;
+		padding: 2em 2em 2em 2em;
+		grid-gap: 2em;
+	}
+
+	.grid-3 {
+		grid-template-columns: 1fr;
+		padding: 8em 2em 3em 2em;
+		grid-gap: .75em;
+	}
+
+	.grid-4 {
+		grid-template-columns: 1fr;
+		padding: 3em 2em 3em 2em;
+		grid-gap: 2em;
+	}
+
+	.logo-wrapper {
+	    width: 100%;
+	    height: 10em;
+	    background-color: transparent;
+	    background-repeat: no-repeat;
+	    background-position: left;
+			margin-bottom: 0;
+	  }
+
+	  .macro {
+	    background-image: url("../img/macro.png");
+	    background-size: 7em;
+	  }
+
+	  .giide {
+	    background-image: url("../img/giide.png");
+	    background-size: 6em;
+	  }
+
+	  .shiseido {
+	    background-image: url("../img/shiseido.png");
+	    background-size: 11em;
+	  }
+
+	  .google {
+	    background-image: url("../img/google.png");
+	    background-size: 8em;
+	  }
+
+	  .instaread {
+	    background-image: url("../img/instaread.png");
+	    background-size: 2.1em;
+	  }
+
+	  .sfu {
+	    background-image: url("../img/sfu.png");
+	    background-size: 6em;
+	  }
+	.header-wrapper { margin-bottom: 1em; }
+	.link-wrapper { margin-top: 2em; }
+
+	h1, h2, p, a {
+		font-size: 14pt;
+		letter-spacing: .2px;
+	}
+
+	#copy p, .description-wrapper p {
+		font-size: 15pt;
+		line-height: 1.2em;
+		letter-spacing: .4px;
+	}
+
+	.link-wrapper a {
+		font-size: 18pt;
+		letter-spacing: .1px;
+	}
+
+	#footer p, #footer a  {
+		font-size: 11pt;
+	}
+
+  a .tooltiptext {
+    font-family: "National-Regular";
+    font-size: .9em;
+    letter-spacing: .3px;
+  }
+}
+
+@media all and (min-width: 375px) {
+	body::before {
+		border: 20px solid;
+		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
+	}
+
+	.grid-1 {
+		padding: 14em 2.5em 5em 2.5em;
+		grid-gap: 3em;
+	}
+
+  .grid-2 {
+		padding: 2em 2.5em 2em 2.5em;
+		grid-gap: 5em;
+	}
+
+	.grid-3 {
+		padding: 8em 2.5em 3em 2.5em;
+	}
+
+	#footer p, #footer a  {
+		font-size: 12pt;
+	}
+}
+
+@media all and (min-width: 414px) {
+	body::before {
+		border: 25px solid;
+		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
+	}
+
+	.grid-1 {
+		grid-template-columns: 1fr;
+		padding: 15em 3em 5em 3em;
+		grid-gap: 2em;
+	}
+
+  .grid-2 {
+		grid-template-columns: 1fr;
+		padding: 5em 3em 0em 3em;
+		grid-gap: 5em;
+	}
+
+	.grid-3 {
+		grid-template-columns: 1fr;
+		padding: 15em 3em 5em 3em;
+		grid-gap: .75em;
+	}
+
+	.link-wrapper { margin-top: 3em; }
+
+	h1, h2, p, a {
+		font-size: 15pt;
+		letter-spacing: .2px;
+	}
+
+	#copy p, .description-wrapper p {
+		font-size: 16pt;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	.link-wrapper a { font-size: 21pt; }
+
+	#footer p, #footer a  {
+		font-size: 13pt;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.grid-1 {
+		grid-template-columns: 3fr 6fr 3fr;
+		padding: 18em 4em 7em 4em;
+		grid-gap: 3em;
+	}
+
+  .grid-2 {
+		grid-template-columns: 6fr 6fr;
+		padding: 5em 4em 0 4em;
+		grid-gap: 2.5em;
+	}
+
+	.grid-3 {
+		grid-template-columns: 4fr 4fr 4fr;
+		padding: 12em 4em 3em 4em;
+		grid-gap: 3em;
+	}
+
+	.grid-4 {
+		grid-template-columns: 3fr 9fr;
+		padding: 3em 4em 3em 4em;
+		grid-gap: 3em;
+	}
+
+	h1, h2, p, a, #copy p {
+		font-size: 13pt;
+		letter-spacing: .2px;
+	}
+
+	h1 { line-height: 1em; }
+	p { line-height: 1.3em; }
+
+	#email, .connect { text-align: right; }
+
+	.description-wrapper p {
+		font-size: 14pt;
+		line-height: 1.3em;
+		letter-spacing: .3px;
+	}
+
+	.link-wrapper a {
+		font-size: 18pt;
+		letter-spacing: .3px;
+	}
+
+	#footer p, #footer a  {
+		font-size: 10pt;
+	}
+
+	#footer .update {
+		text-align: center;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	.grid-1 {
+		grid-template-columns: 3fr 7fr 2fr;
+		padding: 20em 10em 10em 10em;
+	}
+
+	.grid-2 {
+		padding: 3em 10em 0 10em;
+		grid-gap: 4em;
+	}
+
+	.grid-3 { padding: 17em 10em 2em 10em; }
+}
+
+@media all and (min-width: 1280px) {
+	.grid-1 {
+		grid-template-columns: 3fr 6fr 3fr;
+		padding: 20em 12em 15em 12em;
+		grid-gap: 3em;
+	}
+
+  .grid-2 {
+		padding: 4em 12em 0 12em;
+		grid-gap: 6em;
+	}
+
+	.grid-3 {
+		padding: 17em 12em 2em 12em;
+		grid-gap: 3em;
+	}
+
+	.grid-4 {
+		padding: 15em 12em 3em 12em;
+		grid-gap: 3em;
+	}
+
+	#copy p, .description-wrapper p { font-size: 15pt; letter-spacing: .3px; }
+}
+
+@media all and (min-width: 1440px) {
+	.grid-1 {
+		padding: 20em 15em 15em 15em;
+	}
+
+  .grid-2 {
+		padding: 7em 15em 0 15em;
+		grid-gap: 7em;
+	}
+
+	.grid-3 {
+		padding: 20em 15em 2em 15em;
+	}
+
+	.grid-4 {
+		padding: 20em 15em 0em 15em;
+	}
+}
+
+@media all and (min-width: 1680px) {
+
+	h1, h2, p, a, #copy p {
+		font-size: 14pt;
+		letter-spacing: .3px;
+	}
+
+	.description-wrapper p {
+		font-size: 16pt;
+		line-height: 1.35em;
+	}
+
+	#footer p, #footer a  {
+		font-size: 11pt;
+	}
+}
