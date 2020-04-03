@@ -256,7 +256,7 @@
 		grid-gap: 3em;
 	}
 
-	#copy p, .description-wrapper p { font-size: 15pt; letter-spacing: .3px; }
+	#copy p, .description-wrapper p, .description-wrapper p a { font-size: 15pt; letter-spacing: .3px; }
 }
 
 @media all and (min-width: 1440px) {
