@@ -1,296 +1,240 @@
 @media all and (min-width: 320px) {
-	body::before {
-		border: 15px solid;
-		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
-	}
-
+	/*//////////////////////////////////////////////////////
+	  HOME
+	//////////////////////////////////////////////////////*/
 	.grid-1 {
-		grid-template-columns: 1fr;
-		padding: 12em 2em 5em 2em;
-		grid-gap: 2em;
+		grid-template-columns: .25fr 11.5fr .25fr;
+		padding-top: 1.5em;
+		grid-gap: 1em;
 	}
 
-  .grid-2 {
-		grid-template-columns: 1fr;
-		padding: 2em 2em 2em 2em;
-		grid-gap: 2em;
-	}
 
-	.grid-3 {
-		grid-template-columns: 1fr;
-		padding: 8em 2em 3em 2em;
-		grid-gap: .75em;
-	}
-
-	.grid-4 {
-		grid-template-columns: 1fr;
-		padding: 3em 2em 3em 2em;
-		grid-gap: 2em;
-	}
-
-	.logo-wrapper {
-	    width: 100%;
-	    height: 10em;
-	    background-color: transparent;
-	    background-repeat: no-repeat;
-	    background-position: left;
-			margin-bottom: 0;
-	  }
-
-	  .macro {
-	    background-image: url("../img/macro.png");
-	    background-size: 9em;
-	  }
-
-	  .giide {
-	    background-image: url("../img/giide.png");
-	    background-size: 6em;
-	  }
-
-	  .shiseido {
-	    background-image: url("../img/shiseido.png");
-	    background-size: 11em;
-	  }
-
-	  .google {
-	    background-image: url("../img/google.png");
-	    background-size: 8em;
-	  }
-
-	  .instaread {
-	    background-image: url("../img/instaread.png");
-	    background-size: 2.1em;
-	  }
-
-	  .sfu {
-	    background-image: url("../img/sfu.png");
-	    background-size: 6em;
-	  }
-	.header-wrapper { margin-bottom: 1em; }
-	.link-wrapper { margin-top: 2em; }
-
-	h1, h2, p, a {
-		font-size: 14pt;
-		letter-spacing: .2px;
-	}
-
-	#copy p, .description-wrapper p {
-		font-size: 15pt;
-		line-height: 1.2em;
-		letter-spacing: .4px;
-	}
-
-	.link-wrapper a {
-		font-size: 18pt;
-		letter-spacing: .1px;
-	}
-
-	#footer p, #footer a  {
-		font-size: 11pt;
-	}
-
-  a .tooltiptext {
-    font-family: "National-Regular";
-    font-size: .9em;
-    letter-spacing: .3px;
-  }
-}
-
-@media all and (min-width: 375px) {
-	body::before {
-		border: 20px solid;
-		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
-	}
-
-	.grid-1 {
-		padding: 14em 2.5em 5em 2.5em;
-		grid-gap: 3em;
-	}
-
-  .grid-2 {
-		padding: 2em 2.5em 2em 2.5em;
-		grid-gap: 5em;
-	}
-
-	.grid-3 {
-		padding: 8em 2.5em 3em 2.5em;
-	}
-
-	#footer p, #footer a  {
-		font-size: 12pt;
-	}
-}
-
-@media all and (min-width: 414px) {
-	body::before {
-		border: 25px solid;
-		border-image: linear-gradient(180deg, #019DDC, #963D96, #DF3B3E, #F8821F) 1; */
-	}
-
-	.grid-1 {
-		grid-template-columns: 1fr;
-		padding: 15em 3em 5em 3em;
-		grid-gap: 2em;
-	}
-
-  .grid-2 {
-		grid-template-columns: 1fr;
-		padding: 5em 3em 0em 3em;
-		grid-gap: 5em;
-	}
-
-	.grid-3 {
-		grid-template-columns: 1fr;
-		padding: 15em 3em 5em 3em;
-		grid-gap: .75em;
-	}
-
-	.link-wrapper { margin-top: 3em; }
-
-	h1, h2, p, a {
-		font-size: 15pt;
-		letter-spacing: .2px;
-	}
-
-	#copy p, .description-wrapper p {
-		font-size: 16pt;
-		line-height: 1.3em;
+	h1, h2, p, a, p a {
+		font-size: .9em;
 		letter-spacing: .3px;
 	}
 
-	.link-wrapper a { font-size: 21pt; }
-
-	#footer p, #footer a  {
-		font-size: 13pt;
+	#aboutWrapper {
+		margin-top: 9em;
+		margin-bottom: 6em;
 	}
+
+	.intro .header {
+		letter-spacing: .3px;
+		padding-bottom: .3em;
+	}
+
+	.intro .copy {
+		padding-bottom: 1.5em;
+	}
+
+	.content p, .link-wrapper p { font-size: .7em; }
+
+	.project-thumbnail {
+		width: 4em;
+		height: 4em;
+		border: 1px solid #F2F2F5;
+		border-radius: 15px;
+		box-shadow: 0px 3px 7px rgba(22, 22, 26, 0.1);
+
+		background-position: center;
+		background-repeat: no-repeat;
+
+		margin-bottom: 1em;
+	}
+
+
+	#footer {
+		margin-top: 5em;
+		padding-bottom: 1em;
+	}
+
+	/*//////////////////////////////////////////////////////
+	  P D P
+	//////////////////////////////////////////////////////*/
+	.grid-2 { grid-template-columns: 1.25fr 9.5fr 1.25fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+
+	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
+	.back-button { margin-top: .15em; }
+	.next-button { display: none; }
+
+	#project-content { margin-top: 3em; }
+
+		#project-content p, #project-content p a { line-height: 1.7em; }
+
+		h3 {
+			font-size: 1.2em;
+			color: #16161A;
+			line-height: 2.2em;
+			padding-top: 50px;
+		}
+
+		li a, .credits h1, .credits p {
+			font-size: .9em;
+			letter-spacing: .2px;
+			line-height: 2em;
+		}
+
+	.side-nav, .footer-links h1 {	display: none; }
+	.project-name { margin-bottom: 1em; }
+	.project-name, .project-thumbnail { display: block; }
+	.project-name h1 { line-height: 1.75em; }
+	.project-image { margin-top: 3em; }
+
+	.credits-wrapper {
+		margin-top: 6em;
+	}
+
+	#projectFooter {
+			margin-top: 6em;
+			padding-top: 3em;
+			padding-bottom: 1em;
+		}
+
+		#projectFooter li, .footer-links h1 {
+			line-height: 2em;
+		}
+
+		.footer-links a h1, .footer-links li a, .footer-links p {
+			font-size: .9em;
+		}
+
+		.link-wrapper ul {
+			margin-right: 6em;
+		}
+		.quote { margin-top: 12em; }
+}
+
+@media all and (min-width: 375px) {
+	h1, h2, p, a { font-size: 11pt; }
+}
+
+@media all and (min-width: 414px) {
+	#aboutWrapper {
+		margin-top: 12em;
+		margin-bottom: 10em;
+	}
+
+	.catalog-header {	margin-bottom: 1em; }
+}
+
+@media all and (min-width: 500px) {
+	/*//////////////////////////////////////////////////////
+	  HOME
+	//////////////////////////////////////////////////////*/
+	.intro { padding-left: 1.25em; }
+	.content {
+		margin-top: 6em;
+		padding-left: 1.25em;
+		padding-bottom: 1em;
+	}
+	.catalog-header {	margin-bottom: 0; }
+
+	/*//////////////////////////////////////////////////////
+	  P D P
+	//////////////////////////////////////////////////////*/
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+
+	.back-button { margin-left: .5em; }
+
+	.next-button { display: block; }
+
+	#project-content { margin-top: 6em; }
+
+		h3 {
+			font-size: 24px;
+			color: #16161A;
+			line-height: 2.2em;
+			padding-top: 50px;
+		}
+
+		#project-content p, p a {
+			font-size: 1em;
+			line-height: 1.7em;
+		}
+
+		li a, .credits h1, .credits p, #project-content .credits p {
+			font-size: .8em;
+			letter-spacing: .2px;
+			line-height: 2em;
+		}
+
+	.project-wrapper {
+	    padding: 1.25em;
+			border-radius: 18px;
+	  }
+
+		.project-name { margin-bottom: 0; }
+
+		.project-name, .project-thumbnail {
+	    display: inline-block;
+	    vertical-align: middle;
+	  }
+
+		.project-thumbnail {
+			width: 5em;
+			height: 5em;
+			border-radius: 18px;
+
+			margin-right: 1.5em;
+			margin-bottom: 0;
+		}
+
+		.project-image  { margin-top: 2.5em; }
+		.credits { margin-top: 5em; }
+
+	#projectFooter {
+			margin-top: 10em;
+			padding-top: 3em;
+			padding-bottom: 1em;
+		}
+
+		#projectFooter li, .footer-links h1 {
+			line-height: 2em;
+		}
+
+		.footer-links a h1, .footer-links li a, .footer-links p {
+			font-size: .9em;
+		}
+
+		.link-wrapper ul {
+		  margin-right: 6em;
+		}
+
+		.content p, .link-wrapper p { font-size: .8em; }
+		.quote { margin-top: 12em; }
 }
 
 @media all and (min-width: 768px) {
 	.grid-1 {
-		grid-template-columns: 3fr 6fr 3fr;
-		padding: 18em 4em 7em 4em;
-		grid-gap: 3em;
+		grid-template-columns: 2.5fr 7fr 2.5fr;
+		padding-top: .5em;
 	}
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
 
-  .grid-2 {
-		grid-template-columns: 6fr 6fr;
-		padding: 5em 4em 0 4em;
-		grid-gap: 2.5em;
-	}
-
-	.grid-3 {
-		grid-template-columns: 4fr 4fr 4fr;
-		padding: 12em 4em 3em 4em;
-		grid-gap: 3em;
-	}
-
-	.grid-4 {
-		grid-template-columns: 3fr 9fr;
-		padding: 3em 4em 3em 4em;
-		grid-gap: 3em;
-	}
-
-	h1, h2, p, a, #copy p {
-		font-size: 13pt;
-		letter-spacing: .2px;
-	}
-
-	h1 { line-height: 1em; }
-	p { line-height: 1.3em; }
-
-	#email, .connect { text-align: right; }
-
-	.description-wrapper p {
-		font-size: 14pt;
-		line-height: 1.3em;
-		letter-spacing: .3px;
-	}
-
-	.link-wrapper a {
-		font-size: 18pt;
-		letter-spacing: .3px;
-	}
-
-	#footer p, #footer a  {
-		font-size: 10pt;
-	}
-
-	#footer .update {
-		text-align: center;
-	}
+	#aboutWrapper { margin-top: 15em;	}
+	.catalog-header { margin-bottom: 1em; }
 }
 
 @media all and (min-width: 1024px) {
-	.grid-1 {
-		grid-template-columns: 3fr 7fr 2fr;
-		padding: 20em 10em 10em 10em;
-	}
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	.grid-3 { grid-template-columns: 3fr 9fr; }
 
-	.grid-2 {
-		padding: 3em 10em 0 10em;
-		grid-gap: 4em;
-	}
-
-	.grid-3 { padding: 17em 10em 2em 10em; }
+	.side-nav, .footer-links h1 { display: block; }
 }
 
 @media all and (min-width: 1280px) {
-	.grid-1 {
-		grid-template-columns: 3fr 6fr 3fr;
-		padding: 20em 12em 15em 12em;
-		grid-gap: 3em;
-	}
-
-  .grid-2 {
-		padding: 4em 12em 0 12em;
-		grid-gap: 6em;
-	}
-
-	.grid-3 {
-		padding: 17em 12em 2em 12em;
-		grid-gap: 3em;
-	}
-
-	.grid-4 {
-		padding: 15em 12em 3em 12em;
-		grid-gap: 3em;
-	}
-
-	#copy p, .description-wrapper p, .description-wrapper p a { font-size: 15pt; letter-spacing: .3px; }
+	.grid-1 { grid-template-columns: 3.5fr 5fr 3.5fr; }
+	.grid-2 { grid-template-columns: 2fr 8fr 2fr; }
+	.grid-3 { grid-template-columns: 3fr 9fr; }
 }
 
 @media all and (min-width: 1440px) {
-	.grid-1 {
-		padding: 20em 15em 15em 15em;
-	}
-
-  .grid-2 {
-		padding: 7em 15em 0 15em;
-		grid-gap: 7em;
-	}
-
-	.grid-3 {
-		padding: 20em 15em 2em 15em;
-	}
-
-	.grid-4 {
-		padding: 20em 15em 0em 15em;
-	}
 }
 
 @media all and (min-width: 1680px) {
 
-	h1, h2, p, a, #copy p {
-		font-size: 14pt;
-		letter-spacing: .3px;
-	}
-
-	.description-wrapper p {
-		font-size: 16pt;
-		line-height: 1.35em;
-	}
-
-	#footer p, #footer a  {
-		font-size: 11pt;
-	}
 }
