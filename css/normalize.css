@@ -54,8 +54,7 @@
 	//////////////////////////////////////////////////////*/
 	.grid-2 { grid-template-columns: 1.25fr 9.5fr 1.25fr; }
 	.grid-3 { grid-template-columns: 1fr; }
-
-	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
+	
 	.back-button { margin-top: .15em; }
 	.next-button { display: none; }
 
