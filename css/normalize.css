@@ -8,11 +8,10 @@
 		grid-gap: 1em;
 	}
 
-
-	/* h1, h2, p, a {
+	h1, h2, p, a {
 		font-size: .9em;
 		letter-spacing: .3px;
-	} */
+	}
 
 	#aboutWrapper {
 		margin-top: 9em;
