@@ -9,7 +9,7 @@
 	}
 
 	h1, h2, p, a {
-		font-size: .9em;
+		font-size: 1em;
 		letter-spacing: .3px;
 	}
 
@@ -27,7 +27,7 @@
 		padding-bottom: 1.5em;
 	}
 
-	.content p, .link-wrapper p { font-size: .7em; }
+	.content p, .link-wrapper p { font-size: .8em; }
 
 	.project-thumbnail {
 		width: 4em;
@@ -59,7 +59,7 @@
 
 	#project-content { margin-top: 3em; }
 
-		#project-content p { font-size: .9em; line-height: 1.7em; }
+		#project-content p { font-size: 1em; line-height: 1.7em; }
 
 		h3 {
 			font-size: 1.2em;
