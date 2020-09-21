@@ -136,6 +136,7 @@
 	  P D P
 	//////////////////////////////////////////////////////*/
 	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	#navBar .grid-3 { grid-template-columns: 5fr 7fr; }
 
 	.back-button { margin-left: .5em; }
 
