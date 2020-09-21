@@ -25,23 +25,25 @@ $(document).ready(function() {
 /**************************************************
     SMOOTH SCROLLING FOR SIDE NAV
 **************************************************/
-window.addEventListener("DOMContentLoaded", () => {
-	const observer = new IntersectionObserver((entries) => {
-		entries.forEach((entry) => {
-			const id = entry.target.getAttribute("id");
-			if (entry.intersectionRatio > 0) {
-				document
-					.querySelector(`nav li a[href="#${id}"]`)
-					.parentElement.classList.add("active");
-			} else {
-				document
-					.querySelector(`nav li a[href="#${id}"]`)
-					.parentElement.classList.remove("active");
-			}
-		});
-	});
+$(document).ready(function() {
+  window.addEventListener("DOMContentLoaded", () => {
+  	const observer = new IntersectionObserver((entries) => {
+  		entries.forEach((entry) => {
+  			const id = entry.target.getAttribute("id");
+  			if (entry.intersectionRatio > 0) {
+  				document
+  					.querySelector(`nav li a[href="#${id}"]`)
+  					.parentElement.classList.add("active");
+  			} else {
+  				document
+  					.querySelector(`nav li a[href="#${id}"]`)
+  					.parentElement.classList.remove("active");
+  			}
+  		});
+  	});
 
-	document.querySelectorAll("section[id]").forEach((section) => {
-		observer.observe(section);
-	});
+  	document.querySelectorAll("section[id]").forEach((section) => {
+  		observer.observe(section);
+  	});
+  });
 });
