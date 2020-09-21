@@ -281,7 +281,7 @@ h1 {
   width: 100%;
 }
 
-#projectFooter h1, #projectFooter li a, #projectFooter p { color: #FAFBFC; }
+#projectFooter h1, #projectFooter h1 a, #projectFooter li a, #projectFooter p { color: #FAFBFC; }
 #projectFooter li { list-style: none; }
 .footer-links a, #projectFooter li a { text-decoration: none; }
 .footer-links a:hover, #projectFooter li a:hover { color: #FAFBFC; text-decoration: underline; }
