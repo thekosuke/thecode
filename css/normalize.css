@@ -1,1530 +1,242 @@
-@media all and (min-width: 1200px){	
-/**************************************************
-	HOME
-**************************************************/
-
-	.icon-scroll, .icon-scroll:before {
-		display: block;
+@media all and (min-width: 320px) {
+	/*//////////////////////////////////////////////////////
+	  HOME
+	//////////////////////////////////////////////////////*/
+	.grid-1 {
+		grid-template-columns: .25fr 11.5fr .25fr;
+		padding-top: 1.5em;
+		grid-gap: 1em;
 	}
 
-	#who {
-		margin-top: 32.5%;
-	}
-
-	#who h1 {
-		font-size: 2.75em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 4em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 45%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 15%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.89em;
-        line-height: 1.4em;
-        padding-top: 2em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 5%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.2em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 10%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 6em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.8em;
-		letter-spacing: 0.5px;
-		line-height: 1.75em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.5em;
-		padding-right: 2em;
-	}
-
-	#text {
-		padding: 5em;
-	}
-
-	#text h3 {
-		font-size: 3em;
-		line-height: 1.3em;
+	h1, h2, p, a {
+		font-size: 1em;
 		letter-spacing: .3px;
 	}
 
-	#text h4 {
-		font-size: 1.2em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
+	#aboutWrapper {
+		margin-top: 9em;
+		margin-bottom: 6em;
 	}
 
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
-	}
-
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
-
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 4em;
-		padding: 0;
-	} 
-
-	iframe {
-		width: 1024px;
-		height: 576px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
-
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
-
-	.proposal p {
-		font-size: 1.6em;
-		line-height: 2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
-
-	.proposal h5 {
-		font-size: 1.25em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
-
-	.proposal h7 {
-		font-size: 3.5em;
-		letter-spacing: -.5px;
-	}
-
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
-
-	#img-small {
-		margin-bottom: 0;
-	}
-
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-
-	#more {
-		margin-top: 9.5em;
-		margin-bottom: 17em;
-		padding: 0;
-	}
-
-	.piece {
-		margin-top: 1em;
-		padding: 0;
-	}
-
-	.ui-cards {
-	  width: 75%;
-	}
-
-	.carousel__control {
-	  height: 25px;
-	  width: 25px;
-	  margin-top: -50px;
-	  top: 50%;
-	}
-
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 20px;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 1200px) {
-/**************************************************
-	HOME
-**************************************************/
-	
-	.icon-scroll.icon-scroll:before {
-		display: block;
-	}
-
-	#who {
-		margin-top: 35%;
-	}
-
-	#who h1 {
-		font-size: 2em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 40%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 12%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.9em;
-        line-height: 1.4em;
-        padding-top: 1.5em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 7%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.1em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 10%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 5.25em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.8em;
-		letter-spacing: 0.5px;
-		line-height: 1.75em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.5em;
-		padding-right: 2em;
-	}
-
-	#text {
-		padding: 5em;
-	}
-
-	#text h3 {
-		font-size: 3em;
-		line-height: 1.3em;
+	.intro .header {
 		letter-spacing: .3px;
+		padding-bottom: .3em;
 	}
 
-	#text h4 {
-		font-size: 1.2em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
+	.intro .copy {
+		padding-bottom: 1.5em;
 	}
 
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
+	.content p, .link-wrapper p { font-size: .8em; }
+
+	.project-thumbnail {
+		width: 4em;
+		height: 4em;
+		border: 1px solid #F2F2F5;
+		border-radius: 15px;
+		box-shadow: 0px 3px 7px rgba(22, 22, 26, 0.1);
+
+		background-position: center;
+		background-repeat: no-repeat;
+
+		margin-bottom: 1em;
 	}
 
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
 
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 3em;
-		padding: 0;
-	} 
-
-	iframe {
-		width: 768px;
-		height: 432px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
-
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
-
-	.proposal p {
-		font-size: 1.5em;
-		line-height: 2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
-
-	.proposal h5 {
-		font-size: 1.25em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
-
-	.proposal h7 {
-		font-size: 3.5em;
-		letter-spacing: -.5px;
-	}
-
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
-
-	#img-small {
-		margin-bottom: 0;
-	}
-
-	.prototype {
-		width: 300px;
+	#footer {
 		margin-top: 5em;
-		margin-bottom: 5em;
+		padding-bottom: 1em;
 	}
 
-	#more {
-		margin-top: 9.5em;
-		margin-bottom: 17em;
-		padding: 0;
+	/*//////////////////////////////////////////////////////
+	  P D P
+	//////////////////////////////////////////////////////*/
+	.grid-2 { grid-template-columns: 1.25fr 9.5fr 1.25fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+
+	.back-button { margin-top: .15em; }
+	.next-button { display: none; }
+
+	#project-content { margin-top: 3em; }
+
+		#project-content p { font-size: 1em; line-height: 1.7em; }
+
+		h3 {
+			font-size: 1.2em;
+			color: #16161A;
+			line-height: 2.2em;
+			padding-top: 50px;
+		}
+
+		li a, .credits h1, .credits p {
+			font-size: .9em;
+			letter-spacing: .2px;
+			line-height: 2em;
+		}
+
+	.side-nav, .footer-links h1 {	display: none; }
+	.project-name { margin-bottom: 1em; }
+	.project-name, .project-thumbnail { display: block; }
+	.project-name h1 { line-height: 1.75em; }
+	.project-image { margin-top: 3em; }
+
+	.credits-wrapper {
+		margin-top: 6em;
 	}
 
-	.piece {
-		margin-top: 1em;
-		padding: 0;
-	}
+	#projectFooter {
+			margin-top: 6em;
+			padding-top: 3em;
+			padding-bottom: 1em;
+		}
 
-	.ui-cards {
-		width: 75%;
-	}
+		#projectFooter li, .footer-links h1 {
+			line-height: 2em;
+		}
 
-	.carousel__control {
-		height: 25px;
-		width: 25px;
-		margin-top: -50px;
-		top: 50%;
-	}
+		.footer-links a h1, .footer-links li a, .footer-links p {
+			font-size: .9em;
+		}
 
-	.carousel__control--forward {
-		left: 5%;
-	}
-
-	.carousel__control--backward {
-		right: 5%;
-	}
-
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 20px;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
+		.link-wrapper ul {
+			margin-right: 6em;
+		}
+		.quote { margin-top: 12em; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 992px) {
-/**************************************************
-	HOME
-**************************************************/
-	
-	.icon-scroll.icon-scroll:before {
-		display: block;
-	}
-
-	#who {
-		margin-top: 35%;
-	}
-
-	#who h1 {
-		font-size: 2em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 40%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 12%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.9em;
-        line-height: 1.4em;
-        padding-top: 1.5em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 7%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.1em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 15%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 5.5em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.7em;
-		letter-spacing: 0.5px;
-		line-height: 1.85em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.5em;
-		padding-right: 2em;
-	}
-
-	#text {
-		padding: 5em;
-	}
-
-	#text h3 {
-		font-size: 3em;
-		line-height: 1.3em;
-		letter-spacing: .3px;
-	}
-
-	#text h4 {
-		font-size: 1.2em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
-	}
-
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
-	}
-
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
-
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 3em;
-		padding: 0;
-	} 
-
-	iframe {
-		width: 768px;
-		height: 432px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
-
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
-
-	.proposal p {
-		font-size: 1.5em;
-		line-height: 2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
-
-	.proposal h5 {
-		font-size: 1.25em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
-
-	.proposal h7 {
-		font-size: 3.5em;
-		letter-spacing: -.5px;
-	}
-
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
-
-	#img-small {
-		margin-bottom: 0;
-	}
-
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-
-	#more {
-		margin-top: 9.5em;
-		margin-bottom: 17em;
-		padding: 0;
-	}
-
-	.piece {
-		margin-top: 1em;
-		padding: 0;
-	}
-
-	.ui-cards {
-	  width: 65%;
-	}
-
-	.carousel__control {
-	  height: 25px;
-	  width: 25px;
-	  /*margin-top: -50px;*/
-	  top: 45%;
-	}
-
-	.carousel__control--forward {
-		left: 15%;
-	}
-
-	.carousel__control--backward {
-		right: 15%;
-	}
-
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 15%;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
+@media all and (min-width: 375px) {
+	h1, h2, p, a { font-size: 11pt; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 768px) {
-/**************************************************
-	HOME
-**************************************************/
-	
-	.icon-scroll.icon-scroll:before {
-		display: block;
+@media all and (min-width: 414px) {
+	#aboutWrapper {
+		margin-top: 12em;
+		margin-bottom: 10em;
 	}
 
-	#who {
-		margin-top: 35%;
-	}
+	.catalog-header {	margin-bottom: 1em; }
+}
 
-	#who h1 {
-		font-size: 2em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 40%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 12%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.9em;
-        line-height: 1.4em;
-        padding-top: 1.5em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 7%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.1em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 20%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 5em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.5em;
-		letter-spacing: 0.5px;
-		line-height: 2em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.5em;
-		padding-right: 2em;
-		padding-bottom: 1.5em;
-	}
-
-	#text {
-		width: 75%;
-		height: 75%;
-		padding: 4em;
-	}
-
-	#text h3 {
-		font-size: 2.5em;
+@media all and (min-width: 500px) {
+	/*//////////////////////////////////////////////////////
+	  HOME
+	//////////////////////////////////////////////////////*/
+	.intro { padding-left: 1.25em; }
+	.intro .copy {
 		line-height: 1.5em;
-		letter-spacing: .3px;
 	}
-
-	#text h4 {
-		font-size: 1.2em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
+	.content {
+		margin-top: 6em;
+		padding-left: 1.25em;
+		padding-bottom: 1em;
 	}
+	.catalog-header {	margin-bottom: 0; }
 
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
-	}
+	/*//////////////////////////////////////////////////////
+	  P D P
+	//////////////////////////////////////////////////////*/
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	#navBar .grid-3 { grid-template-columns: 5fr 7fr; }
 
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
+	.back-button { margin-left: .5em; }
 
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 2em;
-		padding: 0;
-	} 
+	.next-button { display: block; }
 
-	iframe {
-		width: 512px;
-		height: 288px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
+	#project-content { margin-top: 6em; }
 
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
+		h3 {
+			font-size: 24px;
+			color: #16161A;
+			line-height: 2.2em;
+			padding-top: 50px;
+		}
 
-	.proposal p {
-		font-size: 1.5em;
-		line-height: 2.2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
+		#project-content p, #project-content p a {
+			font-size: 1em;
+			line-height: 1.7em;
+		}
 
-	.proposal h5 {
-		font-size: 1.25em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
+		li a, .credits h1, .credits p, #project-content .credits p {
+			font-size: .8em;
+			letter-spacing: .2px;
+			line-height: 2em;
+		}
 
-	.proposal h7 {
-		font-size: 3.5em;
-		letter-spacing: -.5px;
-	}
+	.project-wrapper {
+	    padding: 1.25em;
+			border-radius: 18px;
+	  }
 
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
+		.project-name { margin-bottom: 0; }
 
-	#img-small {
-		margin-bottom: 0;
-	}
+		.project-name, .project-thumbnail {
+	    display: inline-block;
+	    vertical-align: middle;
+	  }
 
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
+		.project-thumbnail {
+			width: 5em;
+			height: 5em;
+			border-radius: 18px;
 
-	#more {
-		margin-top: 3em;
-		margin-bottom: 5em;
-		padding: 0;
-	}
+			margin-right: 1.5em;
+			margin-bottom: 0;
+		}
 
-	.piece {
-		top: 50%;
-		margin-bottom: 5em;
-	}
+		.project-image  { margin-top: 2.5em; }
+		.credits { margin-top: 5em; }
 
-	.ui-cards {
-	  width: 55%;
-	}
+	#projectFooter {
+			margin-top: 10em;
+			padding-top: 3em;
+			padding-bottom: 1em;
+		}
 
-	.carousel__control {
-	  height: 25px;
-	  width: 25px;
-	  /*margin-top: -100px;*/
-	  top: 40%;
-	}
+		#projectFooter li, .footer-links h1 {
+			line-height: 2em;
+		}
 
-	.carousel__control--forward {
-		left: 22%;
-	}
+		.footer-links a h1, .footer-links li a, .footer-links p {
+			font-size: .9em;
+		}
 
-	.carousel__control--backward {
-		right: 22%;
-	}
+		.link-wrapper ul {
+		  margin-right: 6em;
+		}
 
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 25%;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
+		.content p, .link-wrapper p { font-size: .9em; }
+		.quote { margin-top: 12em; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 576px) {
-/**************************************************
-	HOME
-**************************************************/
-
-	.icon-scroll.icon-scroll:before {
-		display: block;
+@media all and (min-width: 768px) {
+	.grid-1 {
+		grid-template-columns: 2.5fr 7fr 2.5fr;
+		padding-top: .5em;
 	}
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
 
-	#who {
-		margin-top: 35%;
-	}
-
-	#who h1 {
-		font-size: 2em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 40%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 12%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.9em;
-        line-height: 1.4em;
-        padding-top: 1.5em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 7%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.1em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 25%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 3.25em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.3em;
-		letter-spacing: 0.5px;
-		line-height: 2.2em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.3em;
-		padding-right: 2em;
-		padding-bottom: 1.5em;
-		display: block;
-	}
-
-	#text {
-		width: 85%;
-		height: 65%;
-		padding: 3em;
-	}
-
-	#text h3 {
-		font-size: 2em;
-		line-height: 1.75em;
-		letter-spacing: .3px;
-	}
-
-	#text h4 {
-		font-size: 1em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
-	}
-
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
-	}
-
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
-
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 2em;
-		padding: 0;
-	} 
-
-	iframe {
-		width: 256px;
-		height: 144px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
-
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
-
-	.proposal p {
-		font-size: 1.3em;
-		line-height: 2.2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
-
-	.proposal h5 {
-		font-size: 1em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
-
-	.proposal h7 {
-		font-size: 2.5em;
-		letter-spacing: -.5px;
-	}
-
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
-
-	#img-small {
-		margin-bottom: 0;
-	}
-
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-
-	#more {
-		margin-top: 3em;
-		margin-bottom: 5em;
-		padding: 0;
-	}
-
-	.piece {
-		top: 50%;
-		margin-bottom: 5em;
-	}
-
-	.ui-cards {
-	  width: 40%;
-	}
-
-	.carousel__control {
-	  height: 20px;
-	  width: 20px;
-	  top: 30%;
-	}
-
-	.carousel__control--forward {
-		left: 30%;
-	}
-
-	.carousel__control--backward {
-		right: 30%;
-	}
-
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 45%;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
+	#aboutWrapper { margin-top: 15em;	}
+	.catalog-header { margin-bottom: 1em; }
 }
 
+@media all and (min-width: 1024px) {
+	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
+	.grid-3 { grid-template-columns: 3fr 9fr; }
 
+	.side-nav, .footer-links h1 { display: block; }
+}
 
+@media all and (min-width: 1280px) {
+	.grid-1 { grid-template-columns: 3.5fr 5fr 3.5fr; }
+	.grid-2 { grid-template-columns: 2fr 8fr 2fr; }
+	.grid-3 { grid-template-columns: 3fr 9fr; }
+}
 
+@media all and (min-width: 1440px) {
+}
 
+@media all and (min-width: 1680px) {
 
-
-
-
-
-
-
-
-
-@media all and (max-width: 375px) {
-/**************************************************
-	HOME
-**************************************************/
-	
-	.icon-scroll.icon-scroll:before {
-		display: block;
-	}
-
-	#who {
-		margin-top: 35%;
-	}
-
-	#who h1 {
-		font-size: 2em;
-		line-height: .5em;
-	}
-
-	#who h2 {
-		font-size: 3.5em;
-		line-height: 1.35em;
-	}
-
-	#section1 {
-		margin-top: 40%;
-	}
-
-	.project {
-		margin-top: 10%;
-		margin-bottom: 12%;
-	}
-
-	#rectangle{
-	    height: 250px;
-	}
-
-	#what {
-		padding-left: 2em;
-	}
-
-	.intro h3 {
-		font-size: 1.65em;
-		top: 1em;
-	}
-
-	.intro h4 {
-		font-size: 1.25em;
-		text-align: right;
-		right: 2em;
-	}
-
-	.sentence {
-        font-size: 1.9em;
-        line-height: 1.4em;
-        padding-top: 1.5em;
-        width: 90%;
-    }
-
-    .view {
-    	font-size: 1.25em;
-    	top: 11.5em;
-		right: 2em;
-    }
-
-    footer {
-		height: 5em;
-	}
-
-	.links {
-		display: inline;
-		font-size: 1.1em;
-		text-align: left;
-	}
-
-	#footer-links {
-		margin-top: 7%;
-	}
-
-	#bottom {
-		display: flex;
-	    justify-content: space-around;
-	    top: 50%;
-	    transform: translateY(-50%);
-	}
-
-	#bottom a {
-		font-size: 1.1em;
-		letter-spacing: .6px;
-	}
-
-/**************************************************
-	PROJECTS
-**************************************************/
-
-	#project-section0 {
-		padding-top: 10%;
-	}
-
-	#project-title {
-		margin-bottom: 25em;
-	}
-
-	#project-title h1 {
-		font-size: 6em;
-		padding-bottom: .1em;
-	}
-
-	#project-section0 p {
-		font-size: 1.8em;
-		letter-spacing: 0.5px;
-		line-height: 1.75em;
-		padding-bottom: 1.5em;
-	}
-
-	.detail-links {
-		margin-bottom: 3em;
-	}
-
-	#project-title h2 {
-		font-size: 1.5em;
-		padding-right: 2em;
-	}
-
-	#text {
-		padding: 5em;
-	}
-
-	#text h3 {
-		font-size: 2em;
-		line-height: 1.3em;
-		letter-spacing: .3px;
-	}
-
-	#text h4 {
-		font-size: 1.2em;
-		letter-spacing: .2px;
-		padding-bottom: 2em;
-	}
-
-	#text h5 {
-		letter-spacing: .2px;
-		line-height: 2em;
-	}
-
-	#text li {
-		line-height: 1.9em;
-		letter-spacing: .2px;
-	}
-
-	.svg-container h6 {
-		font-size: 1em;
-		letter-spacing: 1.5px;
-		margin-top: 2em;
-		padding: 0;
-	} 
-
-	iframe {
-		width: 256px;
-		height: 144px;
-		margin-top: 10em;
-		margin-left: 50%;
-		margin-bottom: 15em;
-		transform: translate(-50%, 0);
-	}	
-
-	.proposal {
-		margin-top: 4em;
-		margin-bottom: 15em;
-	}
-
-	.proposal p {
-		font-size: 1.2em;
-		line-height: 2em;
-		letter-spacing: 0.2px;
-		margin-top: 1em;
-	}
-
-	.proposal h5 {
-		font-size: 1.25em;
-		letter-spacing: 0.5px;
-		margin-bottom: .5em;
-	}
-
-	.proposal h7 {
-		font-size: 3.5em;
-		letter-spacing: -.5px;
-	}
-
-	.png-slides {
-		width: 75%;
-		padding-top: 5em;
-	}
-
-	#img-small {
-		margin-bottom: 0;
-	}
-
-	.prototype {
-		width: 300px;
-		margin-top: 5em;
-		margin-bottom: 5em;
-	}
-
-	#more {
-		margin-top: 9.5em;
-		margin-bottom: 17em;
-		padding: 0;
-	}
-
-	.piece {
-		margin-top: 1em;
-		padding: 0;
-	}
-
-	.ui-cards {
-	  width: 50%;
-	}
-
-	.carousel__control {
-	  height: 25px;
-	  width: 25px;
-	  margin-top: -15px;
-	  top: 50%;
-	}
-
-	.carousel__indicators {
-	  position: absolute;
-	  bottom: 20px;
-	  width: 100%;
-	  text-align: center;
-	}
-
-	.carousel-container { 
-	  display: block;
-	  margin-bottom: 7em;
-	}
 }

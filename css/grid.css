@@ -1,0 +1,9 @@
+.grid-1, .grid-2, .grid-3 {
+	display: grid;
+	max-width: 100%;
+
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+}

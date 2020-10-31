@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Messina-Sans-Light';
+	src: url('../fonts/Messina-Sans-Light.otf');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Messina-Sans-Regular';
+	src: url('../fonts/Messina-Sans-Regular.otf');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Messina-Sans-Bold';
+	src: url('../fonts/Messina-Sans-Bold.otf');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
