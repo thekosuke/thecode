@@ -132,7 +132,7 @@ h1 {
     display: inline;
   }
 
-  h2, h3, p, a  {
+  h2, h3, p, a, .copy p a  {
     color: #797B80;
     font-family: "Messina-Sans-Regular";
     font-weight: normal;
@@ -157,7 +157,7 @@ h1 {
     transition: .3s ease;
   }
 
-  a:hover { color: #16161A; }
+  a:hover, .copy p a:hover { color: #16161A; }
   a.project-wrapper { text-decoration: none; }
   .project-wrapper:hover { background: #F5F5F7; }
 
