@@ -149,7 +149,7 @@ h1 {
     font-family: "Messina-Sans-Light";
   }
 
-  a, svg, path {
+  a, svg, path {    
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -ms-transition: .3s ease;
@@ -157,7 +157,7 @@ h1 {
     transition: .3s ease;
   }
 
-  a:hover, .copy p a:hover { color: #16161A; }
+  a:hover, .copy p a:hover { color: #16161A; cursor: default; }
   a.project-wrapper { text-decoration: none; }
   .project-wrapper:hover { background: #F5F5F7; }
 
@@ -188,6 +188,10 @@ h1 {
     background-size: 60%;
   }
 
+  .www {
+    background-image: url("../img/www.svg");
+    background-size: 60%;
+  }
 
 /*//////////////////////////////////////////////////////
   TOP NAV
