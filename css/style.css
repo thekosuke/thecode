@@ -150,6 +150,8 @@ h1 {
   }
 
   a, svg, path {    
+    cursor: default;
+    
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -ms-transition: .3s ease;
