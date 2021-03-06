@@ -147,6 +147,7 @@ h1 {
   .copy a:hover, .links a:hover, #project-content p a:hover { 
     color: #16161A; 
     background-color: #91F2F2;
+    border-radius: 2px;
   }
 
   section p, p a, #projectFooter li a {
