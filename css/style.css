@@ -201,6 +201,21 @@ h1 {
     background-size: 60%;
   }
 
+  .tp {
+    background-image: url("../img/tp.svg");
+    background-size: 60%;
+  }
+
+  .italia {
+    background-image: url("../img/italia.svg");
+    background-size: 60%;
+  }
+
+  .thought {
+    background-image: url("../img/bubble.svg");
+    background-size: 60%;
+  }
+
 /*//////////////////////////////////////////////////////
   TOP NAV
 //////////////////////////////////////////////////////*/

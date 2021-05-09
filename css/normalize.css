@@ -13,14 +13,14 @@
 		letter-spacing: .3px;
 	}
 
-	#aboutWrapper {
+	#introWrapper, #aboutWrapper {
 		margin-top: 9em;
 		margin-bottom: 6em;
 	}
 
 	.intro .header {
 		letter-spacing: .3px;
-		padding-bottom: .3em;
+		padding-bottom: 1em;
 	}
 
 	.intro .copy {
@@ -109,9 +109,8 @@
 }
 
 @media all and (min-width: 414px) {
-	#aboutWrapper {
+	#introWrapper, #aboutWrapper {
 		margin-top: 12em;
-		margin-bottom: 10em;
 	}
 
 	.catalog-header {	margin-bottom: 1em; }
@@ -217,7 +216,8 @@
 	.grid-3 { grid-template-columns: 1fr; }
 	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
 
-	#aboutWrapper { margin-top: 15em;	}
+	#introWrapper { margin-top: 15em; }
+	#aboutWrapper { margin-top: 12em; }
 	.catalog-header { margin-bottom: 1em; }
 }
 
