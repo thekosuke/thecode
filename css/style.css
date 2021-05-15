@@ -251,12 +251,13 @@ h1 {
   .next-wrapper p {
     display:inline-block;
     vertical-align:middle;
-    padding-right: .5em;    
+    padding-right: .4em;    
   }
 
   .next-wrapper svg {
     display:inline-block;
     vertical-align:middle;
+    padding-bottom: .1em;
   }
 
   .next-wrapper a:hover > p { color: #16161A; }
