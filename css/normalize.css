@@ -64,7 +64,7 @@
 		h3 {
 			font-size: 1.2em;
 			color: #16161A;
-			line-height: 2.2em;
+			line-height: 2.4em;
 			padding-top: 50px;
 		}
 
@@ -145,9 +145,6 @@
 
 		h3 {
 			font-size: 24px;
-			color: #16161A;
-			line-height: 2.2em;
-			padding-top: 50px;
 		}
 
 		#project-content p, #project-content p a {
