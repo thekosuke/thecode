@@ -239,18 +239,24 @@ h1 {
 .page-title p { color: #16161A; }
 
 .back-button svg {
-  padding: .5em .75em .5em .75em;
+  padding: .5em .5em .5em .5em;
   border-radius: 6px;
 }
 
 .back-button svg:hover { background: #EDEDF2; }
-.back-button svg:hover > path { stroke: #16161A; }
+.back-button svg:hover > path { fill: #16161A; }
 
 .next-button { text-align: right; }
 
   .next-wrapper p {
-    display: inline;
-    padding-right: .75em;
+    display:inline-block;
+    vertical-align:middle;
+    padding-right: .5em;    
+  }
+
+  .next-wrapper svg {
+    display:inline-block;
+    vertical-align:middle;
   }
 
   .next-wrapper a:hover > p { color: #16161A; }
