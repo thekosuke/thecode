@@ -5,18 +5,12 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   }
 
    html { scroll-behavior: smooth; }
-
-   /* ::-webkit-selection { background-color: #91F2F2; color: #16161A; }
-      ::-moz-selection { background-color: #91F2F2; color: #16161A; }
-       ::-ms-selection { background-color: #91F2F2; color: #16161A; }
-        ::-o-selection { background-color: #91F2F2; color: #16161A; }
-           ::selection { background-color: #91F2F2; color: #16161A; } */
            
-           ::-webkit-selection { background-color: #FE001A; color: #FFFFFF; }
-           ::-moz-selection { background-color: #FE001A; color: #FFFFFF; }
-            ::-ms-selection { background-color: #FE001A; color: #FFFFFF; }
-             ::-o-selection { background-color: #FE001A; color: #FFFFFF; }
-                ::selection { background-color: #FE001A; color: #FFFFFF; }
+  ::-webkit-selection { background-color: #FE001A; color: #FFFFFF; }
+     ::-moz-selection { background-color: #FE001A; color: #FFFFFF; }
+      ::-ms-selection { background-color: #FE001A; color: #FFFFFF; }
+       ::-o-selection { background-color: #FE001A; color: #FFFFFF; }
+          ::selection { background-color: #FE001A; color: #FFFFFF; }
 
 body {
     max-height: 100%;
