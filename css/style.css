@@ -240,7 +240,7 @@ h1 {
 
 .back-button svg {
   padding: .5em .5em .5em .5em;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .back-button svg:hover { background: #EDEDF2; }
@@ -303,7 +303,7 @@ h1 {
 .credits {
   color: #16161A;
   background: #F2F2F7;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 1.5em;
 }
 

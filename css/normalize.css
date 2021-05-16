@@ -161,7 +161,7 @@
 
 	.project-wrapper {
 	    padding: 1.25em;
-			border-radius: 18px;
+			border-radius: 16px;
 	  }
 
 		.project-name { margin-bottom: 0; }
@@ -174,7 +174,7 @@
 		.project-thumbnail {
 			width: 5em;
 			height: 5em;
-			border-radius: 18px;
+			border-radius: 16px;
 
 			margin-right: 1.5em;
 			margin-bottom: 0;
