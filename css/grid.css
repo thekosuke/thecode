@@ -7,3 +7,18 @@
 	-o-transition: .3s ease;
 	transition: .3s ease;
 }
+
+.grid-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 1.5em;
+	grid-gap: 1em;
+	max-width: 100%;
+
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+}
+
+
