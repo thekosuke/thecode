@@ -341,7 +341,7 @@ h1 {
 }
 
 .masonry-container {
- column-count: 3;
+ column-count: 4;
  column-gap: 1em;
 }
 .masonry-item {
