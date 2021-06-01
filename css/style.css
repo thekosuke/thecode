@@ -344,11 +344,13 @@ h1 {
  column-count: 4;
  column-gap: 1em;
 }
+
 .masonry-item {
  display: inline-block;
  width: 100%;
  margin-top: 1em;
 }
+
 .masonry-item img {
  display:block;
  width: 100%;
