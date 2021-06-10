@@ -374,3 +374,7 @@ h1 {
   font-size: 1.25em;
   color: #16161a;
 }
+
+.slide-btn:active {
+  opacity: .5;  
+}
