@@ -355,3 +355,22 @@ h1 {
  display:block;
  width: 100%;
 }
+
+/*//////////////////////////////////////////////////////
+  IMAGE SLIDER
+//////////////////////////////////////////////////////*/
+.slide {
+  max-width: 100%;  
+}
+
+.button-container {
+  text-align: center;
+  margin-top: .5em;
+}
+
+.slide-btn {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.25em;
+  color: #16161a;
+}

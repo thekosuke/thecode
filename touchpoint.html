@@ -80,9 +80,10 @@
         <nav class="side-nav">
           <ul>
               <li><a href="#section1">Background</a></li>
-              <li><a href="#section2">Concept</a></li>
+              <li><a href="#section2">Concept</a></li>              
               <li><a href="#section3">Mobile-First</a></li>
               <li><a href="#section4">Landing Sequence</a></li>
+              <li><a href="#section5">Exploration</a></li>
           </ul>
         </nav>
 
@@ -143,9 +144,9 @@
             </p>
             <div class="project-image">
               <img src="img/work/touchpoint/tp-3.png">
-            </div>     
+            </div>  
             
-          </section>
+          </section>          
 
           <section id="section3">
             <h3>Mobile-First</h3>
@@ -198,8 +199,34 @@
       				</video>
         		</div>       
             
-          </section>
+          </section>         
 
+          <section id="section5">            
+            <h3>Splash page exploration</h3>
+            <p>              
+              Some handpicked explorations I did for the splash page prior to narrowing 
+              down on a concept. 
+            </p>
+            <br>
+            <div class="slide-wrapper">
+              <img class="slide" src="img/work/touchpoint/exploration/s1.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s2.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s3.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s4.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s5.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s6.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s7.png">
+              <img class="slide" src="img/work/touchpoint/exploration/s8.png">
+            </div> 
+            <div class="button-container">
+              <div class="button-wrapper">
+                <button class="slide-btn prev" onclick="plusDivs(-1)">←</button>
+                <button class="slide-btn next" onclick="plusDivs(1)">→</button>
+              </div>
+            </div>
+            
+          </section>
+          
           <section id="section6" class="credits-wrapper">
             <div class="credits">
               <h1>Website</h1>
@@ -246,6 +273,28 @@
       </div>
 
     </div> <!-- END OF CONTAINER -->
-
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }    
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
   </body>
 </html>
