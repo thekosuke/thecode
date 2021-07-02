@@ -69,6 +69,13 @@
 			padding-top: 50px;
 		}
 
+		h4 {
+			font-size: 1em;
+			color: #16161A;
+			line-height: 3em;
+			padding-top: 40px;
+		}
+
 		li a, .credits h1, .credits p {
 			font-size: .9em;
 			letter-spacing: .2px;
@@ -144,9 +151,8 @@
 
 	#project-content { margin-top: 6em; }
 
-		h3 {
-			font-size: 24px;
-		}
+		h3 { font-size: 24px; }
+		h4 { font-size: 18px; }
 
 		#project-content p, #project-content p a {
 			font-size: 1em;
