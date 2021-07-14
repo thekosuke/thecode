@@ -81,8 +81,8 @@
               <li><a href="#section1">Background</a></li>
               <li><a href="#section2">Logo and Brand</a></li>
               <li><a href="#section3">Design System</a></li>
-              <!-- <li><a href="#section4">Product Design</a></li>
-              <li><a href="#section5">Landing Page</a></li> -->
+              <li><a href="#section4">Product Design</a></li>
+              <li><a href="#section5">Landing Page</a></li>
           </ul>
         </nav>
 
@@ -106,7 +106,7 @@
               teams to do so in a simple, personal, and comprehensive way.
               <br><br>
               Macro reimagines checklists as the means to create, assign, track, and automate processes 
-              involving people and software. We aimed to deliver a tool that teams love using.
+              involving people and software. I was responsible for designing the foundation of Macro.
             </p>    
             <div class="project-image">
               <img src="img/work/macro/macro-1.png">
@@ -246,88 +246,116 @@
            
           </section>
 
-          <!-- <section id="section4">
+          <section id="section4">
             <h3>Product Design</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.
+              There are tools out there that help you automate workflows (e.g. Zapier), but not 
+              all work can be fully automated. Most work still requires human involvement, yet 
+              companies today don’t have a solution for work that feel mechanical and repetitive, 
+              but can’t be automated because they require human involvement. Macro believes 
+              this solution take the form of a checklist, as checklists have been traditionally 
+              used to document and go through repeatable tasks.
             </p>
             <h4>Challenge</h4> 
             <p>              
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.              
-            </p>
-            <div class="project-image">
-              <img src="img/work/macro/macro-15.png">
-            </div>  
-          
-            <h4>Checklist Editor // Checklist Runner</h4> 
-            <p>              
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.
-            </b>
+              The product development process began with an iterative cycle of designing and 
+              prototyping different product concepts with the CEO and the engineer. As we 
+              continued to mock up our ideas and understand how to deliver value, we began to 
+              converge ideas and build the product by following the design system I had established.
               <br><br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.
+              The interesting thing about Macro was that it aimed to serve a horizontal market 
+              with different pieces working together to make up an entire system. Each product 
+              intertwined with one another, thus needed to be stitched together to become a tool 
+              that supports a wide range of use cases.              
             </p>
             <div class="project-image">
               <img src="img/work/macro/macro-16.png">
             </div>  
-            <h4>Automation Layer</h4> 
-            <p>          
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.
-            </p> 
+          
+            <h4>Checklist editing experience</h4> 
+            <p>              
+              The opinion with Macro was that people should build checklists as a way to represent 
+              their workflow. Using this checklist template, users can distribute and run repetitive 
+              workflows to reduce human error. A Macro checklist consists of a variety of task types 
+              (e.g. Gmail, forms, file upload) that users can configure to bring commonly used apps 
+              and tasks into a single checklist that employees can execute. 
+              <br><br>
+              It was key for us to design an editor that enabled users to easily represent their 
+              workflows while exposing customization features to convey the power of a Macro 
+              checklist. I studied and borrowed from various editors such as Notion, Coda, Zapier, 
+              and Typeform to deliver what I believed to be the most intuitive user experience.               
+            </p>
             <div class="project-image">
               <img src="img/work/macro/macro-17.png">
-            </div>   
-            <h4>Inbox</h4> 
-            <p>              
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.
+            </div>  
+            <p>
+              <br>
+              After launching the product and receiving user feedback, I began to speculate the 
+              assumptions we made with the two-pane layout, and began to believe that users should 
+              edit their checklists in a single-document format. This belief was informed by the 
+              fact that many users missed the automation and variables features (two prominent 
+              features in Macro) and struggled to bundle a set of tasks. This lead me to propose 
+              a single-pane layout that did not get built due to the lack of resources. I'm happy 
+              to walk through the proposal over a call. 😎
+            </p>
+            <h4>Designing the Inbox</h4> 
+            <p>          
+              The Inbox was one of the biggest design challenges during my time at Macro. This was 
+              because Macro supported two types of task assignments: a single task and a checklist 
+              run (or a distributed checklist). The underlying tension was the difference in user experience 
+              for a manager vs. a member. A member could be assigned a set of tasks inside a checklist, 
+              but a manager or a team lead might be responsible for completing the checklist itself. 
+              <br><br>
+              With these constraints, it was necessary for the UI to clearly communicate this difference 
+              while allowing users to easily view the work they are responsible for. The Inbox is a 
+              place where members come to see what they need to worry about, so it had to be designed 
+              in a way that required minimum thinking for members to make sense of their work.              
             </p> 
             <div class="project-image">
               <img src="img/work/macro/macro-18.png">
-            </div>   
+            </div>               
+            <p>
+              <br>
+              The solution here was ultimately to bundle all the tasks inside its respected checklist run 
+              and only show members the tasks they are responsible for. We created a section at the top of 
+              the Inbox to show single tasks that are not part of a checklist template. For these 
+              independent tasks, users can view and complete them without having to leave their Inbox.
+            </p>
+          </section>
 
-          </section> -->
-
-          <!-- <section id="section5">
+          <section id="section5">
             <h3>Landing Page</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices. 
+              After spending one year to design and build the product, we successfully launched Macro in 
+              March 2021 for public beta. I designed the landing page with the Macro brand in mind, and 
+              built the entire site on Webflow. 
             </p>
             <div class="project-image">
-              <img src="img/work/macro/macro-19.png">
-            </div>  
-            <h4>Design Direction</h4> 
+      				<video preload="metadata" autoplay muted loop>
+                <source  src="img/work/macro/macro-19.mp4">
+              </video>
+        		</div>            
+            <h4>Visual Design Direction</h4> 
             <p>              
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.              
+              Below is the moodboard I created when I had just started working at Macro. This was to 
+              establish a visual design direction that aligned with how I wanted Macro to be portrayed 
+              to the public. Some of the key principles were to be liberating, light, and quiet, while 
+              seeking opportunities to inject delight.
             </p>
             <div class="project-image">
               <img src="img/work/macro/macro-20.png">
             </div>  
             <h4>Outcome</h4> 
             <p>              
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In aliquet, ex sit amet 
-              ullamcorper ullamcorper, elit tellus posuere est, ut viverra magna metus vel ante. 
-              Suspendisse aliquam justo et varius ultrices.                
+              We received #1 product of the day on Product Hunt and ~5000 unique visits to the 
+              landing page, which lead to ~900 sign ups. Based on the conversations we had with 
+              early adopters, their appreciation for the design of the website and the UI was 
+              the main reason they were motivated to sign up and try out the product. 😁
             </p>
             <div class="project-image">
               <img src="img/work/macro/macro-21.png">
             </div>              
-
-          </section> -->
+          </section>
 
           <section id="section6" class="credits-wrapper">
             <div class="credits">
