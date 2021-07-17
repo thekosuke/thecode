@@ -211,9 +211,9 @@ h1 {
     background-size: 60%;
   }
 
-  .thought {
-    background-image: url("../img/bubble.svg");
-    background-size: 60%;
+  .logomark {
+    background-image: url("../img/logomark.svg");
+    background-size: 50%;
   }
 
 /*//////////////////////////////////////////////////////
