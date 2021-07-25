@@ -11,16 +11,17 @@
 	h1, h2, p, a {
 		font-size: 1em;
 		letter-spacing: .3px;
+		line-height: 1.75em;
 	}
 
-	#aboutWrapper {
+	#introWrapper, #aboutWrapper {
 		margin-top: 9em;
 		margin-bottom: 6em;
 	}
 
 	.intro .header {
 		letter-spacing: .3px;
-		padding-bottom: .3em;
+		padding-bottom: 1em;
 	}
 
 	.intro .copy {
@@ -64,8 +65,15 @@
 		h3 {
 			font-size: 1.2em;
 			color: #16161A;
-			line-height: 2.2em;
+			line-height: 3.2em;
 			padding-top: 50px;
+		}
+
+		h4 {
+			font-size: 1em;
+			color: #16161A;
+			line-height: 3em;
+			padding-top: 40px;
 		}
 
 		li a, .credits h1, .credits p {
@@ -109,9 +117,8 @@
 }
 
 @media all and (min-width: 414px) {
-	#aboutWrapper {
+	#introWrapper, #aboutWrapper {
 		margin-top: 12em;
-		margin-bottom: 10em;
 	}
 
 	.catalog-header {	margin-bottom: 1em; }
@@ -144,12 +151,8 @@
 
 	#project-content { margin-top: 6em; }
 
-		h3 {
-			font-size: 24px;
-			color: #16161A;
-			line-height: 2.2em;
-			padding-top: 50px;
-		}
+		h3 { font-size: 24px; }
+		h4 { font-size: 18px; }
 
 		#project-content p, #project-content p a {
 			font-size: 1em;
@@ -164,7 +167,7 @@
 
 	.project-wrapper {
 	    padding: 1.25em;
-			border-radius: 18px;
+			border-radius: 16px;
 	  }
 
 		.project-name { margin-bottom: 0; }
@@ -177,7 +180,7 @@
 		.project-thumbnail {
 			width: 5em;
 			height: 5em;
-			border-radius: 18px;
+			border-radius: 16px;
 
 			margin-right: 1.5em;
 			margin-bottom: 0;
@@ -217,7 +220,8 @@
 	.grid-3 { grid-template-columns: 1fr; }
 	#navBar .grid-3 { grid-template-columns: 3fr 9fr; }
 
-	#aboutWrapper { margin-top: 15em;	}
+	#introWrapper { margin-top: 15em; }
+	#aboutWrapper { margin-top: 12em; }
 	.catalog-header { margin-bottom: 1em; }
 }
 

@@ -5,12 +5,12 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
   }
 
    html { scroll-behavior: smooth; }
-
-   ::-webkit-selection { background-color: #91F2F2; color: #16161A; }
-      ::-moz-selection { background-color: #91F2F2; color: #16161A; }
-       ::-ms-selection { background-color: #91F2F2; color: #16161A; }
-        ::-o-selection { background-color: #91F2F2; color: #16161A; }
-           ::selection { background-color: #91F2F2; color: #16161A; }
+           
+  ::-webkit-selection { background-color: #FE001A; color: #FFFFFF; }
+     ::-moz-selection { background-color: #FE001A; color: #FFFFFF; }
+      ::-ms-selection { background-color: #FE001A; color: #FFFFFF; }
+       ::-o-selection { background-color: #FE001A; color: #FFFFFF; }
+          ::selection { background-color: #FE001A; color: #FFFFFF; }
 
 body {
     max-height: 100%;
@@ -132,8 +132,8 @@ h1 {
     display: inline;
   }
 
-  h2, h3, p, a  {
-    color: #797B80;
+  h2, h3, h4, p, a, .copy p a  {
+    color: #777A80;
     font-family: "Messina-Sans-Regular";
     font-weight: normal;
 
@@ -144,12 +144,20 @@ h1 {
     transition: .3s ease;
   }
 
+  .copy a:hover, .links a:hover, #project-content p a:hover { 
+    color: #FFFFFF; 
+    background-color: #FE1F02;
+    border-radius: 2px;
+  }
+
   section p, p a, #projectFooter li a {
     color: #4A4B4D;
     font-family: "Messina-Sans-Light";
   }
 
-  a, svg, path {
+  a, svg, path {    
+    cursor: default;
+    
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
     -ms-transition: .3s ease;
@@ -157,9 +165,9 @@ h1 {
     transition: .3s ease;
   }
 
-  a:hover { color: #16161A; }
+  a:hover, .copy p a:hover { color: #FFFFFF; cursor: default; }
   a.project-wrapper { text-decoration: none; }
-  .project-wrapper:hover { background: #F5F5F7; }
+  .project-wrapper:hover { background: #F2F2F7; }
 
 .project-thumbnail { background: #FFFFFF; }
 
@@ -188,6 +196,25 @@ h1 {
     background-size: 60%;
   }
 
+  .www {
+    background-image: url("../img/www.svg");
+    background-size: 60%;
+  }
+
+  .tp {
+    background-image: url("../img/tp.svg");
+    background-size: 60%;
+  }
+
+  .italia {
+    background-image: url("../img/italia.svg");
+    background-size: 60%;
+  }
+
+  .logomark {
+    background-image: url("../img/logomark.svg");
+    background-size: 50%;
+  }
 
 /*//////////////////////////////////////////////////////
   TOP NAV
@@ -212,18 +239,25 @@ h1 {
 .page-title p { color: #16161A; }
 
 .back-button svg {
-  padding: .5em .75em .5em .75em;
-  border-radius: 100px;
+  padding: .5em .5em .5em .5em;
+  border-radius: 8px;
 }
 
-.back-button svg:hover { background: #F5F5F7; }
-.back-button svg:hover > path { stroke: #16161A; }
+.back-button svg:hover { background: #EDEDF2; }
+.back-button svg:hover > path { fill: #16161A; }
 
 .next-button { text-align: right; }
 
   .next-wrapper p {
-    display: inline;
-    padding-right: .75em;
+    display:inline-block;
+    vertical-align:middle;
+    padding-right: .4em;    
+  }
+
+  .next-wrapper svg {
+    display:inline-block;
+    vertical-align:middle;
+    padding-bottom: .1em;
   }
 
   .next-wrapper a:hover > p { color: #16161A; }
@@ -236,7 +270,7 @@ h1 {
 
   .next-wrapper a:hover {
     color: #16161A;
-    background: #F5F5F7;
+    background: #EDEDF2;
     border-radius: 6px;
   }
 
@@ -256,9 +290,6 @@ h1 {
 /*//////////////////////////////////////////////////////
   PROJECT CONTENT
 //////////////////////////////////////////////////////*/
-#project-content p a { color: #797B80; }
-#project-content p a:hover { color: #16161A; }
-
 .project-image img, .project-image video {
   max-width: 100%;
 
@@ -271,10 +302,11 @@ h1 {
 
 .credits {
   color: #16161A;
-  background: #F5F5F7;
-  border-radius: 9px;
-  padding: 1em;
+  background: #F2F2F7;
+  border-radius: 10px;
+  padding: 1.5em;
 }
+
 
 #projectFooter {
   background: #16161A;
@@ -306,4 +338,43 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.masonry-container {
+ column-count: 4;
+ column-gap: 1em;
+}
+
+.masonry-item {
+ display: inline-block;
+ width: 100%;
+ margin-top: 1em;
+}
+
+.masonry-item img {
+ display:block;
+ width: 100%;
+}
+
+/*//////////////////////////////////////////////////////
+  IMAGE SLIDER
+//////////////////////////////////////////////////////*/
+.slide {
+  max-width: 100%;  
+}
+
+.button-container {
+  text-align: center;
+  margin-top: .5em;
+}
+
+.slide-btn {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.25em;
+  color: #16161a;
+}
+
+.slide-btn:active {
+  opacity: .5;  
 }
