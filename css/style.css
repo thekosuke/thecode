@@ -18,13 +18,13 @@ body {
     z-index: 0;
     background: #FAFBFC;
 
-    animation: appear 3s;
+    /* animation: appear 3s;
 
     -webkit-transition: 1s ease;
     -moz-transition: 1s ease;
     -ms-transition: 1s ease;
     -o-transition: 1s ease;
-    transition: 1s ease;
+    transition: 1s ease; */
   }
 
   #container, #project-container, #aboutWrapper, .project-wrapper {
@@ -35,6 +35,16 @@ body {
 
   #container {
     animation: land 2s;
+
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+  }
+
+  #project-container {
+    animation: appear 2s;
 
     -webkit-transition: 1s ease;
     -moz-transition: 1s ease;
