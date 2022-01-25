@@ -176,7 +176,7 @@ h1 {
   }
 
   .content p { font-family: "CormorantGaramond-Italic"; }
-  .credits p, #projectFooter li a { font-family: "CormorantGaramond-Medium"; }
+  .subtitle , #projectFooter li a { font-family: "CormorantGaramond-Medium"; }
 
   a:hover, .copy p a:hover, 
   .copy a:hover, .links a:hover, #project-content p a:hover { 
