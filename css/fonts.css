@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'CormorantGaramond-Regular';
-	src: url('../fonts/CormorantGaramond-Regular.otf');
+	src: url('../fonts/CormorantGaramond-Regular.ttf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -11,7 +11,7 @@
 
 @font-face {
 	font-family: 'CormorantGaramond-Italic';
-	src: url('../fonts/CormorantGaramond-Italic.otf');
+	src: url('../fonts/CormorantGaramond-Italic.ttf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -22,7 +22,18 @@
 
 @font-face {
 	font-family: 'CormorantGaramond-Medium';
-	src: url('../fonts/CormorantGaramond-Medium.otf');
+	src: url('../fonts/CormorantGaramond-Medium.ttf');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'CormorantGaramond-MediumItalic';
+	src: url('../fonts/CormorantGaramond-MediumItalic.ttf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -33,7 +44,7 @@
 
 @font-face {
 	font-family: 'CormorantGaramond-SemiBold';
-	src: url('../fonts/CormorantGaramond-SemiBold.otf');
+	src: url('../fonts/CormorantGaramond-SemiBold.ttf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
