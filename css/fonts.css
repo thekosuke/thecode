@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Messina-Sans-Light';
-	src: url('../fonts/Messina-Sans-Light.otf');
+	font-family: 'CormorantGaramond-Regular';
+	src: url('../fonts/CormorantGaramond-Regular.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -10,8 +10,8 @@
 }
 
 @font-face {
-	font-family: 'Messina-Sans-Regular';
-	src: url('../fonts/Messina-Sans-Regular.otf');
+	font-family: 'CormorantGaramond-Italic';
+	src: url('../fonts/CormorantGaramond-Italic.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -21,8 +21,19 @@
 }
 
 @font-face {
-	font-family: 'Messina-Sans-Bold';
-	src: url('../fonts/Messina-Sans-Bold.otf');
+	font-family: 'CormorantGaramond-Medium';
+	src: url('../fonts/CormorantGaramond-Medium.otf');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'CormorantGaramond-SemiBold';
+	src: url('../fonts/CormorantGaramond-SemiBold.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;

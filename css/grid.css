@@ -1,4 +1,4 @@
-.grid-1, .grid-2, .grid-3 {
+.grid-1, .grid-2, .grid-3, .col-2, .col-1 {
 	display: grid;
 	max-width: 100%;
 

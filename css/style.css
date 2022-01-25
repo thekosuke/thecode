@@ -6,17 +6,18 @@ form,fieldset,input,textarea,p,a,blockquote,th,td {
 
    html { scroll-behavior: smooth; }
            
-  ::-webkit-selection { background-color: #FE001A; color: #FFFFFF; }
-     ::-moz-selection { background-color: #FE001A; color: #FFFFFF; }
-      ::-ms-selection { background-color: #FE001A; color: #FFFFFF; }
-       ::-o-selection { background-color: #FE001A; color: #FFFFFF; }
-          ::selection { background-color: #FE001A; color: #FFFFFF; }
+  ::-webkit-selection { background-color: #FE001A; color: white; }
+     ::-moz-selection { background-color: #FE001A; color: white; }
+      ::-ms-selection { background-color: #FE001A; color: white; }
+       ::-o-selection { background-color: #FE001A; color: white; }
+          ::selection { background-color: #FE001A; color: white; }
 
 body {
     max-height: 100%;
     position: relative;
     z-index: 0;
-    background: #FAFBFC;
+    background: white;
+    overflow: auto;
 
     animation: appear 3s;
 
@@ -42,6 +43,20 @@ body {
     -o-transition: 1s ease;
     transition: 1s ease;
   }
+
+/*//////////////////////////////////////////////////////
+  HOME
+//////////////////////////////////////////////////////*/
+.homePage #aboutWrapper { margin-bottom: 2em; }
+
+#home .name .header p { 
+  padding-top: .5em; 
+  padding-bottom: 1em;
+}
+
+#home #footer { margin-top: 6em; }
+#home #footer .links { margin-bottom: 0em; }
+
 
   @keyframes land {
     0% {
@@ -125,16 +140,21 @@ body {
       100% { opacity: 1; }
     }
 
+
+/*//////////////////////////////////////////////////////
+  WORK
+//////////////////////////////////////////////////////*/
 h1 {
     color: #16161A;
-    font-family: "Messina-Sans-Regular";
+    font-family: "CormorantGaramond-SemiBold";
     font-weight: normal;
     display: inline;
+    text-transform: uppercase;
   }
 
   h2, h3, h4, p, a, .copy p a  {
-    color: #777A80;
-    font-family: "Messina-Sans-Regular";
+    color: #16161A;
+    font-family: "CormorantGaramond-Regular";
     font-weight: normal;
 
     -webkit-transition: .3s ease;
@@ -144,19 +164,34 @@ h1 {
     transition: .3s ease;
   }
 
-  .copy a:hover, .links a:hover, #project-content p a:hover { 
-    color: #FFFFFF; 
-    background-color: #FE1F02;
-    border-radius: 2px;
+  h5 {
+    color: #16161A;
+    font-family: "CormorantGaramond-SemiBold";
+    font-weight: normal;
   }
 
-  section p, p a, #projectFooter li a {
-    color: #4A4B4D;
-    font-family: "Messina-Sans-Light";
+  .links a { 
+    text-transform: uppercase; 
+    text-decoration: none;
+  }
+
+  .content p { font-family: "CormorantGaramond-Italic"; }
+
+  a:hover, .copy p a:hover, 
+  .copy a:hover, .links a:hover, #project-content p a:hover { 
+    text-decoration: underline;
+  }
+
+  section p, p a {
+    font-family: "CormorantGaramond-Regular";
+  }
+
+  #projectFooter li a {
+    font-family: "CormorantGaramond-Medium";
   }
 
   a, svg, path {    
-    cursor: default;
+    cursor: pointer;
     
     -webkit-transition: .3s ease;
     -moz-transition: .3s ease;
@@ -165,55 +200,60 @@ h1 {
     transition: .3s ease;
   }
 
-  a:hover, .copy p a:hover { color: #FFFFFF; cursor: default; }
   a.project-wrapper { text-decoration: none; }
-  .project-wrapper:hover { background: #F2F2F7; }
+  .thumbnail-wrapper:hover > .project-thumbnail { 
+    transform:scale(1.06);
+  }
 
-.project-thumbnail { background: #FFFFFF; }
+.project-thumbnail { 
+  background: white; 
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -ms-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.thumbnail-wrapper { overflow: hidden; }
+
+  .seven {
+    background-image: url("../img/seven.png");
+    background-size: cover;
+  }
 
   .macro {
-    background-image: url("../img/macro.svg");
-    background-size: 50%;
+    background-image: url("../img/macro.png");
+    background-size: cover;
   }
 
-  .giide {
-    background-image: url("../img/giide.svg");
-    background-size: 65%;
-  }
-
-  .rga {
-    background-image: url("../img/rga.svg");
-    background-size: 75%;
+  .intern {
+    background-image: url("../img/intern.png");
+    background-size: cover;
   }
 
   .instaread {
-    background-image: url("../img/instaread.svg");
-    background-size: 50%;
-  }
-
-  .sfu {
-    background-image: url("../img/sfu.svg");
-    background-size: 60%;
-  }
-
-  .www {
-    background-image: url("../img/www.svg");
-    background-size: 60%;
+    background-image: url("../img/instaread.png");
+    background-size: cover;
   }
 
   .tp {
-    background-image: url("../img/tp.svg");
-    background-size: 60%;
+    background-image: url("../img/touchpoint.png");
+    background-size: cover;
   }
 
   .italia {
-    background-image: url("../img/italia.svg");
-    background-size: 60%;
+    background-image: url("../img/italia.png");
+    background-size: cover;
   }
 
-  .logomark {
-    background-image: url("../img/logomark.svg");
-    background-size: 50%;
+  .bch {
+    background-image: url("../img/bch.png");
+    background-size: cover;
+  }
+
+  .logos {
+    background-image: url("../img/logos.png");
+    background-size: cover;
   }
 
 /*//////////////////////////////////////////////////////
@@ -221,22 +261,21 @@ h1 {
 //////////////////////////////////////////////////////*/
 #navBar {
   width: 100%;
-  height: 42px;
+  height: 3em;
   background: #FAFBFC;
   border: 1px solid #E3E4E5;
   position: fixed;
   top: 0;
   z-index: 2147483647;
+  vertical-align: middle;
 }
 
-.page-title p, .back-button, .next-wrapper {
+.back-button, .title-wrapper, .next-wrapper {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.page-title p { color: #16161A; }
 
 .back-button svg {
   padding: .5em .5em .5em .5em;
@@ -249,19 +288,12 @@ h1 {
 .next-button { text-align: right; }
 
   .next-wrapper p {
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
     padding-right: .4em;    
   }
 
-  .next-wrapper svg {
-    display:inline-block;
-    vertical-align:middle;
-    padding-bottom: .1em;
-  }
-
   .next-wrapper a:hover > p { color: #16161A; }
-  .next-wrapper a:hover > svg path { stroke: #16161A; }
 
   .next-wrapper a {
     text-decoration: none;
@@ -303,7 +335,7 @@ h1 {
 .credits {
   color: #16161A;
   background: #F2F2F7;
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 1.5em;
 }
 
@@ -378,3 +410,54 @@ h1 {
 .slide-btn:active {
   opacity: .5;  
 }
+
+
+/*//////////////////////////////////////////////////////
+  PASSWORD PROTECTION
+//////////////////////////////////////////////////////*/
+#contentFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#dialogWrap {    
+  position: relative;    
+}
+
+#mainDialog {
+    max-width: 100%;
+    margin: auto;  
+    position: relative;
+    top: 12em;
+}    
+
+#pass {
+    width: 24em;
+    height: 2.5em;
+    margin-bottom: 1em;
+
+    font-size: 1.125em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .5px solid;
+}
+
+input:focus { outline: none; }
+.notifyText { display: none; }
+
+#submitPass {                                   
+    float: right;
+    padding: 1em 1.25em;
+    background-color: #16161a;
+    border: none;
+    border-radius: .25em;                
+    cursor: pointer;
+}
+
+#submitPass h1 { color: white; }       
+.error { display: none; }
+
