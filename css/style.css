@@ -310,7 +310,7 @@ h1 {
   .side-nav li { list-style: none; }
   .side-nav li a { text-decoration: none; transition: all .1s ease-in-out; }
   .side-nav li a:hover { color: #16161A; text-decoration: underline; }
-  .side-nav li.active > a { color: #16161A; }
+  .side-nav li.active > a { color: #16161A; text-decoration: underline; }
 
 /*//////////////////////////////////////////////////////
   PROJECT CONTENT
@@ -349,7 +349,7 @@ h1 {
   vertical-align: top;
 }
 
-.censored-wrapper {
+/* .censored-wrapper {
   position: relative;
   text-align: center;
 }
@@ -379,7 +379,7 @@ h1 {
 .masonry-item img {
  display:block;
  width: 100%;
-}
+} */
 
 /*//////////////////////////////////////////////////////
   IMAGE SLIDER
