@@ -152,7 +152,7 @@ h1 {
     text-transform: uppercase;
   }
 
-  h2, h3, h4, p, a, .copy p a  {
+  h2, h3, h4, p, a, .copy p a, section p, p a  {
     color: #16161A;
     font-family: "CormorantGaramond-Regular";
     font-weight: normal;
@@ -176,18 +176,11 @@ h1 {
   }
 
   .content p { font-family: "CormorantGaramond-Italic"; }
+  .credits p, #projectFooter li a { font-family: "CormorantGaramond-Medium"; }
 
   a:hover, .copy p a:hover, 
   .copy a:hover, .links a:hover, #project-content p a:hover { 
     text-decoration: underline;
-  }
-
-  section p, p a {
-    font-family: "CormorantGaramond-Regular";
-  }
-
-  #projectFooter li a {
-    font-family: "CormorantGaramond-Medium";
   }
 
   a, svg, path {    
