@@ -102,7 +102,7 @@
 		}
 
 		li a, .credits p {
-			font-size: .9em;
+			font-size: 1.125em;
 			letter-spacing: .2px;
 			line-height: 2em;
 		}
@@ -121,7 +121,7 @@
 
 	#projectFooter li, .footer-links h1 { line-height: 2em; }
 	.link-wrapper { padding-bottom: 16em; }
-	.link-wrapper ul { margin-right: 6em; }
+	.work { margin-left: 4em; }
 }
 
 @media all and (min-width: 375px) {	
