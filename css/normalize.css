@@ -109,12 +109,9 @@
 
 	.page-title { padding-left: .5em; }
 	.side-nav, .footer-links h1 { display: none; }
-
 	.project-image { margin-top: 2em; }
-
-	.credits-wrapper {
-		margin-top: 6em;
-	}
+	.credits-wrapper { margin-top: 6em; }
+	.credits .content p { margin-top: 1em; }
 
 	#projectFooter {
 		margin-top: 6em;
@@ -140,7 +137,6 @@
 	  HOME
 	//////////////////////////////////////////////////////*/
 	.intro .copy { line-height: 1.5em; }	
-
 	.project-thumbnail { height: 20em; }
 
 		
@@ -151,9 +147,7 @@
 	#navBar .grid-3 { grid-template-columns: 5fr 7fr; }
 
 	.back-button { margin-left: .5em; }
-
 	.next-button { display: block; }
-
 	#project-content { margin-top: 6em; }	
 
 		h5 { font-size: 1.25em; }
@@ -214,7 +208,6 @@
 	}
 
 	#introWrapper { margin-bottom: 12em; }
-
 	.project-thumbnail { height: 14.5em; }
 
 	.col-1 {
