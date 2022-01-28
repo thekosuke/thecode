@@ -2,6 +2,8 @@
 	/*//////////////////////////////////////////////////////
 	  HOME
 	//////////////////////////////////////////////////////*/
+	#pass { width: 16em; }
+
 	.grid-1 {
 		grid-template-columns: 1fr;
 		padding: 0 1em 0 1em;		
@@ -110,8 +112,12 @@
 	.page-title { padding-left: .5em; }
 	.side-nav, .footer-links h1 { display: none; }
 	.project-image { margin-top: 2em; }
-	.credits-wrapper { margin-top: 6em; }
+	.credits-wrapper { margin-top: 6em; }	
 	.credits .content p { margin-top: 1em; }
+	.credits {		
+		border-radius: 12px;
+		padding: 1.25em;
+	}
 
 	#projectFooter {
 		margin-top: 6em;
@@ -122,6 +128,7 @@
 	#projectFooter li, .footer-links h1 { line-height: 2em; }
 	.link-wrapper { padding-bottom: 16em; }
 	.work { margin-left: 4em; }
+
 }
 
 @media all and (min-width: 375px) {	
@@ -136,6 +143,7 @@
 	/*//////////////////////////////////////////////////////
 	  HOME
 	//////////////////////////////////////////////////////*/
+	#pass { width: 20em; }
 	.intro .copy { line-height: 1.5em; }	
 	.project-thumbnail { height: 18em; }
 
@@ -165,8 +173,13 @@
 		.project-image  { 
 			margin-top: 3em; 
 			margin-bottom: 1.5em;
+		}		
+
+		.credits {					
+			border-radius: 16px;
+			padding: 1.5em;
+			margin-top: 5em;
 		}
-		.credits { margin-top: 5em; }
 
 	#projectFooter {
 			margin-top: 10em;
@@ -212,6 +225,9 @@
 	}
 
 	.text-wrapper p { margin-bottom: .3em; }
+
+	#pass { width: 24em; }
+	
 }
 
 @media all and (min-width: 1024px) {

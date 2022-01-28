@@ -327,8 +327,6 @@ h1 {
 .credits {
   color: #16161A;
   background: #F2F2F7;
-  border-radius: 16px;
-  padding: 1.5em;
 }
 
 
@@ -347,38 +345,6 @@ h1 {
   display: inline-block;
   vertical-align: top;
 }
-
-/* .censored-wrapper {
-  position: relative;
-  text-align: center;
-}
-.censored {
-  background: #FAFBFC;
-  filter: blur(15px);
-}
-
-.censored-wrapper p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.masonry-container {
- column-count: 4;
- column-gap: 1em;
-}
-
-.masonry-item {
- display: inline-block;
- width: 100%;
- margin-top: 1em;
-}
-
-.masonry-item img {
- display:block;
- width: 100%;
-} */
 
 /*//////////////////////////////////////////////////////
   IMAGE SLIDER
