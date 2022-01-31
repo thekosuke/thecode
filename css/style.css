@@ -351,6 +351,7 @@ h1 {
   border-color: transparent;
   font-size: 1.25em;
   color: #16161a;
+  cursor: pointer;
 }
 
 .slide-btn:active {
