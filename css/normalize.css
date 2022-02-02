@@ -61,7 +61,7 @@
 
 	.col-1 {
 		grid-template-columns: 2.5fr 9.5fr;
-		margin-bottom: 1.5em;
+		margin-bottom: .75em;
 	}
 
 	.text-wrapper p { margin-bottom: .75em; }
@@ -218,12 +218,7 @@
 
 	#introWrapper { margin-bottom: 12em; }
 	.project-thumbnail { height: 12em; }
-
-	.col-1 {
-		grid-template-columns: 1fr 11fr;
-		margin-bottom: 1.5em;
-	}
-
+	.col-1 { grid-template-columns: 1fr 11fr; }
 	.text-wrapper p { margin-bottom: .3em; }
 
 	#pass { width: 24em; }
