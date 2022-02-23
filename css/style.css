@@ -134,15 +134,27 @@ body {
 //////////////////////////////////////////////////////*/
 h1 {
     color: #16161A;
-    font-family: "CormorantGaramond-SemiBold";
+    font-family: "LFT-Etica-Reg";
     font-weight: normal;
     display: inline;
     text-transform: uppercase;
   }
 
-  h2, h3, h4, p, a, .copy p a, section p, p a  {
+  h2, h4 { 
     color: #16161A;
-    font-family: "CormorantGaramond-Regular";
+    font-family: "LFT-Etica-Light";
+    font-weight: normal;
+
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  h3, p, a, .copy p a, section p, p a  {
+    color: #555559;
+    font-family: "LFT-Etica-Light";
     font-weight: normal;
 
     -webkit-transition: .3s ease;
@@ -154,17 +166,20 @@ h1 {
 
   h5, .subtitle {
     color: #16161A;
-    font-family: "CormorantGaramond-SemiBold";
+    font-family: "LFT-Etica-Book";    
     font-weight: normal;
   }
 
   .links a { 
+    color: #16161A;
     text-transform: uppercase; 
     text-decoration: none;
   }
 
-  .content p { font-family: "CormorantGaramond-Italic"; }
-  #projectFooter li a { font-family: "CormorantGaramond-Medium"; }
+  .content p, #projectFooter li a { 
+    font-family: "LFT-Etica-Light"; 
+    font-weight: normal;
+  }
 
   a:hover, .copy p a:hover, 
   .copy a:hover, .links a:hover, #project-content p a:hover { 

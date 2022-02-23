@@ -1,6 +1,10 @@
+/*//////////////////////////////////////////////////////
+  LFT ETICA
+//////////////////////////////////////////////////////*/
+
 @font-face {
-	font-family: 'CormorantGaramond-Regular';
-	src: url('../fonts/CormorantGaramond-Regular.ttf');
+	font-family: 'LFT-Etica-Light';
+	src: url('../fonts/LFT_Etica_Light.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -10,8 +14,8 @@
 }
 
 @font-face {
-	font-family: 'CormorantGaramond-Italic';
-	src: url('../fonts/CormorantGaramond-Italic.ttf');
+	font-family: 'LFT-Etica-Book';
+	src: url('../fonts/LFT_Etica_Book.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -21,8 +25,8 @@
 }
 
 @font-face {
-	font-family: 'CormorantGaramond-Medium';
-	src: url('../fonts/CormorantGaramond-Medium.ttf');
+	font-family: 'LFT-Etica-Reg';
+	src: url('../fonts/LFT_Etica_Reg.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -32,8 +36,8 @@
 }
 
 @font-face {
-	font-family: 'CormorantGaramond-MediumItalic';
-	src: url('../fonts/CormorantGaramond-MediumItalic.ttf');
+	font-family: 'LFT-Etica-Semibold';
+	src: url('../fonts/LFT_Etica_Semibold.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -43,8 +47,8 @@
 }
 
 @font-face {
-	font-family: 'CormorantGaramond-SemiBold';
-	src: url('../fonts/CormorantGaramond-SemiBold.ttf');
+	font-family: 'LFT-Etica-Bold';
+	src: url('../fonts/LFT_Etica_Bold.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
