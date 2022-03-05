@@ -222,13 +222,8 @@ h1 {
     background-size: cover;
   }
 
-  .intern {
-    background-image: url("../img/intern.png");
-    background-size: cover;
-  }
-
-  .instaread {
-    background-image: url("../img/instaread.png");
+  .nikkei {
+    background-image: url("../img/nikkei.gif");
     background-size: cover;
   }
 
@@ -244,6 +239,16 @@ h1 {
 
   .bch {
     background-image: url("../img/bch.png");
+    background-size: cover;
+  }
+
+  .instaread {
+    background-image: url("../img/instaread.png");
+    background-size: cover;
+  }
+
+  .intern {
+    background-image: url("../img/intern.png");
     background-size: cover;
   }
 
@@ -422,4 +427,3 @@ input:focus { outline: none; }
 
 #submitPass h1 { color: white; }       
 .error { display: none; }
-
