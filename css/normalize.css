@@ -169,6 +169,8 @@
 
 		.page-title { padding-left: 0; }
 
+		#project-content p { font-size: 1.2em; }
+		#project-content .credits-wrapper .credits p, li a { font-size: 1.05em; }
 		li a, .credits p, #project-content .credits p {	line-height: 1.75em; }
 
 		.project-image  { 
@@ -222,11 +224,7 @@
 	.col-1 { grid-template-columns: 1fr 11fr; }
 	.text-wrapper p { margin-bottom: .3em; }
 
-	#pass { width: 24em; }
-	
-	#project-content p { font-size: 1.2em; }
-	#project-content .credits-wrapper .credits p { font-size: 1.05em; }
-
+	#pass { width: 24em; }	
 }
 
 @media all and (min-width: 1024px) {
