@@ -170,7 +170,7 @@
 		.page-title { padding-left: 0; }
 
 		li a, .credits p, #project-content .credits p {	line-height: 1.75em; }
-		
+
 		.project-image  { 
 			margin-top: 3em; 
 			margin-bottom: 1.5em;
@@ -224,6 +224,9 @@
 
 	#pass { width: 24em; }
 	
+	#project-content p { font-size: 1.2em; }
+	#project-content .credits-wrapper .credits p { font-size: 1.05em; }
+
 }
 
 @media all and (min-width: 1024px) {
