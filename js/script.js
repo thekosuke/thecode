@@ -32,11 +32,11 @@ $(document).ready(function() {
   			const id = entry.target.getAttribute("id");
   			if (entry.intersectionRatio > 0) {
   				document
-  					.querySelector(`.side-nav li li a[href="#${id}"]`)
+  					.querySelector(`.side-nav li a[href="#${id}"]`)
   					.parentElement.classList.add("active");
   			} else {
   				document
-  					.querySelector(`.side-nav li li a[href="#${id}"]`)
+  					.querySelector(`.side-nav li a[href="#${id}"]`)
   					.parentElement.classList.remove("active");
   			}
   		});

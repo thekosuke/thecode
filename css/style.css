@@ -317,7 +317,7 @@ h1 {
   }
   .side-nav li { list-style: none; }
   .side-nav li a { text-decoration: none; transition: all .1s ease-in-out; }
-  .side-nav li a:hover, .side-nav li.active > a { color: #16161A; text-decoration: underline; }
+  .side-nav li a:hover, .side-nav li a.active { color: #16161A; text-decoration: underline; }
 
 /*//////////////////////////////////////////////////////
   PROJECT CONTENT
