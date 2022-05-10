@@ -3,8 +3,8 @@
 //////////////////////////////////////////////////////*/
 
 @font-face {
-	font-family: 'LFT-Etica-Light';
-	src: url('../fonts/LFT_Etica_Light.otf');
+	font-family: 'Messina-Sans-Light';
+	src: url('../fonts/Messina-Sans-Light.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -14,8 +14,8 @@
 }
 
 @font-face {
-	font-family: 'LFT-Etica-Book';
-	src: url('../fonts/LFT_Etica_Book.otf');
+	font-family: 'Messina-Sans-Regular';
+	src: url('../fonts/Messina-Sans-Regular.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -25,30 +25,8 @@
 }
 
 @font-face {
-	font-family: 'LFT-Etica-Reg';
-	src: url('../fonts/LFT_Etica_Reg.otf');
-
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	   -moz-font-smoothing: antialiased;
-			-ms-font-smoothing: antialiased;
-			 -o-font-smoothing: antialiased;
-}
-
-@font-face {
-	font-family: 'LFT-Etica-Semibold';
-	src: url('../fonts/LFT_Etica_Semibold.otf');
-
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	   -moz-font-smoothing: antialiased;
-			-ms-font-smoothing: antialiased;
-			 -o-font-smoothing: antialiased;
-}
-
-@font-face {
-	font-family: 'LFT-Etica-Bold';
-	src: url('../fonts/LFT_Etica_Bold.otf');
+	font-family: 'Messina-Sans-Bold';
+	src: url('../fonts/Messina-Sans-Bold.otf');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
