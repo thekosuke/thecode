@@ -356,12 +356,12 @@ input:focus { outline: none; }
 
 #submitPass {                                   
   float: right;
-  padding: 1em 1.25em;
+  padding: .75em 1.25em;
   background-color: #16161a;
   border: none;
-  border-radius: .25em;                
+  border-radius: .5em;                
   cursor: pointer;
 }
 
-#submitPass h1 { color: white; }       
+#submitPass h1 { color: white; padding: 0; }       
 .error { display: none; }
