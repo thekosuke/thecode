@@ -1,228 +1,226 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global Site Tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-    
-            gtag('config', 'UA-106529015-1');
-        </script>
-    
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, portfolio, design, designer, graphic designer, experience designer, product designer, ux/ui, vancouver, canada">
-        <meta name="description" content="Kosuke Futsukaichi's design portfolio">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="robots" content="noodp">
+
+ 	<head>
+ 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-106529015-1');
+		</script>
+
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, thekosuke, portfolio, design, designer, experience designer, product designer">
+	    <meta name="description" content="Product designer in Vancouver, BC">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="robots" content="noodp">
+
+      <meta property="og:url" content="https://kosuke.ca/" />
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Kosuke"/>
+      <meta property="og:description" content="Product designer in Vancouver, BC"/>
+      <meta property="og:image" content="img/opengraph.png"/>
+
+	    <title>Kosuke</title>
+
+	    <link rel="icon" type="image/png" href="img/favicon.png">
+	    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
+
+	    <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/grid.css">
+      <link rel="stylesheet" href="css/normalize.css">
+
+      <script src="js/jquery-1.11.3.min.js"></script>
+	    <script src="js/script.js"></script>
+	</head>
+
+	<body>
+    <div id="container" class="grid-1">
+      <div class="col-1"><span></div>
+
+      <div class="col-2">
+      <!-- INTRO -->
+        <section id="introWrapper">
+
+          <h1>
+            Kosuke Futsukaichi &nbsp;&nbsp; /kō · skay/
+          </h1>  
+          <p>
+            Kosuke designs products and brands that communicate with people effectively. 
+            Currently helping companies improve their product as a contractor.
+          </p>
+
+        </section> <!-- END OF INTRO -->
+
+      <!-- PROJECTS -->
+        <section id="projectWrapper">
+
+          <h1>Work</h1>
         
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Kosuke"/>
-        <meta property="og:image" content="img/opengraph.png"/>
-        
-        <title>kosuke</title>
-    
-        <link rel="icon" type="image/png" href="img/favicon.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
-    
-        <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/normalize.css"> 
-        <style>      
-            html, body {
-                margin: 0;
-                width: 100%;
-                height: 100%;
-            }       
-        </style>
-    </head>
-  <body>
-    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
-    <div id="dialogWrap" class="grid-2">
-        <div><span></span></div>        
+          <div class="projectRow">
+            <a class="projectLink" href="/seven">
+              <div class="projectThumbnail seven"></div>
+              <div class="projectName">
+                <h1>Seven.me</h1>
+                <h2>Revamping a Health-Tech startup</h2>
+              </div>
+            </a>
+          </div>
 
-            <div id="mainDialog">
+          <div class="projectRow">
+            <a class="projectLink" href="/macro">
+              <div class="projectThumbnail macro"></div>
+              <div class="projectName">
+                <h1>Macro</h1>
+                <h2>Founding Design for a B2B software startup</h2>
+              </div>
+            </a>
+          </div>
 
-                <div id="dialogText"><h1>Enter password</h1></div>
+          <div class="projectRow">
+            <a class="projectLink" href="/contractor">
+              <div class="projectThumbnail contractor"></div>
+              <div class="projectName">
+                <h1>Design Contractor</h1>
+                <h2>Helping companies improve their product</h2>
+              </div>
+            </a>
+          </div>
 
-                <div id="passArea">
-                    <input id="pass" type="password" name="pass" autofocus>
-                    <div>
-                        <span id="messageWrapper">
-                            <span id="invalidPass" class="error">Maybe a typo? Please try again.</span>
-                            <span id="trycatcherror" class="error">Oops, something went wrong.</span>
-                            <span id="success" class="notifyText">Welcome.</span>
-                            &nbsp;
-                        </span>
-                        <button id="submitPass" type="button"><h1>Unlock</h1></button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-                
-                <div id="securecontext" class="error">
-                    <p>
-                        Sorry, but password protection only works over a secure connection. Please load this page via HTTPS.
-                    </p>
-                </div>
+          <div class="projectRow">
+            <a class="projectLink" href="/touchpoint">
+              <div class="projectThumbnail tp"></div>
+              <div class="projectName">
+                <h1>Touchpoint 2019</h1>
+                <h2>Visual identity for a design conference</h2>
+              </div>
+            </a>
+          </div>      
 
-                <div id="nocrypto" class="error">
-                    <p>
-                        Seems like your web browser is outdated. Please visit this page using a modern browser.
-                    </p>
-                </div>
+          <div class="projectRow">
+            <a class="projectLink" href="/italia">
+              <div class="projectThumbnail italia"></div>
+              <div class="projectName">
+                <h1>italiaDesign Field School</h1>
+                <h2>Interviewing Italian designers</h2>
+              </div>
+            </a>
+          </div>                  
 
+          <div class="projectRow">
+            <a class="projectLink" href="/logos">
+              <div class="projectThumbnail logos"></div>
+              <div class="projectName">
+                <h1>Logo Designs</h1>
+                <h2>Archive of logo work</h2>
+              </div>
+            </a>
+          </div>
+
+        </section> <!-- END OF PROJECTS -->
+
+
+      <!-- BIO -->
+        <section id="bioWrapper">
+            <h1>About Kosuke</h1>
+            <p>
+              Kosuke is a Japanese designer now living in Vancouver, Canada. 
+              He specializes in digital experiences and interfaces but would love to design anything.
+              <br><br>
+              Growing up, Kosuke was fascinated by new gadgets and how it gave people superpowers. 
+              This curiosity lead him to pursue a degree in design at Simon Fraser University. It was 
+              here that he learned not only about the design process but also developed a point of view 
+              on his design practice.              
+              <br><br>
+              Culturally, Kosuke is a product of the <a href="https://en.wikipedia.org/wiki/Kant%C5%8D_region" target="_blank">Kantō region of Japan</a>, 
+              Toronto, Arizona, and now Vancouver. Over time, these environments have produced 
+              a hybrid of Japanese sensibility and Hip-Hop audacity. Kosuke enjoys making 
+              with people, listening to people, and observing the world around him with an open mind. 
+              <br><br>
+              He now designs full-time and aspires to become a designer with a capital D.
+        </section> <!-- END OF BIO -->
+
+        <!-- TIMELINE -->
+        <section id="timelineWrapper">
+          <h1>Timeline</h1>
+
+          <div class="row">
+            <p>2014</p>
+            <p>Enrolled at Simon Fraser University to study Design</p>
+          </div> 
+
+          <div class="row">
+            <p>2015</p>
+            <p>First place for the Canon Canada Photography Award at SFU</p>
+          </div> 
+          
+          <div class="row">
+            <p>2016</p>
+            <p>First place for a spatial design competition held in Seattle</p>
+          </div> 
+          
+          <div class="row">
+            <p>2017</p>
+            <p>Won People’s Choice Award at the Vancouver UX Awards</p>
+          </div> 
+          
+          <div class="row">
+            <p>2018</p>
+            <div class="textWrapper">
+                <p>Started working as Design Contractor</p>
+                <p>Interviewed established designers for italiaDesign field school program</p>                                
+            </div>          
+          </div> 
+
+          <div class="row">
+            <p>2019</p>
+            <div class="textWrapper">
+                <p>Summer: Experience Design internship at R/GA Tokyo</p>
+                <p>Winter: UX/UI Design internship at Green Stone</p>
             </div>
+          </div> 
 
-        <div><span></span></div>
-    </div> 
-    <script>
-    (function() {
+          <div class="row">
+            <p>2020</p>
+            <div class="textWrapper">
+                <p>B.A. in Design at Simon Fraser University</p>
+                <p>Joined Macro as their first hire</p>
+            </div>
+          </div> 
 
-        var pl = "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";
-        
-        var submitPass = document.getElementById('submitPass');
-        var passEl = document.getElementById('pass');
-        var invalidPassEl = document.getElementById('invalidPass');
-        var trycatcherror = document.getElementById('trycatcherror');
-        var successEl = document.getElementById('success');
-        var contentFrame = document.getElementById('contentFrame');
-        
-        // Sanity checks
+          <div class="row">
+            <p>2021</p>
+            <p>Joined Seven.me as the third designer</p>
+          </div>   
 
-        if (pl === "") {
-            submitPass.disabled = true;
-            passEl.disabled = true;
-            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
-            return;
-        }
+        </section> <!-- END OF TIMELINE -->
 
-        if (!isSecureContext) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#securecontext").style.display = "block";
-            return;
-        }
+        <!-- CONTACT -->
+        <section id="contactWrapper">
+          <h1>Meet Me in the Browser</h1>
+          <p><a href="mailto:thekosuke@icloud.com">thekosuke@icloud.com</a></p>
+          <p><a href="https://www.linkedin.com/in/kosukef/" target="_blank">LinkedIn</a></p>          
+          <p><a href="https://calendly.com/thekosuke" target="_blank">Calendly</a></p>
+          <p><a href="https://read.cv/kosuke" target="_blank">Read.cv</a></p>
+          <p><a href="https://vsco.co/thekosuke" target="_blank">VSCO</a></p>
+        </section> <!-- END OF CONTACT -->
 
-        if (!crypto.subtle) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#nocrypto").style.display = "block";
-            return;
-        }
-        
-        function str2ab(str) {
-            var ustr = atob(str);
-            var buf = new ArrayBuffer(ustr.length);
-            var bufView = new Uint8Array(buf);
-            for (var i=0, strLen=ustr.length; i < strLen; i++) {
-                bufView[i] = ustr.charCodeAt(i);
-            }
-            return bufView;
-        }
+      <!-- FOOTER -->
+        <section id="footerWrapper">
+          <p class="quote">Words give shape to thoughts and ideas.</p>
+        </section>
 
-        async function deriveKey(salt, password) {
-            const encoder = new TextEncoder()
-            const baseKey = await crypto.subtle.importKey(
-                'raw',
-                encoder.encode(password),
-                'PBKDF2',
-                false,
-                ['deriveKey'],
-            )
-            return await crypto.subtle.deriveKey(
-                { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
-                baseKey,
-                { name: 'AES-GCM', length: 256 },
-                true,
-                ['decrypt'],
-            )
-        }
-        
-        async function doSubmit(evt) {
-            submitPass.disabled = true;
-            passEl.disabled = true;
+      </div>
 
-            let iv, ciphertext, key;
-            
-            try {
-                var unencodedPl = str2ab(pl);
+      <div class="col-3"><span></div>
 
-                const salt = unencodedPl.slice(0, 32)
-                iv = unencodedPl.slice(32, 32 + 16)
-                ciphertext = unencodedPl.slice(32 + 16)
+    </div> <!-- END OF CONTAINER -->
 
-                key = await deriveKey(salt, passEl.value);
-            } catch (e) {
-                trycatcherror.style.display = "inline";
-                console.error(e);
-                return;
-            }
-
-            try {
-                const decryptedArray = new Uint8Array(
-                    await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
-                );
-
-                let decrypted = new TextDecoder().decode(decryptedArray);
-
-                if (decrypted === "") throw "No data returned";
-
-                const basestr = '<base href="." target="_top">';
-                const anchorfixstr = `
-                    <script>
-                        Array.from(document.links).forEach((anchor) => {
-                            const href = anchor.getAttribute("href");
-                            if (href.startsWith("#")) {
-                                anchor.addEventListener("click", function(e) {
-                                    e.preventDefault();
-                                    const targetId = this.getAttribute("href").substring(1);
-                                    const targetEl = document.getElementById(targetId);
-                                    targetEl.scrollIntoView();
-                                });
-                            }
-                        });
-                    <\/script>
-                `;
-                
-                // Set default iframe link targets to _top so all links break out of the iframe
-                if (decrypted.includes("<head>")) decrypted = decrypted.replace("<head>", "<head>" + basestr);
-                else if (decrypted.includes("<!DOCTYPE html>")) decrypted = decrypted.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + basestr);
-                else decrypted = basestr + decrypted;
-
-                // Fix fragment links
-                if (decrypted.includes("</body>")) decrypted = decrypted.replace("</body>", anchorfixstr + '</body>');
-                else if (decrypted.includes("</html>")) decrypted = decrypted.replace("</html>", anchorfixstr + '</html>');
-                else decrypted = decrypted + anchorfixstr;
-                
-                contentFrame.srcdoc = decrypted;
-                
-                successEl.style.display = "inline";
-                setTimeout(function() {
-                    dialogWrap.style.display = "none";
-                }, 1000);
-            } catch (e) {
-                invalidPassEl.style.display = "inline";
-                passEl.value = "";
-                submitPass.disabled = false;
-                passEl.disabled = false;
-                console.error(e);
-                return;
-            }
-        }
-        
-        submitPass.onclick = doSubmit;
-        passEl.onkeypress = function(e){
-            if (!e) e = window.event;
-            var keyCode = e.keyCode || e.which;
-            invalidPassEl.style.display = "none";
-            if (keyCode == '13'){
-              // Enter pressed
-              doSubmit();
-              return false;
-            }
-        }
-    })();
-    </script>
   </body>
 </html>
