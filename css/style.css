@@ -96,7 +96,11 @@ h1 {
   max-height: 100%;
 }
 
-.projectThumbnail { background: #FFFFFF; }
+.projectThumbnail { 
+  background: #FFFFFF; 
+  border: 1px solid #F2F2F5;
+  box-shadow: 0px 3px 7px rgba(22, 22, 26, 0.16);
+}
 
   .seven {
     background-image: url("../img/seven.svg");
@@ -365,3 +369,82 @@ input:focus { outline: none; }
 
 #submitPass h1 { color: white; padding: 0; }       
 .error { display: none; }
+
+
+/*//////////////////////////////////////////////////////
+  DARK THEME
+//////////////////////////////////////////////////////*/
+@media (prefers-color-scheme: dark) {
+	body { background: #16161A; }
+	h1, .page-title p { color: #FAFBFC; }
+  h2, p { color: #939599; }
+  p a { color: #FE001A; }
+
+  #projectFooter li a {
+    color: #939599;
+    font-family: "Messina-Sans-Light";
+  }
+
+  .nav li a { color: #939599; }
+  li a { color: #FE001A; }
+  a.projectLink { text-decoration: none; }
+  .projectLink:hover { background: #1F1F24; }
+
+  .projectThumbnail {	
+    background: #16161A;
+		border: 1px solid #202026;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+	}
+
+  .seven {
+    background-image: url("../img/seven_dark.svg");
+    background-size: 50%;
+  }
+
+  .macro {
+    background-image: url("../img/macro_dark.svg");
+    background-size: 50%;
+  }
+
+  .contractor {
+    background-image: url("../img/contractor_dark.svg");
+    background-size: 50%;
+  }
+
+  .tp {
+    background-image: url("../img/tp_dark.svg");
+    background-size: 60%;
+  }
+
+  .italia {
+    background-image: url("../img/italia_dark.svg");
+    background-size: 60%;
+  }
+
+  .logos {
+    background-image: url("../img/logos_dark.svg");
+    background-size: 50%;
+  }
+
+  #navBar {    
+    background: #16161A;
+    border: 1px solid #202026;
+  }
+  
+  .back-button svg:hover { background: #1F1F24; }
+  .back-button svg:hover > path { fill: #FAFBFC; }
+  
+  
+  .next-wrapper a:hover > p { color: #FAFBFC; }
+  .next-wrapper a:hover > svg path { stroke: #FAFBFC; }
+
+  .next-wrapper a:hover {
+    color: #FAFBFC;
+    background: #16161A;
+  }
+
+  #projectFooter { background: #000000; }
+
+  #submitPass { background-color: #FAFBFC; }
+  #submitPass h1 { color: #16161A; padding: 0; }      
+}
