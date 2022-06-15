@@ -9,7 +9,7 @@ window.onbeforeunload = function () {
     REMOVE # FROM URL
 **************************************************/
 $(document).ready(function() {
-  const menuBtn = $('.side-nav li a');
+  const menuBtn = $('.sideNav li a');
 
   menuBtn.click(()=>{
     setTimeout(()=>{
