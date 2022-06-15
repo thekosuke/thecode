@@ -84,51 +84,49 @@
           </nav>
 
           <div class="bodyWrapper">
-            <section id="section1">                   
-                <h3>Background</h3>
-                <p>
-                  <a href="https://www.remotion.com/" target="_blank">Remotion</a> is a virtual office that makes room for casual conversations with coworking and shared music. 
-                  It is a macOS app that lets you pin your teammates to the dock to have background awareness of what 
-                  people are up to. 
-                  <br><br>
-                  I was brought in as a product designer in the Core Experience team to improve the experience around 
-                  <a href="https://www.remotion.com/blog/product-updates-coworking-rooms" target="_blank">coworking with music</a>. 
-                  The purpose of coworking with music is to foster a low stress atmosphere in which teams 
-                  are able to work alongside each other in a common room. A good music experience in coworking 
-                  rooms should “just work”, though people were confused about some of the UI and its behaviors 
-                  when they were coworking in a Remotion Room.
-                </p>   
+            <section id="section1"> 
+              <div class="projectImage banner">
+                <img src="img/work/remotion/remotion-1.png">
+              </div>  
 
-                <div class="context grid-4">
-                  <div>
-                    <h1>Role</h1>
-                    <p>Product Designer</p> 
-                  </div>
-                  <div>
-                    <h1>Timeline</h1>
-                    <p>May 2022 - Present</p> 
-                  </div>
-                  <div>
-                    <h1>Deliverables</h1>
-                    <p>macOS app</p>   
-                  </div>                                                                                                 
-                </div>       
+              <h3>Background</h3>
+              <p>
+                <a href="https://www.remotion.com/" target="_blank">Remotion</a> is a virtual office that makes room for casual conversations with coworking and shared music. 
+                It is a macOS app that lets you pin your teammates to the dock to have background awareness of what 
+                people are up to. 
+                <br><br>
+                I was brought in as a product designer in the Core Experience team to improve the experience around 
+                <a href="https://www.remotion.com/blog/product-updates-coworking-rooms" target="_blank">coworking with music</a>. 
+                The purpose of coworking with music is to foster a low stress atmosphere in which teams 
+                are able to work alongside each other in a common room. A good music experience in coworking 
+                rooms should “just work”, though people were confused about some of the UI and its behaviors 
+                when they were coworking in a Remotion Room.
+              </p>   
 
-                <div class="projectImage">
-                  <img src="img/work/remotion/remotion-1.png">
-                </div>                                
+              <div class="context grid-4">
+                <div>
+                  <h1>Role</h1>
+                  <p>Product Designer</p> 
+                </div>
+                <div>
+                  <h1>Timeline</h1>
+                  <p>May 2022 - Present</p> 
+                </div>
+                <div>
+                  <h1>Deliverables</h1>
+                  <p>macOS app</p>   
+                </div>                                                                                                 
+              </div>                        
             </section>     
                         
             <section id="section2">
               <h3>Music Ducking</h3>
               <p>
                 In Remotion, Rooms are where teams come together to regularly work side-by-side with music playing 
-                in the background. 
-                <br><br>
-                When someone starts talking in a Room, Remotion automatically lowers the music volume so people can 
-                hear each other talk — we referred to this feature as "Ducking". During ducking, volume 
-                control was disabled to avoid users from increasing the music volume and create echoes when their 
-                mic is on.
+                in the background. When someone starts talking in a Room, Remotion automatically lowers the music 
+                volume so people can hear each other talk — we referred to this feature as "Ducking". During ducking, 
+                volume control was disabled to avoid users from increasing the music volume and create echoes when 
+                their mic is on.
               </p>    
 
               <div class="projectImage">
@@ -163,9 +161,9 @@
               <p>
                 The following were common behaviors that users wanted to take when music is being ducked: 
                 <br><br>
-                1. User’s mic is on so the music is extremely low; the user wants to increase it.<br>
-                2. User’s mic is on and the user wants to mute the music <br>
-                3. Someone else is talking, music is still too loud or distracting and they want to either mute or lower the volume
+                1. User’s mic is on so the music is extremely low; the user wants to increase the music volume.<br>
+                2. User’s mic is on and the user wants to mute the music volume.<br>
+                3. Someone else is talking, music is still too loud or distracting and they want to either mute or lower the music volume.
                 <br><br>
                 In these scenarios, we wanted to avoid having users turn the music louder unless they muted 
                 themselves to prevent echo. We also wanted to let users know when music is ducking so they 
@@ -179,7 +177,7 @@
               <h1>Exploration</h1>
               <p>
                 At the top-level, the goal was to find a way to simply communicate the concept of ducking 
-                while indicating when music is being ducked.
+                so users can take an informed action — this was the impetus of the design exploration.
               </p>
 
               <div class="projectImage">
@@ -188,11 +186,11 @@
               </div>
 
               <p>
-                One concept was to include two volume sliders, one for the master volume and another 
+                An early concept was to include two volume sliders, one for the master volume and another 
                 for the ducking strength. Though I decided not to pursue this direction because it created 
                 more questions for users who don't fully understand the feature.
                 <br><br>
-                Another idea was to automatically lower the volume slider but override the ducked volume 
+                Another idea was to still automatically lower the volume slider but override the ducked volume 
                 when the user chooses to adjust the volume in any direction. The issue here was that we 
                 would be dismissing the concept of ducking when the user increases their music volume. We 
                 duck music to optimize for a better experience and this iteration defeated this purpose. 
@@ -201,7 +199,7 @@
                 <br><br>
                 Lastly, I wanted to introduce two toggles in a single slider — one for the ducked music 
                 volume and one for the voice volume. This UI enabled users to have control over both volumes 
-                while differentiating them using colors and icons. We didn't pursue this design due to the 
+                while visually differentiating them. We didn't pursue this design due to the 
                 added complexity and it went against the philosophy of music in Remotion. It should “just work” 
                 so users don’t have to worry about the underlying complexity.
               </p>    
@@ -210,8 +208,13 @@
               <p>
                 Ultimately, I landed with a UI with an animated display of ducking to better reflect what 
                 is happening. Instead of showing a single volume slider moving back and forth, I proposed 
-                to separate the ducking volume and have it appear to visually reflect the progress from 
-                not-ducked to fully ducked.
+                to visually separate the ducking volume by conveying that it is a portion of the master 
+                volume. The animation helped users understand what is happening by showing the progress 
+                from not-ducked to fully ducked.
+                <br><br>
+                The ducked volume is changed to a set percentage of the master volume, so when users adjust 
+                the master volume, the ducked volume will always be x% of the master volume. This way users 
+                don't have to worry about changing the ducking volume and simply control one volume slider. 
               </p>                           
               <div class="projectImage">
                 <video preload="metadata" autoplay muted loop>
@@ -219,11 +222,12 @@
                 </video>
                 <p class="caption"><i>Musick Ducking Transition</i></p>
               </div>
-              <p>
-                The ducked volume is changed to a set percentage of the master volume, so when users adjust 
-                the master volume, the ducked volume will always be x% of the master volume. This way users 
-                don't have to worry about changing the ducking volume and simply control one volume slider.
-                Green was used as an indication to reflect the positive spirit of optimizing for a better experience.
+              <p>                              
+                We initially wanted to guide users to have the best experience by suggesting to turn off 
+                their mic if they wish to raise their music volume, but we chose to strip this out for 
+                simplicity sake. It required us to increase the size of the popover, which created an 
+                undesirable transition when going from not-ducked to fully ducked. Green was used as an 
+                indication to reflect the positive spirit of optimizing for a better experience.
               </p>  
             </section>
 

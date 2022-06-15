@@ -210,6 +210,10 @@ h1, h3 {
   transition: .3s ease;
 }
 
+.projectImage.banner {
+  margin-top: 0;
+}
+
 #projectFooter {
   background: #16161A;
   max-width: 100%;
