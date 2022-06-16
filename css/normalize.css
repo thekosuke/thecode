@@ -61,7 +61,7 @@
 	/* NAV BAR */
 	.grid-2 { grid-template-columns: .75fr 10.5fr .75fr; }
 	.grid-3 { grid-template-columns: 1fr; }
-	#navBar.grid-2 { grid-gap: .5rem; }
+	#navBar.grid-2 { grid-gap: .5rem; padding-left: .5rem;}
 
 	.back-button { margin-top: .15rem; }
 	.next-button { display: none; }
@@ -112,8 +112,8 @@
 
 	/* FOOTER */
 	#projectFooter {
-		margin-top: 6rem;
-		padding: 2rem 0 1rem 0;
+		margin-top: 4rem;
+		padding: 2rem 1.5rem 16rem 1.5rem;
 	}
 
 	#projectFooter .col-1 { display: none; }
@@ -178,7 +178,7 @@
 	.grid-2 { grid-template-columns: 1.5fr 9fr 1.5fr; }
 	#navBar .grid-3 { grid-template-columns: 5fr 7fr; }
 	
-	#navBar.grid-2 { grid-gap: 0; }
+	#navBar.grid-2 { grid-gap: 0; padding-left: 0; }
 	.back-button { margin-left: .5rem; }
 	.next-button { display: block; }
 
@@ -190,9 +190,7 @@
 			margin-top: 10em;
 			padding-top: 3em;
 			padding-bottom: 20em;
-		}
-
-		#projectFooter .col-1 { display: block; }
+		}		
 
 		#projectFooter li, .footer-links h1 {
 			line-height: 2em;
@@ -247,6 +245,9 @@
 	
 	.sideNav { top: 8rem; }
 	.bodyWrapper { margin-top: 8rem; }
+
+	#projectFooter { padding: 2rem 0rem 24rem 0rem; }
+	#projectFooter .col-1 { display: block; padding-left: 1.5rem; }
 }
 
 @media all and (min-width: 1280px) {
@@ -261,5 +262,5 @@
 }
 
 @media all and (min-width: 1680px) {
-	.grid-2 { grid-template-columns: 3fr 9fr; }
+	.grid-2 { grid-template-columns: 2.5fr 7fr 2.5fr; }
 }
