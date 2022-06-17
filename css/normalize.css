@@ -253,7 +253,7 @@
 @media all and (min-width: 1280px) {
 	.grid-1 { grid-template-columns: 3fr 6fr 3fr; }
 
-	.grid-2 { grid-template-columns: 2fr 8fr 2fr; }
+	.grid-2 { grid-template-columns: 1.5fr 8fr 2.5fr; }
 	.grid-3 { grid-template-columns: 2.5fr 9.5fr; }
 }
 
@@ -262,5 +262,5 @@
 }
 
 @media all and (min-width: 1680px) {
-	.grid-2 { grid-template-columns: 2.5fr 7fr 2.5fr; }
+	.grid-2 { grid-template-columns: 2fr 7fr 3fr; }
 }

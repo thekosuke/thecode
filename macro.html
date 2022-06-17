@@ -77,10 +77,10 @@
           <nav class="sideNav">
             <ul>
                 <li><a href="#section1">Background</a></li>
-                <li><a href="#section2">Checklist</a></li>
-                <li><a href="#section3">Tracking</a></li>
-                <li><a href="#section4">Tables</a></li>
-                <li><a href="#section5">Inbox</a></li>
+                <li><a href="#section2">Problem</a></li>
+                <li><a href="#section3">Solution</a></li>
+                <li><a href="#section4">Tracking Processes</a></li>
+                <li><a href="#section5">Assigning Work</a></li>
                 <li><a href="#section6">Design System</a></li>
             </ul>
           </nav>
@@ -94,16 +94,16 @@
               <h3>Background</h3>
               <p>
                 In April 2020, I joined <a href="https://www.producthunt.com/products/macro-3#macro-3" target="_blank">Macro</a> 
-                as their first employee. As the founding designer at a B2B SaaS 
-                startup, I generated design solutions that are practical, scalable, and intentional.
+                as employee #1. As the first designer at a B2B SaaS startup, I generated design solutions 
+                that are practical, scalable, and intentional.
                 <br><br>
                 Macro is a process management tool for teams to design and deploy custom operational processes 
                 without writing code. The challenge was to enable teams to do so in a simple, custom, and 
                 comprehensive way. 
                 <br><br>
-                I worked directly with the co-founders to develop the product from zero to one. I conducted 
-                user interviews, identified problems, explored countless iterations, and collaborated with 
-                engineers to turn my designs into a usable app.
+                I worked directly with the co-founders to develop the product from zero to one. Throughout 
+                my time, I conducted user interviews, identified problems, explored countless iterations of 
+                Macro, and collaborated with engineers to turn my designs into a usable app.
               </p>  
 
               <div class="context grid-4">
@@ -123,97 +123,139 @@
             </section>     
                         
             <section id="section2">
-              <h3>Checklist</h3>
+              <h3>Problem</h3>
               <p>
-                Full case study coming soon...
+                There are tools out there that help you automate workflows (e.g. Zapier), but not all work 
+                can be fully automated. Most work still requires human involvement, yet companies today 
+                don’t have a solution for human-in-the-loop processes. Many teams used static 
+                documents that lived on tools like Google Docs, Notion or Asana that didn’t give them 
+                the ability to document, assign, track, and automate common actions in a single context. 
+                <br><br>
+                With Macro, Operations teams can create, run and track custom workflows in a single context. 
+                Workflows are visualized in a dynamic two-pane checklist UI that provides a simple view of 
+                their work while enabling them to complete tasks that involve people and a suite of third-party apps.                               
               </p>    
 
               <div class="projectImage">
                 <img src="img/work/macro/macro-2.png">
-                <p class="caption"><i>Checklist Editor</i></p>
-              </div>                                
-
-              <!-- <h1>Problem</h1>
-              <p>
-                The opinion with Macro was that people should build checklists as a way to represent their workflow. Using this checklist template, users can distribute and run repetitive workflows to reduce human error. A Macro checklist consists of a variety of task types (e.g. Gmail, forms, file upload) that users can configure to bring commonly used apps and tasks into a single checklist that employees can execute.
-                <br><br>
-                It was key for us to design an Editor that enabled users to easily represent their workflows while exposing customization features to convey the power of a Macro checklist. I studied and borrowed from various editors such as Notion, Coda, Zapier, and Typeform to deliver what I believed to be the most intuitive user experience.                            
-                <br><br>
-                After receiving user feedback for the Editor, I began to speculate the assumptions we made with the two-pane layout. This was informed by the fact that many users missed or misunderstood the automation and variables feature (two prominent features in Macro) and also wished to bundle a set of tasks based on its stage in the process. This lead me to believe that users should edit their checklists in a single-pane document since the existing paradigm was not effectively promoting what makes a Macro checklist powerful. I proposed a single-pane Editor that addressed these problems, but was not built due to various factors. I'm happy to walk through the proposal over a call.
-              </p>     -->
-
-              <div class="projectImage">
-                <img src="img/work/macro/macro-3.png">
-                <p class="caption"><i>Checklist Preview</i></p>
-              </div> 
-              
-              <div class="projectImage">
-                <img src="img/work/macro/macro-4.png">
-                <p class="caption"><i>Checklist Runner</i></p>
-              </div> 
+                <p class="caption"><i>Checklist Runner - A Shared Checklist for Employees to Complete</i></p>
+              </div>  
             </section>
 
             <section id="section3">
-              <h3>Tracking</h3>
-              <!-- <p>
-                The Inbox was one of the biggest design challenges during my time at Macro. This was because Macro supported two types of task assignments: a single task and a checklist run (or a distributed checklist). The underlying tension was the difference in user experience for a manager vs. a member. A member could be assigned a set of tasks inside a checklist, but a manager or a team lead might be responsible for completing the checklist itself.
+              <h3>Solution</h3>
+              <p>                                
+                The left pane allowed teams to build their workflows in a checklist like they would in the 
+                documentation tools they’re familiar with. These tasks consist of a variety of task types 
+                (e.g. completing forms, uploading files, sending a templated email) that users configure on 
+                the right pane to combine commonly used apps and human tasks into a single place.         
                 <br><br>
-                With these constraints, it was necessary for the UI to clearly communicate this difference while allowing users to easily view the work they are responsible for. The Inbox is a place where members come to see what they need to worry about, so it had to be designed in a way that required minimum thinking for members to make sense of their work.
+                The main challenge that I continued to face was keeping the checklist clean and simple while 
+                adding features that enabled collaboration and deeper customizations. We didn’t want the UI 
+                to be overwhelming and feel heavy for teams to get started.  
+              </p>  
+
+              <div class="projectImage">
+                <img src="img/work/macro/macro-3.png">
+                <p class="caption"><i>Checklist Editor - Where Teams Build Their Workflows</i></p>
+              </div> 
+
+              <p>                      
+                In response, I established a rule to keep checklist-level information on the left pane and 
+                task-level information on the right pane. The tabs on the right pane gave people space for 
+                further configurations, but I didn’t want to hide automations under a tab since they were 
+                an integral part of Macro. This led me to surface automation below each task to indicate 
+                what happens after completing a particular task, while showcasing the power of Macro.        
                 <br><br>
-                The solution here was ultimately to bundle all the tasks inside its respected checklist run and only show members the tasks they are responsible for. We created a section at the top of the Inbox to show single tasks that are not part of a checklist template. For these independent tasks, users can view and complete them without having to leave their Inbox.
-              </p>    -->
+                At the task-level, regular tasks had to be visually and functionally distinguished from 
+                third-party integrations. This was for usability reasons but also considering the 
+                scalability of the UI. Macro integrated with a suite of third-party apps to support 
+                various use cases, so it was important for the UI to be flexible.                                
+              </p>  
+              
+              <div class="projectImage">
+                <img src="img/work/macro/macro-4.png">
+                <p class="caption"><i>Checklist Preview - A Comprehensive View of Their Workflow</i></p>
+              </div> 
+            </section>
+
+            <section id="section4">
+              <h3>Tracking Processes</h3>
+              <p>
+                With Macro being a process management tool, it was obvious that teams needed a way to 
+                keep track of their processes. The challenge here was deciding where this view belongs 
+                and the best way to help teams track progress at a glance.
+                <br><br>
+                I explored a version where people can track all of their checklists in a single view, 
+                but this quickly became overloaded since teams would have numerous runs (a deployed 
+                checklist) for the same checklist. I ultimately chose to make the view accessible from 
+                the Checklist Preview so teams can track all the runs by checklist, which was separated 
+                by tabs in order of relevancy. Another iteration took shape in a collapsible accordion 
+                instead of tabs but this hid the other categories beneath the scroll which made it 
+                difficult to access the information when needed.
+              </p>   
 
               <div class="projectImage">
                 <img src="img/work/macro/macro-5.png">
                 <p class="caption"><i>Track Processes</i></p>
               </div> 
-            </section>
 
-            <section id="section4">
-              <h3>Tables</h3>
-              <!-- <p>
-                The Inbox was one of the biggest design challenges during my time at Macro. This was because Macro supported two types of task assignments: a single task and a checklist run (or a distributed checklist). The underlying tension was the difference in user experience for a manager vs. a member. A member could be assigned a set of tasks inside a checklist, but a manager or a team lead might be responsible for completing the checklist itself.
-                <br><br>
-                With these constraints, it was necessary for the UI to clearly communicate this difference while allowing users to easily view the work they are responsible for. The Inbox is a place where members come to see what they need to worry about, so it had to be designed in a way that required minimum thinking for members to make sense of their work.
-                <br><br>
-                The solution here was ultimately to bundle all the tasks inside its respected checklist run and only show members the tasks they are responsible for. We created a section at the top of the Inbox to show single tasks that are not part of a checklist template. For these independent tasks, users can view and complete them without having to leave their Inbox.
-              </p>    -->
-
-              <div class="projectImage">
-                <img src="img/work/macro/macro-6.png">
-                <p class="caption"><i>Take Actions Based on a Record</i></p>
-              </div> 
+              <p>                                                
+                Within each run, there were a set of tasks that needed to be tracked. After talking 
+                to our users, I learned that knowing which specific task a team member is on isn’t 
+                as important as the actual progress and the directly responsible individual. Thus I 
+                included a progress bar for each run, along with the most helpful information in each 
+                column for teams to manage their work.
+              </p>   
             </section>
 
             <section id="section5">
-              <h3>Inbox</h3>
-              <!-- <p>
-                The Inbox was one of the biggest design challenges during my time at Macro. This was because Macro supported two types of task assignments: a single task and a checklist run (or a distributed checklist). The underlying tension was the difference in user experience for a manager vs. a member. A member could be assigned a set of tasks inside a checklist, but a manager or a team lead might be responsible for completing the checklist itself.
+              <h3>Assigning Work</h3>
+              <p>
+                The Inbox was one of the biggest design challenges for Macro. Macro supported two types 
+                of task assignments: a single task and a checklist run. The underlying tension was 
+                the difference in user experience for a manager vs. a member. A member could be assigned 
+                a set of tasks inside a checklist, but a manager or a team lead might be responsible 
+                for completing the entire checklist.
                 <br><br>
-                With these constraints, it was necessary for the UI to clearly communicate this difference while allowing users to easily view the work they are responsible for. The Inbox is a place where members come to see what they need to worry about, so it had to be designed in a way that required minimum thinking for members to make sense of their work.
-                <br><br>
-                The solution here was ultimately to bundle all the tasks inside its respected checklist run and only show members the tasks they are responsible for. We created a section at the top of the Inbox to show single tasks that are not part of a checklist template. For these independent tasks, users can view and complete them without having to leave their Inbox.
-              </p>    -->
+                With these factors, it was important to clearly distinguish a checklist from a task 
+                while allowing users to easily view the work they're responsible for. 
+                The Inbox is a place where members come to see what they need to worry about, so 
+                it had to be designed in a way that required minimum thinking for members to make 
+                sense of their work.                                
+              </p>   
 
               <div class="projectImage">
-                <img src="img/work/macro/macro-7.png">
+                <img src="img/work/macro/macro-6.png">
                 <p class="caption"><i>All Your Tasks in a Single View</i></p>
               </div> 
+
+              <p>
+                The solution here was ultimately to bundle all the tasks inside its respected checklist 
+                run and only show members the tasks they are responsible for. If they wish to get a holistic 
+                view of the checklist run, they can always click into the checklist. We created a section at 
+                the top of the Inbox to show ad-hoc tasks that are not part of a checklist. For these 
+                independent tasks, users can view and complete them without having to leave their Inbox.                            
+              </p>   
             </section>
 
             <section id="section6">
               <h3>Design System</h3>
-              <!-- <p>
-                As rough product concepts began to take shape, it was vital for Macro to implement a <a href="https://www.figma.com/file/YEgsLAVvz4FRzqJDLrTnxi/Design-System-2.1.0?node-id=1100%3A0" target="_blank">design system</a> that helped the team design and build features quickly. This was for my own sanity as the sole designer, but also to enable the engineering team to efficiently ship features while refining the UX/UI as we learn more about the product.
+              <p>
+                As product concepts began to take shape, it was vital for Macro to implement a 
+                <a href="https://www.figma.com/file/YEgsLAVvz4FRzqJDLrTnxi/Design-System-2.1.0?node-id=1100%3A0" target="_blank">design system</a> 
+                that helped the team design and build features quickly. This was for my own process as 
+                the sole designer, but also to help engineers ship features efficiently while 
+                refining the product over time.
                 <br><br>
-                As an early-stage B2B software, Macro was committed to designing and building the product in a scalable and flexible way. This meant that the components had to be reusable in various screens to reduce engineering effort while saving space for future features. As the one designing this system, I always considered these two points while foreseeing how the product will evolve over time.
-                <br><br>
-                I meticulously handpicked the color palette according to my own taste. Design is not art, but it’s also not science. I do my best to preserve my craft in opportunities like these. The main considerations I made when choosing each hue was contrast for accessibility purposes, how they fit inside different components, and what they will convey within the product.
-                <br><br>
-                Heebo was the initial typeface when I first designed the UI, but after implementation, I found the typeface to be difficult to read in font-size: 12; font-weight: 500. This lead me to convince the team to switch the typeface to Inter, which was designed to be legible and readable in font-size: 11. With Heebo being a more condensed typeface, the product felt strict and rigid while Inter’s width and roundness brought a more gentle feel to the interface. Its variety in font-weight helped me create better contrast and hierarchy within the design system.
-              </p>    -->
+                I was committed to designing the product in a scalable and flexible way. This meant creating 
+                reusable components to reduce engineering cost when building new screens. As the one 
+                designing this system, I considered these two points while foreseeing how the product 
+                will evolve over time.
+              </p>   
 
               <div class="projectImage slide-wrapper">
+                <img class="slide" src="img/work/macro/macro-7.png">
                 <img class="slide" src="img/work/macro/macro-8.png">
                 <img class="slide" src="img/work/macro/macro-9.png">
                 <img class="slide" src="img/work/macro/macro-10.png">
@@ -226,10 +268,6 @@
                   <button class="slide-btn prev" onclick="plusDivs(-1)">←</button>
                   <button class="slide-btn next" onclick="plusDivs(1)">→</button>
                 </div>
-              </div>
-              <div class="projectImage">
-                <img src="img/work/macro/macro-14.png">
-                <p class="caption"><i>Custom Iconography</i></p>
               </div>
             </section>
               
