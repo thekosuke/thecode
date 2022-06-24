@@ -214,7 +214,7 @@ h1, h3 {
 .projectImage video { cursor: default; }
 .projectImage.banner { margin-top: 0; }
 .projectImage.banner img { cursor: default; }
-#archive.projectImage { cursor: default; }
+#archive.projectImage img { cursor: default; }
 
 
 #projectFooter {
