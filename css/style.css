@@ -117,8 +117,8 @@ h1, h3 {
     background-size: 60%;
   }
 
-  .tp {
-    background-image: url("../img/tp.svg");
+  .otter {
+    background-image: url("../img/otter.svg");
     background-size: 60%;
   }
 
@@ -481,8 +481,8 @@ input:focus { outline: none; }
     background-size: 60%;
   }
 
-  .tp {
-    background-image: url("../img/tp_dark.svg");
+  .otter {
+    background-image: url("../img/otter_dark.svg");
     background-size: 60%;
   }
 
