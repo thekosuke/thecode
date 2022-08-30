@@ -10,7 +10,7 @@
 
 	h1, h2, p, a {
 		font-size: .95rem;
-		letter-spacing: .3px;
+		letter-spacing: .4px;
 		line-height: 1.6rem;
 	}
 
@@ -62,6 +62,10 @@
 	.grid-2 { grid-template-columns: .75fr 10.5fr .75fr; }
 	.grid-3 { grid-template-columns: 1fr; }
 	#navBar.grid-2 { grid-gap: .5rem; padding-left: 1rem; }
+	.grid-5 {
+		grid-template-columns: 1fr;	
+		padding: 1rem;
+	}
 
 	.back-button { margin-top: .15rem; }
 	.next-button { display: none; }
@@ -186,6 +190,10 @@
 	#projectContent p, #projectContent p a {
 		font-size: 1rem;
 	}	
+
+	#projectContent p.caption { 
+		font-size: .8rem;
+	}
 
 	#projectFooter {
 			margin-top: 10em;
