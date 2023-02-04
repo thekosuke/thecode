@@ -3,9 +3,9 @@
 	  HOME
 	//////////////////////////////////////////////////////*/
 	.grid-1 {
-		grid-template-columns: .25fr 11.5fr .25fr;
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
+		grid-template-columns: .75fr 10.5fr .75fr;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
 	}
 
 	h1, h2, p, a {
