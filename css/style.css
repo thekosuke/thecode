@@ -38,7 +38,7 @@ body {
 /*//////////////////////////////////////////////////////
   TYPESETTING
 //////////////////////////////////////////////////////*/
-h1 {
+h1, #messageWrapper {
     color: #16161A;
     font-family: "LFT Etica Book";
     font-weight: normal;
@@ -88,8 +88,7 @@ h1 {
   .nav li a { color: #636366; }
   li a { color: #FE001A; }
   a.projectLink { text-decoration: none; }
-  .projectLink:hover { background: #F2F2F7; }
-
+  .projectLink:hover { background: #F2F2F7; }  
 
 /*//////////////////////////////////////////////////////
   SVG

@@ -13,7 +13,7 @@
 		margin-bottom: 1.5rem;
 	}
 
-	h2 { 
+	h2, #messageWrapper { 
 		font-size: .8rem;
 		letter-spacing: .4px;
 		margin-bottom: 1.5rem; 
@@ -25,7 +25,7 @@
 		line-height: 1.4rem;
 	}
 
-	button h1 { margin-bottom: .05rem; }
+	button h1 { margin-bottom: .05rem; }	 
 	
 	/*//////////////////////////////////////////////////////
 	  SLIDE SHOW
