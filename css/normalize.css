@@ -1,25 +1,88 @@
 @media all and (min-width: 280px) {
 	/*//////////////////////////////////////////////////////
-	  HOME
+	  TYPESETTING
 	//////////////////////////////////////////////////////*/
 	.grid-1 {
-		grid-template-columns: .75fr 10.5fr .75fr;
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-	}
+		grid-template-columns: 1fr;
+		padding: 1.5rem 1rem 1.5rem 1rem;		
+	}	
 
-	h1, h2, p, a {
-		font-size: .95rem;
+	h1 { 
+		font-size: 1rem;
 		letter-spacing: .4px;
-		line-height: 1.6rem;
-	}
-
-	h1 { padding-bottom: .5rem; }	
-
-	#introWrapper h1, #contactWrapper h1 { 
 		margin-bottom: 1.5rem;
 	}
-	/* FOOTER */
+
+	h2 { 
+		font-size: .8rem;
+		letter-spacing: .4px;
+		margin-bottom: 1.5rem; 
+	}
+
+	h1, h3, p, a {
+		font-size: .95rem;
+		letter-spacing: .4px;
+		line-height: 1.4rem;
+	}
+	
+	/*//////////////////////////////////////////////////////
+	  SLIDE SHOW
+	//////////////////////////////////////////////////////*/
+	section { margin-bottom: 4rem; }
+	
+	#content {
+		max-width: 100%;
+		max-height: 100%; 
+	}
+
+	.galleryImg {
+		min-width: 100%;
+		height: 9rem;  
+
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	/*//////////////////////////////////////////////////////
+	  WORK
+	//////////////////////////////////////////////////////*/
+	#projectWrapper .projectName h1  { 
+		margin-bottom: 0;
+	}
+
+	/* PROJECTS */
+	.projectRow {
+		margin-bottom: 2rem;
+	}
+	
+	.projectThumbnail {		
+		width: 3rem;
+		height: 3rem;
+		border-radius: .75rem;		
+
+		background-position: center;
+		background-repeat: no-repeat;
+
+		margin-bottom: .75rem;
+	}
+
+	.projectName { margin-bottom: 1rem; }
+	.projectName, .projectThumbnail { display: block; }
+	.projectName h1 { 
+		line-height: 1.75rem; 
+		padding-bottom: 0;
+	}
+
+	/*//////////////////////////////////////////////////////
+	  BIO + TIMELINE
+	//////////////////////////////////////////////////////*/
+	.row { margin-bottom: .8rem; }
+	#contactWrapper p { padding-bottom: .5rem; }
+
+	/*//////////////////////////////////////////////////////
+	  FOOTER
+	//////////////////////////////////////////////////////*/
 	#footerWrapper { margin-top: 12rem; }
 
 	/*//////////////////////////////////////////////////////
@@ -40,17 +103,20 @@
 	/* CONTENT */
 	.sideNav { display: none; }
 
-	section { margin-bottom: 4rem; }
 	#footerWrapper { margin-bottom: 0; }	
 
-	h3 {
+	/* h3 {
 		font-size: 1.25rem;		
 		margin-bottom: 1rem;
-	}
+	} */
 
 	.bodyWrapper { margin-top: 6rem; }
 	.bodyWrapper section { margin-bottom: 4rem; }
-	.bodyWrapper section h1 { margin-top: 2rem; }
+	
+	.bodyWrapper section h1 { 
+		font-size: 1.125rem;
+		margin-top: 2rem; 
+	}
 	
 	/* CONTEXT COMPONENT */	
 	.grid-4 { grid-template-columns: 1fr; }
@@ -65,6 +131,12 @@
 		margin-top: 1.5rem;
 		margin-bottom: 2rem;
 	}	
+	
+	.bodyWrapper section .context h1 { 
+		font-size: .95rem; 
+		margin-bottom: .5rem;
+	}
+
 	.context p { 
 		font-size: .95rem;
 		line-height: 1.5rem;
@@ -72,8 +144,8 @@
 	}	
 
 	.projectImage { 
-		margin-top: 1.5rem; 
-		margin-bottom: 1.5rem;
+		margin-top: 3rem; 
+		margin-bottom: 3rem;
 	}
 
 	.projectImage.slide-wrapper { margin-bottom: .5rem; }
@@ -81,10 +153,12 @@
 	.caption { text-align: center; }
 	.caption i { font-size: .8rem; }
 
+	iframe { margin: 1rem 0 1rem 0; }
+
 	/* FOOTER */
 	#projectFooter {
 		margin-top: 4rem;
-		padding: 2rem 2rem 16rem 2rem;
+		padding: 2rem 2rem 16rem 0;
 	}
 
 	#projectFooter .col-1 { display: none; }
@@ -98,8 +172,8 @@
 }
 
 @media all and (min-width: 375px) {
-	/* PROJECTS */
 	.projectRow { margin-bottom: 2.5rem; }
+	.galleryImg { height: 14rem; }
 
 	/* #navBar .col-1 { padding-left: .5rem; } */
 }
@@ -111,15 +185,50 @@
 	/*//////////////////////////////////////////////////////
 	  HOME
 	//////////////////////////////////////////////////////*/
-	#introWrapper, #projectWrapper h1, #bioWrapper, #timelineWrapper, #contactWrapper, #footerWrapper {
+	#introWrapper, #projectWrapper h2, 
+	#bioWrapper, #timelineWrapper, #contactWrapper, #footerWrapper {
 		padding: 0 1.25rem 0 1.25rem;
 	}
 
 	#contactWrapper p {
 		display: inline;
 		margin-right: 1rem;
-	  }
+	}
 
+	#content {
+		margin: 0 1.25rem 8rem 1.25rem;
+	}
+
+	.galleryImg { height: 20rem; }
+
+	#projectWrapper { margin-bottom: 8rem; }
+	#projectWrapper .projectName h1 { padding: 0; }
+	h2 { margin: 2rem 0 .5rem 0; }
+
+	.projectRow { 
+		margin-bottom: 0; 
+	}
+
+	.projectLink {
+	    padding: 1.25rem;
+		border-radius: 1.25rem;
+	  }	
+
+	.projectThumbnail {
+		width: 3.5rem;
+		height: 3.5rem;
+		border-radius: .9rem;
+
+		margin-right: 1.25rem;
+		margin-bottom: 0;
+	}
+
+	.projectName { margin-bottom: 0; }
+
+	.projectName, .projectThumbnail {
+		display: inline-block;
+		vertical-align: middle;
+	}
 
 	.row { grid-template-columns: 2fr 10fr; }
 
@@ -135,10 +244,12 @@
 
 	#projectContent p, #projectContent p a {
 		font-size: 1rem;
+		line-height: 1.5rem;
 	}	
 
 	#projectContent p.caption { 
-		font-size: .8rem;
+		font-size: .85rem;
+		padding-top: .25rem;
 	}
 
 	#projectFooter {
@@ -149,6 +260,7 @@
 
 		#projectFooter.grid-2 { grid-template-columns: 5fr 7fr; }
 		#projectFooter .col-1 { display: block; }
+		#projectFooter .col-1 h1 { margin-left: 2rem; }
 		#projectFooter li { line-height: 2em; }
 
 		.link-wrapper ul { margin-right: 6em; }
@@ -159,7 +271,13 @@
 @media all and (min-width: 768px) {
 	.grid-1 { grid-template-columns: 2fr 8fr 2fr; }
 
-	#introWrapper { margin-top: 8em; }
+	#introWrapper { margin-top: 12em; }
+
+	h1 {
+		font-size: .95rem;
+	}
+
+	.galleryImg { height: 24rem; }
 
 	.row { 
 		grid-template-columns: 1.5fr 10.5fr; 
@@ -184,6 +302,7 @@
 @media all and (min-width: 1024px) {
 	.grid-1 { grid-template-columns: 2.5fr 7fr 2.5fr; }
 	.row { grid-template-columns: 1.25fr 10.75fr; }	
+	.galleryImg { height: 22rem; }
 	
 	/*//////////////////////////////////////////////////////
 	  P D P
@@ -207,14 +326,15 @@
 }
 
 @media all and (min-width: 1440px) {
-	.grid-1 { grid-template-columns: 3.5fr 5fr 3.5fr; }
+	.grid-1 { grid-template-columns: 3fr 6fr 3fr; }
+	.galleryImg { height: 24rem; }
 
 	#projectFooter.grid-2 { grid-template-columns: 2.5fr 9.5fr; }
 	/* .grid-3 { grid-template-columns: 3fr 9fr; } */
 }
 
 @media all and (min-width: 1680px) {
-	.grid-1 { grid-template-columns: 4fr 4fr 4fr; }
+	.grid-1 { grid-template-columns: 3.5fr 5fr 3.5fr; }
 	.grid-2 { grid-template-columns: 3fr 6fr 3fr; }
 
 	#projectFooter.grid-2 { grid-template-columns: 2fr 10fr; }

@@ -38,14 +38,14 @@ body {
 /*//////////////////////////////////////////////////////
   TYPESETTING
 //////////////////////////////////////////////////////*/
-h1, h3 {
+h1 {
     color: #16161A;
     font-family: "LFT Etica Book";
     font-weight: normal;
   }
 
-  h2, p {
-    color: #616166;
+  h2, h3, p, .sideNav li a {
+    color: #636366;
     font-family: "LFT Etica Book";
     font-weight: normal;
 
@@ -61,8 +61,18 @@ h1, h3 {
     text-decoration: underline;
   }
 
-  a:hover, p a:hover { 
-    text-decoration: underline;
+  b {
+    font-family: "LFT Etica Regular";
+    font-weight: normal;
+  }
+
+  a:focus, p a:focus { 
+    color: #16161a;
+  }
+
+  #projectFooter li a {
+    color: #636366;
+    font-family: "LFT Etica Book";
   }
 
   a, svg, path {    
@@ -75,6 +85,282 @@ h1, h3 {
     transition: .3s ease;
   }
 
+  .nav li a { color: #636366; }
+  li a { color: #FE001A; }
+  a.projectLink { text-decoration: none; }
+  .projectLink:hover { background: #F2F2F7; }
+
+
+/*//////////////////////////////////////////////////////
+  SVG
+//////////////////////////////////////////////////////*/
+.projectRow, .projectLink {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.projectThumbnail { 
+  background: #FFFFFF; 
+  border: 1px solid #F2F2F5;
+  box-shadow: 0px 4px 8px rgba(22, 22, 26, 0.16);
+}
+
+  .trustworthy {
+    background-image: url("../img/trustworthy.svg");
+    background-size: 50%;
+  }
+
+  .seven {
+    background-image: url("../img/seven.svg");
+    background-size: 50%;
+  }
+
+  .macro {
+    background-image: url("../img/macro.svg");
+    background-size: 50%;
+  }
+
+  .remotion {
+    background-image: url("../img/remotion.svg");
+    background-size: 60%;
+  }
+
+  .website {
+    background-image: url("../img/browser.svg");
+    background-size: 60%;
+  }
+
+  .system {
+    background-image: url("../img/system.svg");
+    background-size: 60%;
+  }
+
+  .archive {
+    background-image: url("../img/archive.svg");
+    background-size: 50%;
+  }
+
+
+/*//////////////////////////////////////////////////////
+  SLIDESHOW
+//////////////////////////////////////////////////////*/
+#content {
+  display: block;
+  overflow: hidden; 
+}
+
+.slideshow { display: flex; }
+
+.imageWrapper {
+  position: relative;
+  min-width: 100%;
+}
+
+.galleryImg {
+  position: relative;  
+}
+
+#remotion {   background-image: url('../img/gallery/remotion.png'); }
+#macro {      background-image: url('../img/gallery/macro.png'); }
+#launchpad {  background-image: url('../img/gallery/launchpad.png'); }
+#otter {      background-image: url('../img/gallery/otter.png'); }
+#italia {     background-image: url('../img/gallery/italia.png'); }
+#touchpoint { background-image: url('../img/gallery/touchpoint.png'); }
+#bch {        background-image: url('../img/gallery/bch.png'); }
+#jostaberry { background-image: url('../img/gallery/jostaberry.png'); }
+#kinetic {    background-image: url('../img/gallery/kinetic.png'); }
+#nikkei {     background-image: url('../img/gallery/nikkei.png'); }
+
+
+/*//////////////////////////////////////////////////////
+  TOP NAV
+//////////////////////////////////////////////////////*/
+#navBar {
+  width: 100%;
+  height: 42px;
+  background: #FAFBFC;
+  border: 1px solid #E3E4E5;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.page-title p, .back-button, .next-wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-title p { color: #16161A; }
+
+.back-button svg {
+  padding: .5em .5em .5em .5em;
+  border-radius: 8px;
+}
+
+.back-button svg:hover { background: #EDEDF2; }
+.back-button svg:hover > path { fill: #16161A; }
+
+.next-button { text-align: right; }
+
+  .next-wrapper p {
+    display:inline-block;
+    vertical-align:middle;
+    padding-right: .4em;    
+  }
+
+  .next-wrapper svg {
+    display:inline-block;
+    vertical-align:middle;
+    padding-bottom: .1em;
+  }
+
+  .next-wrapper a:hover > p { color: #16161A; }
+  .next-wrapper a:hover > svg path { stroke: #16161A; }
+
+  .next-wrapper a {
+    text-decoration: none;
+    padding: .5em .75em .5em .75em;
+  }
+
+  .next-wrapper a:hover {
+    color: #16161A;
+    background: #EDEDF2;
+    border-radius: 6px;
+  }
+
+/*//////////////////////////////////////////////////////
+  SIDE NAV
+//////////////////////////////////////////////////////*/
+.sideNav {
+  position: sticky;
+  align-self: start;
+}
+.sideNav li { list-style: none; }
+.sideNav li a { text-decoration: none; transition: all .1s ease-in-out; }
+.sideNav li a:hover, .sideNav li a.active { color: #16161A; text-decoration: underline; }
+
+
+/*//////////////////////////////////////////////////////
+  PROJECT CONTENT
+//////////////////////////////////////////////////////*/
+.projectImage img, .projectImage video {
+  max-width: 100%;  
+
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.projectImage img { cursor: zoom-in; }
+.projectImage video { cursor: default; }
+.projectImage.banner { margin-top: 0; }
+.projectImage.banner img { cursor: default; }
+#archive.projectImage img { cursor: default; }
+
+
+#projectFooter {
+  background: #16161A;
+  max-width: 100%;
+}
+
+#projectFooter h1, #projectFooter h1 a, #projectFooter li a, #projectFooter p { color: #FAFBFC; }
+#projectFooter .quote { color: #797B80; }
+#projectFooter li { list-style: none; }
+#projectFooter a, #projectFooter li a { text-decoration: none; }
+#projectFooter a:hover, #projectFooter li a:hover { color: #FAFBFC; text-decoration: underline; }
+#projectFooter .link-wrapper p { color: #797B80; }
+
+.link-wrapper ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.context { 
+  background: #FFFFFF; 
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*//////////////////////////////////////////////////////
+  IMAGE MODAL
+//////////////////////////////////////////////////////*/
+.modal {
+    z-index: 2147483647;
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:rgba(22, 22, 26, 0.8);
+    cursor: zoom-out;
+
+    -webkit-animation-name: appear;
+    -webkit-animation-duration: 0.5s;
+    animation-name: appear;
+    animation-duration: 0.5s;
+  }
+   
+  .modalContent {
+    margin: auto;
+    padding: 4rem;
+    display: block;
+    max-width: 90%;
+    height: 90%;
+
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.5s;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+  }
+
+  @-webkit-keyframes zoom {
+      from { 
+        transform: scale(0);
+      } 
+      to {
+        transform: scale(1);
+      }
+  }
+  
+  @keyframes zoom {
+    from { 
+      transform: scale(0);
+    } 
+    to {
+      transform: scale(1);
+    }
+  }
+  
+
+/*//////////////////////////////////////////////////////
+  IMAGE SLIDER
+//////////////////////////////////////////////////////*/
+.slide {
+  max-width: 100%;  
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.slide-btn {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.25em;
+  color: #16161a;
+}
+
+.slide-btn:active {
+  opacity: .5;  
+}
 
 /*//////////////////////////////////////////////////////
   TRANSITION
@@ -150,4 +436,55 @@ h1, h3 {
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+
+/*//////////////////////////////////////////////////////
+  PASSWORD PROTECTION
+//////////////////////////////////////////////////////*/
+#contentFrame {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#dialogWrap {    
+position: relative;    
+}
+
+#mainDialog {
+  max-width: 100%;
+  margin: auto;  
+  position: relative;
+  top: 12em;
+}    
+
+#pass {
+  width: 24em;
+  height: 2.5em;
+  margin-bottom: 1em;
+
+  font-size: 1.125em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: .5px solid;
+}
+
+input:focus { outline: none; }
+.notifyText { display: none; }
+
+#submitPass {                                   
+  float: right;
+  padding: .75em 1.25em;
+  background-color: #16161a;
+  border: none;
+  border-radius: .5em;                
+  cursor: pointer;
+}
+
+#submitPass h1 { color: white; padding: 0; }       
+.error { display: none; }
+
 
