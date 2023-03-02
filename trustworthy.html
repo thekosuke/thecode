@@ -84,7 +84,9 @@
               organized and prepared in one place. 
               <br><br>
               As a senior designer, I’m responsible of improving all facets of the 
-              product—including the web app, iOS app, and managing the design system.           
+              product—including the web app, iOS app, and managing the design system. 
+              Trustworthy requires system-level problem solving since many features and 
+              components live in different surfaces.
             </p>  
 
             <div class="context grid-4">
@@ -107,19 +109,25 @@
           <section id="section1">               
             <h1>Partner Portal: New Platform</h1>
             <p>
-              xxx
+              The Partner Portal is Trustworthy's B2B2C initiative in which third-party members, 
+              such as wealth advisors, are invited to use Trusworthy to serve their clients' needs. 
+              I delivered the MVP design in one week to help the business development team share 
+              a usable proof of concept and unlock users immediately.
             </p>  
 
             <div class="projectImage">
               <img src="img/work/trustworthy/tw-2.png" onclick="onClick(this)">
-              <p class="caption">Trustworthy's new B2B platform</p>
+              <p class="caption">Trustworthy's new B2B2C initiative</p>
             </div>
           </section>            
           
           <section id="section2">               
             <h1>Contacts: New Product</h1>
             <p>
-              xxx
+              Trusted professionals already existed within Trustworthy as a way to link them to 
+              relevant assets, but there was no place for customers to save and manage these individuals. 
+              Therefore, I designed Contacts as a new item in the main navigation, where customers 
+              can visit to view and manage trust individuals outside of their family.
             </p>  
 
             <div class="projectImage">
@@ -136,7 +144,10 @@
           <section id="section3">               
             <h1>List View: New Feature</h1>
             <p>
-              xxx
+              The default UI was in a 3 column grid, but this approach was problematic when users 
+              had many assets in a single category. It was difficult for users to quickly find 
+              relevant items, so I designed a list view that users can toggle and save as their 
+              preferred view.
             </p>  
 
             <div class="projectImage">
@@ -148,61 +159,60 @@
           <section id="section4">               
             <h1>Dashboard: UX/UI Improvement</h1>
             <p>
-              xxx
+              The previous Dashboard hid important information such as reminders and collaborators 
+              below the viewport, so users were unable to get a glimpse of what they need to worry 
+              about upon login. To address this issue, I introduced a third column layout in the 
+              Dashboard to make key information accessible.
             </p>  
 
             <div class="projectImage">
               <img src="img/work/trustworthy/tw-4.png" onclick="onClick(this)">
-              <p class="caption">Dashboard: Newly implemented design</p>
+              <p class="caption">Before and after of the Dashboard</p>
             </div>
-
-            <div class="projectImage">                
-              <img src="img/work/trustworthy/tw-4.1.png" onclick="onClick(this)">
-              <p class="caption">Dashboard: Past implementation</p>
-            </div>  
           </section>    
 
           <section id="section5">               
             <h1>Actions & Reminders: UX/UI Improvement</h1>
             <p>
-              xxx
-            </p>  
+              Actions and Reminders previously existed inside a popup window that were difficult to 
+              see and navigate. Thus I turned them into side drawers that enable split view that 
+              doesn't get in the way of other content.
+            </p>
 
             <div class="projectImage">
               <img src="img/work/trustworthy/tw-6.png" onclick="onClick(this)">
-              <p class="caption">Reminders: Newly implemented design</p>
+              <p class="caption">Before and after of the Reminders</p>
             </div>
-
-            <div class="projectImage">                
-              <img src="img/work/trustworthy/tw-6.1.png" onclick="onClick(this)">
-              <p class="caption">Reminders: Past implementation</p>
-            </div> 
             
             <div class="projectImage">
               <img src="img/work/trustworthy/tw-7.png" onclick="onClick(this)">
-              <p class="caption">To-do items: Newly implemented design</p>
+              <p class="caption">Before and after of Recommended assets</p>
             </div>
-
-            <div class="projectImage">                
-              <img src="img/work/trustworthy/tw-7.1.png" onclick="onClick(this)">
-              <p class="caption">To-do items: Past implementation</p>
-            </div> 
           </section>
 
           <section id="section6">               
             <h1>Modals: UI Improvement</h1>
             <p>
-              xxx
+              The previous modals contained numerous problems such as information hierarchy and its 
+              inability to present content concisely. Users often didn't discover certain information 
+              or buttons since they were required to scroll down with the modal. This is a UI 
+              improvement to clean up all the modals and communicate each moment clearly. 
             </p>  
 
-            <div class="projectImage">
-              <img src="img/work/trustworthy/tw-8.png" onclick="onClick(this)">
-              <p class="caption">Newly implemented design</p>
-            </div>
-
-            <div class="projectImage">                
-              <img src="img/work/trustworthy/tw-8.1.png" onclick="onClick(this)">
-              <p class="caption">Modals: Past implementation</p>
+            <div class="projectImage slide-wrapper">
+              <img class="slide" src="img/work/trustworthy/tw-8.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-9.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-10.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-11.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-12.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-13.png" onclick="onClick(this)">
+              <img class="slide" src="img/work/trustworthy/tw-14.png" onclick="onClick(this)">
+            </div> 
+            <div class="button-container">
+              <div class="button-wrapper">
+                <button class="slide-btn prev" onclick="plusDivs(-1)">←</button>
+                <button class="slide-btn next" onclick="plusDivs(1)">→</button>
+              </div>
             </div>                         
           </section>
         </div> <!-- END OF BODYWRAPPER -->   
@@ -251,6 +261,28 @@
       function onClick(element) {
         document.getElementById("theImage").src = element.src;
         document.getElementById("imgModal").style.display = "block";
+      }
+
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slide");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }    
+        x[slideIndex-1].style.display = "block";  
       }
     </script>
   </body>
