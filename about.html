@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 	<head>
+ 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-106529015-1');
+		</script>
+
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, thekosuke, portfolio, design, designer, product designer">
+	    <meta name="description" content="Professional designer living and working in Tokyo, Japan">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="robots" content="noodp">
+
+      <meta property="og:url" content="https://thekosuke.com/" />
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Kosuke"/>
+      <meta property="og:description" content="Professional designer living and working in Tokyo, Japan"/>
+      <meta property="og:image" content="img/opengraph.png"/>
+
+	    <title>kosuke</title>
+
+	    <link rel="icon" type="image/png" href="img/favicon.png">
+	    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
+
+	    <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/grid.css">
+      <link rel="stylesheet" href="css/normalize.css">
+
+      <script src="js/jquery-1.11.3.min.js"></script>
+	    <script src="js/script.js"></script>
+	</head>
+
+	<body>
+    <div id="container" class="box">
+      <!-- HEADER -->
+      <div id="header" class="grid-1">
+        <div class="col-1">
+          <h1 class="name">Kosuke</h1> 
+          <p class="pronunciation">/kō · skay/</p>
+        </div>
+
+        <div class="col-2"><span></span></div>
+        
+        <div class="col-3">
+          <p class="page"><a href="/index">Home</a></p>
+          <p class="page veryRight"><a href="/about" class="active">About</a></p>
+        </div>      
+      </div>
+
+      <!-- CONTENT -->
+      <div id="content" class="grid-3">
+        <div class="col-1"><span></span></div>
+
+        <div>
+          <p>
+            Hi, my name is Kosuke Futsukaichi.
+            <br><br>
+            I'm a designer currently living in <span>T</span>okyo as a member of <a href="https://www.takram.com/" target="_blank"><span>T</span>akram</a>, a design innovation studio. 
+            I appreciate clean water, clever punch lines, and <a href="https://www.youtube.com/watch?v=s5UF-R3-bbs" target="_blank">beautiful layup packages</a>.
+            <br><br>
+            Growing up, I was fascinated by 
+            <a href="https://en.wikipedia.org/wiki/Game_Boy_Color" target="_blank">new gadgets</a> 
+            and how they gave people superpowers. This curiosity led me to pursue a degree in 
+            design at <a href="http://www.sfu.ca/siat.html" target="_blank">Simon Fraser University</a>. 
+            It was here that I not only learned about the design process, but also developed a point of 
+            view on my design practice. I view design as a holistic concept and culture, and I have come 
+            to approach it not only as a service to businesses, but also as a form of expression.
+            <br><br>
+            Culturally, I'm a product of the 
+            <a href="https://en.wikipedia.org/wiki/Kant%C5%8D_region" target="_blank">Kantō region</a> 
+            of Japan, <span>T</span>oronto, Arizona, and Vancouver. Over time, these environments have produced a 
+            hybrid of Japanese sensibility and Hip-Hop audacity.
+            <br><br>
+            I now design full-time and aspire to become a designer with a capital D. I'm grateful to 
+            live my life doing things that utilize my creativity.         
+          </p>
+        </div>
+
+        <div class="col-3"><span></span></div>
+      </div>
+
+      <!-- FOOTER -->
+      <div id="footer" class="grid-1">
+        <div class="col-1">
+          <p>Email: <a href="mailto:thekosuke@icloud.com">thekosuke@icloud.com</a></p>          
+        </div>
+
+        <div class="col-2"><span></span></div>
+
+        <div class="col-3">
+          <!-- <p class="page"><a href="https://www.linkedin.com/in/thekosuke/" target="_blank">LinkedIn</a></p> -->
+          <!-- <p class="page"><a href="https://read.cv/kosuke" target="_blank">read.cv</a></p> -->
+          <p class="page veryRight"><a href="https://vsco.co/thekosuke/gallery" target="_blank">VSCO</a></p>
+        </div>
+      </div>  
+
+    </div> <!-- END OF CONTAINER -->
+
+  </body>
+
+  <script>
+    const prev = document.querySelector(".prev");
+    const next = document.querySelector(".next");
+    const images = document.querySelectorAll(".imageWrapper");
+    let counter = 0;
+    var autoInterval = setInterval(autoSlide, 3000);
+
+    function removeGlitch() {
+      clearInterval(autoInterval);
+      autoInterval = setInterval(autoSlide, 3000);
+    }
+
+    next.addEventListener("click", () => {
+      removeGlitch();
+      changeInCounter();
+      changeImage();
+    });
+
+    prev.addEventListener("click", () => {
+      removeGlitch();
+      changeDecCounter();
+      changeImage();
+    });
+
+    function changeInCounter() {
+      if (counter >= 8) {
+        counter = -1;
+      }
+      counter++;
+    }
+
+    function changeDecCounter() {
+      if (counter <= 0) {
+        counter = 9;
+      }
+      counter--;
+    }
+
+    function changeImage() {
+      images.forEach((elem) => {
+        elem.style.transform = `translate(-${counter * 100}%`;
+      });
+    }
+
+    function autoSlide() {
+      changeInCounter();
+      changeImage();
+    }
+
+    const div = document.querySelector('caption');
+    var col=document.getElementById("demo");
+
+    function changeArrowColor() {
+      images.forEach((elem) => {
+        elem.style.transform = `translate(-${counter * 100}%`;
+      });
+    }
+  </script>
+
+</html>

@@ -1,229 +1,191 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
-        gtag('js', new Date());
 
-        gtag('config', 'UA-106529015-1');
-    </script>
+ 	<head>
+ 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, portfolio, design, designer, graphic designer, experience designer, product designer, ux/ui, vancouver, canada">
-    <meta name="description" content="Kosuke Futsukaichi's design portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noodp">
-    
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Kosuke"/>
-    <meta property="og:image" content="img/opengraph.png"/>
-    
-    <title>kosuke</title>
+		  gtag('config', 'UA-106529015-1');
+		</script>
 
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, thekosuke, portfolio, design, designer, product designer">
+	    <meta name="description" content="Professional designer living and working in Tokyo, Japan">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="robots" content="noodp">
 
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/normalize.css"> 
-    <style>
-        html, body {
-            margin: 0;
-            width: 100%;
-            height: 100%;
-        }   
-    </style>
-  </head>
-  <body>
-    <iframe id="contentFrame" frameBorder="0" allowfullscreen></iframe>
-    <div id="dialogWrap" class="grid-1">
-        <div><span></span></div>        
+      <meta property="og:url" content="https://thekosuke.com/" />
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Kosuke"/>
+      <meta property="og:description" content="Professional designer living and working in Tokyo, Japan"/>
+      <meta property="og:image" content="img/opengraph.png"/>
 
-            <div id="mainDialog">
+	    <title>kosuke</title>
 
-                <div id="dialogText"><h1>Enter password</h1></div>
+	    <link rel="icon" type="image/png" href="img/favicon.png">
+	    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
 
-                <div id="passArea">
-                    <input id="pass" type="password" name="pass" autofocus>
-                    <div>
-                        <span id="messageWrapper">
-                            <span id="invalidPass" class="error">Maybe a typo? Please try again.</span>
-                            <span id="trycatcherror" class="error">Oops, something went wrong.</span>
-                            <span id="success" class="notifyText">Welcome.</span>
-                            &nbsp;
-                        </span>
-                        <button id="submitPass" type="button"><h1>Unlock</h1></button>
-                        <div style="clear: both;"></div>
-                    </div>
-                </div>
-                
-                <div id="securecontext" class="error">
-                    <p>
-                        Sorry, but password protection only works over a secure connection. Please load this page via HTTPS.
-                    </p>
-                </div>
+	    <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/grid.css">
+      <link rel="stylesheet" href="css/normalize.css">
 
-                <div id="nocrypto" class="error">
-                    <p>
-                        Seems like your web browser is outdated. Please visit this page using a modern browser.
-                    </p>
-                </div>
+      <script src="js/jquery-1.11.3.min.js"></script>
+	    <script src="js/script.js"></script>
+	</head>
 
+	<body>
+    <div id="container" class="box">
+      <!-- HEADER -->
+      <div id="header" class="grid-1">
+        <div class="col-1">
+          <h1 class="name">Kosuke</h1> 
+          <p class="pronunciation">/kō · skay/</p>
+          <p class="intro">I'm a Japanese designer living and working in <span>T</span>okyo, currently designing as a member of <a href="https://www.takram.com/" target="_blank"><span>T</span>akram</a>.</p>
+        </div>
+
+        <div class="col-2"><span></span></div>
+        
+        <div class="col-3">
+          <!-- <p class="quote">“I was twenty, I won't let anyone say those are the best years of your life.” <br>— Paul Nizan</p> -->
+          <p class="page"><a href="/index" class="active">Home</a></p>
+          <p class="page veryRight"><a href="/about">About</a></p>
+        </div>      
+      </div>
+
+      <!-- CONTENT -->
+      <div id="content" class="grid-2">
+        <div class="col-1"><span></span></div>
+
+        <section id="slideWrapper" class="col-2">
+          <div class="slideshow">
+            <div class="imageWrapper">
+              <div id="remotion" class="galleryImg" alt="Coworking with Music"></div>             
             </div>
 
-        <div><span></span></div>
-    </div> 
-    
-    <script>
-    (function() {
-
-        var pl = "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";
-        
-        var submitPass = document.getElementById('submitPass');
-        var passEl = document.getElementById('pass');
-        var invalidPassEl = document.getElementById('invalidPass');
-        var trycatcherror = document.getElementById('trycatcherror');
-        var successEl = document.getElementById('success');
-        var contentFrame = document.getElementById('contentFrame');
-        
-        // Sanity checks
-
-        if (pl === "") {
-            submitPass.disabled = true;
-            passEl.disabled = true;
-            alert("This page is meant to be used with the encryption tool. It doesn't work standalone.");
-            return;
-        }
-
-        if (!isSecureContext) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#securecontext").style.display = "block";
-            return;
-        }
-
-        if (!crypto.subtle) {
-            document.querySelector("#passArea").style.display = "none";
-            document.querySelector("#nocrypto").style.display = "block";
-            return;
-        }
-        
-        function str2ab(str) {
-            var ustr = atob(str);
-            var buf = new ArrayBuffer(ustr.length);
-            var bufView = new Uint8Array(buf);
-            for (var i=0, strLen=ustr.length; i < strLen; i++) {
-                bufView[i] = ustr.charCodeAt(i);
-            }
-            return bufView;
-        }
-
-        async function deriveKey(salt, password) {
-            const encoder = new TextEncoder()
-            const baseKey = await crypto.subtle.importKey(
-                'raw',
-                encoder.encode(password),
-                'PBKDF2',
-                false,
-                ['deriveKey'],
-            )
-            return await crypto.subtle.deriveKey(
-                { name: 'PBKDF2', salt, iterations: 100000, hash: 'SHA-256' },
-                baseKey,
-                { name: 'AES-GCM', length: 256 },
-                true,
-                ['decrypt'],
-            )
-        }
-        
-        async function doSubmit(evt) {
-            submitPass.disabled = true;
-            passEl.disabled = true;
-
-            let iv, ciphertext, key;
+            <div class="imageWrapper">
+              <div id="macroLogo" class="galleryImg" alt="Macro Logo"></div>
+            </div>
+  
+            <div class="imageWrapper">
+              <div id="macro" class="galleryImg" alt="Macro"></div>
+            </div>
+  
+            <div class="imageWrapper">
+              <div id="launchpad" class="galleryImg" alt="Launchpad"></div>
+            </div>
             
-            try {
-                var unencodedPl = str2ab(pl);
+            <div class="imageWrapper">
+              <div id="otter" class="galleryImg" alt="Otter Icon Library"></div>
+            </div>
 
-                const salt = unencodedPl.slice(0, 32)
-                iv = unencodedPl.slice(32, 32 + 16)
-                ciphertext = unencodedPl.slice(32 + 16)
+            <div class="imageWrapper">
+              <div id="trustworthy" class="galleryImg" alt="trustworthy"></div>
+            </div> 
 
-                key = await deriveKey(salt, passEl.value);
-            } catch (e) {
-                trycatcherror.style.display = "inline";
-                console.error(e);
-                return;
-            }
+            <div class="imageWrapper">
+              <div id="bch" class="galleryImg" alt="Hearts for Ohana"></div>
+            </div> 
+  
+            <div class="imageWrapper">
+              <div id="italia" class="galleryImg" alt="italiaDesign"></div>
+            </div>
+            
+            <div class="imageWrapper">
+              <div id="touchpoint" class="galleryImg" alt="Touchpoint"></div>
+            </div>                              
+            
+            <div class="imageWrapper">
+              <div id="jostaberry" class="galleryImg" alt="Seven: Client Stories"></div>             
+            </div>                                                 
+          </div> 
+        </section>
 
-            try {
-                const decryptedArray = new Uint8Array(
-                    await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ciphertext)
-                );
+        <div class="col-3"><span></span></div>
+      </div>
 
-                let decrypted = new TextDecoder().decode(decryptedArray);
+      <!-- FOOTER -->
+      <div id="footer" class="grid-1">
+        <div class="col-1">
+          <p>Email: <a href="mailto:thekosuke@icloud.com">thekosuke@icloud.com</a></p>          
+        </div>
 
-                if (decrypted === "") throw "No data returned";
+        <div class="col-2"><span></span></div>
 
-                const basestr = '<base href="." target="_top">';
-                const anchorfixstr = `
-                    <script>
-                        Array.from(document.links).forEach((anchor) => {
-                            const href = anchor.getAttribute("href");
-                            if (href.startsWith("#")) {
-                                anchor.addEventListener("click", function(e) {
-                                    e.preventDefault();
-                                    const targetId = this.getAttribute("href").substring(1);
-                                    const targetEl = document.getElementById(targetId);
-                                    targetEl.scrollIntoView();
-                                });
-                            }
-                        });
-                    <\/script>
-                `;
-                
-                // Set default iframe link targets to _top so all links break out of the iframe
-                if (decrypted.includes("<head>")) decrypted = decrypted.replace("<head>", "<head>" + basestr);
-                else if (decrypted.includes("<!DOCTYPE html>")) decrypted = decrypted.replace("<!DOCTYPE html>", "<!DOCTYPE html>" + basestr);
-                else decrypted = basestr + decrypted;
+        <div class="col-3">
+          <!-- <p class="page"><a href="https://www.linkedin.com/in/thekosuke/" target="_blank">LinkedIn</a></p> -->
+          <!-- <p class="page"><a href="https://read.cv/kosuke" target="_blank">read.cv</a></p> -->
+          <p class="page veryRight"><a href="https://vsco.co/thekosuke/gallery" target="_blank">VSCO</a></p>
+        </div>
+      </div>  
 
-                // Fix fragment links
-                if (decrypted.includes("</body>")) decrypted = decrypted.replace("</body>", anchorfixstr + '</body>');
-                else if (decrypted.includes("</html>")) decrypted = decrypted.replace("</html>", anchorfixstr + '</html>');
-                else decrypted = decrypted + anchorfixstr;
-                
-                contentFrame.srcdoc = decrypted;
-                
-                successEl.style.display = "inline";
-                setTimeout(function() {
-                    dialogWrap.style.display = "none";
-                }, 1000);
-            } catch (e) {
-                invalidPassEl.style.display = "inline";
-                passEl.value = "";
-                submitPass.disabled = false;
-                passEl.disabled = false;
-                console.error(e);
-                return;
-            }
-        }
-        
-        submitPass.onclick = doSubmit;
-        passEl.onkeypress = function(e){
-            if (!e) e = window.event;
-            var keyCode = e.keyCode || e.which;
-            invalidPassEl.style.display = "none";
-            if (keyCode == '13'){
-              // Enter pressed
-              doSubmit();
-              return false;
-            }
-        }
-    })();
-    </script>
+    </div> <!-- END OF CONTAINER -->
+
   </body>
+
+  <script>
+    const prev = document.querySelector(".prev");
+    const next = document.querySelector(".next");
+    const images = document.querySelectorAll(".imageWrapper");
+    let counter = 0;
+    var autoInterval = setInterval(autoSlide, 3000);
+
+    function removeGlitch() {
+      clearInterval(autoInterval);
+      autoInterval = setInterval(autoSlide, 3000);
+    }
+
+    next.addEventListener("click", () => {
+      removeGlitch();
+      changeInCounter();
+      changeImage();
+    });
+
+    prev.addEventListener("click", () => {
+      removeGlitch();
+      changeDecCounter();
+      changeImage();
+    });
+
+    function changeInCounter() {
+      if (counter >= 8) {
+        counter = -1;
+      }
+      counter++;
+    }
+
+    function changeDecCounter() {
+      if (counter <= 0) {
+        counter = 9;
+      }
+      counter--;
+    }
+
+    function changeImage() {
+      images.forEach((elem) => {
+        elem.style.transform = `translate(-${counter * 100}%`;
+      });
+    }
+
+    function autoSlide() {
+      changeInCounter();
+      changeImage();
+    }
+
+    const div = document.querySelector('caption');
+    var col=document.getElementById("demo");
+
+    function changeArrowColor() {
+      images.forEach((elem) => {
+        elem.style.transform = `translate(-${counter * 100}%`;
+      });
+    }
+  </script>
+
 </html>
