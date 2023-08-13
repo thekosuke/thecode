@@ -100,6 +100,8 @@
 
 @media all and (min-width: 1680px) {
 	.grid-1 { grid-template-columns: 3fr 6fr 3fr; }
-	.grid-2 { grid-template-columns: 3fr 6fr 3fr; }
+	.grid-2 { grid-template-columns: 1fr 10fr 1fr; }
 	.grid-3 { grid-template-columns: 4.25fr 3.5fr 4.25fr; }
+
+	.galleryImg { height: 40rem; }
 }
