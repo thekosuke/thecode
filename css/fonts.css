@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'Galaxie Copernicus Book';
-	src: url('../fonts/GalaxieCopernicus-Book.otf');
+	font-family: 'Rand Regular';
+	src: url('../fonts/Rand-Regular.woff2');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -10,8 +10,74 @@
 }
 
 @font-face {
-	font-family: 'Galaxie Copernicus Medium';
-	src: url('../fonts/GalaxieCopernicus-Medium.otf');
+	font-family: 'Rand Regular Italic';
+	src: url('../fonts/Rand-RegularItalic.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Medium';
+	src: url('../fonts/Rand-Medium.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Medium Italic';
+	src: url('../fonts/Rand-MediumItalic.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Mono Regular';
+	src: url('../fonts/RandMono-Regular.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Mono Regular Italic';
+	src: url('../fonts/RandMono-Italic.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Mono Medium';
+	src: url('../fonts/RandMono-Medium.woff2');
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	   -moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			 -o-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'Rand Mono Medium Italic';
+	src: url('../fonts/RandMono-MediumItalic.woff2');
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;

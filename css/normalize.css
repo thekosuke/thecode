@@ -2,106 +2,292 @@
 	/*//////////////////////////////////////////////////////
 	  STRUCTURE
 	//////////////////////////////////////////////////////*/	
-	.grid-1 { 
-		grid-template-columns: 6fr 0fr 6fr; 
-		padding: 1.5rem;
-	}
-	.grid-2 { 
-		grid-template-columns: 1fr 10fr 1fr; 
-	}
-	.grid-3 { grid-template-columns: 1fr 10fr 1fr; }
-
-	#content {
-		width: 100%;
-		max-height: 100%;
-		
-		position: absolute;
-		top: 50%;
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
-
-	#footer {		
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-	}
+	.grid-1, .grid-2, .grid-3 { grid-template-columns: 1fr; }
 	
+	#container { height: 100%;}
+	#topNav { padding: 1rem; }
+	#content { padding: 1rem; }
+
+	.socialLinks p { margin-bottom: .25rem; }
+	.col-1 { margin-bottom: 1rem; }
+
 	/*//////////////////////////////////////////////////////
 	  TYPESETTING
 	//////////////////////////////////////////////////////*/
-	h1 { 
-		font-size: 0.8125rem;
-		letter-spacing: .4px;
-	}
-
-	p, a { 
-		font-size: 0.75rem;
-		letter-spacing: .4px;
+	h1, p, a, li { 
+		font-size: 0.875rem;
+		letter-spacing: .2px;
 		line-height: 1.25rem;
 	}
 
-	p span { letter-spacing: -.9px; }
+	.experience p {
+		font-size: 0.813rem;
+		line-height: 1.125rem;
+	}
 
-	.name, .pronunciation, .page {
-		display: inline;
-		margin-right: .75rem;
-	  }
-
-	.intro { margin-top: .3rem; }
-	.col-3 { text-align: right; }
-	/* .veryRight { margin-right: 0; } */
-	
 	/*//////////////////////////////////////////////////////
-	  SLIDE SHOW
-	//////////////////////////////////////////////////////*/	
-	.galleryImg {
-		min-width: 100%;
-		height: 32rem;  
+	  NAVIGATION
+	//////////////////////////////////////////////////////*/
+	.nav {
+		top: 0;
+		left: 0;		
+		width: 65%;
+		height: 100%;
+		transform: translate3d(-100%, 0, 0);
+		transition: all 0.3s ease-in-out;
+		z-index: 1001;
+	  }
+	  .nav .smartphone-menu-trigger {
+		position: absolute;
+		top: 80%;
+		left: 100%;		
+		width: 2.5rem;
+		height: 2.5rem;
+		border-radius: 0 .5rem .5rem 0;				
+	  }
+	  .nav .smartphone-menu-trigger:before,
+	  .nav .smartphone-menu-trigger:after {
+		content: '';
+		position: absolute;
+		top: 40%;
+		left: 50%;		
+		width: 50%;
+		height: 1.5px;
+		border-radius: 1rem;		
+		transform: translate3d(-50%, -50%, 0);
+	  }
+	  .nav .smartphone-menu-trigger:after {
+		top: 60%;
+		transform: translate3d(-50%, -50%, 0);
+	  }
+	  .nav:focus {
+		transform: translate3d(0, 0, 0);
+		box-shadow: 0 0 0 100em rgba(255, 255, 255, .9);
+	  }
+	
+	.navWrapper { padding-top: 1rem; }
+	.navLink { margin: .75rem 0 1rem 0; }
+	.nav li { margin-bottom: .5rem; }
+
+	/*//////////////////////////////////////////////////////
+	  CONTENT
+	//////////////////////////////////////////////////////*/
+	/* #bottom { max-height: 100%;} */
+
+	#content { 		
+		position: absolute;
+		bottom: 0;
+		margin: 0 1rem 1rem 0;
+	}
+
+	#content.bio { top: 45%; margin: 0; }
+	.experience { margin: 4rem 0 4rem 0; }
+	#content.projectDetail {
+		top: 45%;
+		margin: 0 0 8rem 0;
+	}
+
+	/*//////////////////////////////////////////////////////
+	  PROJECT
+	//////////////////////////////////////////////////////*/
+	h1 {
+		font-family: "Rand Medium";
+		font-size: 1.5rem;
+		line-height: 1.875rem;
+		letter-spacing: -.4px;
+		margin-bottom: 1rem;
+	}
+
+	#content.projectDetail { 
+		max-width: 100%; 
+		height: 100%;
+	}
+
+	.projectHeader { margin: 0 0 4rem 0; }
+	.tag { margin-bottom: 1rem; }
+	.divider { visibility: hidden; height: .5rem; }
+
+	.tag p, .tag p a {
+		display: block;
+		font-size: .813rem;
+		letter-spacing: .1px;
+	}
+
+	.videoFrame, .pictureFrame {		
+		background-color: #FAFAFC;
+		padding: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.projectImage img, .projectImage video { 
+		display: block;
+		max-width: 100%; 
+		margin-bottom: .5rem;
+	}
+
+	.caption {
+		font-size: 0.813rem;
+		color: #4B4B4D;
+		letter-spacing: .2px;
+		text-align: center;
+		padding-bottom: 1.5rem;
+	}
+
+	.videoFrame .caption, .pictureFrame .caption {
+		padding: .25rem 0 0 0;
+	}
+
+	.bodyWrapper { 
+		max-width: 100%;
+		margin: 6rem 0 6rem 0; 
+	}
+	.bodyWrapper h2 { 
+		font-size: 1.5rem;
+		letter-spacing: .1px;
+		margin-bottom: 1.75rem; 
+	}
+
+	.bodyWrapper p, .bodyWrapper p a {
+		font-size: 1.125rem;
+		letter-spacing: .2px;
+		line-height: 1.75rem;
 	}
 }
 
-@media all and (min-width: 375px) {	
-}
+@media all and (min-width: 360px) {	
+	.grid-1, .grid-2 { grid-template-columns: 6fr 6fr; }
+	.grid-3 { grid-template-columns: 6fr 6fr; }
+	#content { margin: 0; }
+} 
 
 @media all and (min-width: 414px) {
-}
-
-@media all and (min-width: 500px) {	
-	.grid-1 { grid-template-columns: 6fr 0fr 6fr; }
-	.grid-2 { 
-		grid-template-columns: 0fr 12fr 0fr; 
-		padding: 1.5rem;
-	}
-	.grid-3 { grid-template-columns: 1fr 10fr 1fr; }
+	/* h1, p, a { font-size: 0.938rem; } */
 }
 
 @media all and (min-width: 768px) {
-	.grid-3 { grid-template-columns: 2fr 8fr 2fr; }
+	.grid-3 { grid-template-columns: 6fr 6fr; } 
+	.grid-4 { grid-template-columns: 4fr 8fr; }
+
+	#topNav {
+		position: fixed;
+		width: 100%;
+	}
+
+	.col-1 { margin-bottom: 0; }
+
+	.socialLinks p { 
+		display: inline; 
+		margin-left: 1.25rem;
+		margin-right: 0;
+	}
+	
+	.intro, .experience { margin-bottom: 4rem; }
+	.nav { width: 30%; }
+	#content { position: absolute; }
+	#content.bio, #content.projectDetail { top: 40%; }
+
+	/*//////////////////////////////////////////////////////
+	  PROJECT
+	//////////////////////////////////////////////////////*/
+	.projectHeader { margin-bottom: 12rem; }
+	.tag { margin-bottom: .5rem; }
+
+	.tag p, .tag p a { 
+		display: inline;
+		margin-right: .5rem;	
+	}
+
+	.divider { 
+		visibility: visible; 
+		height: auto; 
+	}	
+
+	.bodyWrapper { margin: 6rem 12rem 6rem 0; }
+
+	.videoFrame, .pictureFrame { padding: 2rem 4rem 2rem 4rem; }
 }
 
 @media all and (min-width: 1024px) {
-	.grid-1 { grid-template-columns: 4.5fr 3fr 4.5fr; }
-	.grid-2 { grid-template-columns: 1fr 10fr 1fr; }
-	.grid-3 { grid-template-columns: 3.25fr 5.5fr 3.25fr; }
+	.grid-2 { grid-template-columns: 2.5fr 9.5fr; }
+	.grid-3 { grid-template-columns: 1fr; }
+
+	/*//////////////////////////////////////////////////////
+	  STRUCTURE
+	//////////////////////////////////////////////////////*/
+	#topNav .socialLinks { text-align: right; }
+	#content { 
+		position: relative; 
+		/* top: 5%;  */
+		width: 50%;
+	}
+	.spacer { display: none; }
+	#content.bio, #content.projectDetail { top: 0; }
+	#content.projectDetail { width: 100%; }
+	#bottom { padding-top: 3rem; }
+
+	/*//////////////////////////////////////////////////////
+	  NAVIGATION
+	//////////////////////////////////////////////////////*/
+	.nav {			
+		position: -webkit-sticky;
+		position: sticky;
+		top: 5%;
+		width: 100%;
+		height: auto;
+		outline: none;
+		transform: translate3d(0, 0, 0);
+		z-index: 999;	
+		align-self: start;
+	  }
+	  .navWrapper { padding-top: 0; }
+	  .navLink {
+		list-style: none;
+		margin: .5rem 0 1.25rem 0;
+	  }
+	  .nav ul li:focus { outline: none; }
+	  .nav li { margin-bottom: .25rem; }
+	  .nav .smartphone-menu-trigger { display: none; }
+	  .nav:focus { box-shadow: 0 0 0 100em rgba(255, 255, 255, 0); }
+
+	/*//////////////////////////////////////////////////////
+	  PROJECT
+	//////////////////////////////////////////////////////*/
+	.projectHeader { margin: 16rem 0 12rem 0; }
+
+	.bodyWrapper { 
+		max-width: 60%;
+		margin: 10rem 0 10rem 0;
+	}
+
+	.videoFrame, .pictureFrame { padding: 3rem 6rem 3rem 6rem; }
 }
 
 @media all and (min-width: 1280px) {
-	.grid-1 { grid-template-columns: 3.5fr 5fr 3.5fr; }
-	.grid-2 { grid-template-columns: 2fr 8fr 2fr; }
-	.grid-3 { grid-template-columns: 3.75fr 4.5fr 3.75fr; }
+	.grid-2 { grid-template-columns: 2fr 9fr; }
+	#content { max-width: 45%; }
+
+	h1 {
+		font-size: 1.75rem;
+	}
+	.bodyWrapper { 
+		max-width: 50%;
+	}
+
+	.videoFrame, .pictureFrame { padding: 4rem 8rem 4rem 8rem; }
 }
 
 @media all and (min-width: 1440px) {
-	.grid-1 { grid-template-columns: 3fr 6fr 3fr; }
-	.grid-2 { grid-template-columns: 2.25fr 7.5fr 2.25fr; }
-	.grid-3 { grid-template-columns: 4fr 4fr 4fr; }
+	#content { max-width: 35%; }
+
+	.projectHeader {
+		margin: 20rem 0 20rem 0;
+	}
+
+	.videoFrame, .pictureFrame { padding: 5rem 12rem 5rem 12rem; }
 }
 
 @media all and (min-width: 1680px) {
-	.grid-1 { grid-template-columns: 3fr 6fr 3fr; }
-	.grid-2 { grid-template-columns: 1fr 10fr 1fr; }
-	.grid-3 { grid-template-columns: 4.25fr 3.5fr 4.25fr; }
+	#content { max-width: 30%; }
 
-	.galleryImg { height: 40rem; }
+	.videoFrame, .pictureFrame { padding: 6rem 16rem 6rem 16rem; }
 }

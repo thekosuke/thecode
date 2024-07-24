@@ -1,189 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
- 	<head>
- 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-106529015-1');
-		</script>
-
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="kosuke futsukaichi, kosuke, futsukaichi, thekosuke, portfolio, design, designer, product designer">
-	    <meta name="description" content="Professional designer living and working in Tokyo, Japan">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="robots" content="noodp">
-
-      <meta property="og:url" content="https://thekosuke.com/" />
-      <meta property="og:type" content="website"/>
-      <meta property="og:title" content="Kosuke"/>
-      <meta property="og:description" content="Professional designer living and working in Tokyo, Japan"/>
-      <meta property="og:image" content="img/opengraph.png"/>
-
-	    <title>kosuke</title>
-
-	    <link rel="icon" type="image/png" href="img/favicon.png">
-	    <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png"/>
-
-	    <link rel="stylesheet" href="css/fonts.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/grid.css">
-      <link rel="stylesheet" href="css/normalize.css">
-
-      <script src="js/jquery-1.11.3.min.js"></script>
-	    <script src="js/script.js"></script>
-	</head>
-
-	<body>
-    <div id="container" class="box">
-      <!-- HEADER -->
-      <div id="header" class="grid-1">
-        <div class="col-1">
-          <h1 class="name">Kosuke</h1> 
-          <p class="pronunciation">/kō · skay/</p>
-          <p class="intro">I'm a Japanese designer living and working in <span>T</span>okyo, currently designing as a member of <a href="https://www.takram.com/" target="_blank"><span>T</span>akram</a>.</p>
-        </div>
-
-        <div class="col-2"><span></span></div>
-        
-        <div class="col-3">
-          <!-- <p class="quote">“I was twenty, I won't let anyone say those are the best years of your life.” <br>— Paul Nizan</p> -->
-          <p class="page"><a href="/index" class="active">Home</a></p>
-          <p class="page veryRight"><a href="/about">About</a></p>
-        </div>      
-      </div>
-
-      <!-- CONTENT -->
-      <div id="content" class="grid-2">
-        <div class="col-1"><span></span></div>
-
-        <section id="slideWrapper" class="col-2">
-          <div class="slideshow">
-            <div class="imageWrapper">
-              <div id="remotion" class="galleryImg" alt="Coworking with Music"></div>             
-            </div>
-
-            <div class="imageWrapper">
-              <div id="macroLogo" class="galleryImg" alt="Macro Logo"></div>
-            </div>
-  
-            <div class="imageWrapper">
-              <div id="macro" class="galleryImg" alt="Macro"></div>
-            </div>
-  
-            <div class="imageWrapper">
-              <div id="launchpad" class="galleryImg" alt="Launchpad"></div>
-            </div>
-            
-            <div class="imageWrapper">
-              <div id="otter" class="galleryImg" alt="Otter Icon Library"></div>
-            </div>
-
-            <div class="imageWrapper">
-              <div id="trustworthy" class="galleryImg" alt="trustworthy"></div>
-            </div> 
-
-            <div class="imageWrapper">
-              <div id="bch" class="galleryImg" alt="Hearts for Ohana"></div>
-            </div> 
-  
-            <div class="imageWrapper">
-              <div id="italia" class="galleryImg" alt="italiaDesign"></div>
-            </div>
-            
-            <div class="imageWrapper">
-              <div id="touchpoint" class="galleryImg" alt="Touchpoint"></div>
-            </div>                              
-            
-            <div class="imageWrapper">
-              <div id="jostaberry" class="galleryImg" alt="Seven: Client Stories"></div>             
-            </div>                                                 
-          </div> 
-        </section>
-
-        <div class="col-3"><span></span></div>
-      </div>
-
-      <!-- FOOTER -->
-      <div id="footer" class="grid-1">
-        <div class="col-1">
-          <p><a href="mailto:thekosuke@icloud.com">thekosuke@icloud.com</a></p>          
-        </div>
-
-        <div class="col-2"><span></span></div>
-
-        <div class="col-3">
-          <p class="page veryRight"><a href="https://www.linkedin.com/in/thekosuke/" target="_blank">LinkedIn</a></p>
-        </div>
-      </div>  
-
-    </div> <!-- END OF CONTAINER -->
-
-  </body>
-
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106529015-1"></script>
   <script>
-    const prev = document.querySelector(".prev");
-    const next = document.querySelector(".next");
-    const images = document.querySelectorAll(".imageWrapper");
-    let counter = 0;
-    var autoInterval = setInterval(autoSlide, 3000);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
 
-    function removeGlitch() {
-      clearInterval(autoInterval);
-      autoInterval = setInterval(autoSlide, 3000);
-    }
-
-    next.addEventListener("click", () => {
-      removeGlitch();
-      changeInCounter();
-      changeImage();
-    });
-
-    prev.addEventListener("click", () => {
-      removeGlitch();
-      changeDecCounter();
-      changeImage();
-    });
-
-    function changeInCounter() {
-      if (counter >= 8) {
-        counter = -1;
-      }
-      counter++;
-    }
-
-    function changeDecCounter() {
-      if (counter <= 0) {
-        counter = 9;
-      }
-      counter--;
-    }
-
-    function changeImage() {
-      images.forEach((elem) => {
-        elem.style.transform = `translate(-${counter * 100}%`;
-      });
-    }
-
-    function autoSlide() {
-      changeInCounter();
-      changeImage();
-    }
-
-    const div = document.querySelector('caption');
-    var col=document.getElementById("demo");
-
-    function changeArrowColor() {
-      images.forEach((elem) => {
-        elem.style.transform = `translate(-${counter * 100}%`;
-      });
-    }
+    gtag('config', 'UA-106529015-1');
   </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords"
+    content="kosuke futsukaichi, kosuke, futsukaichi, thekosuke, portfolio, design, designer, product designer">
+  <meta name="description" content="Professional designer living and working in Tokyo, Japan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp">
+
+  <meta property="og:url" content="https://thekosuke.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kosuke" />
+  <meta name="description" content="Designer in Tokyo, Japan">
+  <meta property="og:image" content="img/opengraph.png" />
+
+  <title>kosuke</title>
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="150x150" href="img/favicon.png" />
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <!-- HEADER -->
+    <div id="topNav" class="grid-1">
+      <div class="col-1">
+        <p>kosuke</p>
+      </div>
+
+      <div class="col-2 socialLinks">
+        <p><a href="mailto:thekosuke@icloud.com">thekosuke@icloud.com</a></p>
+        <p><a href="https://www.linkedin.com/in/thekosuke/" target="_blank">linkedin</a></p>
+        <p><a href="https://posts.cv/kosuke" target="_blank">posts</a></p>
+      </div>
+    </div>
+
+
+    <!-- CONTENT -->
+    <div id="bottom" class="grid-2">
+
+      <nav class="col-1 nav" tabindex="0">
+
+        <div class="smartphone-menu-trigger"></div>
+
+        <ul class="navWrapper">
+          <li class="listSection">
+            work
+            <ul class="navLink">
+              <li><a href="/notahotel">NOT A HOTEL</a></li>
+              <li><a href="/digitalagency">Digital Agency</a></li>
+              <li><a href="/macro">Macro</a></li>
+              <li><a href="/remotion">Remotion</a></li>
+              <li><a href="/otter">Otter.ai</a></li>
+              <li><a href="/trustworthy">Trustworthy</a></li>
+              <li><a href="/italiadesign">italiaDesign</a></li>
+            </ul>
+          </li>
+          <li class="listSection"><a href="/about" class="navHead">about</a></li>
+        </ul>
+
+      </nav>
+
+      <div id="content" class="col-2 grid-3">
+        <div class="spacer"><span></span></div>
+        <div>
+          <p class="intro">
+            I'm a designer based in Tokyo, involved in every stage of the design process, from abstract concepts
+            to the nitty-gritty details.
+            <br><br>
+            As a member of <a href="https://www.takram.com/" target="_blank">Takram</a>, I specialize in designing digital products,
+            services, and brands to shape how people view and interact with technology.            
+            <br><br>
+            Please reach out for any project inquiries, whether for Takram or freelance work.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div> <!-- END OF CONTAINER -->
+
+</body>
 
 </html>
