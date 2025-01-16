@@ -294,7 +294,7 @@
 	/*//////////////////////////////////////////////////////
 	  PROJECT
 	//////////////////////////////////////////////////////*/
-	.projectHeader { margin: 16rem 0 12rem 0; }
+	.projectHeader { margin: 12rem 0 12rem 0; }
 
 	.bodyWrapper { 
 		max-width: 60%;
@@ -305,7 +305,6 @@
 }
 
 @media all and (min-width: 1280px) {
-
 	h1 { font-size: 1.75rem; }
 
 	.intro { margin-right: 2rem; }
@@ -316,7 +315,7 @@
 }
 
 @media all and (min-width: 1440px) {
-	.projectHeader { margin: 20rem 0 20rem 0; }
+	.projectHeader { margin: 16rem 0 16rem 0; }
 
 	.intro { margin-right: 8rem; }
 
