@@ -61,7 +61,7 @@ h1, p, a, li {
   transition: .3s ease;
 }
 
-h1, p, li, .name a, .navHead { color: #16161A; }
+h1, p, li, .name a, .navHead, #topNav .col-1 p a { color: #16161A; }
 .bodyWrapper p { color: #5E5E5D; }
 .intro a, .bodyWrapper p a { color: #E51E12; }
 ul, li { list-style: none; }
