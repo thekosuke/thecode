@@ -222,6 +222,7 @@ a.projectLink:hover, a.projectLink:hover .projectInfo {
 }
 
 .projectThumbnail.nota { background-image: url("../img/projects/nota/nota-1.png"); }
+.projectThumbnail.serendie { background-image: url("../img/projects/serendie/serendie-2.png"); }
 .projectThumbnail.digicho { background-image: url("../img/projects/digicho/digicho-1.png"); }
 .projectThumbnail.macro { background-image: url("../img/projects/macro/macro-01.png"); }
 .projectThumbnail.remotion { background-image: url("../img/projects/remotion/remotion-1.png"); }
