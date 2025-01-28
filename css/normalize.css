@@ -76,12 +76,6 @@
 		padding: 8rem 1rem 1rem 1rem;
 	}
 
-	#content { 		
-		/* position: absolute;
-		bottom: 0; */
-		margin: 1rem;
-	}
-
 	#content.bio { top: 45%; margin: 0; }
 	.experience { margin: 4rem 0 4rem 0; }
 	#content.projectDetail {
