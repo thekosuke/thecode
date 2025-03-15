@@ -149,6 +149,7 @@ h2 { font-family: "Rand Regular"; font-weight: normal; }
 
 .nav {
   background: #FFFFFF;
+  border-right: .5px solid #EAEAEA;  
   position: fixed;  
 }
 
@@ -163,23 +164,15 @@ h2 { font-family: "Rand Regular"; font-weight: normal; }
   .nav .smartphone-menu-trigger:before,
 	  .nav .smartphone-menu-trigger:after {
 		content: '';
-		background: #FAFAFC;		
+		background: #FAFAFC;		    
 	}	 
 	  .nav:focus .smartphone-menu-trigger {
 		pointer-events: none;
   }
-/* 
-.navLink li > a, .socialLinks p > a, .listSection > a {
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  transition: all 0.3s ease-in-out 0s;
-}
 
-.navLink li > a:hover, .socialLinks p > a:hover, .listSection > a:hover {
-  color: #E51E12;
-  -webkit-transform: translateY(-4px);
-  transform: translateY(-4px);
-} */
+.navLink li a { 
+  text-decoration: none; 
+}
 
 
 /*//////////////////////////////////////////////////////
