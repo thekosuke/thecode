@@ -170,7 +170,7 @@ h2 { font-family: "Rand Regular"; font-weight: normal; }
 		pointer-events: none;
   }
 
-.navLink li a { 
+#topNav a, li a { 
   text-decoration: none; 
 }
 
